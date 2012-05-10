@@ -1,0 +1,4 @@
+html.js body#grubstreet.daily div#wrap-wrap div#wrap div#content div#content-layout div#blog.newyork div#content-secondary div#signup.module
+html.js body#grubstreet.daily div#wrap-wrap div#wrap div#content div#content-layout div#blog.newyork div#content-secondary div#signup.module div.headline_deals div.headline_text
+html.js body#grubstreet.daily div#wrap-wrap div#wrap div#content div#content-layout div#blog.newyork div#content-secondary div#signup.module div.feature div.content form#newsletter-subscribe-deals div.input-wrp input#txt-newsletter-subscribe-deals.text
+html.js body#grubstreet.daily div#wrap-wrap div#wrap div#content div#content-layout div#blog.newyork div#content-secondary div#signup.module div.feature div.content form#newsletter-subscribe-deals div.submit-wrp input#btn-newsletters-deals.image

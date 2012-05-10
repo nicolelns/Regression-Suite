@@ -1,0 +1,4 @@
+html.js body#nymag.vulture div#wrap-wrap div#wrap footer#footer section.general-promo
+html.js body#nymag.vulture div#wrap-wrap div#wrap footer#footer section.general-promo p
+html.js body#nymag.vulture div#wrap-wrap div#wrap footer#footer section.general-promo ul li a
+html.js body#nymag.vulture div#wrap-wrap div#wrap footer#footer section.general-promo ul li.last a

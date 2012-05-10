@@ -1,0 +1,7 @@
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-secondary div.parsys div.parbase section.vulture-talk
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-secondary div.parsys div.parbase section.vulture-talk header h3 a
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-secondary div.parsys div.parbase section.vulture-talk article.entry
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-secondary div.parsys div.parbase section.vulture-talk article.entry header h4 a.permalink
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-secondary div.parsys div.parbase section.vulture-talk article.entry footer a.comments span.comment-tout span a.extra strong.article_comment_count
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-secondary div.parsys div.parbase section.vulture-talk article.entry footer small a
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-secondary div.parsys div.parbase section.vulture-talk div.more a

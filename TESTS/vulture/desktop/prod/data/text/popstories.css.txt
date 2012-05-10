@@ -1,0 +1,16 @@
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-secondary div.parsys div.parbase div#most-popular.most-popular
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-secondary div.parsys div.parbase div#most-popular.most-popular header h3
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-secondary div.parsys div.parbase div#most-popular.most-popular ul.tabs li.ui-state-default a.tab-viewed
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-secondary div.parsys div.parbase div#most-popular.most-popular section#tab-viewed.content small
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-secondary div.parsys div.parbase div#most-popular.most-popular section#tab-viewed.content ul li#number-1 span.num
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-secondary div.parsys div.parbase div#most-popular.most-popular section#tab-viewed.content ul li#number-1 a.hed
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-secondary div.parsys div.parbase div#most-popular.most-popular section#tab-viewed.content ul li#number-7.last span.num
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-secondary div.parsys div.parbase div#most-popular.most-popular section#tab-viewed.content ul li#number-7.last a.hed
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-secondary div.parsys div.parbase div#most-popular.most-popular ul.tabs li.first a.tab-commented
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-secondary div.parsys div.parbase div#most-popular.most-popular section#tab-commented.content small
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-secondary div.parsys div.parbase div#most-popular.most-popular section#tab-commented.content ul li#number-1 span.num
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-secondary div.parsys div.parbase div#most-popular.most-popular section#tab-commented.content ul li#number-1 a.hed
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-secondary div.parsys div.parbase div#most-popular.most-popular section#tab-commented.content ul li#number-1 a.tout strong.article_comment_count
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-secondary div.parsys div.parbase div#most-popular.most-popular section#tab-commented.content ul li#number-8 span.num
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-secondary div.parsys div.parbase div#most-popular.most-popular section#tab-commented.content ul li#number-8 a.hed
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-secondary div.parsys div.parbase div#most-popular.most-popular section#tab-commented.content ul li#number-8 a.tout strong.article_comment_count

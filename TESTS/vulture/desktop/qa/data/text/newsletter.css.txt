@@ -1,0 +1,10 @@
+html.js body#nymag.vulture div#wrap-wrap.skin-takeover div#wrap div#content div#content-secondary div.parsys div.parbase section.newsletter
+html.js body#nymag.vulture div#wrap-wrap.skin-takeover div#wrap div#content div#content-secondary div.parsys div.parbase section.newsletter header h3
+html.js body#nymag.vulture div#wrap-wrap.skin-takeover div#wrap div#content div#content-secondary div.parsys div.parbase section.newsletter div.content
+html.js body#nymag.vulture div#wrap-wrap.skin-takeover div#wrap div#content div#content-secondary div.parsys div.parbase section.newsletter div.content form#newsletter-subscribe
+html.js body#nymag.vulture div#wrap-wrap.skin-takeover div#wrap div#content div#content-secondary div.parsys div.parbase section.newsletter div.content form#newsletter-subscribe div.check-wrp label b
+html.js body#nymag.vulture div#wrap-wrap.skin-takeover div#wrap div#content div#content-secondary div.parsys div.parbase section.newsletter div.content form#newsletter-subscribe div.check-wrp label b i
+html.js body#nymag.vulture div#wrap-wrap.skin-takeover div#wrap div#content div#content-secondary div.parsys div.parbase section.newsletter div.content form#newsletter-subscribe div.check-wrp label input#check-01.check
+html.js body#nymag.vulture div#wrap-wrap.skin-takeover div#wrap div#content div#content-secondary div.parsys div.parbase section.newsletter div.content form#newsletter-subscribe div.check-wrp label input#check-02.check
+html.js body#nymag.vulture div#wrap-wrap.skin-takeover div#wrap div#content div#content-secondary div.parsys div.parbase section.newsletter div.content form#newsletter-subscribe div.input-wrp input#txt-newsletter-subscribe.text
+html.js body#nymag.vulture div#wrap-wrap.skin-takeover div#wrap div#content div#content-secondary div.parsys div.parbase section.newsletter div.content form#newsletter-subscribe div.submit-wrp input#btn-newsletters.image

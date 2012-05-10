@@ -1,0 +1,3 @@
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#utilities.fb_notconnected div.main ul li.first a
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#utilities.fb_notconnected div.main ul li a
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#utilities.fb_notconnected div.main ul li.last a

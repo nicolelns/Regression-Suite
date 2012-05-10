@@ -1,0 +1,4 @@
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#navGlobal div.secondary div.hottopics_nav dl.hotTopics dt
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#navGlobal div.secondary div.hottopics_nav dl.hotTopics dd.first a img
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#navGlobal div.secondary div.hottopics_nav dl.hotTopics dd.first a
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#navGlobal div.secondary div.hottopics_nav dl.hotTopics dd a
