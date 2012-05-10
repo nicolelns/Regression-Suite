@@ -11,6 +11,7 @@ from selenium.webdriver.remote.command import Command
 from selenium.webdriver.remote.webdriver import WebDriver as RemoteWebDriver
 from selenium.webdriver.remote.webelement import WebElement
 import unittest, time, re
+import subprocess
 import pickle
 import Logger
 
@@ -44,9 +45,9 @@ TEST = "NY Mag Navigation Update - Desktop - NY Mag"
 
 L = Logger.MainLogger(BASEURL, TEST)
 
-PASS_CSS = open('../data/text/newnavigation.pass.css.txt', 'r').readlines()
-FAIL_CSS = open('../data/text/newnavigation.fail.css.txt', 'r').readlines()
-URLS = pickle.load(open('../data/pickle/newnavUrls.p', 'r'))
+PASS_CSS = open('../data/text/qa.newnavigation.pass.css.txt', 'r').readlines()
+FAIL_CSS = open('../data/text/qa.newnavigation.fail.css.txt', 'r').readlines()
+URLS = pickle.load(open('../data/pickle/qa.newnavUrls.p', 'r'))
 
 keys = URLS.keys()
 values = URLS.values()
@@ -101,7 +102,7 @@ class NewNavigation(unittest.TestCase):
 	
         n = 0
         driver = self.driver
-        test = "Open Pages"
+        test = "Test A - Open Pages"
         print test
         
         for each in keys:
@@ -122,15 +123,13 @@ class NewNavigation(unittest.TestCase):
                 
             n += 1
            
-        self.b_fail_click()   
-	self.c_pass_click()
-	self.click()
-	#self.d_login(USERNAME, PASSWORD)
-	#self.c_fail_click(css, title)
+        self.b_fail_css()   
+	self.c_pass_css()
+	self.d_click_test()
 	
 	########################################################################
 	
-    def b_fail_click(self):	
+    def b_fail_css(self):	
     	    
     	"""
     	The fail test is meant to "fail", in the sense that the CSS elements should NOT be on the page after nav update.
@@ -142,7 +141,7 @@ class NewNavigation(unittest.TestCase):
     
 	n = 0
         driver = self.driver
-        test = "Test B - Failure test for navigation"
+        test = "Test B - Incorrect CSS Elements (not on page)"
         print test
         
         # Loops through the data in the CSS file asserting each element is on the page
@@ -166,10 +165,21 @@ class NewNavigation(unittest.TestCase):
             
         ########################################################################
             
-    def click(self):
+    def d_click_test(self):
+    
+        """
+        This test clicks where "Home" should be on the page and waits for the page to load
+        The title is acquired and compared to the title in the URLS dictionary
+        
+        PASSING CONDITIONS:	Selenium can click "Home", get the page title and the home page loads correctly
+        FAILING CONDITIONS:	Selenium cannot click home, cannot acquire the title of the page, or
+        			the page does not loadk OK
+        			
+        """
+        
     
         driver = self.driver
-        test = "Click and wait for page to load"
+        test = "Test D - Click Home and Page Load"
         print test
 	
 	try:
@@ -190,7 +200,7 @@ class NewNavigation(unittest.TestCase):
 	    	   
 	########################################################################
 	
-    def c_pass_click(self):	
+    def c_pass_css(self):	
     	    
     	"""
     	The pass test is a straightforward test - if the element is there, it passes.
@@ -200,7 +210,7 @@ class NewNavigation(unittest.TestCase):
     	"""
 	n = 0
         driver = self.driver
-        test = "Test C - Pass test for navigation"
+        test = "Test C - Test for Correct CSS"
         print test
         
         # Loops through the data in the CSS file asserting each element is on the page
@@ -228,7 +238,9 @@ class NewNavigation(unittest.TestCase):
     	    
     	driver = self.driver
     	test = "Login for New Navigation"
-    	"""
+    	#New Feature - Make sure test works when user is also logged in.
+    	
+	"""
     	try:
     	    driver.click on button
     	    driver.select window
