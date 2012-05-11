@@ -1,5 +1,5 @@
 (dp0
-Vhttp://www.vulture.com/tv/game-of-thrones
+Vhttp://www.vulture.com/news/vulture%27s-summer-movie-preview/
 p1
 NsVhttp://www.vulture.com/news/the-avengers/
 p2
@@ -7,8 +7,8 @@ NsVhttp://www.vulture.com/tv/mad-men
 p3
 Vhttp://images.nymag.com/images/2/vulture/topics/madmen/03_dondraper-hot-topic.png
 p4
-sVhttp://www.vulture.com/news/the-hunger-games/
+sVhttp://www.vulture.com/tv/game-of-thrones/
 p5
-NsVhttp://www.vulture.com/news/girls/
+NsVhttp://www.vulture.com/tv/girls/
 p6
 Ns.

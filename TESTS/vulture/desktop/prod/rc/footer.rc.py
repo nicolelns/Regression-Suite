@@ -28,6 +28,7 @@ This is a regression test for the footer of Vulture's home page
 IF ANY CHANGES TO THE MODULE HAPPEN, PLEASE ONLY CHANGE THE .TXT FILES IF YOU REALLY KNOW WHAT YOU ARE DOING!  LINE ORDER FOR DATA INSIDE FILES MATTERS!	
 
 """
+
 #########################################################################
 #########################################################################
 	
