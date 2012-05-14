@@ -1,2 +1,19 @@
-html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
-html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+div#navigation div#nav div#nav-primary ul.nav li#nav-home.top a.top
+div#navigation div#nav div#nav-primary ul.nav li#nav-agenda a.top
+div#navigation div#nav div#nav-primary ul.nav li#nav-news.top a.top
+div#navigation div#nav div#nav-primary ul.nav li#nav-rest.top a.top
+div#navigation div#nav div#nav-primary ul.nav li#nav-bars.top a.top
+div#navigation div#nav div#nav-primary ul.nav li#nav-entr.top a.top
+div#navigation div#nav div#nav-primary ul.nav li#nav-fash.top a.top
+div#navigation div#nav div#nav-primary ul.nav li#nav-shop.top a.top
+div#navigation div#nav div#nav-secondary ul.nav li.top a#nav-trav.top
+div#navigation div#nav div#nav-secondary ul.nav li.top a#nav-real.top
+div#navigation div#nav div#nav-secondary ul.nav li.top a#nav-visit.top
+div#navigation div#nav div#nav-secondary ul.nav li.top a#nav-beauty.top
+div#navigation div#nav div#nav-secondary ul.nav li a#nav-design.no-subnav
+div#navigation div#nav div#nav-secondary ul.nav li a#nav-weddings.no-subnav
+div#navigation div#nav div#nav-secondary ul.nav li a#nav-bestdocs.no-subnav
+div#navigation div#nav div#nav-secondary ul.nav li a#nav-dating.no-subnav
+div#navigation div#nav div#nav-secondary ul.nav li.top a#nav-bony.top b
+div#navigation div#nav div#nav-secondary ul#subscribe-today.subscribe li a b
+div#navigation div#nav div#nav-secondary ul#subscribe-today.subscribe li.last a
