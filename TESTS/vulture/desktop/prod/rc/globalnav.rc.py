@@ -117,8 +117,7 @@ class GlobalNav(unittest.TestCase):
         
 	for each in DATA:
 	
-            d = DATA[n] 
-            print d, "LINK"
+            d = DATA[n]
             
             try:
             	sel.click("//a[@href='" + d + "']")

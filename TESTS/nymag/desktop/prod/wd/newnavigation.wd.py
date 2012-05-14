@@ -39,15 +39,15 @@ webdriver.DesiredCapabilities.INTERNETEXPLORER['proxy'] = {
 #USERNAME = raw_input("Please enter your NY Mag user name: ")
 #PASSWORD = raw_input("Please enter your NY Mag password (It will not be stored, no one will see it): ") #Find a way to hide
 
-BASEURL = 'http://stg.nymetro.com/'
+BASEURL = 'http://www.nymag.com/'
 BROWSERS = ('chrome', 'firefox') 	# Add browsers
-TEST = "NY Mag Navigation Update - STG - NY Mag"
+TEST = "NY Mag Navigation Update - Desktop - NY Mag"
 
 L = Logger.MainLogger(BASEURL, TEST)
 
-PASS_CSS = open('../data/text/qa.newnavigation.pass.css.txt', 'r').readlines()
-FAIL_CSS = open('../data/text/qa.newnavigation.fail.css.txt', 'r').readlines()
-URLS = pickle.load(open('../data/pickle/qa.newnavUrls.p', 'r'))
+PASS_CSS = open('../data/text/newnavigation.pass.css.txt', 'r').readlines()
+FAIL_CSS = open('../data/text/newnavigation.fail.css.txt', 'r').readlines()
+URLS = pickle.load(open('../data/pickle/newnavUrls.p', 'r'))
 
 keys = URLS.keys()
 values = URLS.values()
@@ -70,11 +70,11 @@ class NewNavigation(unittest.TestCase):
         if x == 0:
             self.driver = webdriver.Chrome(chromedriver)
             
-        else:    
+        elif x == 1:    
             self.driver = webdriver.Firefox() 
             
-        #elif x == 2:
-    	    #self.driver = webdriver.Remote("http://localhost:4444/wd/hub", webdriver.DesiredCapabilities.INTERNETEXPLORER)
+        elif x == 2:
+    	    self.driver = webdriver.Remote("http://localhost:4444/wd/hub", webdriver.DesiredCapabilities.INTERNETEXPLORER)
         
         #elif x == 3:
 	    #self.driver = webdriver.Remote(desired_capabilities = {}, command_executor = "http://localhost:8080/wd/hub")
@@ -83,7 +83,6 @@ class NewNavigation(unittest.TestCase):
         self.driver.implicitly_wait(10)
         self.verificationErrors = []
         print "TESTING " + BASEURL + " in " + BROWSERS[x]
-        print x
 	
 	########################################################################
 	
@@ -103,13 +102,13 @@ class NewNavigation(unittest.TestCase):
 	
         n = 0
         driver = self.driver
+        test = "Test A - Open Pages"
+        print test
         
         for each in keys:
         
             url = keys[n]
             title = values[n]
-            test = "Test A - Open Pages"
-            print test
             
 	    try:
                 driver.get(url)
@@ -123,7 +122,7 @@ class NewNavigation(unittest.TestCase):
             else:
                 L.log(BROWSERS[x], test, "PASS, OPENED PAGE", url)
               
-            #self.b_fail_css()   
+            self.b_fail_css()   
 	    self.c_pass_css()
 	    self.d_click_test()
 	    
@@ -153,15 +152,15 @@ class NewNavigation(unittest.TestCase):
 	    c = FAIL_CSS[n].strip('\n')
             
             try:
-                self.is_element_present(By.CSS_SELECTOR, c)
+                self.assertFalse(self.is_element_present(By.CSS_SELECTOR, c))
                 
             except AssertionError, e:
-            	L.log(BROWSERS[x], test, "PASS, ELEMENT NOT FOUND", c, exception=str(e))
+            	print "FAILURE " + c + " shows on page and should not"
+            	self.verificationErrors.append(str(e))
+                L.log(BROWSERS[x], test, "FAIL, ELEMENT FOUND", c, exception=str(e))
             
             else:
-                print "FAILURE " + c + " shows on page and should not"
-            	self.verificationErrors.append(c + " should not be on page")
-                L.log(BROWSERS[x], test, "FAIL, ELEMENT FOUND", c)
+                L.log(BROWSERS[x], test, "PASS, ELEMENT NOT FOUND", c)
                 
             n += 1
             
@@ -177,14 +176,15 @@ class NewNavigation(unittest.TestCase):
         FAILING CONDITIONS:	Selenium cannot click home, cannot acquire the title of the page, or
         			the page does not loadk OK
         			
-        """  
+        """
+        
     
         driver = self.driver
         test = "Test D - Click Home and Page Load"
         print test
 	
 	try:
-	    driver.find_element_by_css_selector(PASS_CSS[0].strip('\n')).click()
+	    driver.find_element_by_css_selector(PASS_CSS[0]).click()
 	    title = driver.title
 	
 	except Exception, e:
@@ -279,10 +279,12 @@ class NewNavigation(unittest.TestCase):
 #########################################################################
 #########################################################################
 
-for x in range(0,2):
+for x in range(0,3):
 
-    suite = unittest.TestLoader().loadTestsFromTestCase(NewNavigation)
-    unittest.TextTestRunner(verbosity=2).run(suite)
-    x += 1
+    for each in keys:
+
+        suite = unittest.TestLoader().loadTestsFromTestCase(NewNavigation)
+        unittest.TextTestRunner(verbosity=2).run(suite)
+        x += 1
 
 L.save()

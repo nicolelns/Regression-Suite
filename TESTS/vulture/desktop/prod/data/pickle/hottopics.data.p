@@ -3,12 +3,12 @@ Vhttp://www.vulture.com/news/vulture%27s-summer-movie-preview/
 p1
 NsVhttp://www.vulture.com/news/the-avengers/
 p2
-NsVhttp://www.vulture.com/tv/mad-men
+NsVhttp://www.vulture.com/news/upfronts-2012/
 p3
-Vhttp://images.nymag.com/images/2/vulture/topics/madmen/03_dondraper-hot-topic.png
+NsVhttp://www.vulture.com/tv/mad-men
 p4
-sVhttp://www.vulture.com/tv/game-of-thrones/
+Vhttp://images.nymag.com/images/2/vulture/topics/madmen/03_dondraper-hot-topic.png
 p5
-NsVhttp://www.vulture.com/tv/girls/
+sVhttp://www.vulture.com/tv/game-of-thrones/
 p6
 Ns.
