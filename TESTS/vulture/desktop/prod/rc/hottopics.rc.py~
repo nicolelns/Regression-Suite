@@ -47,6 +47,9 @@ class HotTopics(unittest.TestCase):
     
     def test_hottopics(self):
 
+    # Tests for the presence of elements in the module using CSS locators
+    # This test is an 'assert' test: if any element is not present, the test fails
+	
 	n = 0
 	sel = self.selenium
         sel.open(BASEURL)
@@ -66,10 +69,10 @@ class HotTopics(unittest.TestCase):
             except AssertionError, e:
             	print "FAILURE " + c
             	self.verificationErrors.append(str(e))
-                L.log(BROWSERS[x], test, "FAIL, ELEMENT NOT FOUND", c, exception=str(e))
+                L.log(BROWSERS[x], TEST, "FAIL, ELEMENT NOT FOUND", c, exception=str(e))
             
             else:
-                L.log(BROWSERS[x], test, "PASS, ELEMENT FOUND", c)
+                L.log(BROWSERS[x], TEST, "PASS, ELEMENT FOUND", c)
                 
             n += 1
        
@@ -89,13 +92,13 @@ class HotTopics(unittest.TestCase):
            
         if len(keys) != 5:
             self.verificationErrors.append(len(keys) + " links")
-            L.log(BROWSERS[x], test, "FAIL, WRONG NUMBER OF LINKS", str(len(keys)) + " links found")
+            L.log(BROWSERS[x], TEST, "FAIL, WRONG NUMBER OF LINKS", str(len(keys)) + " links found")
             
         if sel.is_text_present('Hot Topics'):
-            L.log(BROWSERS[x], test, "PASS, TEXT PRESENT", "Hot Topics")
-
+            L.log(BROWSERS[x], TEST, "PASS, TEXT PRESENT", "Hot Topics")
+            
         else:
-            L.log(BROWSERS[x], test, "FAIL, TEXT NOT PRESENT", "Hot Topics")
+            L.log(BROWSERS[x], TEST, "FAIL, TEXT NOT PRESENT", "Hot Topics")
         
         
         
@@ -123,10 +126,10 @@ class HotTopics(unittest.TestCase):
                 
 	    except Exception, e:
 		print "FAILURE " + d, " does not load"
-		L.log(BROWSERS[x], test, "FAIL, PAGE DOES NOT LOAD", d, exception=str(e))
+		L.log(BROWSERS[x], TEST, "FAIL, PAGE DOES NOT LOAD", d, exception=str(e))
 		
 	    else:
-	    	L.log(BROWSERS[x], test, "PASS, PAGE LOADS", d)
+	    	L.log(BROWSERS[x], TEST, "PASS, PAGE LOADS", d)
 		sel.go_back()
 	        sel.wait_for_page_to_load("50000")
 	        
@@ -139,10 +142,10 @@ class HotTopics(unittest.TestCase):
                 
 	        except Exception, e:
 		    print "FAILURE " + c, " does not load"
-		    L.log(BROWSERS[x], test, "FAIL, IMAGE DOES NOT LOAD", c, exception=str(e))
+		    L.log(BROWSERS[x], TEST, "FAIL, IMAGE DOES NOT LOAD", c, exception=str(e))
 		
 	        else:
-	            L.log(BROWSERS[x], test, "PASS, IMAGE LOADS", c)
+	            L.log(BROWSERS[x], TEST, "PASS, IMAGE LOADS", c)
 		    sel.go_back()
 	            sel.wait_for_page_to_load("50000")
 	            

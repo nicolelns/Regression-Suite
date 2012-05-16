@@ -286,7 +286,6 @@ class Parser():
     	    	news_list.append(link)
     	    	
     	pickle.dump(news_list, open('../data/pickle/latestnews.data.p', 'wb'))
-    	print news_list
     
     #########################################################################
     

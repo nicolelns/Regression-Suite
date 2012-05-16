@@ -259,11 +259,7 @@ class Parser():
                 a += 1
     	        
     	        clickables_dict[permalink] = (click_class, None)	#Placeholder for comments
-    	   
-    	#clickables_dict['header'] = [('http://www.vulture.com/clickables/', 'clickables')]  
-    	#clickables_dict['logo'] = [('http://itunes.apple.com/us/app/vulture-clickables/id461132952?mt=8', 'http://images.nymag.com/gfx/sect/vulture/clickables-hp-promo.png')] 
-    	#clickables_dict['more'] = [('http://www.vulture.com/clickables/', 'clickables'), (None, None)] 
-    	
+    	        
     	pickle.dump(clickables_dict, open('../data/pickle/clickables.data.p', 'wb'))
     	     	
     #########################################################################
@@ -717,14 +713,14 @@ class Parser():
     		
     	    talk = tag
     	
-    	for tag in talk('a'):
+    	    for tag in talk('a'):
     		
-    	    try:
-    	    	link = tag['href']
-    	    except:
-    	    	print "none"
-    	    else:	
-    	    	talk_list.append(link)
+    	        try:
+    	    	    link = tag['href']
+    	    	except:
+    	    	    print "none"
+    	    	else:	
+    	    	    talk_list.append(link)
     	    	
     	pickle.dump(talk_list, open('../data/pickle/latesttalk.data.p', 'wb'))
     
@@ -827,6 +823,7 @@ class Parser():
             viral_dict[link] = (image, arrow_img, permalink)
             
         pickle.dump(viral_dict, open('../data/pickle/viralvideo.data.p', 'wb'))
+        
     #########################################################################
         
     def thefeed(self):
@@ -961,7 +958,7 @@ class Parser():
 	        print "none"
 	
             else:
-                nav_list.append(link)
+            	nav_list.append(link)
                 
         pickle.dump(nav_list, open('../data/pickle/globalnav.data.p', 'wb'))
         
@@ -975,16 +972,17 @@ class Parser():
     	
             foo = tag
             
-        for tag in foo('a'):
+            for tag in foo('a'):
     		
-    	    try:
-    	    	link = tag['href']
+    	        try:
+    	    	    link = tag['href']
     
-            except:
-	        print "none"
+                except:
+	            print "none"
 	
-            else:
-                nav_list.append(link)
+                else:
+                    if not re.search("http://www.vulture.com", link, re.I):
+                        nav_list.append(link)
                 
         pickle.dump(nav_list, open('../data/pickle/mainnav.data.p', 'wb'))
     

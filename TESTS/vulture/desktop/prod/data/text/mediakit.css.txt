@@ -1,0 +1,2 @@
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-secondary div.parsys div.parbase section.vulture-network a img
+html.js body#nymag.vulture div#wrap-wrap.skin-takeover div#wrap div#content div#content-secondary div.parsys div.htmlComponent section.blog-sweeps div.content a img

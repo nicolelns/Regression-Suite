@@ -72,6 +72,7 @@ class NewNavigation(unittest.TestCase):
             
         else:    
             self.driver = webdriver.Firefox() 
+            print "I made a firefox instance"
             
         #elif x == 2:
     	    #self.driver = webdriver.Remote("http://localhost:4444/wd/hub", webdriver.DesiredCapabilities.INTERNETEXPLORER)
@@ -122,7 +123,7 @@ class NewNavigation(unittest.TestCase):
             else:
                 L.log(BROWSERS[x], test, "PASS, OPENED PAGE", url)
               
-            self.b_fail_css()   
+            #self.b_fail_css()   
 	    self.c_pass_css()
 	    self.d_click_test()
 	    
@@ -161,10 +162,6 @@ class NewNavigation(unittest.TestCase):
             
             else:
                 L.log(BROWSERS[x], test, "PASS, ELEMENT NOT FOUND", c)
-                
-            #self.b_fail_css()    
-            self.c_pass_css()    
-            self.d_click_test()
             
             n += 1
             
@@ -285,10 +282,8 @@ class NewNavigation(unittest.TestCase):
 
 for x in range(0,2):
 
-    for each in keys:
-
-        suite = unittest.TestLoader().loadTestsFromTestCase(NewNavigation)
-        unittest.TextTestRunner(verbosity=2).run(suite)
-        x += 1
+    suite = unittest.TestLoader().loadTestsFromTestCase(NewNavigation)
+    unittest.TextTestRunner(verbosity=2).run(suite)
+    x += 1
 
 L.save()

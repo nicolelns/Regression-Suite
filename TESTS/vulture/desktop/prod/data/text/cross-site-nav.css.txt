@@ -1,0 +1,9 @@
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#mast div#utilities.fb_notconnected div.main ul.global li.top a#nav-mag.top
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#mast div#utilities.fb_notconnected div.main ul.global li.top div#sub_nav_mag ul li a
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#mast div#utilities.fb_notconnected div.main ul.global li.top div#sub_nav_mag p a img
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#mast div#utilities.fb_notconnected div.main ul.global li.top a#nav-blogs.top
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#mast div#utilities.fb_notconnected div.main ul.global li.top div#sub_nav_blogs ul li a
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#mast div#utilities.fb_notconnected div.main ul.global li.last a#nav-video.top
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#mast div#utilities.fb_notconnected div.main ul.global li.last div#sub_nav_video ul li a
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#mast div#utilities.fb_notconnected div.main p.wx a
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#mast div#utilities.fb_notconnected dl#logged_out_bar.membership dd ul li.first a.login-lightbox 

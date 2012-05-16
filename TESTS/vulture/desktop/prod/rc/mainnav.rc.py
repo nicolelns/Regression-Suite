@@ -1,4 +1,5 @@
 #! /usr/bin/python
+# -*- coding: latin-1 -*-
 
 import unittest
 import time, datetime
@@ -10,31 +11,27 @@ from selenium import selenium   # Update to WebDriver
 
 BASEURL = 'http://www.vulture.com'
 BROWSERS = ('chrome', 'firefox', 'safari')
-TEST = "Hot Topics Module - Desktop - Vulture Home Page"
+TEST = "Main Navigation (NY Mag, Grub St, Daily Intel, etc) - Desktop - Vulture Home Page"
 
 L = Logger.MainLogger(BASEURL, TEST)
 S = vultureSoup.Parser()
 
-S.hottopics()			# Call the relevant BeautifulSoup function (usually same name as test)
+S.mainnav()
 
-CSS = open('../data/text/hottopics.css.txt', 'r').readlines()		# a = presence; Is it there?
-DATA = pickle.load(open('../data/pickle/hottopics.data.p', 'rb')) 	# c = function; Does the module work?
-
-keys = DATA.keys()
-values = DATA.values()
-
+CSS = open('../data/text/mainnav.css.txt', 'r').readlines()	
+DATA = pickle.load(open ('../data/pickle/mainnav.data.p', 'rb'))
 x = 0
 
 """
-This is a regression test for the "Hot Topics" section of the Global Navigation bar on vulture's home page.
+This is a regression test for the Navigation at the top of Vulture's home page
 
-"""
+"""	
 
 #########################################################################
 #########################################################################
 	
 
-class HotTopics(unittest.TestCase):
+class MainNav(unittest.TestCase):
 
     def setUp(self):
 
@@ -45,7 +42,7 @@ class HotTopics(unittest.TestCase):
 	
 	########################################################################
     
-    def test_hottopics(self):
+    def test_mainnav(self):
 
 	n = 0
 	sel = self.selenium
@@ -72,54 +69,28 @@ class HotTopics(unittest.TestCase):
                 L.log(BROWSERS[x], test, "PASS, ELEMENT FOUND", c)
                 
             n += 1
-       
-        self.b_content_test()
-        self.c_click_test()
-        
-        ########################################################################
-	    
-    def b_content_test(self):
-    	    
-    # Makes sure exactly 5 links are in the Hot Topics section 
-    	 
-    	m = 0
-	sel = self.selenium
-	test = "Test B - Number of Links in Module"
-	print test
-           
-        if len(keys) != 5:
-            self.verificationErrors.append(len(keys) + " links")
-            L.log(BROWSERS[x], test, "FAIL, WRONG NUMBER OF LINKS", str(len(keys)) + " links found")
             
-        if sel.is_text_present('Hot Topics'):
-            L.log(BROWSERS[x], test, "PASS, TEXT PRESENT", "Hot Topics")
-
-        else:
-            L.log(BROWSERS[x], test, "FAIL, TEXT NOT PRESENT", "Hot Topics")
-        
-        
-        
+        self.b_click()
+        self.c_link_count()
+            
         ########################################################################
-
-    def c_click_test(self):
-    	    
-    # Can the link be clicked on and does the page load?  Is there an image silo for the first Hot Topics entry?
-    
-    	m = 0 
-        sel = self.selenium
-        test = "Test C - Click and Wait for Page to Load"
-        print test
-        
-        # First, make sure each link can be clicked on and that the page loads
-        
-        for each in keys:
-		
-	    d = keys[m]
-	    c = values[m]
 	    
-	    try:
-                sel.click("//a[@href='" + d + "']")
+    def b_click(self):
+    	    
+        n = 0
+	sel = self.selenium
+	test = "Test B - Click and Wait for Page to Load"
+	print test
+        
+	for each in DATA:
+
+	    d = DATA[n] 
+        
+            try:
+            	text = sel.get_text("//a[@href='" + d + "']")
+                sel.click("link=" + text)
                 sel.wait_for_page_to_load("50000")
+                title = sel.get_title()
                 
 	    except Exception, e:
 		print "FAILURE " + d, " does not load"
@@ -127,27 +98,32 @@ class HotTopics(unittest.TestCase):
 		
 	    else:
 	    	L.log(BROWSERS[x], test, "PASS, PAGE LOADS", d)
-		sel.go_back()
-	        sel.wait_for_page_to_load("50000")
-	        
-	# Second, make sure each image can be clicked on and that the page loads
-	
-	    if c is not None:
-	        try:
-                    sel.click("//img[@src='" + c + "']")
-                    sel.wait_for_page_to_load("50000")
-                
-	        except Exception, e:
-		    print "FAILURE " + c, " does not load"
-		    L.log(BROWSERS[x], test, "FAIL, IMAGE DOES NOT LOAD", c, exception=str(e))
-		
-	        else:
-	            L.log(BROWSERS[x], test, "PASS, IMAGE LOADS", c)
-		    sel.go_back()
-	            sel.wait_for_page_to_load("50000")
-	            
-	    m += 1
+            	
+            self.back()
+                 
+            n += 1   
+        
+        ########################################################################
 
+    def c_link_count(self):
+    
+    	n = 0 
+        sel = self.selenium
+        count = sel.get_css_count("css=" + CSS[1])
+        test = "Test C - Correct Number of Links"
+        print test
+        
+        if count != 4:
+            L.log(BROWSERS[x], test, "FAIL, MISSING LINKS", str(count) + " links found")
+
+        ########################################################################
+        
+    def back(self):
+    	    
+    	sel = self.selenium
+        sel.go_back()
+        sel.wait_for_page_to_load("50000")
+        
         ########################################################################
 
     def tearDown(self):
@@ -160,7 +136,9 @@ class HotTopics(unittest.TestCase):
 
 for each in BROWSERS:
 
-    suite = unittest.TestLoader().loadTestsFromTestCase(HotTopics)
+    suite = unittest.TestLoader().loadTestsFromTestCase(MainNav)
     unittest.TextTestRunner(verbosity=2).run(suite)
     x += 1
 L.save()
+    
+
