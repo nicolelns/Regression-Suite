@@ -18,7 +18,7 @@ For example, the pics() function will only pull urls and images, etc. from the p
 Data scraped from the page is pickled and sent to a pickle folder where it is later read by the module test
 """
 
-BASEURL = 'http://www.vulture.com/'
+#BASEURL = raw_input("Enter a BaseURL: ")
 
 
 class MyOpener(urllib.FancyURLopener):
@@ -27,11 +27,11 @@ class MyOpener(urllib.FancyURLopener):
 
 class Parser():
 	
-    def __init__(self):
+    def __init__(self, baseurl):
     	    
-    	#self.BASEURL = baseurl
+    	self.BASEURL = baseurl
 	self.req = MyOpener()
-    	self.page = self.req.open(BASEURL)
+    	self.page = self.req.open(self.BASEURL)
     	self.text = self.page.read()
         self.page.close()
         self.soup = BeautifulSoup(self.text)
@@ -147,6 +147,7 @@ class Parser():
             interview_dict[link] = (image, comments, author_list)       
                 
     	pickle.dump(interview_dict, open('../data/pickle/biginterview.data.p', 'wb'))
+    	print interview_dict
         
     #########################################################################
     
@@ -938,6 +939,38 @@ class Parser():
                     rotator_dict[permalink] = (image, link, topic)
             	   
         pickle.dump(rotator_dict, open('../data/pickle/rotatorlede.data.p', 'wb'))
+        
+    ######################################################################### 
+     
+    def search(self):
+    	    
+        search_list = []
+        type_list = []
+        pubdate_list = []
+        
+        for tag in self.spam('td', attrs={'class':'main'}):
+        	
+            results = tag
+            #a_type = tag.contents[-2]
+            #print a_type, "TYPE"
+            
+            for tag in results('a'):
+            	    
+            	link = tag['href']
+            	print link, "LINK"
+            	
+            for tag in results('li', attrs={"class":"pubDate first>"}):
+            	    
+            	pub = tag.contents[0]
+            	print pub, "PUB"
+            	
+            for tag in results('dd', attrs={'class':'dek'}):
+            	    
+            	excerpt = tag.contents[1]
+            	print excerpt, "EXCERPT"
+           		
+            #print link, "LINK", pub, "PUB", excerpt, "EXCERPT", a_type, "TYPE"
+            	
     
     #########################################################################
     
@@ -961,6 +994,17 @@ class Parser():
             	nav_list.append(link)
                 
         pickle.dump(nav_list, open('../data/pickle/globalnav.data.p', 'wb'))
+        
+    #########################################################################    
+        
+    def universal_nav(self):
+    	    
+    	# Utility Navigation - the Sitewide navigation update that happend ~June 2012
+    	    
+    	utility_nav_dict = {'http://nymag.com/':'New York Magazine -- NYC Guide to Restaurants, Fashion, Nightlife, Shopping, Politics, Movies', 'http://www.vulture.com/':'Vulture - Entertainment News - Celebrity News, TV Recaps, Movies, Music, Art, Books, Theater', 'http://newyork.grubstreet.com/':"Grub Street: New York Magazine's Food and Restaurant Blog", 'http://nymag.com/daily/fashion/':'The Cut -- Fashion Week, Models, Street Style, Red Carpet Dresses and Fashion News', 'http://nymag.com/daily/intel/':'Daily Intel -- New York News -- New York Magazine'}
+
+        pickle.dump(utility_nav_dict, open('../data/pickle/qa.utilitynavUrls.p', 'wb'))
+
         
     #########################################################################
     

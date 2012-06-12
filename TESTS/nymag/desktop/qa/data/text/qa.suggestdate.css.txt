@@ -1,0 +1,1 @@
+html.can-has-js body#www-newyorkmag-com.restaurants div#wrap div#content.listing-profile div#content-layout div#content-primary-wrap div#content-primary div.listing div.listing-content div.listing-rightcol div.details a#suggested-as-date

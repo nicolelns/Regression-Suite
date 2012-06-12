@@ -1,0 +1,1 @@
+html.js body#nymag.daily div#wrap-wrap div#wrap div#content.content-short div#content-wrap-1.content-wrap div.content-secondary div.parsys div.parbase div div.content div#ad-flex-2 iframe

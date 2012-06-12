@@ -1,0 +1,130 @@
+[0.000][INFO]:      ChromeDriver 19.0.1068.0 /Library/Python/2.7/site-packages/chromedriver
+[0.981][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "chrome.switches": [  ],
+   "chromeOptions": {
+      "args": [  ],
+      "binary": "",
+      "extensions": [  ]
+   },
+   "javascriptEnabled": true,
+   "platform": "ANY",
+   "version": ""
+}
+
+[0.982][INFO]:      Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --ignore-certificate-errors --homepage=about:blank
+[1.346][INFO]:      Connected to Chrome successfully. Version: 17.0.963.56
+[1.372][FINE]:      Command received (/session/36741f4be2f165be24b48531255d4ca0)
+[1.372][FINE]:      Command finished (/session/36741f4be2f165be24b48531255d4ca0) with response {
+   "sessionId": "36741f4be2f165be24b48531255d4ca0",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "19.0.1068.0",
+      "chrome.nativeEvents": false,
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "mac",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "17.0.963.56",
+      "webStorageEnabled": false
+   }
+}
+
+[1.380][FINE]:      Command received (/session/36741f4be2f165be24b48531255d4ca0/timeouts/implicit_wait) with params {
+   "ms": 10000.0,
+   "sessionId": "36741f4be2f165be24b48531255d4ca0"
+}
+
+[1.380][FINER]:     Waiting for all views to stop loading...
+[1.381][FINER]:     Done waiting for all views to stop loading
+[1.381][FINER]:     Waiting for all views to stop loading...
+[1.381][FINER]:     Done waiting for all views to stop loading
+[1.381][FINE]:      Command finished (/session/36741f4be2f165be24b48531255d4ca0/timeouts/implicit_wait) with response {
+   "sessionId": "36741f4be2f165be24b48531255d4ca0",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[1.383][FINE]:      Command received (/session/36741f4be2f165be24b48531255d4ca0/url) with params {
+   "sessionId": "36741f4be2f165be24b48531255d4ca0",
+   "url": "http://dev.vulture.com/"
+}
+
+[1.383][FINER]:     Waiting for all views to stop loading...
+[1.383][FINER]:     Done waiting for all views to stop loading
+[5.280][FINER]:     Waiting for all views to stop loading...
+[5.323][FINER]:     Done waiting for all views to stop loading
+[5.323][FINE]:      Command finished (/session/36741f4be2f165be24b48531255d4ca0/url) with response {
+   "sessionId": "36741f4be2f165be24b48531255d4ca0",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[5.326][FINE]:      Command received (/session/36741f4be2f165be24b48531255d4ca0/element) with params {
+   "sessionId": "36741f4be2f165be24b48531255d4ca0",
+   "using": "css selector",
+   "value": "html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#utilities.fb_notconnected div.m..."
+}
+
+[5.326][FINER]:     Waiting for all views to stop loading...
+[5.345][FINER]:     Done waiting for all views to stop loading
+[5.381][FINER]:     Waiting for all views to stop loading...
+[5.382][FINER]:     Done waiting for all views to stop loading
+[5.382][FINE]:      Command finished (/session/36741f4be2f165be24b48531255d4ca0/element) with response {
+   "sessionId": "36741f4be2f165be24b48531255d4ca0",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1338328470585"
+   }
+}
+
+[5.384][FINE]:      Command received (/session/36741f4be2f165be24b48531255d4ca0/element) with params {
+   "sessionId": "36741f4be2f165be24b48531255d4ca0",
+   "using": "css selector",
+   "value": "html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#utilities.fb_notconnected div.m..."
+}
+
+[5.384][FINER]:     Waiting for all views to stop loading...
+[5.413][FINER]:     Done waiting for all views to stop loading
+[5.422][FINER]:     Waiting for all views to stop loading...
+[5.423][FINER]:     Done waiting for all views to stop loading
+[5.423][FINE]:      Command finished (/session/36741f4be2f165be24b48531255d4ca0/element) with response {
+   "sessionId": "36741f4be2f165be24b48531255d4ca0",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1338328470586"
+   }
+}
+
+[5.424][FINE]:      Command received (/session/36741f4be2f165be24b48531255d4ca0/element) with params {
+   "sessionId": "36741f4be2f165be24b48531255d4ca0",
+   "using": "css selector",
+   "value": "html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#utilities.fb_notconnected div.m..."
+}
+
+[5.424][FINER]:     Waiting for all views to stop loading...
+[5.425][FINER]:     Done waiting for all views to stop loading
+[15.442][FINER]:    Waiting for all views to stop loading...
+[15.442][FINER]:    Done waiting for all views to stop loading
+[15.442][WARNING]:  Command finished (/session/36741f4be2f165be24b48531255d4ca0/element) with response {
+   "sessionId": "36741f4be2f165be24b48531255d4ca0",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[15.461][FINE]:     Command received (/session/36741f4be2f165be24b48531255d4ca0)

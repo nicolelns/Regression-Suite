@@ -84,7 +84,7 @@ class Parser():
              	
         pickle.dump(feed_dict, open('../data/pickle/qa.celebritysplashfeed.data.p', 'wb'))
         
-       #########################################################################
+    #########################################################################
   
     def qa_celebrity_splash_lede(self):
     	   
@@ -138,7 +138,6 @@ class Parser():
     def image_rendition_tool(self):
     	    
     	image_dict = {}
-    	pass
     	
     	"""
     	for tag in self.spam('img'):
@@ -161,94 +160,6 @@ class Parser():
     	
        #########################################################################
     	
-    def feed(self):
-    	
-    	blog_feed_dict = {}
-    	n = 0
-    	
-    	for tag in self.spam('div', attrs={'class':"parbase newsfeed"}):
-    		
-    	    section = tag
-    	    d_img = None
-    	    m_img = None
-    	    link = None
-    	    t_img = None
-    	    comment = None
-    	    time = None
-    	    p = None
-    	    header = None
-    	    
-            for tag in section('article', attrs={'class':'entry'}):
-            
-                foo = tag
-                
-                for tag in foo('img', attrs={'class':'hidden imageDesktop'}):
-            
-                    try:
-                    	d_img = tag['src'] # d is for desktop
-		    
-		    except:
-			pass
-		
-                for tag in foo('img', attrs={'class':('hidden imageTablet')}):
-            
-                    try:
-		        t_img = tag['src'] # t is for tablet
-		    
-		    except:
-			pass
-		
-    		for tag in foo('img', attrs={'class':'hidden imageMobile'}):
-            
-                    try:
-		        m_img = tag['src'] # m is for mobile
-		    
-		    except:
-			pass
-		
-    		for tag in foo('li', attrs={'class':'listItem timestamp'}):
-            
-                    try:
-		        time = tag.string
-		    
-		    except:
-			pass
-			
-		for tag in foo('a', attrs={'class':'permalink'}):
-			
-		    try:
-		    	link = tag['href']
-		    
-		    except:
-			pass
-		
-                for tag in foo('li', attrs={'class':'listItem articleCommentCount'}):
-            	
-            	   try:
-	 	       comment = tag.string
-			    
-		   except:
-		       pass
-		       
-		for tag in foo('h3', attrs={'class':'permalinkWrap'}):
-            	
-            	   try:
-	 	       header = tag.string
-			    
-		   except:
-		       pass
-		       
-	        for tag in foo('p', attrs={'class':'articleText'}):
-	        	
-	            try:
-	            	p = tag.contents
-	            	
-	            except:
-	            	pass
-	            	  
-		blog_feed_dict[link] = (header, (d_img, t_img, m_img), comment, time, p)
-	            
-	return blog_feed_dict
    
        #########################################################################	    
     	    

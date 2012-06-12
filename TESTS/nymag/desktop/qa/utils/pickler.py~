@@ -30,7 +30,7 @@ for each in prod_nav_dictionary:
 
 pickle.dump(qa_nav_dictionary, open('../data/pickle/qa.newnavUrls.p', 'wb'))
 
-utility_nav_dict = {'http://nymag.com/':'New York Magazine -- NYC Guide to Restaurants, Fashion, Nightlife, Shopping, Politics, Movies', 'http://www.vulture.com/':'Vulture - Entertainment News - Celebrity News, TV Recaps, Movies, Music, Art, Books, Theater', 'http://newyork.grubstreet.com/':"Grub Street: New York Magazine's Food and Restaurant Blog", 'http://nymag.com/daily/fashion/':'The Cut -- Fashion Week, Models, Street Style, Red Carpet Dresses and Fashion News', 'http://nymag.com/daily/intel/':'Daily Intel -- New York News -- New York Magazine'}
+utility_nav_dict = {'http://nymag.com/':'New York Magazine -- NYC Guide to Restaurants, Fashion, Nightlife, Shopping, Politics, Movies', 'http://www.vulture.com/':'Vulture - Entertainment News - Celebrity News, TV Recaps, Movies, Music, Art, Books, Theater', 'http://newyork.grubstreet.com/':"Grub Street: New York Magazine's Food and Restaurant Blog", 'http://dev.nymag.biz/daily/fashion/':'The Cut -- Fashion Week, Models, Street Style, Red Carpet Dresses and Fashion News', 'http://dev.nymag.biz/daily/intel/':'Daily Intel -- New York News -- New York Magazine'}
 
 pickle.dump(utility_nav_dict, open('../data/pickle/qa.utilitynavUrls.p', 'wb'))
                 

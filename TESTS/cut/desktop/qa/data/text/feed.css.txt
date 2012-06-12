@@ -1,0 +1,5 @@
+html.js body#nymag.homepage div#wrap-wrap div#wrap div#content div.contentPrimary div.parbase section.module header h3.feedTitle
+html.js body#nymag.homepage div#wrap-wrap div#wrap div#content div.contentPrimary div.parbase section.module div.entryWrap article.entry section.entryContent header h3.permalinkWrap a.permalink
+html.js body#nymag.homepage div#wrap-wrap div#wrap div#content div.contentPrimary div.parbase section.module div.entryWrap article.entry section.entryContent header ul.entryList li.listItem
+html.js body#nymag.homepage div#wrap-wrap div#wrap div#content div.contentPrimary div.parbase section.module div.entryWrap article.entry section.entryContent p.articleText
+html.js body#nymag.homepage div#wrap-wrap div#wrap div#content div.contentPrimary div.parbase section.module div.readMoreContainer div.readMoreTabletWrap a p.readMore
