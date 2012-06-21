@@ -12,7 +12,6 @@ from selenium.webdriver.remote.webdriver import WebDriver as RemoteWebDriver
 from selenium.webdriver.remote.webelement import WebElement
 import unittest, time, re
 import subprocess
-import pickle
 import Logger
 
 reload(sys)

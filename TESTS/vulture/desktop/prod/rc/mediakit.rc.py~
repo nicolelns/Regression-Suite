@@ -3,17 +3,17 @@
 import unittest
 import time, datetime
 import re
-#import Logger			
-import vultureSoup
-from selenium import selenium   
+import Logger			# Logging module (for test results, outputs results to a .txt file)
+import vultureSoup		# BeautifulSoup page scraper collects relevant data from vulture.com
+from selenium import selenium   # Update to WebDriver 
 
-BASEURL = raw_input("Enter a BaseURL: ")
+BASEURL = 'http://www.vulture.com'
 BROWSERS = ('chrome', 'firefox', 'safari')
 TEST = "Media Kit Module - Desktop - Vulture Home"
 
 CSS = open('../data/text/mediakit.css.txt', 'r').readlines()
 
-#L = Logger.MainLogger(BASEURL, TEST)
+L = Logger.MainLogger(BASEURL, TEST)
 x = 0
 
 class MediaKit(unittest.TestCase):
@@ -36,6 +36,7 @@ class MediaKit(unittest.TestCase):
         test = "Test A - Presence of Elements via CSS"
         print test
         
+        
 	for each in CSS:
 
 	    c = CSS[n].strip('\n') 
@@ -46,7 +47,11 @@ class MediaKit(unittest.TestCase):
             except AssertionError, e:
             	print "FAILURE " + c
             	self.verificationErrors.append(str(e))
+                L.log(BROWSERS[x], TEST, "FAIL, ELEMENT NOT FOUND", c, exception=str(e))
             
+            else:
+                L.log(BROWSERS[x], TEST, "PASS, ELEMENT FOUND", c)
+                
             self.click_test(n)
                 
             n += 1

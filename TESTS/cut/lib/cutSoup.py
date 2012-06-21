@@ -5,11 +5,10 @@ import re
 import httplib
 import urllib
 import urlparse
-import pickle
 import string
 import time
 import json
-from bs4 import BeautifulSoup
+from bs4 import *
 
 """ 
 THE CUT BeautifulSoup module
@@ -82,7 +81,7 @@ class Parser():
         	    
                     feed_dict[link] = (image, detail_values[0], detail_values[1], detail_values[2], detail_values[3])
              	
-        pickle.dump(feed_dict, open('../data/pickle/qa.celebritysplashfeed.data.p', 'wb'))
+        return feed_dict
         
        #########################################################################
   
@@ -131,7 +130,7 @@ class Parser():
 	    
 	                lede_dict[link] = (img_list, detail_values[0], detail_values[1], detail_values[2], detail_values[3])
         
-        pickle.dump(lede_dict, open('../data/pickle/qa.celebritysplashlede.data.p', 'wb'))  
+        return lede_dict
             	    
        #########################################################################	
     
@@ -169,6 +168,7 @@ class Parser():
     	for tag in self.spam('div', attrs={'class':"parbase newsfeed"}):
     		
     	    section = tag
+    	    hidden = None
     	    d_img = None
     	    m_img = None
     	    link = None
@@ -181,8 +181,25 @@ class Parser():
             for tag in section('article', attrs={'class':'entry'}):
             
                 foo = tag
+                perm = tag['data-permalink']
                 
-                for tag in foo('img', attrs={'class':'hidden imageDesktop'}):
+                """
+                for tag in foo('section', attrs={'class':re.compile(r'.^imageHidden\b')}):
+                	
+                    hidden = 0
+                    print "HIDE"
+                    
+                for tag in foo('section', attrs={'class':'entryContent'}):
+                    
+                    print tag, "TAG"
+                    if re.search('imageShown', str(tag), re.I):
+                    
+                        hidden = 1
+                        print "SHOW"
+                        
+                """
+                
+                for tag in foo('img', attrs={'class':'imageDesktop'}):
             
                     try:
                     	d_img = tag['src'] # d is for desktop
@@ -190,7 +207,7 @@ class Parser():
 		    except:
 			pass
 		
-                for tag in foo('img', attrs={'class':('hidden imageTablet')}):
+                for tag in foo('img', attrs={'class':('imageTablet')}):
             
                     try:
 		        t_img = tag['src'] # t is for tablet
@@ -198,7 +215,7 @@ class Parser():
 		    except:
 			pass
 		
-    		for tag in foo('img', attrs={'class':'hidden imageMobile'}):
+    		for tag in foo('img', attrs={'class':'imageMobile'}):
             
                     try:
 		        m_img = tag['src'] # m is for mobile
@@ -226,7 +243,7 @@ class Parser():
             	
             	   try:
 	 	       comment = tag.string
-			    
+				    
 		   except:
 		       pass
 		       
@@ -245,17 +262,82 @@ class Parser():
 	            	
 	            except:
 	            	pass
-	            	  
-		blog_feed_dict[link] = (header, (d_img, t_img, m_img), comment, time, p)
-	            
+	        
+		n += 1    	  
+		blog_feed_dict[link] = (header, (d_img, t_img, m_img), comment, time, p, perm, n)
+	           
 	return blog_feed_dict
    
        #########################################################################	    
     	    
+    def ads(self):
+    	    
+    	var = "class=re.compile('lead.*')"
+    	    
+    	for tag in self.spam('iframe'):
+    		
+    	    print tag.contents
+    	    print "TAG"
+    	    
+    	print "ADS"
+    	
+       #########################################################################
+    	
+    def giantimage(self):
+    	    
+    	image_dict = {}
+    	
+    	for tag in self.spam():
+    		
+    	    try:
+    	    	pass
+    	    except:
+    	    	pass
+    	    #image_dict[] = ()  
+    	    	    
+    	return image_dict
             
+       #########################################################################
+       
+    def interview(self):
+   	   
+        interview_dict = {}
+        img = None
+        text = None
+        permalink = None
+        silo = None
+       
+        for tag in self.spam('div', attrs={'class':'parbase interview section'}):
+        	
+            foo = tag
+       	       
+       	    #for tag in self.spam('a', attrs={'class':'contentTextWrap'}):
+       	   	   
+       	        #text= tag['href']
+       	        
+       	        #text = t.replace('/daily/fashion/', '/thecut/')
+       	       
+       	    for tag in self.spam('img', attrs={'class':'interviewImage'}):
+       	    	    
+       	    	img = tag['src']
+       	    	silo = tag['data-silo']
+       	    	permalink = tag.find_parent('a')['href']
+       	    	
+       	    	#img = i.replace('/daily/fashion/', '/thecut/')
+       	    	#permalink = p.replace('/daily/fashion/', '/thecut/')
+       	    	
+       	    for tag in foo('p', attrs={'class':'contentHeader'}):
+       	    	    
+       	    	text = tag.string
+       	    	
+       	    interview_dict[permalink] = img, text, silo, permalink
+       	    
+       	return interview_dict
     	  
 #############################################################################
 #############################################################################
     
 if __name__ == "__main__":
-    main()
+    #main()
+    S = Parser('http://ec2.qa.nymetro.com/thecut/')
+    S.feed()

@@ -1,0 +1,4 @@
+html.js body#nymag.homepage div#wrap-wrap div#wrap div#content div.contentSecondary div.par div.parbase section.module
+html.js body#nymag.homepage div#wrap-wrap div#wrap div#content div.contentSecondary div.par div.parbase section.module header.header a h3.hed
+html.js body#nymag.homepage div#wrap-wrap div#wrap div#content div.contentSecondary div.par div.parbase section.module div.content a img.interviewImage
+html.js body#nymag.homepage div#wrap-wrap div#wrap div#content div.contentSecondary div.par div.parbase section.module div.content a.contentTextWrap p.contentHeader

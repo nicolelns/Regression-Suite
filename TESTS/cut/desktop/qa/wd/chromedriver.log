@@ -1,5 +1,5 @@
 [0.000][INFO]:      ChromeDriver 19.0.1068.0 /Library/Python/2.7/site-packages/chromedriver
-[0.982][FINE]:      Initializing session with capabilities {
+[0.980][FINE]:      Initializing session with capabilities {
    "browserName": "chrome",
    "chrome.switches": [  ],
    "chromeOptions": {
@@ -12,11 +12,11 @@
    "version": ""
 }
 
-[0.982][INFO]:      Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --ignore-certificate-errors --homepage=about:blank
-[1.303][INFO]:      Connected to Chrome successfully. Version: 17.0.963.56
-[1.334][FINE]:      Command received (/session/18fcb2548741ff34c90764667f4e604c)
-[1.334][FINE]:      Command finished (/session/18fcb2548741ff34c90764667f4e604c) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
+[0.981][INFO]:      Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --ignore-certificate-errors --homepage=about:blank
+[1.299][INFO]:      Connected to Chrome successfully. Version: 17.0.963.56
+[1.302][FINE]:      Command received (/session/13fa0bb62c4a236f3e9243911c1f818a)
+[1.302][FINE]:      Command finished (/session/13fa0bb62c4a236f3e9243911c1f818a) with response {
+   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a",
    "status": 0,
    "value": {
       "acceptSslCerts": false,
@@ -39,1033 +39,235 @@
    }
 }
 
-[1.342][FINE]:      Command received (/session/18fcb2548741ff34c90764667f4e604c/timeouts/implicit_wait) with params {
+[1.310][FINE]:      Command received (/session/13fa0bb62c4a236f3e9243911c1f818a/timeouts/implicit_wait) with params {
    "ms": 10000.0,
-   "sessionId": "18fcb2548741ff34c90764667f4e604c"
+   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a"
 }
 
-[1.342][FINER]:     Waiting for all views to stop loading...
-[1.343][FINER]:     Done waiting for all views to stop loading
-[1.343][FINER]:     Waiting for all views to stop loading...
-[1.343][FINER]:     Done waiting for all views to stop loading
-[1.343][FINE]:      Command finished (/session/18fcb2548741ff34c90764667f4e604c/timeouts/implicit_wait) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
+[1.310][FINER]:     Waiting for all views to stop loading...
+[1.313][FINER]:     Done waiting for all views to stop loading
+[1.313][FINER]:     Waiting for all views to stop loading...
+[1.329][FINER]:     Done waiting for all views to stop loading
+[1.329][FINE]:      Command finished (/session/13fa0bb62c4a236f3e9243911c1f818a/timeouts/implicit_wait) with response {
+   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a",
    "status": 0,
    "value": {
 
    }
 }
 
-[1.345][FINE]:      Command received (/session/18fcb2548741ff34c90764667f4e604c/url) with params {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
+[1.331][FINE]:      Command received (/session/13fa0bb62c4a236f3e9243911c1f818a/url) with params {
+   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a",
    "url": "http://ec2.qa.nymetro.com/thecut/"
 }
 
-[1.345][FINER]:     Waiting for all views to stop loading...
-[1.345][FINER]:     Done waiting for all views to stop loading
-[4.519][FINER]:     Waiting for all views to stop loading...
-[4.519][FINER]:     Done waiting for all views to stop loading
-[4.519][FINE]:      Command finished (/session/18fcb2548741ff34c90764667f4e604c/url) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
+[1.331][FINER]:     Waiting for all views to stop loading...
+[1.331][FINER]:     Done waiting for all views to stop loading
+[3.318][FINER]:     Waiting for all views to stop loading...
+[3.625][FINER]:     Done waiting for all views to stop loading
+[3.625][FINE]:      Command finished (/session/13fa0bb62c4a236f3e9243911c1f818a/url) with response {
+   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a",
    "status": 0,
    "value": {
 
    }
 }
 
-[4.521][FINE]:      Command received (/session/18fcb2548741ff34c90764667f4e604c/elements) with params {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "using": "class name",
-   "value": "articleCommentCount"
+[3.627][FINE]:      Command received (/session/13fa0bb62c4a236f3e9243911c1f818a/element) with params {
+   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a",
+   "using": "css selector",
+   "value": "html.js body#nymag.homepage div#wrap-wrap div#wrap div#content div.contentSecondary div.par div.p..."
 }
 
-[4.521][FINER]:     Waiting for all views to stop loading...
-[4.521][FINER]:     Done waiting for all views to stop loading
-[4.562][FINER]:     Waiting for all views to stop loading...
-[4.815][FINER]:     Done waiting for all views to stop loading
-[4.815][FINE]:      Command finished (/session/18fcb2548741ff34c90764667f4e604c/elements) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
+[3.627][FINER]:     Waiting for all views to stop loading...
+[3.627][FINER]:     Done waiting for all views to stop loading
+[3.638][FINER]:     Waiting for all views to stop loading...
+[3.638][FINER]:     Done waiting for all views to stop loading
+[3.638][FINE]:      Command finished (/session/13fa0bb62c4a236f3e9243911c1f818a/element) with response {
+   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a",
    "status": 0,
-   "value": [ {
-      "ELEMENT": ":wdc:1339515947795"
-   }, {
-      "ELEMENT": ":wdc:1339515947796"
-   }, {
-      "ELEMENT": ":wdc:1339515947797"
-   }, {
-      "ELEMENT": ":wdc:1339515947798"
-   }, {
-      "ELEMENT": ":wdc:1339515947799"
-   }, {
-      "ELEMENT": ":wdc:1339515947800"
-   }, {
-      "ELEMENT": ":wdc:1339515947801"
-   }, {
-      "ELEMENT": ":wdc:1339515947802"
-   }, {
-      "ELEMENT": ":wdc:1339515947803"
-   }, {
-      "ELEMENT": ":wdc:1339515947804"
-   }, {
-      "ELEMENT": ":wdc:1339515947805"
-   }, {
-      "ELEMENT": ":wdc:1339515947806"
-   }, {
-      "ELEMENT": ":wdc:1339515947807"
-   }, {
-      "ELEMENT": ":wdc:1339515947808"
-   }, {
-      "ELEMENT": ":wdc:1339515947809"
-   } ]
+   "value": {
+      "ELEMENT": ":wdc:1340305355031"
+   }
 }
 
-[4.817][FINE]:      Command received (/session/18fcb2548741ff34c90764667f4e604c/elements) with params {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "using": "class name",
-   "value": "permalinkWrap"
+[3.640][FINE]:      Command received (/session/13fa0bb62c4a236f3e9243911c1f818a/element) with params {
+   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a",
+   "using": "css selector",
+   "value": "html.js body#nymag.homepage div#wrap-wrap div#wrap div#content div.contentSecondary div.par div.p..."
 }
 
-[4.817][FINER]:     Waiting for all views to stop loading...
-[4.817][FINER]:     Done waiting for all views to stop loading
-[4.847][FINER]:     Waiting for all views to stop loading...
-[4.847][FINER]:     Done waiting for all views to stop loading
-[4.847][FINE]:      Command finished (/session/18fcb2548741ff34c90764667f4e604c/elements) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
+[3.641][FINER]:     Waiting for all views to stop loading...
+[3.641][FINER]:     Done waiting for all views to stop loading
+[3.652][FINER]:     Waiting for all views to stop loading...
+[3.653][FINER]:     Done waiting for all views to stop loading
+[3.653][FINE]:      Command finished (/session/13fa0bb62c4a236f3e9243911c1f818a/element) with response {
+   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a",
    "status": 0,
-   "value": [ {
-      "ELEMENT": ":wdc:1339515947810"
-   }, {
-      "ELEMENT": ":wdc:1339515947811"
-   }, {
-      "ELEMENT": ":wdc:1339515947812"
-   }, {
-      "ELEMENT": ":wdc:1339515947813"
-   }, {
-      "ELEMENT": ":wdc:1339515947814"
-   }, {
-      "ELEMENT": ":wdc:1339515947815"
-   }, {
-      "ELEMENT": ":wdc:1339515947816"
-   }, {
-      "ELEMENT": ":wdc:1339515947817"
-   }, {
-      "ELEMENT": ":wdc:1339515947818"
-   }, {
-      "ELEMENT": ":wdc:1339515947819"
-   }, {
-      "ELEMENT": ":wdc:1339515947820"
-   }, {
-      "ELEMENT": ":wdc:1339515947821"
-   }, {
-      "ELEMENT": ":wdc:1339515947822"
-   }, {
-      "ELEMENT": ":wdc:1339515947823"
-   }, {
-      "ELEMENT": ":wdc:1339515947824"
-   } ]
+   "value": {
+      "ELEMENT": ":wdc:1340305355032"
+   }
 }
 
-[4.849][FINE]:      Command received (/session/18fcb2548741ff34c90764667f4e604c/elements) with params {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "using": "class name",
-   "value": "articleText"
+[3.654][FINE]:      Command received (/session/13fa0bb62c4a236f3e9243911c1f818a/element) with params {
+   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a",
+   "using": "css selector",
+   "value": "html.js body#nymag.homepage div#wrap-wrap div#wrap div#content div.contentSecondary div.par div.p..."
 }
 
-[4.849][FINER]:     Waiting for all views to stop loading...
-[4.849][FINER]:     Done waiting for all views to stop loading
-[4.862][FINER]:     Waiting for all views to stop loading...
-[4.862][FINER]:     Done waiting for all views to stop loading
-[4.862][FINE]:      Command finished (/session/18fcb2548741ff34c90764667f4e604c/elements) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
+[3.654][FINER]:     Waiting for all views to stop loading...
+[3.654][FINER]:     Done waiting for all views to stop loading
+[3.665][FINER]:     Waiting for all views to stop loading...
+[3.666][FINER]:     Done waiting for all views to stop loading
+[3.666][FINE]:      Command finished (/session/13fa0bb62c4a236f3e9243911c1f818a/element) with response {
+   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a",
    "status": 0,
-   "value": [ {
-      "ELEMENT": ":wdc:1339515947825"
-   }, {
-      "ELEMENT": ":wdc:1339515947826"
-   }, {
-      "ELEMENT": ":wdc:1339515947827"
-   }, {
-      "ELEMENT": ":wdc:1339515947828"
-   }, {
-      "ELEMENT": ":wdc:1339515947829"
-   }, {
-      "ELEMENT": ":wdc:1339515947830"
-   }, {
-      "ELEMENT": ":wdc:1339515947831"
-   }, {
-      "ELEMENT": ":wdc:1339515947832"
-   }, {
-      "ELEMENT": ":wdc:1339515947833"
-   }, {
-      "ELEMENT": ":wdc:1339515947834"
-   }, {
-      "ELEMENT": ":wdc:1339515947835"
-   }, {
-      "ELEMENT": ":wdc:1339515947836"
-   }, {
-      "ELEMENT": ":wdc:1339515947837"
-   }, {
-      "ELEMENT": ":wdc:1339515947838"
-   }, {
-      "ELEMENT": ":wdc:1339515947839"
-   } ]
+   "value": {
+      "ELEMENT": ":wdc:1340305355033"
+   }
 }
 
-[4.864][FINE]:      Command received (/session/18fcb2548741ff34c90764667f4e604c/elements) with params {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "using": "class name",
-   "value": "timestamp"
+[3.667][FINE]:      Command received (/session/13fa0bb62c4a236f3e9243911c1f818a/element) with params {
+   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a",
+   "using": "css selector",
+   "value": "html.js body#nymag.homepage div#wrap-wrap div#wrap div#content div.contentSecondary div.par div.p..."
 }
 
-[4.864][FINER]:     Waiting for all views to stop loading...
-[4.865][FINER]:     Done waiting for all views to stop loading
-[4.876][FINER]:     Waiting for all views to stop loading...
-[4.877][FINER]:     Done waiting for all views to stop loading
-[4.877][FINE]:      Command finished (/session/18fcb2548741ff34c90764667f4e604c/elements) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
+[3.667][FINER]:     Waiting for all views to stop loading...
+[3.668][FINER]:     Done waiting for all views to stop loading
+[3.678][FINER]:     Waiting for all views to stop loading...
+[3.678][FINER]:     Done waiting for all views to stop loading
+[3.678][FINE]:      Command finished (/session/13fa0bb62c4a236f3e9243911c1f818a/element) with response {
+   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a",
    "status": 0,
-   "value": [ {
-      "ELEMENT": ":wdc:1339515947840"
-   }, {
-      "ELEMENT": ":wdc:1339515947841"
-   }, {
-      "ELEMENT": ":wdc:1339515947842"
-   }, {
-      "ELEMENT": ":wdc:1339515947843"
-   }, {
-      "ELEMENT": ":wdc:1339515947844"
-   }, {
-      "ELEMENT": ":wdc:1339515947845"
-   }, {
-      "ELEMENT": ":wdc:1339515947846"
-   }, {
-      "ELEMENT": ":wdc:1339515947847"
-   }, {
-      "ELEMENT": ":wdc:1339515947848"
-   }, {
-      "ELEMENT": ":wdc:1339515947849"
-   }, {
-      "ELEMENT": ":wdc:1339515947850"
-   }, {
-      "ELEMENT": ":wdc:1339515947851"
-   }, {
-      "ELEMENT": ":wdc:1339515947852"
-   }, {
-      "ELEMENT": ":wdc:1339515947853"
-   }, {
-      "ELEMENT": ":wdc:1339515947854"
-   } ]
+   "value": {
+      "ELEMENT": ":wdc:1340305355034"
+   }
 }
 
-[4.878][FINE]:      Command received (/session/18fcb2548741ff34c90764667f4e604c/elements) with params {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "using": "class name",
-   "value": "permalink"
-}
-
-[4.878][FINER]:     Waiting for all views to stop loading...
-[4.879][FINER]:     Done waiting for all views to stop loading
-[4.888][FINER]:     Waiting for all views to stop loading...
-[4.888][FINER]:     Done waiting for all views to stop loading
-[4.888][FINE]:      Command finished (/session/18fcb2548741ff34c90764667f4e604c/elements) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "status": 0,
-   "value": [ {
-      "ELEMENT": ":wdc:1339515947855"
-   }, {
-      "ELEMENT": ":wdc:1339515947856"
-   }, {
-      "ELEMENT": ":wdc:1339515947857"
-   }, {
-      "ELEMENT": ":wdc:1339515947858"
-   }, {
-      "ELEMENT": ":wdc:1339515947859"
-   }, {
-      "ELEMENT": ":wdc:1339515947860"
-   }, {
-      "ELEMENT": ":wdc:1339515947861"
-   }, {
-      "ELEMENT": ":wdc:1339515947862"
-   }, {
-      "ELEMENT": ":wdc:1339515947863"
-   }, {
-      "ELEMENT": ":wdc:1339515947864"
-   }, {
-      "ELEMENT": ":wdc:1339515947865"
-   }, {
-      "ELEMENT": ":wdc:1339515947866"
-   }, {
-      "ELEMENT": ":wdc:1339515947867"
-   }, {
-      "ELEMENT": ":wdc:1339515947868"
-   }, {
-      "ELEMENT": ":wdc:1339515947869"
-   } ]
-}
-
-[4.890][FINE]:      Command received (/session/18fcb2548741ff34c90764667f4e604c/element) with params {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
+[3.680][FINE]:      Command received (/session/13fa0bb62c4a236f3e9243911c1f818a/element) with params {
+   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a",
    "using": "xpath",
-   "value": "//a[@class='permalink'][@href='http://ec2.qa.nymetro.com/daily/fashion/2012/06/julia-restoin-roit..."
+   "value": "//a[@class='contentTextWrap'][@href='http://ec2.qa.nymetro.com/daily/fashion/2012/06/exclusive-qa..."
 }
 
-[4.890][FINER]:     Waiting for all views to stop loading...
-[4.890][FINER]:     Done waiting for all views to stop loading
-[4.900][FINER]:     Waiting for all views to stop loading...
-[4.900][FINER]:     Done waiting for all views to stop loading
-[4.900][FINE]:      Command finished (/session/18fcb2548741ff34c90764667f4e604c/element) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
+[3.680][FINER]:     Waiting for all views to stop loading...
+[3.680][FINER]:     Done waiting for all views to stop loading
+[3.725][FINER]:     Waiting for all views to stop loading...
+[3.725][FINER]:     Done waiting for all views to stop loading
+[3.725][FINE]:      Command finished (/session/13fa0bb62c4a236f3e9243911c1f818a/element) with response {
+   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a",
    "status": 0,
    "value": {
-      "ELEMENT": ":wdc:1339515947868"
+      "ELEMENT": ":wdc:1340305355035"
    }
 }
 
-[4.902][FINE]:      Command received (/session/18fcb2548741ff34c90764667f4e604c/element/:wdc:1339515947868/click) with params {
-   "id": ":wdc:1339515947868",
-   "sessionId": "18fcb2548741ff34c90764667f4e604c"
+[3.727][FINE]:      Command received (/session/13fa0bb62c4a236f3e9243911c1f818a/element/:wdc:1340305355035/click) with params {
+   "id": ":wdc:1340305355035",
+   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a"
 }
 
-[4.902][FINER]:     Waiting for all views to stop loading...
-[4.902][FINER]:     Done waiting for all views to stop loading
-[4.961][FINER]:     Waiting for all views to stop loading...
-[6.170][FINER]:     Done waiting for all views to stop loading
-[6.170][FINE]:      Command finished (/session/18fcb2548741ff34c90764667f4e604c/element/:wdc:1339515947868/click) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[6.172][FINE]:      Command received (/session/18fcb2548741ff34c90764667f4e604c/back) with params {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c"
-}
-
-[6.172][FINER]:     Waiting for all views to stop loading...
-[6.189][FINER]:     Done waiting for all views to stop loading
-[7.192][FINER]:     Waiting for all views to stop loading...
-[7.195][FINER]:     Done waiting for all views to stop loading
-[7.195][FINE]:      Command finished (/session/18fcb2548741ff34c90764667f4e604c/back) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
+[3.727][FINER]:     Waiting for all views to stop loading...
+[3.727][FINER]:     Done waiting for all views to stop loading
+[3.800][WARNING]:   Element's descendant would receive the click. Consider clicking the descendant instead. Descendant: <p class="contentHeader">...</p>
+[3.813][FINER]:     Waiting for all views to stop loading...
+[5.808][FINER]:     Done waiting for all views to stop loading
+[5.808][FINE]:      Command finished (/session/13fa0bb62c4a236f3e9243911c1f818a/element/:wdc:1340305355035/click) with response {
+   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a",
    "status": 0,
    "value": {
 
    }
 }
 
-[7.197][FINE]:      Command received (/session/18fcb2548741ff34c90764667f4e604c/element) with params {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
+[5.810][FINE]:      Command received (/session/13fa0bb62c4a236f3e9243911c1f818a/title)
+[5.810][FINER]:     Waiting for all views to stop loading...
+[5.818][FINER]:     Done waiting for all views to stop loading
+[5.822][FINER]:     Waiting for all views to stop loading...
+[5.822][FINER]:     Done waiting for all views to stop loading
+[5.822][FINE]:      Command finished (/session/13fa0bb62c4a236f3e9243911c1f818a/title) with response {
+   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a",
+   "status": 0,
+   "value": "Exclusive Q&A: Bar Refaeli, Winner of Maxim\u2019s Hot 100 Contest -- The Cut"
+}
+
+[5.825][FINE]:      Command received (/session/13fa0bb62c4a236f3e9243911c1f818a/back) with params {
+   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a"
+}
+
+[5.825][FINER]:     Waiting for all views to stop loading...
+[5.825][FINER]:     Done waiting for all views to stop loading
+[6.760][FINER]:     Waiting for all views to stop loading...
+[7.133][FINER]:     Done waiting for all views to stop loading
+[7.133][FINE]:      Command finished (/session/13fa0bb62c4a236f3e9243911c1f818a/back) with response {
+   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[7.135][FINE]:      Command received (/session/13fa0bb62c4a236f3e9243911c1f818a/element) with params {
+   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a",
    "using": "xpath",
-   "value": "//a[@class='permalink'][@href='http://ec2.qa.nymetro.com/daily/fashion/2012/06/miss-usa-contestan..."
+   "value": "//img[@src='http://pixel.ec2-qa.nymetro.com/imgs/fashion/daily/06/20/20-bar-refaeli.o.jpg/a_2x-sq..."
 }
 
-[7.197][FINER]:     Waiting for all views to stop loading...
-[7.197][FINER]:     Done waiting for all views to stop loading
-[7.230][FINER]:     Waiting for all views to stop loading...
-[7.489][FINER]:     Done waiting for all views to stop loading
-[7.489][FINE]:      Command finished (/session/18fcb2548741ff34c90764667f4e604c/element) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
+[7.135][FINER]:     Waiting for all views to stop loading...
+[7.137][FINER]:     Done waiting for all views to stop loading
+[7.153][FINER]:     Waiting for all views to stop loading...
+[7.153][FINER]:     Done waiting for all views to stop loading
+[7.153][FINE]:      Command finished (/session/13fa0bb62c4a236f3e9243911c1f818a/element) with response {
+   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a",
    "status": 0,
    "value": {
-      "ELEMENT": ":wdc:1339515950465"
+      "ELEMENT": ":wdc:1340305358546"
    }
 }
 
-[7.491][FINE]:      Command received (/session/18fcb2548741ff34c90764667f4e604c/element/:wdc:1339515950465/click) with params {
-   "id": ":wdc:1339515950465",
-   "sessionId": "18fcb2548741ff34c90764667f4e604c"
+[7.155][FINE]:      Command received (/session/13fa0bb62c4a236f3e9243911c1f818a/element/:wdc:1340305358546/click) with params {
+   "id": ":wdc:1340305358546",
+   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a"
 }
 
-[7.491][FINER]:     Waiting for all views to stop loading...
-[7.492][FINER]:     Done waiting for all views to stop loading
-[7.593][FINER]:     Waiting for all views to stop loading...
-[8.498][FINER]:     Done waiting for all views to stop loading
-[8.498][FINE]:      Command finished (/session/18fcb2548741ff34c90764667f4e604c/element/:wdc:1339515950465/click) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[8.500][FINE]:      Command received (/session/18fcb2548741ff34c90764667f4e604c/back) with params {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c"
-}
-
-[8.500][FINER]:     Waiting for all views to stop loading...
-[8.501][FINER]:     Done waiting for all views to stop loading
-[8.600][FINER]:     Waiting for all views to stop loading...
-[9.722][FINER]:     Done waiting for all views to stop loading
-[9.722][FINE]:      Command finished (/session/18fcb2548741ff34c90764667f4e604c/back) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
+[7.155][FINER]:     Waiting for all views to stop loading...
+[7.155][FINER]:     Done waiting for all views to stop loading
+[7.258][FINER]:     Waiting for all views to stop loading...
+[8.764][FINER]:     Done waiting for all views to stop loading
+[8.764][FINE]:      Command finished (/session/13fa0bb62c4a236f3e9243911c1f818a/element/:wdc:1340305358546/click) with response {
+   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a",
    "status": 0,
    "value": {
 
    }
 }
 
-[9.724][FINE]:      Command received (/session/18fcb2548741ff34c90764667f4e604c/element) with params {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "using": "xpath",
-   "value": "//a[@class='permalink'][@href='http://ec2.qa.nymetro.com/daily/fashion/2012/04/walk-the-runway-wi..."
-}
-
-[9.724][FINER]:     Waiting for all views to stop loading...
-[9.732][FINER]:     Done waiting for all views to stop loading
-[9.759][FINER]:     Waiting for all views to stop loading...
-[9.760][FINER]:     Done waiting for all views to stop loading
-[9.760][FINE]:      Command finished (/session/18fcb2548741ff34c90764667f4e604c/element) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
+[8.766][FINE]:      Command received (/session/13fa0bb62c4a236f3e9243911c1f818a/url)
+[8.766][FINER]:     Waiting for all views to stop loading...
+[8.767][FINER]:     Done waiting for all views to stop loading
+[8.783][FINER]:     Waiting for all views to stop loading...
+[9.097][FINER]:     Done waiting for all views to stop loading
+[9.097][FINE]:      Command finished (/session/13fa0bb62c4a236f3e9243911c1f818a/url) with response {
+   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a",
    "status": 0,
-   "value": {
-      "ELEMENT": ":wdc:1339515952993"
-   }
+   "value": "http://ec2.qa.nymetro.com/thecut/2012/06/exclusive-qa-bar-refaeli-maxims-hot-100.html"
 }
 
-[9.762][FINE]:      Command received (/session/18fcb2548741ff34c90764667f4e604c/element/:wdc:1339515952993/click) with params {
-   "id": ":wdc:1339515952993",
-   "sessionId": "18fcb2548741ff34c90764667f4e604c"
+[9.101][FINE]:      Command received (/session/13fa0bb62c4a236f3e9243911c1f818a/back) with params {
+   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a"
 }
 
-[9.762][FINER]:     Waiting for all views to stop loading...
-[9.763][FINER]:     Done waiting for all views to stop loading
-[9.874][FINER]:     Waiting for all views to stop loading...
-[11.065][FINER]:    Done waiting for all views to stop loading
-[11.065][FINE]:     Command finished (/session/18fcb2548741ff34c90764667f4e604c/element/:wdc:1339515952993/click) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
+[9.101][FINER]:     Waiting for all views to stop loading...
+[9.108][FINER]:     Done waiting for all views to stop loading
+[9.968][FINER]:     Waiting for all views to stop loading...
+[9.969][FINER]:     Done waiting for all views to stop loading
+[9.969][FINE]:      Command finished (/session/13fa0bb62c4a236f3e9243911c1f818a/back) with response {
+   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a",
    "status": 0,
    "value": {
 
    }
 }
 
-[11.067][FINE]:     Command received (/session/18fcb2548741ff34c90764667f4e604c/back) with params {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c"
-}
-
-[11.067][FINER]:    Waiting for all views to stop loading...
-[11.067][FINER]:    Done waiting for all views to stop loading
-[12.677][FINER]:    Waiting for all views to stop loading...
-[12.678][FINER]:    Done waiting for all views to stop loading
-[12.678][FINE]:     Command finished (/session/18fcb2548741ff34c90764667f4e604c/back) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[12.679][FINE]:     Command received (/session/18fcb2548741ff34c90764667f4e604c/element) with params {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "using": "xpath",
-   "value": "//a[@class='permalink'][@href='http://ec2.qa.nymetro.com/daily/fashion/2012/06/amanda-brookss-dog..."
-}
-
-[12.679][FINER]:    Waiting for all views to stop loading...
-[12.680][FINER]:    Done waiting for all views to stop loading
-[12.700][FINER]:    Waiting for all views to stop loading...
-[12.701][FINER]:    Done waiting for all views to stop loading
-[12.701][FINE]:     Command finished (/session/18fcb2548741ff34c90764667f4e604c/element) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "status": 0,
-   "value": {
-      "ELEMENT": ":wdc:1339515955935"
-   }
-}
-
-[12.702][FINE]:     Command received (/session/18fcb2548741ff34c90764667f4e604c/element/:wdc:1339515955935/click) with params {
-   "id": ":wdc:1339515955935",
-   "sessionId": "18fcb2548741ff34c90764667f4e604c"
-}
-
-[12.702][FINER]:    Waiting for all views to stop loading...
-[12.703][FINER]:    Done waiting for all views to stop loading
-[12.760][FINER]:    Waiting for all views to stop loading...
-[13.964][FINER]:    Done waiting for all views to stop loading
-[13.964][FINE]:     Command finished (/session/18fcb2548741ff34c90764667f4e604c/element/:wdc:1339515955935/click) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[13.966][FINE]:     Command received (/session/18fcb2548741ff34c90764667f4e604c/back) with params {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c"
-}
-
-[13.966][FINER]:    Waiting for all views to stop loading...
-[13.966][FINER]:    Done waiting for all views to stop loading
-[14.712][FINER]:    Waiting for all views to stop loading...
-[14.715][FINER]:    Done waiting for all views to stop loading
-[14.715][FINE]:     Command finished (/session/18fcb2548741ff34c90764667f4e604c/back) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[14.719][FINE]:     Command received (/session/18fcb2548741ff34c90764667f4e604c/element) with params {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "using": "xpath",
-   "value": "//a[@class='permalink'][@href='http://ec2.qa.nymetro.com/daily/fashion/2012/06/best-bet-benefit-u..."
-}
-
-[14.719][FINER]:    Waiting for all views to stop loading...
-[15.317][FINER]:    Done waiting for all views to stop loading
-[15.329][FINER]:    Waiting for all views to stop loading...
-[15.329][FINER]:    Done waiting for all views to stop loading
-[15.329][FINE]:     Command finished (/session/18fcb2548741ff34c90764667f4e604c/element) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "status": 0,
-   "value": {
-      "ELEMENT": ":wdc:1339515958563"
-   }
-}
-
-[15.331][FINE]:     Command received (/session/18fcb2548741ff34c90764667f4e604c/element/:wdc:1339515958563/click) with params {
-   "id": ":wdc:1339515958563",
-   "sessionId": "18fcb2548741ff34c90764667f4e604c"
-}
-
-[15.331][FINER]:    Waiting for all views to stop loading...
-[15.331][FINER]:    Done waiting for all views to stop loading
-[15.437][FINER]:    Waiting for all views to stop loading...
-[16.347][FINER]:    Done waiting for all views to stop loading
-[16.347][FINE]:     Command finished (/session/18fcb2548741ff34c90764667f4e604c/element/:wdc:1339515958563/click) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[16.348][FINE]:     Command received (/session/18fcb2548741ff34c90764667f4e604c/back) with params {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c"
-}
-
-[16.348][FINER]:    Waiting for all views to stop loading...
-[16.349][FINER]:    Done waiting for all views to stop loading
-[16.421][FINER]:    Waiting for all views to stop loading...
-[17.594][FINER]:    Done waiting for all views to stop loading
-[17.594][FINE]:     Command finished (/session/18fcb2548741ff34c90764667f4e604c/back) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[17.595][FINE]:     Command received (/session/18fcb2548741ff34c90764667f4e604c/element) with params {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "using": "xpath",
-   "value": "//a[@class='permalink'][@href='http://ec2.qa.nymetro.com/daily/fashion/2012/06/slideshow-the-week..."
-}
-
-[17.595][FINER]:    Waiting for all views to stop loading...
-[17.598][FINER]:    Done waiting for all views to stop loading
-[17.621][FINER]:    Waiting for all views to stop loading...
-[17.621][FINER]:    Done waiting for all views to stop loading
-[17.621][FINE]:     Command finished (/session/18fcb2548741ff34c90764667f4e604c/element) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "status": 0,
-   "value": {
-      "ELEMENT": ":wdc:1339515960856"
-   }
-}
-
-[17.623][FINE]:     Command received (/session/18fcb2548741ff34c90764667f4e604c/element/:wdc:1339515960856/click) with params {
-   "id": ":wdc:1339515960856",
-   "sessionId": "18fcb2548741ff34c90764667f4e604c"
-}
-
-[17.623][FINER]:    Waiting for all views to stop loading...
-[17.624][FINER]:    Done waiting for all views to stop loading
-[17.729][FINER]:    Waiting for all views to stop loading...
-[19.775][FINER]:    Done waiting for all views to stop loading
-[19.775][FINE]:     Command finished (/session/18fcb2548741ff34c90764667f4e604c/element/:wdc:1339515960856/click) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[19.777][FINE]:     Command received (/session/18fcb2548741ff34c90764667f4e604c/back) with params {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c"
-}
-
-[19.777][FINER]:    Waiting for all views to stop loading...
-[19.813][FINER]:    Done waiting for all views to stop loading
-[21.184][FINER]:    Waiting for all views to stop loading...
-[21.187][FINER]:    Done waiting for all views to stop loading
-[21.187][FINE]:     Command finished (/session/18fcb2548741ff34c90764667f4e604c/back) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[21.189][FINE]:     Command received (/session/18fcb2548741ff34c90764667f4e604c/element) with params {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "using": "xpath",
-   "value": "//a[@class='permalink'][@href='http://ec2.qa.nymetro.com/daily/fashion/2012/06/gwyneth-look-book...."
-}
-
-[21.189][FINER]:    Waiting for all views to stop loading...
-[21.189][FINER]:    Done waiting for all views to stop loading
-[21.203][FINER]:    Waiting for all views to stop loading...
-[21.203][FINER]:    Done waiting for all views to stop loading
-[21.203][FINE]:     Command finished (/session/18fcb2548741ff34c90764667f4e604c/element) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "status": 0,
-   "value": {
-      "ELEMENT": ":wdc:1339515964437"
-   }
-}
-
-[21.205][FINE]:     Command received (/session/18fcb2548741ff34c90764667f4e604c/element/:wdc:1339515964437/click) with params {
-   "id": ":wdc:1339515964437",
-   "sessionId": "18fcb2548741ff34c90764667f4e604c"
-}
-
-[21.205][FINER]:    Waiting for all views to stop loading...
-[21.205][FINER]:    Done waiting for all views to stop loading
-[21.288][FINER]:    Waiting for all views to stop loading...
-[22.865][FINER]:    Done waiting for all views to stop loading
-[22.865][FINE]:     Command finished (/session/18fcb2548741ff34c90764667f4e604c/element/:wdc:1339515964437/click) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[22.867][FINE]:     Command received (/session/18fcb2548741ff34c90764667f4e604c/back) with params {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c"
-}
-
-[22.867][FINER]:    Waiting for all views to stop loading...
-[22.867][FINER]:    Done waiting for all views to stop loading
-[23.915][FINER]:    Waiting for all views to stop loading...
-[23.917][FINER]:    Done waiting for all views to stop loading
-[23.917][FINE]:     Command finished (/session/18fcb2548741ff34c90764667f4e604c/back) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[23.918][FINE]:     Command received (/session/18fcb2548741ff34c90764667f4e604c/element) with params {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "using": "xpath",
-   "value": "//a[@class='permalink'][@href='http://ec2.qa.nymetro.com/daily/fashion/2012/06/beauty-pick-me-up-..."
-}
-
-[23.918][FINER]:    Waiting for all views to stop loading...
-[24.204][FINER]:    Done waiting for all views to stop loading
-[24.215][FINER]:    Waiting for all views to stop loading...
-[24.217][FINER]:    Done waiting for all views to stop loading
-[24.217][FINE]:     Command finished (/session/18fcb2548741ff34c90764667f4e604c/element) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "status": 0,
-   "value": {
-      "ELEMENT": ":wdc:1339515967449"
-   }
-}
-
-[24.219][FINE]:     Command received (/session/18fcb2548741ff34c90764667f4e604c/element/:wdc:1339515967449/click) with params {
-   "id": ":wdc:1339515967449",
-   "sessionId": "18fcb2548741ff34c90764667f4e604c"
-}
-
-[24.219][FINER]:    Waiting for all views to stop loading...
-[24.219][FINER]:    Done waiting for all views to stop loading
-[24.317][FINER]:    Waiting for all views to stop loading...
-[25.207][FINER]:    Done waiting for all views to stop loading
-[25.207][FINE]:     Command finished (/session/18fcb2548741ff34c90764667f4e604c/element/:wdc:1339515967449/click) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[25.208][FINE]:     Command received (/session/18fcb2548741ff34c90764667f4e604c/back) with params {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c"
-}
-
-[25.208][FINER]:    Waiting for all views to stop loading...
-[25.230][FINER]:    Done waiting for all views to stop loading
-[25.327][FINER]:    Waiting for all views to stop loading...
-[26.240][FINER]:    Done waiting for all views to stop loading
-[26.240][FINE]:     Command finished (/session/18fcb2548741ff34c90764667f4e604c/back) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[26.242][FINE]:     Command received (/session/18fcb2548741ff34c90764667f4e604c/element) with params {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "using": "xpath",
-   "value": "//a[@class='permalink'][@href='http://ec2.qa.nymetro.com/daily/fashion/2012/06/revlon-just-bitten..."
-}
-
-[26.242][FINER]:    Waiting for all views to stop loading...
-[26.243][FINER]:    Done waiting for all views to stop loading
-[26.303][FINER]:    Waiting for all views to stop loading...
-[26.304][FINER]:    Done waiting for all views to stop loading
-[26.304][FINE]:     Command finished (/session/18fcb2548741ff34c90764667f4e604c/element) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "status": 0,
-   "value": {
-      "ELEMENT": ":wdc:1339515969538"
-   }
-}
-
-[26.305][FINE]:     Command received (/session/18fcb2548741ff34c90764667f4e604c/element/:wdc:1339515969538/click) with params {
-   "id": ":wdc:1339515969538",
-   "sessionId": "18fcb2548741ff34c90764667f4e604c"
-}
-
-[26.305][FINER]:    Waiting for all views to stop loading...
-[26.306][FINER]:    Done waiting for all views to stop loading
-[26.383][FINER]:    Waiting for all views to stop loading...
-[27.595][FINER]:    Done waiting for all views to stop loading
-[27.595][FINE]:     Command finished (/session/18fcb2548741ff34c90764667f4e604c/element/:wdc:1339515969538/click) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[27.597][FINE]:     Command received (/session/18fcb2548741ff34c90764667f4e604c/back) with params {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c"
-}
-
-[27.597][FINER]:    Waiting for all views to stop loading...
-[27.612][FINER]:    Done waiting for all views to stop loading
-[28.512][FINER]:    Waiting for all views to stop loading...
-[28.811][FINER]:    Done waiting for all views to stop loading
-[28.811][FINE]:     Command finished (/session/18fcb2548741ff34c90764667f4e604c/back) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[28.813][FINE]:     Command received (/session/18fcb2548741ff34c90764667f4e604c/element) with params {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "using": "xpath",
-   "value": "//a[@class='permalink'][@href='http://ec2.qa.nymetro.com/daily/fashion/2012/06/drew-barrymores-we..."
-}
-
-[28.813][FINER]:    Waiting for all views to stop loading...
-[28.845][FINER]:    Done waiting for all views to stop loading
-[28.861][FINER]:    Waiting for all views to stop loading...
-[28.862][FINER]:    Done waiting for all views to stop loading
-[28.862][FINE]:     Command finished (/session/18fcb2548741ff34c90764667f4e604c/element) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "status": 0,
-   "value": {
-      "ELEMENT": ":wdc:1339515972090"
-   }
-}
-
-[28.863][FINE]:     Command received (/session/18fcb2548741ff34c90764667f4e604c/element/:wdc:1339515972090/click) with params {
-   "id": ":wdc:1339515972090",
-   "sessionId": "18fcb2548741ff34c90764667f4e604c"
-}
-
-[28.863][FINER]:    Waiting for all views to stop loading...
-[28.864][FINER]:    Done waiting for all views to stop loading
-[28.943][FINER]:    Waiting for all views to stop loading...
-[30.042][FINER]:    Done waiting for all views to stop loading
-[30.042][FINE]:     Command finished (/session/18fcb2548741ff34c90764667f4e604c/element/:wdc:1339515972090/click) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[30.044][FINE]:     Command received (/session/18fcb2548741ff34c90764667f4e604c/back) with params {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c"
-}
-
-[30.044][FINER]:    Waiting for all views to stop loading...
-[30.051][FINER]:    Done waiting for all views to stop loading
-[31.136][FINER]:    Waiting for all views to stop loading...
-[31.419][FINER]:    Done waiting for all views to stop loading
-[31.419][FINE]:     Command finished (/session/18fcb2548741ff34c90764667f4e604c/back) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[31.421][FINE]:     Command received (/session/18fcb2548741ff34c90764667f4e604c/element) with params {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "using": "xpath",
-   "value": "//a[@class='permalink'][@href='http://ec2.qa.nymetro.com/daily/fashion/2012/06/kate-middleton-gav..."
-}
-
-[31.421][FINER]:    Waiting for all views to stop loading...
-[31.469][FINER]:    Done waiting for all views to stop loading
-[31.492][FINER]:    Waiting for all views to stop loading...
-[31.492][FINER]:    Done waiting for all views to stop loading
-[31.492][FINE]:     Command finished (/session/18fcb2548741ff34c90764667f4e604c/element) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "status": 0,
-   "value": {
-      "ELEMENT": ":wdc:1339515974727"
-   }
-}
-
-[31.496][FINE]:     Command received (/session/18fcb2548741ff34c90764667f4e604c/element/:wdc:1339515974727/click) with params {
-   "id": ":wdc:1339515974727",
-   "sessionId": "18fcb2548741ff34c90764667f4e604c"
-}
-
-[31.496][FINER]:    Waiting for all views to stop loading...
-[31.497][FINER]:    Done waiting for all views to stop loading
-[31.558][FINER]:    Waiting for all views to stop loading...
-[32.397][FINER]:    Done waiting for all views to stop loading
-[32.397][FINE]:     Command finished (/session/18fcb2548741ff34c90764667f4e604c/element/:wdc:1339515974727/click) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[32.399][FINE]:     Command received (/session/18fcb2548741ff34c90764667f4e604c/back) with params {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c"
-}
-
-[32.399][FINER]:    Waiting for all views to stop loading...
-[32.415][FINER]:    Done waiting for all views to stop loading
-[32.492][FINER]:    Waiting for all views to stop loading...
-[33.487][FINER]:    Done waiting for all views to stop loading
-[33.487][FINE]:     Command finished (/session/18fcb2548741ff34c90764667f4e604c/back) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[33.489][FINE]:     Command received (/session/18fcb2548741ff34c90764667f4e604c/element) with params {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "using": "xpath",
-   "value": "//a[@class='permalink'][@href='http://ec2.qa.nymetro.com/daily/fashion/2012/06/american-apparel-p..."
-}
-
-[33.489][FINER]:    Waiting for all views to stop loading...
-[33.758][FINER]:    Done waiting for all views to stop loading
-[33.771][FINER]:    Waiting for all views to stop loading...
-[33.771][FINER]:    Done waiting for all views to stop loading
-[33.771][FINE]:     Command finished (/session/18fcb2548741ff34c90764667f4e604c/element) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "status": 0,
-   "value": {
-      "ELEMENT": ":wdc:1339515977005"
-   }
-}
-
-[33.773][FINE]:     Command received (/session/18fcb2548741ff34c90764667f4e604c/element/:wdc:1339515977005/click) with params {
-   "id": ":wdc:1339515977005",
-   "sessionId": "18fcb2548741ff34c90764667f4e604c"
-}
-
-[33.773][FINER]:    Waiting for all views to stop loading...
-[33.773][FINER]:    Done waiting for all views to stop loading
-[33.873][FINER]:    Waiting for all views to stop loading...
-[34.981][FINER]:    Done waiting for all views to stop loading
-[34.981][FINE]:     Command finished (/session/18fcb2548741ff34c90764667f4e604c/element/:wdc:1339515977005/click) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[34.983][FINE]:     Command received (/session/18fcb2548741ff34c90764667f4e604c/back) with params {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c"
-}
-
-[34.983][FINER]:    Waiting for all views to stop loading...
-[34.998][FINER]:    Done waiting for all views to stop loading
-[36.041][FINER]:    Waiting for all views to stop loading...
-[36.044][FINER]:    Done waiting for all views to stop loading
-[36.044][FINE]:     Command finished (/session/18fcb2548741ff34c90764667f4e604c/back) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[36.046][FINE]:     Command received (/session/18fcb2548741ff34c90764667f4e604c/element) with params {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "using": "xpath",
-   "value": "//a[@class='permalink'][@href='http://ec2.qa.nymetro.com/daily/fashion/2012/05/goods-goods-goods...."
-}
-
-[36.046][FINER]:    Waiting for all views to stop loading...
-[36.046][FINER]:    Done waiting for all views to stop loading
-[36.122][FINER]:    Waiting for all views to stop loading...
-[36.370][FINER]:    Done waiting for all views to stop loading
-[36.370][FINE]:     Command finished (/session/18fcb2548741ff34c90764667f4e604c/element) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "status": 0,
-   "value": {
-      "ELEMENT": ":wdc:1339515979356"
-   }
-}
-
-[36.372][FINE]:     Command received (/session/18fcb2548741ff34c90764667f4e604c/element/:wdc:1339515979356/click) with params {
-   "id": ":wdc:1339515979356",
-   "sessionId": "18fcb2548741ff34c90764667f4e604c"
-}
-
-[36.372][FINER]:    Waiting for all views to stop loading...
-[36.374][FINER]:    Done waiting for all views to stop loading
-[36.482][FINER]:    Waiting for all views to stop loading...
-[37.275][FINER]:    Done waiting for all views to stop loading
-[37.275][FINE]:     Command finished (/session/18fcb2548741ff34c90764667f4e604c/element/:wdc:1339515979356/click) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[37.276][FINE]:     Command received (/session/18fcb2548741ff34c90764667f4e604c/back) with params {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c"
-}
-
-[37.276][FINER]:    Waiting for all views to stop loading...
-[37.277][FINER]:    Done waiting for all views to stop loading
-[37.346][FINER]:    Waiting for all views to stop loading...
-[38.478][FINER]:    Done waiting for all views to stop loading
-[38.478][FINE]:     Command finished (/session/18fcb2548741ff34c90764667f4e604c/back) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[38.480][FINE]:     Command received (/session/18fcb2548741ff34c90764667f4e604c/element) with params {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "using": "xpath",
-   "value": "//a[@class='permalink'][@href='http://ec2.qa.nymetro.com/daily/fashion/2012/05/video-video-video...."
-}
-
-[38.480][FINER]:    Waiting for all views to stop loading...
-[38.481][FINER]:    Done waiting for all views to stop loading
-[38.497][FINER]:    Waiting for all views to stop loading...
-[38.497][FINER]:    Done waiting for all views to stop loading
-[38.497][FINE]:     Command finished (/session/18fcb2548741ff34c90764667f4e604c/element) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "status": 0,
-   "value": {
-      "ELEMENT": ":wdc:1339515981731"
-   }
-}
-
-[38.498][FINE]:     Command received (/session/18fcb2548741ff34c90764667f4e604c/element/:wdc:1339515981731/click) with params {
-   "id": ":wdc:1339515981731",
-   "sessionId": "18fcb2548741ff34c90764667f4e604c"
-}
-
-[38.499][FINER]:    Waiting for all views to stop loading...
-[38.499][FINER]:    Done waiting for all views to stop loading
-[38.599][FINER]:    Waiting for all views to stop loading...
-[39.804][FINER]:    Done waiting for all views to stop loading
-[39.804][FINE]:     Command finished (/session/18fcb2548741ff34c90764667f4e604c/element/:wdc:1339515981731/click) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[39.806][FINE]:     Command received (/session/18fcb2548741ff34c90764667f4e604c/back) with params {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c"
-}
-
-[39.806][FINER]:    Waiting for all views to stop loading...
-[39.806][FINER]:    Done waiting for all views to stop loading
-[41.109][FINER]:    Waiting for all views to stop loading...
-[41.395][FINER]:    Done waiting for all views to stop loading
-[41.395][FINE]:     Command finished (/session/18fcb2548741ff34c90764667f4e604c/back) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[41.397][FINE]:     Command received (/session/18fcb2548741ff34c90764667f4e604c/element) with params {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "using": "xpath",
-   "value": "//a[@class='permalink'][@href='http://ec2.qa.nymetro.com/daily/fashion/2012/06/jessica-chastain-f..."
-}
-
-[41.397][FINER]:    Waiting for all views to stop loading...
-[41.398][FINER]:    Done waiting for all views to stop loading
-[41.411][FINER]:    Waiting for all views to stop loading...
-[41.413][FINER]:    Done waiting for all views to stop loading
-[41.413][FINE]:     Command finished (/session/18fcb2548741ff34c90764667f4e604c/element) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "status": 0,
-   "value": {
-      "ELEMENT": ":wdc:1339515984646"
-   }
-}
-
-[41.414][FINE]:     Command received (/session/18fcb2548741ff34c90764667f4e604c/element/:wdc:1339515984646/click) with params {
-   "id": ":wdc:1339515984646",
-   "sessionId": "18fcb2548741ff34c90764667f4e604c"
-}
-
-[41.414][FINER]:    Waiting for all views to stop loading...
-[41.415][FINER]:    Done waiting for all views to stop loading
-[41.529][FINER]:    Waiting for all views to stop loading...
-[42.485][FINER]:    Done waiting for all views to stop loading
-[42.485][FINE]:     Command finished (/session/18fcb2548741ff34c90764667f4e604c/element/:wdc:1339515984646/click) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[42.487][FINE]:     Command received (/session/18fcb2548741ff34c90764667f4e604c/back) with params {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c"
-}
-
-[42.487][FINER]:    Waiting for all views to stop loading...
-[42.487][FINER]:    Done waiting for all views to stop loading
-[43.496][FINER]:    Waiting for all views to stop loading...
-[43.797][FINER]:    Done waiting for all views to stop loading
-[43.797][FINE]:     Command finished (/session/18fcb2548741ff34c90764667f4e604c/back) with response {
-   "sessionId": "18fcb2548741ff34c90764667f4e604c",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[43.799][FINE]:     Command received (/session/18fcb2548741ff34c90764667f4e604c)
+[9.971][FINE]:      Command received (/session/13fa0bb62c4a236f3e9243911c1f818a)

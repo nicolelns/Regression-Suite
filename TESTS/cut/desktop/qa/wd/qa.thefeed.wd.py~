@@ -86,38 +86,21 @@ class TheFeed(unittest.TestCase):
 	
     def test_feed(self):
         
-        n = 0
+        """
+    	The elements in CSS should all be found, and there should be one of each found for each article in the feed.
+    	
+    	PASSING CONDITIONS:  Each article has a link, timestamp, excerpt, header and comment placeholder.
+    	FAILING CONDITIONS:  Any of the elements are not on the page or the wrong number of elements is present.
+    	
+    	"""	
+    
+	n = 0
         driver = self.driver
         driver.get(BASEURL)
         test = "Test A - Presence of Elements via CSS"
         print test
-        
-        # Loops through the data in the CSS file asserting each element is on the page
-        
-        for each in CSS:
-
-	    c = CSS[n].strip('\n')
-            
-            try:
-                self.assertTrue(self.is_element_present(By.CSS_SELECTOR, c))
-                
-            except AssertionError, e:
-            	print "FAILURE " + c
-            	self.verificationErrors.append(str(e))
-            	
-            n += 1
-        
-        self.content()
-           
-	########################################################################
-	
-    def content(self):
-    	    
-        driver = self.driver
-        test = "Test B - Correct Number of Timestamps, etc."
-        print test
-    	    
-    	try:
+         
+        try:
             comment = driver.find_elements_by_class_name(CSS[0])
             header = driver.find_elements_by_class_name(CSS[1])
             text = driver.find_elements_by_class_name(CSS[2])
@@ -143,48 +126,23 @@ class TheFeed(unittest.TestCase):
         print "HEADERS: ", len(header)
         print "TEXT: ", len(text)
         print "TIME: ",  len(time)
-        print "LINK: ",  len(link)
+        print "LINK: ",  len(link)        
         
-        ########################################################################
-        
-    def slideshow(self):
-    	    
-    	driver = self.driver
-    	test = "Test E - Slideshows Have Images Always"
-    	print test
-    	    
-	asdf = values[0]
-    	asdfasdf = asdf[2]
-    	asdfasdfasdf = asdfasdf[1]
-    	
-    	for each in keys:
-    		
-    	    if slideshow is not None:
-    	    	    
-    	    	blah
-	
+        self.b_click_test()
+           
 	########################################################################
 	
-    def headline(self):
-    	  
-    	test = "Test F - Short Headline is Used"
-    	print test
-    	    
-	asdf = values[0]
-    	asdfasdf = asdf[2]
-    	asdfasdfasdf = asdfasdf[1]
-    	
-    	if len(str(asdfasdfadsf)) >= 40:
-    		
-    	    print "FAIL"
-     	    
-        ######################################################################## 
-	
-    def click(self):
+    def b_click_test(self):
+    
+        """
+        This test clicks and waits for the page to load
+        
+        			
+        """  
     
     	n = 0
         driver = self.driver
-        test = "Test C - Click Links and Wait for Page Load"
+        test = "Test B - Click Links and Wait for Page Load"
         print test
 	
 	for each in keys:
@@ -227,12 +185,6 @@ class TheFeed(unittest.TestCase):
 	    img_list = datum[1]
 	    img = img_list[m]
 	    
-	    num = datum[6]
-	    
-	    if num <=2:
-	    	  
-	    	self.failIf(img is not None)
-	    
 	    """
 	    
 	    try:
@@ -249,71 +201,6 @@ class TheFeed(unittest.TestCase):
 			
 	    n += 1
 	    
-    	########################################################################
-    	
-    def slideshow(self):
-    	    
-    	driver = self.driver
-    	test = "Test D - Slideshows Display Image"
-    	print test
-    	
-    	########################################################################
-    	
-   def text(self, title):
-    	    
-    	test = "Test F - Correct Title for Article"
-    	print test
-    	self.title = title
-    	
-    	t = values[0]
-        text = t[1] + " -- The Cut"
-        
-        try:
-            self.assertEqual(text, title)
-            
-	except AssertionError, e:
-	    print str(e), "FAILURE, TEXT/TITLE DON'T MATCH, MANUALLY VERIFY"
-    	    
-    	########################################################################
-    	
-    def title(self):
-    	    
-    	driver = self.driver
-    	t = driver.title
-    	return t
-    	    
-    	########################################################################
-    	
-    def headers(self):
-    	    
-    	driver = self.driver
-    	test = "Test C - Links to News Page"
-    	print test
-    	n = 0
-    	    
-    	h = ("section.module header h3.feedTitle a", "div.readMoreDesktopWrap a p.readMore")
-    	title = 'Articles News Feed'
-    	
-    	for each in h:
-
-	    try:
-	    	driver.find_element_by_css(h[n]).click()
-    	        
-    	    except Exception, e:
-    	    	print "FAIL, CANNOT CLICK ON LINK", str(e)
-    	    	self.verificationErrors.append(str(e) + h[n])
-    	    	
-    	    try:
-    	    	t = driver.title
-    	        self.assertEqual(title, t)
-    	        
-    	    except Exception, e:
-    	    	print "FAIL, CANNOT GET TITLE/TITLES DO NOT MATCH", str(e)
-    	    	self.verificationErrors.append(str(e) + title + t)
-    		
-    	    self.back()
-    	    n += 1
-    	    
     	########################################################################
     	
     def is_element_present(self, how, what):

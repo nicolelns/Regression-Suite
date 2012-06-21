@@ -18,7 +18,7 @@ For example, the pics() function will only pull urls and images, etc. from the p
 Data scraped from the page is pickled and sent to a pickle folder where it is later read by the module test
 """
 
-BASEURL = 'http://www.vulture.com/'
+#BASEURL = raw_input("Enter a BaseURL: ")
 
 
 class MyOpener(urllib.FancyURLopener):
@@ -27,11 +27,11 @@ class MyOpener(urllib.FancyURLopener):
 
 class Parser():
 	
-    def __init__(self):
+    def __init__(self, baseurl):
     	    
-    	#self.BASEURL = baseurl
+    	self.BASEURL = baseurl
 	self.req = MyOpener()
-    	self.page = self.req.open(BASEURL)
+    	self.page = self.req.open(self.BASEURL)
     	self.text = self.page.read()
         self.page.close()
         self.soup = BeautifulSoup(self.text)
@@ -147,6 +147,7 @@ class Parser():
             interview_dict[link] = (image, comments, author_list)       
                 
     	pickle.dump(interview_dict, open('../data/pickle/biginterview.data.p', 'wb'))
+    	print interview_dict
         
     #########################################################################
     
@@ -259,11 +260,7 @@ class Parser():
                 a += 1
     	        
     	        clickables_dict[permalink] = (click_class, None)	#Placeholder for comments
-    	   
-    	#clickables_dict['header'] = [('http://www.vulture.com/clickables/', 'clickables')]  
-    	#clickables_dict['logo'] = [('http://itunes.apple.com/us/app/vulture-clickables/id461132952?mt=8', 'http://images.nymag.com/gfx/sect/vulture/clickables-hp-promo.png')] 
-    	#clickables_dict['more'] = [('http://www.vulture.com/clickables/', 'clickables'), (None, None)] 
-    	
+    	        
     	pickle.dump(clickables_dict, open('../data/pickle/clickables.data.p', 'wb'))
     	     	
     #########################################################################
@@ -717,14 +714,14 @@ class Parser():
     		
     	    talk = tag
     	
-    	for tag in talk('a'):
+    	    for tag in talk('a'):
     		
-    	    try:
-    	    	link = tag['href']
-    	    except:
-    	    	print "none"
-    	    else:	
-    	    	talk_list.append(link)
+    	        try:
+    	    	    link = tag['href']
+    	    	except:
+    	    	    print "none"
+    	    	else:	
+    	    	    talk_list.append(link)
     	    	
     	pickle.dump(talk_list, open('../data/pickle/latesttalk.data.p', 'wb'))
     
@@ -827,6 +824,7 @@ class Parser():
             viral_dict[link] = (image, arrow_img, permalink)
             
         pickle.dump(viral_dict, open('../data/pickle/viralvideo.data.p', 'wb'))
+        
     #########################################################################
         
     def thefeed(self):
@@ -941,6 +939,52 @@ class Parser():
                     rotator_dict[permalink] = (image, link, topic)
             	   
         pickle.dump(rotator_dict, open('../data/pickle/rotatorlede.data.p', 'wb'))
+        
+    ######################################################################### 
+     
+    def search(self):
+    	    
+    	search_dict = {}
+        
+        for tag in self.spam('span', attrs={'class':'results'}):
+        	
+            num = tag.string
+            #results = results[:-9]
+        
+        for tag in self.spam('dl', attrs={'class':'result'}):
+        	
+            results = tag
+            
+            for tag in results('a'):
+            	    
+            	link = tag['href']
+            	
+            for tag in results('li', attrs={"class":"pubDate first>"}):
+            	    
+            	pub = tag.contents[0]
+            	newpub = [pub.strip() for item in pub.split('\n') if item]
+            	
+            for tag in self.spam('p'):
+            	    
+            	a_type = tag.string
+            	# Needs more work.
+            	
+            for tag in results('dd', attrs={'class':'dek'}):
+            	    
+	 	try:    
+              	    excerpt = tag.contents[1]
+              	    
+                except Exception, e:
+                    raise
+                    
+            search_dict[link] = (newpub[0], a_type, excerpt)
+            
+        if len(search_dict) == 0:
+            print "NO RESULTS!"
+            return
+            
+        else:
+            return search_dict
     
     #########################################################################
     
@@ -961,10 +1005,20 @@ class Parser():
 	        print "none"
 	
             else:
-                nav_list.append(link)
+            	nav_list.append(link)
                 
-        pickle.dump(nav_list, open('../data/pickle/globalnav.data.p', 'wb'))
+        return nav_list
         
+    #########################################################################    
+        
+    def universal_nav(self):
+    	    
+    	# Utility Navigation - the Sitewide navigation update that happend ~June 2012
+    	    
+    	utility_nav_dict = {'http://nymag.com/':'New York Magazine -- NYC Guide to Restaurants, Fashion, Nightlife, Shopping, Politics, Movies', 'http://www.vulture.com/':'Vulture - Entertainment News - Celebrity News, TV Recaps, Movies, Music, Art, Books, Theater', 'http://newyork.grubstreet.com/':"Grub Street: New York Magazine's Food and Restaurant Blog", 'http://nymag.com/daily/fashion/':'The Cut -- Fashion Week, Models, Street Style, Red Carpet Dresses and Fashion News', 'http://nymag.com/daily/intel/':'Daily Intel -- New York News -- New York Magazine'}
+
+        return utility_nav_dict
+
     #########################################################################
     
     def mainnav(self):
@@ -975,18 +1029,19 @@ class Parser():
     	
             foo = tag
             
-        for tag in foo('a'):
+            for tag in foo('a'):
     		
-    	    try:
-    	    	link = tag['href']
+    	        try:
+    	    	    link = tag['href']
     
-            except:
-	        print "none"
+                except:
+	            print "none"
 	
-            else:
-                nav_list.append(link)
+                else:
+                    if not re.search("http://www.vulture.com", link, re.I):
+                        nav_list.append(link)
                 
-        pickle.dump(nav_list, open('../data/pickle/mainnav.data.p', 'wb'))
+        return nav_list
     
 #############################################################################
 #############################################################################

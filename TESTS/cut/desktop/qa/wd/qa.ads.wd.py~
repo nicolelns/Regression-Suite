@@ -8,8 +8,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
 from selenium.common.exceptions import NoSuchElementException
 import unittest, time, re
-#import Logger
-import cutSoup
+import pickle
+import Logger
 
 reload(sys)
 sys.setdefaultencoding("utf-8")
@@ -34,18 +34,17 @@ webdriver.DesiredCapabilities.INTERNETEXPLORER['proxy'] = {
 }
 
 
-BASEURL = raw_input("Please enter a BaseUrl: ")
+BASEURL = ''
 BROWSERS = ('chrome', 'firefox', 'ie')
 TEST = "The Cut Homepage - Desktop - Giant Image Module"
 
-#L = Logger.MainLogger(BASEURL, TEST)
-S = cutSoup.Parser(BASEURL)
+L = Logger.MainLogger(BASEURL, TEST)
 
-CSS = open('../data/giantimage.css.txt', 'r').readlines()
-DATA = S.giantimage()
+CSS = ''
+URLS = ''
 
-keys = DATA.keys()
-values = DATA.values()
+keys = URLS.keys()
+values = URLS.values()
 
 x = 0
 
@@ -65,10 +64,10 @@ class GiantImage(unittest.TestCase):
         if x == 0:
             self.driver = webdriver.Chrome(chromedriver)
             
-        #elif x == 1:    
-            #self.driver = webdriver.Firefox() 
+        elif x == 1:    
+            self.driver = webdriver.Firefox() 
             
-        elif x == 1:
+        elif x == 2:
     	    self.driver = webdriver.Remote("http://localhost:4444/wd/hub", webdriver.DesiredCapabilities.INTERNETEXPLORER)
         
         #elif x == 3:
@@ -106,20 +105,16 @@ class GiantImage(unittest.TestCase):
                 self.assertTrue(self.is_element_present(By.CSS_SELECTOR, c))
                 
             except AssertionError, e:
-            	print "FAILURE CSS" + c
-            	self.verificationErrors.append(str(e) + c)
-                #L.log(BROWSERS[x], test, "FAIL, ELEMENT FOUND", c, exception=str(e))
+            	print "FAILURE " + c
+            	self.verificationErrors.append(str(e))
+                L.log(BROWSERS[x], test, "FAIL, ELEMENT FOUND", c, exception=str(e))
             
-            #else:
-                #L.log(BROWSERS[x], test, "PASS, ELEMENT NOT FOUND", c)
+            else:
+                L.log(BROWSERS[x], test, "PASS, ELEMENT NOT FOUND", c)
                 
             n += 1
 	
 	########################################################################
-	
-    def click(self):
-    	    
-        ########################################################################
     	 
     def is_element_present(self, how, what):
     	    

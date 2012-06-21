@@ -1,0 +1,3 @@
+html.js body#nymag.fashion div#wrap-wrap div#wrap div.leaderBoard div#leaderboard-desktop.nym-ad-active iframe#ad-iframe-1.ad-iframe
+html.js body#nymag.fashion div#wrap-wrap div#wrap div#content div.contentSecondary div.parsys div.parbase div#secondary-flex.nym-ad-active iframe#ad-iframe-4.ad-iframe
+html.js body#nymag.fashion div#wrap-wrap div#wrap footer div.footerAd div#footer-tablet-desktop.nym-ad-active ins ins#aswift_0_anchor iframe#aswift_0

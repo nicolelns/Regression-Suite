@@ -944,33 +944,47 @@ class Parser():
      
     def search(self):
     	    
-        search_list = []
-        type_list = []
-        pubdate_list = []
+    	search_dict = {}
         
-        for tag in self.spam('td', attrs={'class':'main'}):
+        for tag in self.spam('span', attrs={'class':'results'}):
+        	
+            num = tag.string
+            #results = results[:-9]
+        
+        for tag in self.spam('dl', attrs={'class':'result'}):
         	
             results = tag
-            #a_type = tag.contents[-2]
-            #print a_type, "TYPE"
             
             for tag in results('a'):
             	    
             	link = tag['href']
-            	print link, "LINK"
             	
             for tag in results('li', attrs={"class":"pubDate first>"}):
             	    
             	pub = tag.contents[0]
-            	print pub, "PUB"
+            	newpub = [pub.strip() for item in pub.split('\n') if item]
+            	
+            for tag in self.spam('p'):
+            	    
+            	a_type = tag.string
+            	# Needs more work.
             	
             for tag in results('dd', attrs={'class':'dek'}):
             	    
-            	excerpt = tag.contents[1]
-            	print excerpt, "EXCERPT"
-           		
-            #print link, "LINK", pub, "PUB", excerpt, "EXCERPT", a_type, "TYPE"
-            	
+	 	try:    
+              	    excerpt = tag.contents[1]
+              	    
+                except Exception, e:
+                    raise
+                    
+            search_dict[link] = (newpub[0], a_type, excerpt)
+            
+        if len(search_dict) == 0:
+            print "NO RESULTS!"
+            return
+            
+        else:
+            return search_dict
     
     #########################################################################
     
@@ -982,18 +996,19 @@ class Parser():
     	
             foo = tag
             
-        for tag in foo('a'):
+            for tag in foo('a'):
     		
-    	    try:
-    	    	link = tag['href']
+    	        try:
+    	    	    link = tag['href']
     
-            except:
-	        print "none"
-	
-            else:
-            	nav_list.append(link)
+                except:
+	            raise
+	            
+	        else:
+	            if link != "#":
+	            	nav_list.append(link)
                 
-        pickle.dump(nav_list, open('../data/pickle/globalnav.data.p', 'wb'))
+        return nav_list
         
     #########################################################################    
         
@@ -1003,9 +1018,8 @@ class Parser():
     	    
     	utility_nav_dict = {'http://nymag.com/':'New York Magazine -- NYC Guide to Restaurants, Fashion, Nightlife, Shopping, Politics, Movies', 'http://www.vulture.com/':'Vulture - Entertainment News - Celebrity News, TV Recaps, Movies, Music, Art, Books, Theater', 'http://newyork.grubstreet.com/':"Grub Street: New York Magazine's Food and Restaurant Blog", 'http://nymag.com/daily/fashion/':'The Cut -- Fashion Week, Models, Street Style, Red Carpet Dresses and Fashion News', 'http://nymag.com/daily/intel/':'Daily Intel -- New York News -- New York Magazine'}
 
-        pickle.dump(utility_nav_dict, open('../data/pickle/qa.utilitynavUrls.p', 'wb'))
+        return utility_nav_dict
 
-        
     #########################################################################
     
     def mainnav(self):
@@ -1028,7 +1042,7 @@ class Parser():
                     if not re.search("http://www.vulture.com", link, re.I):
                         nav_list.append(link)
                 
-        pickle.dump(nav_list, open('../data/pickle/mainnav.data.p', 'wb'))
+        return nav_list
     
 #############################################################################
 #############################################################################

@@ -1,0 +1,5 @@
+html.js body#nymag.homepage div#wrap-wrap div#wrap div#content div.contentSecondary div.par div.largeImageSlideshow section.module
+html.js body#nymag.homepage div#wrap-wrap div#wrap div#content div.contentSecondary div.par div.largeImageSlideshow section.module a.moduleLink header.header h3.hed
+html.js body#nymag.homepage div#wrap-wrap div#wrap div#content div.contentSecondary div.par div.largeImageSlideshow section.module a.moduleLink header.header div.contentDescription
+html.js body#nymag.homepage div#wrap-wrap div#wrap div#content div.contentSecondary div.par div.largeImageSlideshow section.module a.moduleLink header.header div.contentDescription p.contentDescriptionMain
+html.js body#nymag.homepage div#wrap-wrap div#wrap div#content div.contentSecondary div.par div.largeImageSlideshow section.module a.moduleLink header.header div.contentDescription p.contentDescriptionSub span
