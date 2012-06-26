@@ -126,17 +126,13 @@ class TheFeed(unittest.TestCase):
             
         except AssertionError, e:
             self.verificationErrors.append(str(e))
-            #L.log(BROWSERS[x], test, "FAIL, CANNOT GET ELEMENTS", "", str(e), exception=str(e))
             print "FAIL", str(e), " Cannot get elements!"
              
         else:
             if (len(comment) != len(header) != len(text) != len(time) != len(link)):
-            	# Removed L.log(), replaced with print
-            	#L.log(BROWSERS[x], test, "FAIL, INCORRECT NUMBER OF HEADERS, TIMESTAMPS, ETC", "", exception=str(e))
             	print "FAIL, Incorrect number of headers, timestamps, etc."
             	    
-            else: 	    
-                #L.log(BROWSERS[x], test, "PASS, CORRECT NUMBER OF HEADERS, TIMESTAMPS, ETC", "")
+            else:
                 print "PASS"
                 
         print "COMMENTS: ", len(comment)
@@ -195,12 +191,10 @@ class TheFeed(unittest.TestCase):
 	    	driver.find_element_by_xpath("//a[@class='permalink'][@href='" + url + "']").click()
 	
 	    except Exception, e:
-	    	#L.log(BROWSERS[x], test, "FAIL, CANNOT GET TITLE", url, exception=str(e))
 	    	print "FAILURE!, Cannot click element!", str(e)
 	    	print "URL: " + url
 	
 	    else:
-	        #L.log(BROWSERS[x], test, "PASS, PAGE LOAD OK", url)
 	        print "PASS"
 	        driver.back()
 			
@@ -232,21 +226,7 @@ class TheFeed(unittest.TestCase):
 	    if num <=2:
 	    	  
 	    	self.failIf(img is not None)
-	    
-	    """
-	    
-	    try:
-	    	driver.find_element_by_xpath("//a[@class='permalink'][@href='" + url + "']").click()
-	
-	    except Exception, e:
-	    	print BROWSERS[x], test, "FAIL, CANNOT GET TITLE", url, exception=str(e)
-	
-	    else:
-	        print BROWSERS[x], test, "PASS, PAGE LOAD OK", url
-	        driver.back()
-	        
-	    """
-			
+	    	
 	    n += 1
 	    
     	########################################################################

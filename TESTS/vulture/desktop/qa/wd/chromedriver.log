@@ -1,5 +1,5 @@
 [0.000][INFO]:      ChromeDriver 19.0.1068.0 /Library/Python/2.7/site-packages/chromedriver
-[0.981][FINE]:      Initializing session with capabilities {
+[0.945][FINE]:      Initializing session with capabilities {
    "browserName": "chrome",
    "chrome.switches": [  ],
    "chromeOptions": {
@@ -12,11 +12,11 @@
    "version": ""
 }
 
-[0.982][INFO]:      Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --ignore-certificate-errors --homepage=about:blank
-[1.346][INFO]:      Connected to Chrome successfully. Version: 17.0.963.56
-[1.372][FINE]:      Command received (/session/36741f4be2f165be24b48531255d4ca0)
-[1.372][FINE]:      Command finished (/session/36741f4be2f165be24b48531255d4ca0) with response {
-   "sessionId": "36741f4be2f165be24b48531255d4ca0",
+[0.945][INFO]:      Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --ignore-certificate-errors --homepage=about:blank
+[1.348][INFO]:      Connected to Chrome successfully. Version: 17.0.963.56
+[1.351][FINE]:      Command received (/session/65ced78ce0acbdfd402a40acc2a0667d)
+[1.351][FINE]:      Command finished (/session/65ced78ce0acbdfd402a40acc2a0667d) with response {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
    "status": 0,
    "value": {
       "acceptSslCerts": false,
@@ -39,92 +39,672 @@
    }
 }
 
-[1.380][FINE]:      Command received (/session/36741f4be2f165be24b48531255d4ca0/timeouts/implicit_wait) with params {
+[1.360][FINE]:      Command received (/session/65ced78ce0acbdfd402a40acc2a0667d/timeouts/implicit_wait) with params {
    "ms": 10000.0,
-   "sessionId": "36741f4be2f165be24b48531255d4ca0"
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d"
 }
 
-[1.380][FINER]:     Waiting for all views to stop loading...
-[1.381][FINER]:     Done waiting for all views to stop loading
-[1.381][FINER]:     Waiting for all views to stop loading...
-[1.381][FINER]:     Done waiting for all views to stop loading
-[1.381][FINE]:      Command finished (/session/36741f4be2f165be24b48531255d4ca0/timeouts/implicit_wait) with response {
-   "sessionId": "36741f4be2f165be24b48531255d4ca0",
+[1.360][FINER]:     Waiting for all views to stop loading...
+[1.362][FINER]:     Done waiting for all views to stop loading
+[1.362][FINER]:     Waiting for all views to stop loading...
+[1.385][FINER]:     Done waiting for all views to stop loading
+[1.385][FINE]:      Command finished (/session/65ced78ce0acbdfd402a40acc2a0667d/timeouts/implicit_wait) with response {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
    "status": 0,
    "value": {
 
    }
 }
 
-[1.383][FINE]:      Command received (/session/36741f4be2f165be24b48531255d4ca0/url) with params {
-   "sessionId": "36741f4be2f165be24b48531255d4ca0",
-   "url": "http://dev.vulture.com/"
+[1.387][FINE]:      Command received (/session/65ced78ce0acbdfd402a40acc2a0667d/url) with params {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "url": "http://qa.vulture.com/"
 }
 
-[1.383][FINER]:     Waiting for all views to stop loading...
-[1.383][FINER]:     Done waiting for all views to stop loading
-[5.280][FINER]:     Waiting for all views to stop loading...
-[5.323][FINER]:     Done waiting for all views to stop loading
-[5.323][FINE]:      Command finished (/session/36741f4be2f165be24b48531255d4ca0/url) with response {
-   "sessionId": "36741f4be2f165be24b48531255d4ca0",
+[1.387][FINER]:     Waiting for all views to stop loading...
+[1.387][FINER]:     Done waiting for all views to stop loading
+[4.747][FINER]:     Waiting for all views to stop loading...
+[4.748][FINER]:     Done waiting for all views to stop loading
+[4.748][FINE]:      Command finished (/session/65ced78ce0acbdfd402a40acc2a0667d/url) with response {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
    "status": 0,
    "value": {
 
    }
 }
 
-[5.326][FINE]:      Command received (/session/36741f4be2f165be24b48531255d4ca0/element) with params {
-   "sessionId": "36741f4be2f165be24b48531255d4ca0",
+[4.750][FINE]:      Command received (/session/65ced78ce0acbdfd402a40acc2a0667d/element) with params {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
    "using": "css selector",
    "value": "html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#utilities.fb_notconnected div.m..."
 }
 
-[5.326][FINER]:     Waiting for all views to stop loading...
-[5.345][FINER]:     Done waiting for all views to stop loading
-[5.381][FINER]:     Waiting for all views to stop loading...
-[5.382][FINER]:     Done waiting for all views to stop loading
-[5.382][FINE]:      Command finished (/session/36741f4be2f165be24b48531255d4ca0/element) with response {
-   "sessionId": "36741f4be2f165be24b48531255d4ca0",
+[4.750][FINER]:     Waiting for all views to stop loading...
+[4.750][FINER]:     Done waiting for all views to stop loading
+[4.761][FINER]:     Waiting for all views to stop loading...
+[4.761][FINER]:     Done waiting for all views to stop loading
+[4.761][FINE]:      Command finished (/session/65ced78ce0acbdfd402a40acc2a0667d/element) with response {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
    "status": 0,
    "value": {
-      "ELEMENT": ":wdc:1338328470585"
+      "ELEMENT": ":wdc:1340748786320"
    }
 }
 
-[5.384][FINE]:      Command received (/session/36741f4be2f165be24b48531255d4ca0/element) with params {
-   "sessionId": "36741f4be2f165be24b48531255d4ca0",
+[4.763][FINE]:      Command received (/session/65ced78ce0acbdfd402a40acc2a0667d/moveto) with params {
+   "element": ":wdc:1340748786320",
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d"
+}
+
+[4.763][FINER]:     Waiting for all views to stop loading...
+[4.763][FINER]:     Done waiting for all views to stop loading
+[4.778][FINER]:     Waiting for all views to stop loading...
+[4.778][FINER]:     Done waiting for all views to stop loading
+[4.778][FINE]:      Command finished (/session/65ced78ce0acbdfd402a40acc2a0667d/moveto) with response {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[14.780][FINE]:     Command received (/session/65ced78ce0acbdfd402a40acc2a0667d/element) with params {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
    "using": "css selector",
    "value": "html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#utilities.fb_notconnected div.m..."
 }
 
-[5.384][FINER]:     Waiting for all views to stop loading...
-[5.413][FINER]:     Done waiting for all views to stop loading
-[5.422][FINER]:     Waiting for all views to stop loading...
-[5.423][FINER]:     Done waiting for all views to stop loading
-[5.423][FINE]:      Command finished (/session/36741f4be2f165be24b48531255d4ca0/element) with response {
-   "sessionId": "36741f4be2f165be24b48531255d4ca0",
+[14.780][FINER]:    Waiting for all views to stop loading...
+[14.781][FINER]:    Done waiting for all views to stop loading
+[14.790][FINER]:    Waiting for all views to stop loading...
+[14.790][FINER]:    Done waiting for all views to stop loading
+[14.790][FINE]:     Command finished (/session/65ced78ce0acbdfd402a40acc2a0667d/element) with response {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
    "status": 0,
    "value": {
-      "ELEMENT": ":wdc:1338328470586"
+      "ELEMENT": ":wdc:1340748786321"
    }
 }
 
-[5.424][FINE]:      Command received (/session/36741f4be2f165be24b48531255d4ca0/element) with params {
-   "sessionId": "36741f4be2f165be24b48531255d4ca0",
+[14.791][FINE]:     Command received (/session/65ced78ce0acbdfd402a40acc2a0667d/element) with params {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
    "using": "css selector",
    "value": "html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#utilities.fb_notconnected div.m..."
 }
 
-[5.424][FINER]:     Waiting for all views to stop loading...
-[5.425][FINER]:     Done waiting for all views to stop loading
-[15.442][FINER]:    Waiting for all views to stop loading...
-[15.442][FINER]:    Done waiting for all views to stop loading
-[15.442][WARNING]:  Command finished (/session/36741f4be2f165be24b48531255d4ca0/element) with response {
-   "sessionId": "36741f4be2f165be24b48531255d4ca0",
+[14.791][FINER]:    Waiting for all views to stop loading...
+[14.792][FINER]:    Done waiting for all views to stop loading
+[14.795][FINER]:    Waiting for all views to stop loading...
+[14.795][FINER]:    Done waiting for all views to stop loading
+[14.795][FINE]:     Command finished (/session/65ced78ce0acbdfd402a40acc2a0667d/element) with response {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1340748786320"
+   }
+}
+
+[14.797][FINE]:     Command received (/session/65ced78ce0acbdfd402a40acc2a0667d/moveto) with params {
+   "element": ":wdc:1340748786320",
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d"
+}
+
+[14.797][FINER]:    Waiting for all views to stop loading...
+[14.797][FINER]:    Done waiting for all views to stop loading
+[14.804][FINER]:    Waiting for all views to stop loading...
+[14.804][FINER]:    Done waiting for all views to stop loading
+[14.804][FINE]:     Command finished (/session/65ced78ce0acbdfd402a40acc2a0667d/moveto) with response {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[24.806][FINE]:     Command received (/session/65ced78ce0acbdfd402a40acc2a0667d/element) with params {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "using": "css selector",
+   "value": "html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#utilities.fb_notconnected div.m..."
+}
+
+[24.806][FINER]:    Waiting for all views to stop loading...
+[24.806][FINER]:    Done waiting for all views to stop loading
+[24.809][FINER]:    Waiting for all views to stop loading...
+[24.809][FINER]:    Done waiting for all views to stop loading
+[24.809][FINE]:     Command finished (/session/65ced78ce0acbdfd402a40acc2a0667d/element) with response {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1340748786320"
+   }
+}
+
+[24.811][FINE]:     Command received (/session/65ced78ce0acbdfd402a40acc2a0667d/element) with params {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "using": "css selector",
+   "value": "html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#utilities.fb_notconnected div.m..."
+}
+
+[24.811][FINER]:    Waiting for all views to stop loading...
+[24.811][FINER]:    Done waiting for all views to stop loading
+[24.815][FINER]:    Waiting for all views to stop loading...
+[24.815][FINER]:    Done waiting for all views to stop loading
+[24.815][FINE]:     Command finished (/session/65ced78ce0acbdfd402a40acc2a0667d/element) with response {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1340748786320"
+   }
+}
+
+[24.816][FINE]:     Command received (/session/65ced78ce0acbdfd402a40acc2a0667d/moveto) with params {
+   "element": ":wdc:1340748786320",
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d"
+}
+
+[24.816][FINER]:    Waiting for all views to stop loading...
+[24.816][FINER]:    Done waiting for all views to stop loading
+[24.823][FINER]:    Waiting for all views to stop loading...
+[24.823][FINER]:    Done waiting for all views to stop loading
+[24.824][FINE]:     Command finished (/session/65ced78ce0acbdfd402a40acc2a0667d/moveto) with response {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[34.826][FINE]:     Command received (/session/65ced78ce0acbdfd402a40acc2a0667d/element) with params {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "using": "css selector",
+   "value": "html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#utilities.fb_notconnected div.m..."
+}
+
+[34.826][FINER]:    Waiting for all views to stop loading...
+[34.826][FINER]:    Done waiting for all views to stop loading
+[44.863][FINER]:    Waiting for all views to stop loading...
+[44.863][FINER]:    Done waiting for all views to stop loading
+[44.863][WARNING]:  Command finished (/session/65ced78ce0acbdfd402a40acc2a0667d/element) with response {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
    "status": 7,
    "value": {
       "message": "The element could not be found"
    }
 }
 
-[15.461][FINE]:     Command received (/session/36741f4be2f165be24b48531255d4ca0)
+[44.865][FINE]:     Command received (/session/65ced78ce0acbdfd402a40acc2a0667d/element) with params {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "using": "css selector",
+   "value": "html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#utilities.fb_notconnected div.m..."
+}
+
+[44.865][FINER]:    Waiting for all views to stop loading...
+[44.865][FINER]:    Done waiting for all views to stop loading
+[44.869][FINER]:    Waiting for all views to stop loading...
+[44.869][FINER]:    Done waiting for all views to stop loading
+[44.869][FINE]:     Command finished (/session/65ced78ce0acbdfd402a40acc2a0667d/element) with response {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1340748786320"
+   }
+}
+
+[44.871][FINE]:     Command received (/session/65ced78ce0acbdfd402a40acc2a0667d/moveto) with params {
+   "element": ":wdc:1340748786320",
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d"
+}
+
+[44.871][FINER]:    Waiting for all views to stop loading...
+[44.871][FINER]:    Done waiting for all views to stop loading
+[44.879][FINER]:    Waiting for all views to stop loading...
+[44.879][FINER]:    Done waiting for all views to stop loading
+[44.879][FINE]:     Command finished (/session/65ced78ce0acbdfd402a40acc2a0667d/moveto) with response {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[54.882][FINE]:     Command received (/session/65ced78ce0acbdfd402a40acc2a0667d/element) with params {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "using": "css selector",
+   "value": "html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#utilities.fb_notconnected div.m..."
+}
+
+[54.882][FINER]:    Waiting for all views to stop loading...
+[54.882][FINER]:    Done waiting for all views to stop loading
+[64.918][FINER]:    Waiting for all views to stop loading...
+[64.918][FINER]:    Done waiting for all views to stop loading
+[64.918][WARNING]:  Command finished (/session/65ced78ce0acbdfd402a40acc2a0667d/element) with response {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[64.920][FINE]:     Command received (/session/65ced78ce0acbdfd402a40acc2a0667d/element) with params {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "using": "css selector",
+   "value": "html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#utilities.fb_notconnected div.m..."
+}
+
+[64.920][FINER]:    Waiting for all views to stop loading...
+[64.920][FINER]:    Done waiting for all views to stop loading
+[64.929][FINER]:    Waiting for all views to stop loading...
+[64.930][FINER]:    Done waiting for all views to stop loading
+[64.930][FINE]:     Command finished (/session/65ced78ce0acbdfd402a40acc2a0667d/element) with response {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1340748786320"
+   }
+}
+
+[64.931][FINE]:     Command received (/session/65ced78ce0acbdfd402a40acc2a0667d/moveto) with params {
+   "element": ":wdc:1340748786320",
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d"
+}
+
+[64.931][FINER]:    Waiting for all views to stop loading...
+[64.931][FINER]:    Done waiting for all views to stop loading
+[64.945][FINER]:    Waiting for all views to stop loading...
+[64.945][FINER]:    Done waiting for all views to stop loading
+[64.945][FINE]:     Command finished (/session/65ced78ce0acbdfd402a40acc2a0667d/moveto) with response {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[74.948][FINE]:     Command received (/session/65ced78ce0acbdfd402a40acc2a0667d/element) with params {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "using": "css selector",
+   "value": "html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#utilities.fb_notconnected div.m..."
+}
+
+[74.948][FINER]:    Waiting for all views to stop loading...
+[74.948][FINER]:    Done waiting for all views to stop loading
+[84.985][FINER]:    Waiting for all views to stop loading...
+[84.986][FINER]:    Done waiting for all views to stop loading
+[84.986][WARNING]:  Command finished (/session/65ced78ce0acbdfd402a40acc2a0667d/element) with response {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[84.987][FINE]:     Command received (/session/65ced78ce0acbdfd402a40acc2a0667d/element) with params {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "using": "css selector",
+   "value": "html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#utilities.fb_notconnected div.m..."
+}
+
+[84.987][FINER]:    Waiting for all views to stop loading...
+[84.988][FINER]:    Done waiting for all views to stop loading
+[84.991][FINER]:    Waiting for all views to stop loading...
+[84.991][FINER]:    Done waiting for all views to stop loading
+[84.991][FINE]:     Command finished (/session/65ced78ce0acbdfd402a40acc2a0667d/element) with response {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1340748786320"
+   }
+}
+
+[84.993][FINE]:     Command received (/session/65ced78ce0acbdfd402a40acc2a0667d/moveto) with params {
+   "element": ":wdc:1340748786320",
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d"
+}
+
+[84.993][FINER]:    Waiting for all views to stop loading...
+[84.993][FINER]:    Done waiting for all views to stop loading
+[85.000][FINER]:    Waiting for all views to stop loading...
+[85.000][FINER]:    Done waiting for all views to stop loading
+[85.000][FINE]:     Command finished (/session/65ced78ce0acbdfd402a40acc2a0667d/moveto) with response {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[95.003][FINE]:     Command received (/session/65ced78ce0acbdfd402a40acc2a0667d/element) with params {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "using": "css selector",
+   "value": "html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#utilities.fb_notconnected div.m..."
+}
+
+[95.003][FINER]:    Waiting for all views to stop loading...
+[95.003][FINER]:    Done waiting for all views to stop loading
+[95.012][FINER]:    Waiting for all views to stop loading...
+[95.013][FINER]:    Done waiting for all views to stop loading
+[95.013][FINE]:     Command finished (/session/65ced78ce0acbdfd402a40acc2a0667d/element) with response {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1340748786321"
+   }
+}
+
+[95.014][FINE]:     Command received (/session/65ced78ce0acbdfd402a40acc2a0667d/element) with params {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "using": "css selector",
+   "value": "html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#utilities.fb_notconnected div.m..."
+}
+
+[95.014][FINER]:    Waiting for all views to stop loading...
+[95.014][FINER]:    Done waiting for all views to stop loading
+[95.017][FINER]:    Waiting for all views to stop loading...
+[95.018][FINER]:    Done waiting for all views to stop loading
+[95.018][FINE]:     Command finished (/session/65ced78ce0acbdfd402a40acc2a0667d/element) with response {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1340748786320"
+   }
+}
+
+[95.019][FINE]:     Command received (/session/65ced78ce0acbdfd402a40acc2a0667d/moveto) with params {
+   "element": ":wdc:1340748786320",
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d"
+}
+
+[95.019][FINER]:    Waiting for all views to stop loading...
+[95.019][FINER]:    Done waiting for all views to stop loading
+[95.026][FINER]:    Waiting for all views to stop loading...
+[95.026][FINER]:    Done waiting for all views to stop loading
+[95.026][FINE]:     Command finished (/session/65ced78ce0acbdfd402a40acc2a0667d/moveto) with response {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[105.029][FINE]:    Command received (/session/65ced78ce0acbdfd402a40acc2a0667d/element) with params {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "using": "css selector",
+   "value": "html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#utilities.fb_notconnected div.m..."
+}
+
+[105.029][FINER]:   Waiting for all views to stop loading...
+[105.029][FINER]:   Done waiting for all views to stop loading
+[105.041][FINER]:   Waiting for all views to stop loading...
+[105.041][FINER]:   Done waiting for all views to stop loading
+[105.041][FINE]:    Command finished (/session/65ced78ce0acbdfd402a40acc2a0667d/element) with response {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1340748786322"
+   }
+}
+
+[105.043][FINE]:    Command received (/session/65ced78ce0acbdfd402a40acc2a0667d/element) with params {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "using": "css selector",
+   "value": "html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#utilities.fb_notconnected div.m..."
+}
+
+[105.043][FINER]:   Waiting for all views to stop loading...
+[105.043][FINER]:   Done waiting for all views to stop loading
+[105.046][FINER]:   Waiting for all views to stop loading...
+[105.047][FINER]:   Done waiting for all views to stop loading
+[105.047][FINE]:    Command finished (/session/65ced78ce0acbdfd402a40acc2a0667d/element) with response {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1340748786320"
+   }
+}
+
+[105.048][FINE]:    Command received (/session/65ced78ce0acbdfd402a40acc2a0667d/moveto) with params {
+   "element": ":wdc:1340748786320",
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d"
+}
+
+[105.048][FINER]:   Waiting for all views to stop loading...
+[105.049][FINER]:   Done waiting for all views to stop loading
+[105.056][FINER]:   Waiting for all views to stop loading...
+[105.056][FINER]:   Done waiting for all views to stop loading
+[105.056][FINE]:    Command finished (/session/65ced78ce0acbdfd402a40acc2a0667d/moveto) with response {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[115.059][FINE]:    Command received (/session/65ced78ce0acbdfd402a40acc2a0667d/element) with params {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "using": "css selector",
+   "value": "html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#utilities.fb_notconnected div.l..."
+}
+
+[115.059][FINER]:   Waiting for all views to stop loading...
+[115.059][FINER]:   Done waiting for all views to stop loading
+[115.069][FINER]:   Waiting for all views to stop loading...
+[115.069][FINER]:   Done waiting for all views to stop loading
+[115.069][FINE]:    Command finished (/session/65ced78ce0acbdfd402a40acc2a0667d/element) with response {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1340748786323"
+   }
+}
+
+[115.071][FINE]:    Command received (/session/65ced78ce0acbdfd402a40acc2a0667d/element) with params {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "using": "css selector",
+   "value": "html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#utilities.fb_notconnected div.m..."
+}
+
+[115.071][FINER]:   Waiting for all views to stop loading...
+[115.071][FINER]:   Done waiting for all views to stop loading
+[115.074][FINER]:   Waiting for all views to stop loading...
+[115.074][FINER]:   Done waiting for all views to stop loading
+[115.074][FINE]:    Command finished (/session/65ced78ce0acbdfd402a40acc2a0667d/element) with response {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1340748786320"
+   }
+}
+
+[115.075][FINE]:    Command received (/session/65ced78ce0acbdfd402a40acc2a0667d/moveto) with params {
+   "element": ":wdc:1340748786320",
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d"
+}
+
+[115.075][FINER]:   Waiting for all views to stop loading...
+[115.076][FINER]:   Done waiting for all views to stop loading
+[115.082][FINER]:   Waiting for all views to stop loading...
+[115.083][FINER]:   Done waiting for all views to stop loading
+[115.083][FINE]:    Command finished (/session/65ced78ce0acbdfd402a40acc2a0667d/moveto) with response {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[125.085][FINE]:    Command received (/session/65ced78ce0acbdfd402a40acc2a0667d/element) with params {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "using": "css selector",
+   "value": "html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#utilities.fb_notconnected div.l..."
+}
+
+[125.085][FINER]:   Waiting for all views to stop loading...
+[125.085][FINER]:   Done waiting for all views to stop loading
+[125.094][FINER]:   Waiting for all views to stop loading...
+[125.095][FINER]:   Done waiting for all views to stop loading
+[125.095][FINE]:    Command finished (/session/65ced78ce0acbdfd402a40acc2a0667d/element) with response {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1340748786324"
+   }
+}
+
+[125.096][FINE]:    Command received (/session/65ced78ce0acbdfd402a40acc2a0667d/element) with params {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "using": "css selector",
+   "value": "html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#utilities.fb_notconnected div.m..."
+}
+
+[125.096][FINER]:   Waiting for all views to stop loading...
+[125.096][FINER]:   Done waiting for all views to stop loading
+[125.099][FINER]:   Waiting for all views to stop loading...
+[125.099][FINER]:   Done waiting for all views to stop loading
+[125.099][FINE]:    Command finished (/session/65ced78ce0acbdfd402a40acc2a0667d/element) with response {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1340748786320"
+   }
+}
+
+[125.101][FINE]:    Command received (/session/65ced78ce0acbdfd402a40acc2a0667d/moveto) with params {
+   "element": ":wdc:1340748786320",
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d"
+}
+
+[125.101][FINER]:   Waiting for all views to stop loading...
+[125.101][FINER]:   Done waiting for all views to stop loading
+[125.108][FINER]:   Waiting for all views to stop loading...
+[125.108][FINER]:   Done waiting for all views to stop loading
+[125.108][FINE]:    Command finished (/session/65ced78ce0acbdfd402a40acc2a0667d/moveto) with response {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[135.111][FINE]:    Command received (/session/65ced78ce0acbdfd402a40acc2a0667d/element) with params {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "using": "css selector",
+   "value": "table.connect_widget_interactive_area tbody tr td.connect_widget_vertical_center div.connect_butt..."
+}
+
+[135.111][FINER]:   Waiting for all views to stop loading...
+[135.111][FINER]:   Done waiting for all views to stop loading
+[145.157][FINER]:   Waiting for all views to stop loading...
+[145.158][FINER]:   Done waiting for all views to stop loading
+[145.158][WARNING]: Command finished (/session/65ced78ce0acbdfd402a40acc2a0667d/element) with response {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[145.159][FINE]:    Command received (/session/65ced78ce0acbdfd402a40acc2a0667d/element) with params {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "using": "css selector",
+   "value": "html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#utilities.fb_notconnected div.m..."
+}
+
+[145.159][FINER]:   Waiting for all views to stop loading...
+[145.160][FINER]:   Done waiting for all views to stop loading
+[145.169][FINER]:   Waiting for all views to stop loading...
+[145.169][FINER]:   Done waiting for all views to stop loading
+[145.169][FINE]:    Command finished (/session/65ced78ce0acbdfd402a40acc2a0667d/element) with response {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1340748786320"
+   }
+}
+
+[145.171][FINE]:    Command received (/session/65ced78ce0acbdfd402a40acc2a0667d/moveto) with params {
+   "element": ":wdc:1340748786320",
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d"
+}
+
+[145.171][FINER]:   Waiting for all views to stop loading...
+[145.171][FINER]:   Done waiting for all views to stop loading
+[145.188][FINER]:   Waiting for all views to stop loading...
+[145.188][FINER]:   Done waiting for all views to stop loading
+[145.188][FINE]:    Command finished (/session/65ced78ce0acbdfd402a40acc2a0667d/moveto) with response {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[155.191][FINE]:    Command received (/session/65ced78ce0acbdfd402a40acc2a0667d/element) with params {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "using": "css selector",
+   "value": "table.connect_widget_interactive_area tbody tr td.connect_widget_button_count_excluding table.uiG..."
+}
+
+[155.191][FINER]:   Waiting for all views to stop loading...
+[155.192][FINER]:   Done waiting for all views to stop loading
+[165.237][FINER]:   Waiting for all views to stop loading...
+[165.238][FINER]:   Done waiting for all views to stop loading
+[165.238][WARNING]: Command finished (/session/65ced78ce0acbdfd402a40acc2a0667d/element) with response {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[165.240][FINE]:    Command received (/session/65ced78ce0acbdfd402a40acc2a0667d/element) with params {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "using": "css selector",
+   "value": "html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#utilities.fb_notconnected div.m..."
+}
+
+[165.240][FINER]:   Waiting for all views to stop loading...
+[165.240][FINER]:   Done waiting for all views to stop loading
+[165.243][FINER]:   Waiting for all views to stop loading...
+[165.243][FINER]:   Done waiting for all views to stop loading
+[165.243][FINE]:    Command finished (/session/65ced78ce0acbdfd402a40acc2a0667d/element) with response {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1340748786320"
+   }
+}
+
+[165.245][FINE]:    Command received (/session/65ced78ce0acbdfd402a40acc2a0667d/moveto) with params {
+   "element": ":wdc:1340748786320",
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d"
+}
+
+[165.245][FINER]:   Waiting for all views to stop loading...
+[165.245][FINER]:   Done waiting for all views to stop loading
+[165.251][FINER]:   Waiting for all views to stop loading...
+[165.252][FINER]:   Done waiting for all views to stop loading
+[165.252][FINE]:    Command finished (/session/65ced78ce0acbdfd402a40acc2a0667d/moveto) with response {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[175.254][FINE]:    Command received (/session/65ced78ce0acbdfd402a40acc2a0667d/elements) with params {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "using": "css selector",
+   "value": "li.top div#sub_nav_mag ul li a"
+}
+
+[175.254][FINER]:   Waiting for all views to stop loading...
+[175.255][FINER]:   Done waiting for all views to stop loading
+[185.280][FINER]:   Waiting for all views to stop loading...
+[185.281][FINER]:   Done waiting for all views to stop loading
+[185.281][FINE]:    Command finished (/session/65ced78ce0acbdfd402a40acc2a0667d/elements) with response {
+   "sessionId": "65ced78ce0acbdfd402a40acc2a0667d",
+   "status": 0,
+   "value": [  ]
+}
+
+[185.282][FINE]:    Command received (/session/65ced78ce0acbdfd402a40acc2a0667d)

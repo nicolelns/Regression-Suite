@@ -1,0 +1,10 @@
+html.js body#nymag.homepage div#wrap-wrap div#wrap div#mast nav#utilities.fb_notconnected div.main ul.global li.home a.nymagLink
+html.js body#nymag.homepage div#wrap-wrap div#wrap div#mast nav#utilities.fb_notconnected div.main ul.global li.top a#nav-mag.top
+html.js body#nymag.homepage div#wrap-wrap div#wrap div#mast nav#utilities.fb_notconnected div.main ul.global li.top div#sub_nav_mag
+html.js body#nymag.homepage div#wrap-wrap div#wrap div#mast nav#utilities.fb_notconnected div.main ul.global li.top div#sub_nav_mag p a img
+html.js body#nymag.homepage div#wrap-wrap div#wrap div#mast nav#utilities.fb_notconnected div.main ul.global li.top div#sub_nav_mag ul li a
+html.js body#nymag.homepage div#wrap-wrap div#wrap div#mast nav#utilities.fb_notconnected div.main ul.global li.home ul.childSites li a
+html.js body#nymag.homepage div#wrap-wrap div#wrap div#mast nav#utilities.fb_notconnected div.login-social-wrap div#logged_out_bar.membership ul li a.login-lightbox
+html.js body#nymag.homepage div#wrap-wrap div#wrap div#mast nav#utilities.fb_notconnected div.login-social-wrap div#logged_out_bar.membership ul li.register a.register-lightbox
+table.connect_widget_interactive_area tbody tr td.connect_widget_vertical_center div.connect_button_slider div.connect_button_container a.connect_widget_like_button span.liketexthtml#facebook body.plugin div#LikePluginPagelet table.connect_widget_interactive_area tbody tr td.connect_widget_button_count_excluding table.uiGrid tbody tr td div.connect_widget_button_count_count
+html.en body.ltr div#widget div.btn-o a#follow-button.btn span#l.label

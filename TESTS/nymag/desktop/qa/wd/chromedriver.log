@@ -1,5 +1,5 @@
 [0.000][INFO]:      ChromeDriver 19.0.1068.0 /Library/Python/2.7/site-packages/chromedriver
-[0.982][FINE]:      Initializing session with capabilities {
+[0.917][FINE]:      Initializing session with capabilities {
    "browserName": "chrome",
    "chrome.switches": [  ],
    "chromeOptions": {
@@ -12,11 +12,11 @@
    "version": ""
 }
 
-[0.982][INFO]:      Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --ignore-certificate-errors --homepage=about:blank
-[1.401][INFO]:      Connected to Chrome successfully. Version: 17.0.963.56
-[1.447][FINE]:      Command received (/session/dd79bfbfa046168084c81c31323fe890)
-[1.447][FINE]:      Command finished (/session/dd79bfbfa046168084c81c31323fe890) with response {
-   "sessionId": "dd79bfbfa046168084c81c31323fe890",
+[0.918][INFO]:      Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --ignore-certificate-errors --homepage=about:blank
+[1.559][INFO]:      Connected to Chrome successfully. Version: 17.0.963.56
+[1.600][FINE]:      Command received (/session/4bef33e035f104a54b4209fe3a133b63)
+[1.600][FINE]:      Command finished (/session/4bef33e035f104a54b4209fe3a133b63) with response {
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63",
    "status": 0,
    "value": {
       "acceptSslCerts": false,
@@ -39,336 +39,516 @@
    }
 }
 
-[1.455][FINE]:      Command received (/session/dd79bfbfa046168084c81c31323fe890/timeouts/implicit_wait) with params {
+[1.678][FINE]:      Command received (/session/4bef33e035f104a54b4209fe3a133b63/timeouts/implicit_wait) with params {
    "ms": 10000.0,
-   "sessionId": "dd79bfbfa046168084c81c31323fe890"
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63"
 }
 
-[1.455][FINER]:     Waiting for all views to stop loading...
-[1.456][FINER]:     Done waiting for all views to stop loading
-[1.456][FINER]:     Waiting for all views to stop loading...
-[1.456][FINER]:     Done waiting for all views to stop loading
-[1.456][FINE]:      Command finished (/session/dd79bfbfa046168084c81c31323fe890/timeouts/implicit_wait) with response {
-   "sessionId": "dd79bfbfa046168084c81c31323fe890",
+[1.678][FINER]:     Waiting for all views to stop loading...
+[1.678][FINER]:     Done waiting for all views to stop loading
+[1.678][FINER]:     Waiting for all views to stop loading...
+[1.679][FINER]:     Done waiting for all views to stop loading
+[1.679][FINE]:      Command finished (/session/4bef33e035f104a54b4209fe3a133b63/timeouts/implicit_wait) with response {
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63",
    "status": 0,
    "value": {
 
    }
 }
 
-[1.458][FINE]:      Command received (/session/dd79bfbfa046168084c81c31323fe890/url) with params {
-   "sessionId": "dd79bfbfa046168084c81c31323fe890",
-   "url": "http://dev.nymag.biz/"
+[1.680][FINE]:      Command received (/session/4bef33e035f104a54b4209fe3a133b63/url) with params {
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63",
+   "url": "http://stg.nymetro.com/"
 }
 
-[1.458][FINER]:     Waiting for all views to stop loading...
-[1.458][FINER]:     Done waiting for all views to stop loading
-[4.712][FINER]:     Waiting for all views to stop loading...
-[4.713][FINER]:     Done waiting for all views to stop loading
-[4.713][FINE]:      Command finished (/session/dd79bfbfa046168084c81c31323fe890/url) with response {
-   "sessionId": "dd79bfbfa046168084c81c31323fe890",
+[1.680][FINER]:     Waiting for all views to stop loading...
+[1.681][FINER]:     Done waiting for all views to stop loading
+[6.715][FINER]:     Waiting for all views to stop loading...
+[6.722][FINER]:     Done waiting for all views to stop loading
+[6.722][FINE]:      Command finished (/session/4bef33e035f104a54b4209fe3a133b63/url) with response {
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63",
    "status": 0,
    "value": {
 
    }
 }
 
-[4.715][FINE]:      Command received (/session/dd79bfbfa046168084c81c31323fe890/element) with params {
-   "sessionId": "dd79bfbfa046168084c81c31323fe890",
-   "using": "css selector",
-   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#mast div#utilities.fb_not..."
+[6.724][FINE]:      Command received (/session/4bef33e035f104a54b4209fe3a133b63/execute) with params {
+   "args": [  ],
+   "script": "return document.getElementById('nav-mag-hover').id",
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63"
 }
 
-[4.715][FINER]:     Waiting for all views to stop loading...
-[4.715][FINER]:     Done waiting for all views to stop loading
-[4.729][FINER]:     Waiting for all views to stop loading...
-[4.729][FINER]:     Done waiting for all views to stop loading
-[4.729][FINE]:      Command finished (/session/dd79bfbfa046168084c81c31323fe890/element) with response {
-   "sessionId": "dd79bfbfa046168084c81c31323fe890",
+[6.724][FINER]:     Waiting for all views to stop loading...
+[6.724][FINER]:     Done waiting for all views to stop loading
+[6.740][FINER]:     Waiting for all views to stop loading...
+[6.740][FINER]:     Done waiting for all views to stop loading
+[6.740][FINE]:      Command finished (/session/4bef33e035f104a54b4209fe3a133b63/execute) with response {
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63",
    "status": 0,
-   "value": {
-      "ELEMENT": ":wdc:1338328962671"
-   }
+   "value": "nav-mag-hover"
 }
 
-[4.731][FINE]:      Command received (/session/dd79bfbfa046168084c81c31323fe890/element) with params {
-   "sessionId": "dd79bfbfa046168084c81c31323fe890",
-   "using": "css selector",
-   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#mast div#utilities.fb_not..."
-}
-
-[4.731][FINER]:     Waiting for all views to stop loading...
-[4.745][FINER]:     Done waiting for all views to stop loading
-[4.755][FINER]:     Waiting for all views to stop loading...
-[4.756][FINER]:     Done waiting for all views to stop loading
-[4.756][FINE]:      Command finished (/session/dd79bfbfa046168084c81c31323fe890/element) with response {
-   "sessionId": "dd79bfbfa046168084c81c31323fe890",
-   "status": 0,
-   "value": {
-      "ELEMENT": ":wdc:1338328962672"
-   }
-}
-
-[4.757][FINE]:      Command received (/session/dd79bfbfa046168084c81c31323fe890/element) with params {
-   "sessionId": "dd79bfbfa046168084c81c31323fe890",
-   "using": "css selector",
-   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#mast div#utilities.fb_not..."
-}
-
-[4.757][FINER]:     Waiting for all views to stop loading...
-[4.758][FINER]:     Done waiting for all views to stop loading
-[14.800][FINER]:    Waiting for all views to stop loading...
-[14.800][FINER]:    Done waiting for all views to stop loading
-[14.800][WARNING]:  Command finished (/session/dd79bfbfa046168084c81c31323fe890/element) with response {
-   "sessionId": "dd79bfbfa046168084c81c31323fe890",
-   "status": 7,
-   "value": {
-      "message": "The element could not be found"
-   }
-}
-
-[14.802][FINE]:     Command received (/session/dd79bfbfa046168084c81c31323fe890/element) with params {
-   "sessionId": "dd79bfbfa046168084c81c31323fe890",
-   "using": "css selector",
-   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#mast div#utilities.fb_not..."
-}
-
-[14.802][FINER]:    Waiting for all views to stop loading...
-[14.803][FINER]:    Done waiting for all views to stop loading
-[24.853][FINER]:    Waiting for all views to stop loading...
-[24.853][FINER]:    Done waiting for all views to stop loading
-[24.853][WARNING]:  Command finished (/session/dd79bfbfa046168084c81c31323fe890/element) with response {
-   "sessionId": "dd79bfbfa046168084c81c31323fe890",
-   "status": 7,
-   "value": {
-      "message": "The element could not be found"
-   }
-}
-
-[24.855][FINE]:     Command received (/session/dd79bfbfa046168084c81c31323fe890/element) with params {
-   "sessionId": "dd79bfbfa046168084c81c31323fe890",
-   "using": "css selector",
-   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#mast div#utilities.fb_not..."
-}
-
-[24.855][FINER]:    Waiting for all views to stop loading...
-[24.855][FINER]:    Done waiting for all views to stop loading
-[24.864][FINER]:    Waiting for all views to stop loading...
-[24.865][FINER]:    Done waiting for all views to stop loading
-[24.865][FINE]:     Command finished (/session/dd79bfbfa046168084c81c31323fe890/element) with response {
-   "sessionId": "dd79bfbfa046168084c81c31323fe890",
-   "status": 0,
-   "value": {
-      "ELEMENT": ":wdc:1338328962673"
-   }
-}
-
-[24.866][FINE]:     Command received (/session/dd79bfbfa046168084c81c31323fe890/element) with params {
-   "sessionId": "dd79bfbfa046168084c81c31323fe890",
-   "using": "css selector",
-   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#mast div#utilities.fb_not..."
-}
-
-[24.866][FINER]:    Waiting for all views to stop loading...
-[24.867][FINER]:    Done waiting for all views to stop loading
-[24.876][FINER]:    Waiting for all views to stop loading...
-[24.876][FINER]:    Done waiting for all views to stop loading
-[24.876][FINE]:     Command finished (/session/dd79bfbfa046168084c81c31323fe890/element) with response {
-   "sessionId": "dd79bfbfa046168084c81c31323fe890",
-   "status": 0,
-   "value": {
-      "ELEMENT": ":wdc:1338328962674"
-   }
-}
-
-[24.877][FINE]:     Command received (/session/dd79bfbfa046168084c81c31323fe890/element) with params {
-   "sessionId": "dd79bfbfa046168084c81c31323fe890",
-   "using": "css selector",
-   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#mast div#utilities.fb_not..."
-}
-
-[24.877][FINER]:    Waiting for all views to stop loading...
-[24.878][FINER]:    Done waiting for all views to stop loading
-[24.887][FINER]:    Waiting for all views to stop loading...
-[24.887][FINER]:    Done waiting for all views to stop loading
-[24.887][FINE]:     Command finished (/session/dd79bfbfa046168084c81c31323fe890/element) with response {
-   "sessionId": "dd79bfbfa046168084c81c31323fe890",
-   "status": 0,
-   "value": {
-      "ELEMENT": ":wdc:1338328962675"
-   }
-}
-
-[24.888][FINE]:     Command received (/session/dd79bfbfa046168084c81c31323fe890/element) with params {
-   "sessionId": "dd79bfbfa046168084c81c31323fe890",
-   "using": "css selector",
-   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#mast div#utilities.fb_not..."
-}
-
-[24.888][FINER]:    Waiting for all views to stop loading...
-[24.889][FINER]:    Done waiting for all views to stop loading
-[24.892][FINER]:    Waiting for all views to stop loading...
-[24.892][FINER]:    Done waiting for all views to stop loading
-[24.892][FINE]:     Command finished (/session/dd79bfbfa046168084c81c31323fe890/element) with response {
-   "sessionId": "dd79bfbfa046168084c81c31323fe890",
-   "status": 0,
-   "value": {
-      "ELEMENT": ":wdc:1338328962675"
-   }
-}
-
-[24.894][FINE]:     Command received (/session/dd79bfbfa046168084c81c31323fe890/element) with params {
-   "sessionId": "dd79bfbfa046168084c81c31323fe890",
-   "using": "css selector",
-   "value": "html#facebook body.plugin div#LikePluginPagelet div#connect_widget_4fbbcb69dd2849d39945010.connec..."
-}
-
-[24.894][FINER]:    Waiting for all views to stop loading...
-[24.894][FINER]:    Done waiting for all views to stop loading
-[34.921][FINER]:    Waiting for all views to stop loading...
-[34.922][FINER]:    Done waiting for all views to stop loading
-[34.922][WARNING]:  Command finished (/session/dd79bfbfa046168084c81c31323fe890/element) with response {
-   "sessionId": "dd79bfbfa046168084c81c31323fe890",
-   "status": 7,
-   "value": {
-      "message": "The element could not be found"
-   }
-}
-
-[34.923][FINE]:     Command received (/session/dd79bfbfa046168084c81c31323fe890/element) with params {
-   "sessionId": "dd79bfbfa046168084c81c31323fe890",
-   "using": "css selector",
-   "value": "html.en body.ltr div#widget div.btn-o a#follow-button.btn i"
-}
-
-[34.923][FINER]:    Waiting for all views to stop loading...
-[34.923][FINER]:    Done waiting for all views to stop loading
-[44.926][FINER]:    Waiting for all views to stop loading...
-[44.926][FINER]:    Done waiting for all views to stop loading
-[44.926][WARNING]:  Command finished (/session/dd79bfbfa046168084c81c31323fe890/element) with response {
-   "sessionId": "dd79bfbfa046168084c81c31323fe890",
-   "status": 7,
-   "value": {
-      "message": "The element could not be found"
-   }
-}
-
-[44.928][FINE]:     Command received (/session/dd79bfbfa046168084c81c31323fe890/element) with params {
-   "sessionId": "dd79bfbfa046168084c81c31323fe890",
+[6.742][FINE]:      Command received (/session/4bef33e035f104a54b4209fe3a133b63/element) with params {
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63",
    "using": "xpath",
-   "value": "//a[@href='http://nymag.com/daily/intel/']"
+   "value": "/html/body/div/div[2]/div/div[2]/div/ul/li[5]/a"
 }
 
-[44.928][FINER]:    Waiting for all views to stop loading...
-[44.929][FINER]:    Done waiting for all views to stop loading
-[54.968][FINER]:    Waiting for all views to stop loading...
-[54.968][FINER]:    Done waiting for all views to stop loading
-[54.968][WARNING]:  Command finished (/session/dd79bfbfa046168084c81c31323fe890/element) with response {
-   "sessionId": "dd79bfbfa046168084c81c31323fe890",
+[6.742][FINER]:     Waiting for all views to stop loading...
+[6.742][FINER]:     Done waiting for all views to stop loading
+[16.777][FINER]:    Waiting for all views to stop loading...
+[16.777][FINER]:    Done waiting for all views to stop loading
+[16.777][WARNING]:  Command finished (/session/4bef33e035f104a54b4209fe3a133b63/element) with response {
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63",
    "status": 7,
    "value": {
       "message": "The element could not be found"
    }
 }
 
-[54.970][FINE]:     Command received (/session/dd79bfbfa046168084c81c31323fe890/element) with params {
-   "sessionId": "dd79bfbfa046168084c81c31323fe890",
-   "using": "xpath",
-   "value": "//a[@href='http://nymag.com/']"
+[16.779][FINE]:     Command received (/session/4bef33e035f104a54b4209fe3a133b63/execute) with params {
+   "args": [  ],
+   "script": "return document.getElementById('nav-mag-hover').id",
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63"
 }
 
-[54.970][FINER]:    Waiting for all views to stop loading...
-[54.970][FINER]:    Done waiting for all views to stop loading
-[64.988][FINER]:    Waiting for all views to stop loading...
-[64.988][FINER]:    Done waiting for all views to stop loading
-[64.988][WARNING]:  Command finished (/session/dd79bfbfa046168084c81c31323fe890/element) with response {
-   "sessionId": "dd79bfbfa046168084c81c31323fe890",
+[16.779][FINER]:    Waiting for all views to stop loading...
+[16.779][FINER]:    Done waiting for all views to stop loading
+[16.780][FINER]:    Waiting for all views to stop loading...
+[16.781][FINER]:    Done waiting for all views to stop loading
+[16.781][FINE]:     Command finished (/session/4bef33e035f104a54b4209fe3a133b63/execute) with response {
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63",
+   "status": 0,
+   "value": "nav-mag-hover"
+}
+
+[16.782][FINE]:     Command received (/session/4bef33e035f104a54b4209fe3a133b63/element) with params {
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63",
+   "using": "xpath",
+   "value": "/html/body/div/div[2]/div/div[2]/div/ul/li/a"
+}
+
+[16.782][FINER]:    Waiting for all views to stop loading...
+[16.782][FINER]:    Done waiting for all views to stop loading
+[26.820][FINER]:    Waiting for all views to stop loading...
+[26.820][FINER]:    Done waiting for all views to stop loading
+[26.820][WARNING]:  Command finished (/session/4bef33e035f104a54b4209fe3a133b63/element) with response {
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63",
    "status": 7,
    "value": {
       "message": "The element could not be found"
    }
 }
 
-[64.990][FINE]:     Command received (/session/dd79bfbfa046168084c81c31323fe890/element) with params {
-   "sessionId": "dd79bfbfa046168084c81c31323fe890",
-   "using": "xpath",
-   "value": "//a[@href='http://nymag.com/daily/fashion/']"
+[26.822][FINE]:     Command received (/session/4bef33e035f104a54b4209fe3a133b63/execute) with params {
+   "args": [  ],
+   "script": "return document.getElementById('nav-mag-hover').id",
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63"
 }
 
-[64.990][FINER]:    Waiting for all views to stop loading...
-[64.990][FINER]:    Done waiting for all views to stop loading
-[75.029][FINER]:    Waiting for all views to stop loading...
-[75.030][FINER]:    Done waiting for all views to stop loading
-[75.030][WARNING]:  Command finished (/session/dd79bfbfa046168084c81c31323fe890/element) with response {
-   "sessionId": "dd79bfbfa046168084c81c31323fe890",
+[26.822][FINER]:    Waiting for all views to stop loading...
+[26.822][FINER]:    Done waiting for all views to stop loading
+[26.823][FINER]:    Waiting for all views to stop loading...
+[26.824][FINER]:    Done waiting for all views to stop loading
+[26.824][FINE]:     Command finished (/session/4bef33e035f104a54b4209fe3a133b63/execute) with response {
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63",
+   "status": 0,
+   "value": "nav-mag-hover"
+}
+
+[26.825][FINE]:     Command received (/session/4bef33e035f104a54b4209fe3a133b63/element) with params {
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63",
+   "using": "xpath",
+   "value": "/html/body/div/div[2]/div/div[2]/div/ul/li[2]/div/ul/li[2]/a"
+}
+
+[26.825][FINER]:    Waiting for all views to stop loading...
+[26.825][FINER]:    Done waiting for all views to stop loading
+[36.858][FINER]:    Waiting for all views to stop loading...
+[36.858][FINER]:    Done waiting for all views to stop loading
+[36.858][WARNING]:  Command finished (/session/4bef33e035f104a54b4209fe3a133b63/element) with response {
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63",
    "status": 7,
    "value": {
       "message": "The element could not be found"
    }
 }
 
-[75.031][FINE]:     Command received (/session/dd79bfbfa046168084c81c31323fe890/element) with params {
-   "sessionId": "dd79bfbfa046168084c81c31323fe890",
-   "using": "xpath",
-   "value": "//a[@href='http://newyork.grubstreet.com/']"
+[36.860][FINE]:     Command received (/session/4bef33e035f104a54b4209fe3a133b63/execute) with params {
+   "args": [  ],
+   "script": "return document.getElementById('nav-mag-hover').id",
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63"
 }
 
-[75.031][FINER]:    Waiting for all views to stop loading...
-[75.031][FINER]:    Done waiting for all views to stop loading
-[75.046][FINER]:    Waiting for all views to stop loading...
-[75.046][FINER]:    Done waiting for all views to stop loading
-[75.046][FINE]:     Command finished (/session/dd79bfbfa046168084c81c31323fe890/element) with response {
-   "sessionId": "dd79bfbfa046168084c81c31323fe890",
+[36.860][FINER]:    Waiting for all views to stop loading...
+[36.860][FINER]:    Done waiting for all views to stop loading
+[36.862][FINER]:    Waiting for all views to stop loading...
+[36.862][FINER]:    Done waiting for all views to stop loading
+[36.862][FINE]:     Command finished (/session/4bef33e035f104a54b4209fe3a133b63/execute) with response {
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63",
+   "status": 0,
+   "value": "nav-mag-hover"
+}
+
+[36.864][FINE]:     Command received (/session/4bef33e035f104a54b4209fe3a133b63/element) with params {
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63",
+   "using": "xpath",
+   "value": "/html/body/div/div[2]/div/div[2]/div/ul/li[3]/a"
+}
+
+[36.864][FINER]:    Waiting for all views to stop loading...
+[36.864][FINER]:    Done waiting for all views to stop loading
+[46.890][FINER]:    Waiting for all views to stop loading...
+[46.890][FINER]:    Done waiting for all views to stop loading
+[46.890][WARNING]:  Command finished (/session/4bef33e035f104a54b4209fe3a133b63/element) with response {
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[46.892][FINE]:     Command received (/session/4bef33e035f104a54b4209fe3a133b63/execute) with params {
+   "args": [  ],
+   "script": "return document.getElementById('nav-mag-hover').id",
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63"
+}
+
+[46.892][FINER]:    Waiting for all views to stop loading...
+[46.892][FINER]:    Done waiting for all views to stop loading
+[46.896][FINER]:    Waiting for all views to stop loading...
+[46.896][FINER]:    Done waiting for all views to stop loading
+[46.896][FINE]:     Command finished (/session/4bef33e035f104a54b4209fe3a133b63/execute) with response {
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63",
+   "status": 0,
+   "value": "nav-mag-hover"
+}
+
+[46.898][FINE]:     Command received (/session/4bef33e035f104a54b4209fe3a133b63/element) with params {
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63",
+   "using": "xpath",
+   "value": "/html/body/div/div[2]/div/div[2]/div/ul/li[2]/div/ul/li[5]/a"
+}
+
+[46.898][FINER]:    Waiting for all views to stop loading...
+[46.898][FINER]:    Done waiting for all views to stop loading
+[56.939][FINER]:    Waiting for all views to stop loading...
+[56.939][FINER]:    Done waiting for all views to stop loading
+[56.939][WARNING]:  Command finished (/session/4bef33e035f104a54b4209fe3a133b63/element) with response {
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[56.941][FINE]:     Command received (/session/4bef33e035f104a54b4209fe3a133b63/execute) with params {
+   "args": [  ],
+   "script": "return document.getElementById('nav-mag-hover').id",
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63"
+}
+
+[56.941][FINER]:    Waiting for all views to stop loading...
+[56.941][FINER]:    Done waiting for all views to stop loading
+[56.943][FINER]:    Waiting for all views to stop loading...
+[56.943][FINER]:    Done waiting for all views to stop loading
+[56.943][FINE]:     Command finished (/session/4bef33e035f104a54b4209fe3a133b63/execute) with response {
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63",
+   "status": 0,
+   "value": "nav-mag-hover"
+}
+
+[56.944][FINE]:     Command received (/session/4bef33e035f104a54b4209fe3a133b63/element) with params {
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63",
+   "using": "xpath",
+   "value": "/html/body/div/div[2]/div/div[2]/div/ul/li[6]/a"
+}
+
+[56.944][FINER]:    Waiting for all views to stop loading...
+[56.945][FINER]:    Done waiting for all views to stop loading
+[66.981][FINER]:    Waiting for all views to stop loading...
+[66.982][FINER]:    Done waiting for all views to stop loading
+[66.982][WARNING]:  Command finished (/session/4bef33e035f104a54b4209fe3a133b63/element) with response {
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[66.983][FINE]:     Command received (/session/4bef33e035f104a54b4209fe3a133b63/execute) with params {
+   "args": [  ],
+   "script": "return document.getElementById('nav-mag-hover').id",
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63"
+}
+
+[66.983][FINER]:    Waiting for all views to stop loading...
+[66.984][FINER]:    Done waiting for all views to stop loading
+[66.985][FINER]:    Waiting for all views to stop loading...
+[66.986][FINER]:    Done waiting for all views to stop loading
+[66.986][FINE]:     Command finished (/session/4bef33e035f104a54b4209fe3a133b63/execute) with response {
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63",
+   "status": 0,
+   "value": "nav-mag-hover"
+}
+
+[66.987][FINE]:     Command received (/session/4bef33e035f104a54b4209fe3a133b63/element) with params {
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63",
+   "using": "xpath",
+   "value": "/html/body/div/div[2]/div/div[2]/div/ul/li[2]/div/ul/li[7]/a"
+}
+
+[66.987][FINER]:    Waiting for all views to stop loading...
+[66.987][FINER]:    Done waiting for all views to stop loading
+[77.013][FINER]:    Waiting for all views to stop loading...
+[77.013][FINER]:    Done waiting for all views to stop loading
+[77.013][WARNING]:  Command finished (/session/4bef33e035f104a54b4209fe3a133b63/element) with response {
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[77.014][FINE]:     Command received (/session/4bef33e035f104a54b4209fe3a133b63/execute) with params {
+   "args": [  ],
+   "script": "return document.getElementById('nav-mag-hover').id",
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63"
+}
+
+[77.014][FINER]:    Waiting for all views to stop loading...
+[77.015][FINER]:    Done waiting for all views to stop loading
+[77.016][FINER]:    Waiting for all views to stop loading...
+[77.016][FINER]:    Done waiting for all views to stop loading
+[77.016][FINE]:     Command finished (/session/4bef33e035f104a54b4209fe3a133b63/execute) with response {
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63",
+   "status": 0,
+   "value": "nav-mag-hover"
+}
+
+[77.018][FINE]:     Command received (/session/4bef33e035f104a54b4209fe3a133b63/element) with params {
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63",
+   "using": "xpath",
+   "value": "/html/body/div/div[2]/div/div[2]/div/ul/li[2]/div/ul/li[3]/a"
+}
+
+[77.018][FINER]:    Waiting for all views to stop loading...
+[77.018][FINER]:    Done waiting for all views to stop loading
+[87.052][FINER]:    Waiting for all views to stop loading...
+[87.052][FINER]:    Done waiting for all views to stop loading
+[87.052][WARNING]:  Command finished (/session/4bef33e035f104a54b4209fe3a133b63/element) with response {
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[87.054][FINE]:     Command received (/session/4bef33e035f104a54b4209fe3a133b63/execute) with params {
+   "args": [  ],
+   "script": "return document.getElementById('nav-mag-hover').id",
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63"
+}
+
+[87.054][FINER]:    Waiting for all views to stop loading...
+[87.054][FINER]:    Done waiting for all views to stop loading
+[87.058][FINER]:    Waiting for all views to stop loading...
+[87.059][FINER]:    Done waiting for all views to stop loading
+[87.059][FINE]:     Command finished (/session/4bef33e035f104a54b4209fe3a133b63/execute) with response {
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63",
+   "status": 0,
+   "value": "nav-mag-hover"
+}
+
+[87.060][FINE]:     Command received (/session/4bef33e035f104a54b4209fe3a133b63/element) with params {
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63",
+   "using": "xpath",
+   "value": "/html/body/div/div[2]/div/div[2]/div/ul/li[2]/div/ul/li[6]/a"
+}
+
+[87.060][FINER]:    Waiting for all views to stop loading...
+[87.061][FINER]:    Done waiting for all views to stop loading
+[97.095][FINER]:    Waiting for all views to stop loading...
+[97.096][FINER]:    Done waiting for all views to stop loading
+[97.096][WARNING]:  Command finished (/session/4bef33e035f104a54b4209fe3a133b63/element) with response {
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[97.097][FINE]:     Command received (/session/4bef33e035f104a54b4209fe3a133b63/execute) with params {
+   "args": [  ],
+   "script": "return document.getElementById('nav-mag-hover').id",
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63"
+}
+
+[97.097][FINER]:    Waiting for all views to stop loading...
+[97.098][FINER]:    Done waiting for all views to stop loading
+[97.099][FINER]:    Waiting for all views to stop loading...
+[97.100][FINER]:    Done waiting for all views to stop loading
+[97.100][FINE]:     Command finished (/session/4bef33e035f104a54b4209fe3a133b63/execute) with response {
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63",
+   "status": 0,
+   "value": "nav-mag-hover"
+}
+
+[97.101][FINE]:     Command received (/session/4bef33e035f104a54b4209fe3a133b63/element) with params {
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63",
+   "using": "xpath",
+   "value": "/html/body/div/div[2]/div/div[2]/div/ul/li[4]/a"
+}
+
+[97.101][FINER]:    Waiting for all views to stop loading...
+[97.101][FINER]:    Done waiting for all views to stop loading
+[107.146][FINER]:   Waiting for all views to stop loading...
+[107.147][FINER]:   Done waiting for all views to stop loading
+[107.147][WARNING]: Command finished (/session/4bef33e035f104a54b4209fe3a133b63/element) with response {
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[107.149][FINE]:    Command received (/session/4bef33e035f104a54b4209fe3a133b63/execute) with params {
+   "args": [  ],
+   "script": "return document.getElementById('nav-mag-hover').id",
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63"
+}
+
+[107.149][FINER]:   Waiting for all views to stop loading...
+[107.149][FINER]:   Done waiting for all views to stop loading
+[107.150][FINER]:   Waiting for all views to stop loading...
+[107.151][FINER]:   Done waiting for all views to stop loading
+[107.151][FINE]:    Command finished (/session/4bef33e035f104a54b4209fe3a133b63/execute) with response {
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63",
+   "status": 0,
+   "value": "nav-mag-hover"
+}
+
+[107.152][FINE]:    Command received (/session/4bef33e035f104a54b4209fe3a133b63/element) with params {
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63",
+   "using": "xpath",
+   "value": "/html/body/div/div[2]/div/div[2]/div/ul/li[2]/div/ul/li/a"
+}
+
+[107.152][FINER]:   Waiting for all views to stop loading...
+[107.152][FINER]:   Done waiting for all views to stop loading
+[117.195][FINER]:   Waiting for all views to stop loading...
+[117.196][FINER]:   Done waiting for all views to stop loading
+[117.196][WARNING]: Command finished (/session/4bef33e035f104a54b4209fe3a133b63/element) with response {
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[117.197][FINE]:    Command received (/session/4bef33e035f104a54b4209fe3a133b63/execute) with params {
+   "args": [  ],
+   "script": "return document.getElementById('nav-mag-hover').id",
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63"
+}
+
+[117.197][FINER]:   Waiting for all views to stop loading...
+[117.197][FINER]:   Done waiting for all views to stop loading
+[117.199][FINER]:   Waiting for all views to stop loading...
+[117.199][FINER]:   Done waiting for all views to stop loading
+[117.199][FINE]:    Command finished (/session/4bef33e035f104a54b4209fe3a133b63/execute) with response {
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63",
+   "status": 0,
+   "value": "nav-mag-hover"
+}
+
+[117.201][FINE]:    Command received (/session/4bef33e035f104a54b4209fe3a133b63/element) with params {
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63",
+   "using": "xpath",
+   "value": "/html/body/div/div[2]/div/div[2]/div/ul/li[2]/div/ul/li[4]/a"
+}
+
+[117.201][FINER]:   Waiting for all views to stop loading...
+[117.201][FINER]:   Done waiting for all views to stop loading
+[127.216][FINER]:   Waiting for all views to stop loading...
+[127.217][FINER]:   Done waiting for all views to stop loading
+[127.217][WARNING]: Command finished (/session/4bef33e035f104a54b4209fe3a133b63/element) with response {
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[127.218][FINE]:    Command received (/session/4bef33e035f104a54b4209fe3a133b63/element) with params {
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#mast div#utilities.fb_not..."
+}
+
+[127.218][FINER]:   Waiting for all views to stop loading...
+[127.219][FINER]:   Done waiting for all views to stop loading
+[137.252][FINER]:   Waiting for all views to stop loading...
+[137.252][FINER]:   Done waiting for all views to stop loading
+[137.252][WARNING]: Command finished (/session/4bef33e035f104a54b4209fe3a133b63/element) with response {
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[137.254][FINE]:    Command received (/session/4bef33e035f104a54b4209fe3a133b63/back) with params {
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63"
+}
+
+[137.254][FINER]:   Waiting for all views to stop loading...
+[137.254][FINER]:   Done waiting for all views to stop loading
+[137.424][FINER]:   Waiting for all views to stop loading...
+[137.425][FINER]:   Done waiting for all views to stop loading
+[137.425][FINE]:    Command finished (/session/4bef33e035f104a54b4209fe3a133b63/back) with response {
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63",
    "status": 0,
    "value": {
-      "ELEMENT": ":wdc:1338328962676"
-   }
-}
-
-[75.048][FINE]:     Command received (/session/dd79bfbfa046168084c81c31323fe890/element/:wdc:1338328962676/click) with params {
-   "id": ":wdc:1338328962676",
-   "sessionId": "dd79bfbfa046168084c81c31323fe890"
-}
-
-[75.048][FINER]:    Waiting for all views to stop loading...
-[75.048][FINER]:    Done waiting for all views to stop loading
-[75.589][FINER]:    Waiting for all views to stop loading...
-[77.240][FINER]:    Done waiting for all views to stop loading
-[77.240][FINE]:     Command finished (/session/dd79bfbfa046168084c81c31323fe890/element/:wdc:1338328962676/click) with response {
-   "sessionId": "dd79bfbfa046168084c81c31323fe890",
-   "status": 0,
-   "value": {
 
    }
 }
 
-[77.242][FINE]:     Command received (/session/dd79bfbfa046168084c81c31323fe890/title)
-[77.242][FINER]:    Waiting for all views to stop loading...
-[77.242][FINER]:    Done waiting for all views to stop loading
-[77.252][FINER]:    Waiting for all views to stop loading...
-[77.253][FINER]:    Done waiting for all views to stop loading
-[77.253][FINE]:     Command finished (/session/dd79bfbfa046168084c81c31323fe890/title) with response {
-   "sessionId": "dd79bfbfa046168084c81c31323fe890",
-   "status": 0,
-   "value": "Grub Street: New York Magazine's Food and Restaurant Blog"
-}
-
-[77.255][FINE]:     Command received (/session/dd79bfbfa046168084c81c31323fe890/element) with params {
-   "sessionId": "dd79bfbfa046168084c81c31323fe890",
+[137.426][FINE]:    Command received (/session/4bef33e035f104a54b4209fe3a133b63/element) with params {
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63",
    "using": "xpath",
-   "value": "//a[@href='http://www.vulture.com/']"
+   "value": "//*[@class='liketext']"
 }
 
-[77.255][FINER]:    Waiting for all views to stop loading...
-[77.255][FINER]:    Done waiting for all views to stop loading
-[87.309][FINER]:    Waiting for all views to stop loading...
-[87.310][FINER]:    Done waiting for all views to stop loading
-[87.310][WARNING]:  Command finished (/session/dd79bfbfa046168084c81c31323fe890/element) with response {
-   "sessionId": "dd79bfbfa046168084c81c31323fe890",
+[137.427][FINER]:   Waiting for all views to stop loading...
+[137.427][FINER]:   Done waiting for all views to stop loading
+[147.480][FINER]:   Waiting for all views to stop loading...
+[147.481][FINER]:   Done waiting for all views to stop loading
+[147.481][WARNING]: Command finished (/session/4bef33e035f104a54b4209fe3a133b63/element) with response {
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63",
    "status": 7,
    "value": {
       "message": "The element could not be found"
    }
 }
 
-[87.311][FINE]:     Command received (/session/dd79bfbfa046168084c81c31323fe890)
+[147.482][FINE]:    Command received (/session/4bef33e035f104a54b4209fe3a133b63/element) with params {
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63",
+   "using": "xpath",
+   "value": "//*[@class='twitter-follow-button']"
+}
+
+[147.482][FINER]:   Waiting for all views to stop loading...
+[147.483][FINER]:   Done waiting for all views to stop loading
+[157.509][FINER]:   Waiting for all views to stop loading...
+[157.509][FINER]:   Done waiting for all views to stop loading
+[157.509][WARNING]: Command finished (/session/4bef33e035f104a54b4209fe3a133b63/element) with response {
+   "sessionId": "4bef33e035f104a54b4209fe3a133b63",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[157.511][FINE]:    Command received (/session/4bef33e035f104a54b4209fe3a133b63)

@@ -996,16 +996,17 @@ class Parser():
     	
             foo = tag
             
-        for tag in foo('a'):
+            for tag in foo('a'):
     		
-    	    try:
-    	    	link = tag['href']
+    	        try:
+    	    	    link = tag['href']
     
-            except:
-	        print "none"
-	
-            else:
-            	nav_list.append(link)
+                except:
+	            raise
+	            
+	        else:
+	            if link != "#":
+	            	nav_list.append(link)
                 
         return nav_list
         

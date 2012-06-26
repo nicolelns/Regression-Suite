@@ -1,0 +1,11 @@
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#mast div#utilities.fb_notconnected div.main ul.global li.home a
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#mast div#utilities.fb_notconnected div.main ul.global li.top a#nav-mag-hover
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#mast div#utilities.fb_notconnected div.main ul.global li.top div#sub_nav_mag p a img
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#mast div#utilities.fb_notconnected div.main ul.global li.top div#sub_nav_mag ul li a
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#mast div#utilities.fb_notconnected div.main ul.global li a
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#mast div#utilities.fb_notconnected div.main ul.global li.last a
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#mast div#utilities.fb_notconnected div#logged_out_bar.membership ul li a.login-lightbox
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#mast div#utilities.fb_notconnected div#logged_out_bar.membership ul li.register a.register-lightbox
+table.connect_widget_interactive_area tbody tr td.connect_widget_vertical_center div.connect_button_slider div.connect_button_container a.connect_widget_like_button span.liketext
+table.connect_widget_interactive_area tbody tr td.connect_widget_button_count_excluding table.uiGrid tbody tr td div.connect_widget_button_count_count
+html.en body.ltr div#widget div.btn-o a#follow-button.btn span#l.label

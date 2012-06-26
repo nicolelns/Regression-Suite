@@ -11,7 +11,7 @@ import cutSoup
 from selenium import selenium   
 
 BASEURL = raw_input('Enter a BaseURL: ')
-BROWSERS = ('firefox3 /Applications/Firefox 2.app/Contents/MacOS/firefox-bin', )
+BROWSERS = ('firefox3 /Applications/Firefox 2.app/Contents/MacOS/firefox-bin', 'safari')
 TEST = "The Feed Module - Desktop - The Cut Home Page"
 
 #L = Logger.MainLogger(BASEURL, TEST)
@@ -92,17 +92,13 @@ class TheFeed(unittest.TestCase):
             
         except AssertionError, e:
             self.verificationErrors.append(str(e))
-            #L.log(BROWSERS[x], test, "FAIL, CANNOT GET ELEMENTS", "", str(e), exception=str(e))
             print "FAIL", str(e), " Cannot get elements!"
              
         else:
             if (len(comment) != len(header) != len(text) != len(time) != len(link)):
-            	# Removed L.log(), replaced with print
-            	#L.log(BROWSERS[x], test, "FAIL, INCORRECT NUMBER OF HEADERS, TIMESTAMPS, ETC", "", exception=str(e))
             	print "FAIL, Incorrect number of headers, timestamps, etc."
             	    
             else: 	    
-                #L.log(BROWSERS[x], test, "PASS, CORRECT NUMBER OF HEADERS, TIMESTAMPS, ETC", "")
                 print "PASS"
                 
         print "COMMENTS: ", len(comment)
@@ -132,6 +128,8 @@ class TheFeed(unittest.TestCase):
 		
 		img_list = data_list[1]
 		image = img_list[w]
+		digit = data_list[5]
+		
 		if image is not None:    
 		    	    
 		    if w == 0:
@@ -151,29 +149,7 @@ class TheFeed(unittest.TestCase):
 			    
 		    w += 1
 	        
-	    if ((desktop_height >= tablet_height) and (desktop_height >= mobile_height) and (tablet_height >= mobile_height)):
-		#L.log(BROWSERS[x], test, "PASS, IMAGE RESPONDS TO WINDOW RESIZE", image)
-		print "PASS RESIZE", image
-		
-	    else:
-		print "Resize image fails!", image
-		#L.log(BROWSERS[x], test, "FAIL, IMAGE DOES NOT RESPOND TO WINDOW RESIZE", image)
-		 
-	    if ((desktop_paragraph_loc >= mobile_paragraph_loc) and (tablet_paragraph_loc >= mobile_paragraph_loc)):
-		#L.log(BROWSERS[x], test, "PASS, EXCERPT RESPONDS TO WINDOW RESIZE", "Excerpt for " + d)
-		print "PASS RESIZE", d
-		
-	    else:
-		print "Resize exceprt fails!", d
-		#L.log(BROWSERS[x], test, "FAIL, EXCERPT DOES NOT RESPOND TO WINDOW RESIZE", "Excerpt for " + d)
-		
-	    if ((desktop_title_loc >= mobile_title_loc) and (tablet_title_loc >= mobile_title_loc)):
-		#L.log(BROWSERS[x], test, "PASS, ARTICLE TITLE RESPONDS TO WINDOW RESIZE", "Title for " + d)
-		print "PASS RESIZE", d
-		
-	    else:
-	    	print "Resize article fails!", d
-		#L.log(BROWSERS[x], test, "FAIL, ARTICLE TITLE DOES NOT RESPOND TO WINDOW RESIZE", "Title for " + d)
+	    
 	    
 	    m += 1
             
@@ -216,6 +192,22 @@ class TheFeed(unittest.TestCase):
     
     def click(self):
     	    
+    	sel = self.selenium
+    	test = "Test SLDKFJ - Click and Wait for Page to Load"
+    	print test
+    	n = 0
+    	
+    	for each in keys:
+    	
+    	d = keys[n]
+    	
+    	    try:
+    		sel.click("//a[@href='" + d + "']")
+    		
+    	    except Exception, e:
+    	    	print "FAILURE, CANNOT CLICK LINK" + str(e) + d
+    	    	
+    	    self.back()
     	    
     ########################################################################
     

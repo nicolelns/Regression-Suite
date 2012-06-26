@@ -109,6 +109,23 @@ class Parser():
     	url_list = ["listings/restaurant/la_pizza_fresca/?df=dsgddfgdfghsdgsdghghjghj"]
  
         pickle.dump(url_list, open('../data/pickle/qa.dateUrlList.data.p', 'wb')) 
+        
+    ############################################################################
+    
+    def lazy_load(self):
+    	 
+    	for tag in self.spam('iframe', attrs={'height':'250,300'}):
+    		
+            try:
+            	script = tag['src']
+            	
+            except Exception, e:
+            	print "LAZY LOAD IFRAME NOT FOUND!", str(e)
+            	
+            else:
+            	if re.search("test=true", script, re.I):
+            	    print "LAZY LOAD OK"
+            	    
  
 #############################################################################
 #############################################################################

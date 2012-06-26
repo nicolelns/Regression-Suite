@@ -1,4 +1,5 @@
 #! /usr/bin/python
+# -*- coding: utf-8 -*-
 
 import unittest
 import time, datetime
@@ -67,24 +68,52 @@ class TheFeed(unittest.TestCase):
                 
             except AssertionError, e:
             	print "FAILURE " + c, str(e)
-            	self.verificationErrors.append(str(e))
+            	self.verificationErrors.append(str(e) + c)
                 #L.log(BROWSERS[x], TEST, "FAIL, ELEMENT NOT FOUND", str(e) + c)
-            
-            else:
-                #L.log(BROWSERS[x], TEST, "PASS, ELEMENT FOUND", c)
-                pass
-                
+              
             n += 1
             
         self.b_responsive() 
             
         ########################################################################
+        
+    def content(self):
+    	    
+        sel = self.selenium
+        test = "Test B - Correct Number of Timestamps, etc."
+        print test
+    	    
+    	try:
+            comment = sel.get_css_count(CSS[0])
+            header = sel.get_css_count(CSS[1])
+            text = sel.get_css_count(CSS[2])
+            time = sel.get_css_count(CSS[3])
+            link = sel.get_css_count(CSS[4])
+            
+        except AssertionError, e:
+            self.verificationErrors.append(str(e))
+            print "FAIL", str(e), " Cannot get elements!"
+             
+        else:
+            if (len(comment) != len(header) != len(text) != len(time) != len(link)):
+            	print "FAIL, Incorrect number of headers, timestamps, etc."
+            	    
+            else: 	    
+                print "PASS"
+                
+        print "COMMENTS: ", len(comment)
+        print "HEADERS: ", len(header)
+        print "TEXT: ", len(text)
+        print "TIME: ",  len(time)
+        print "LINK: ",  len(link)
+        
+        ########################################################################
    
-    def b_responsive(self):
+    def responsive(self):
     	
     	m = 0
 	sel = self.selenium
-	test = "Test B - Responsive Design"
+	test = "Test C - Responsive Design"
 	print test
 	
 	for each in keys:
@@ -99,60 +128,158 @@ class TheFeed(unittest.TestCase):
 		
 		img_list = data_list[1]
 		image = img_list[w]
+		digit = data_list[5]
+		
 		if image is not None:    
 		    	    
 		    if w == 0:
 			sel.window_maximize()
-			desktop_height = sel.get_element_height("//img[@src='" + image + "']")
-			desktop_width = sel.get_element_width("//img[@src='" + image + "']")
 			desktop_paragraph_loc = sel.get_element_position_left("//p[@class='articleText']")
 			desktop_title_loc = sel.get_element_position_left("//a[@href='" + d + "']")
 			  
 		    elif w == 1:
 			sel.get_eval("window.resizeTo(728, 1000);")
-			tablet_height = sel.get_element_height("//img[@src='" + image + "']")
-			tablet_width = width = sel.get_element_width("//img[@src='" + image + "']")
 			tablet_paragraph_loc = sel.get_element_position_left("//p[@class='articleText']")
 			tablet_title_loc = sel.get_element_position_left("//a[@href='" + d + "']")
 			
 		    elif w == 2:
 			sel.get_eval("window.resizeTo(420, 600);")
-			mobile_height = sel.get_element_height("//img[@src='" + image + "']")
-			mobile_width = sel.get_element_width("//img[@src='" + image + "']")
 			mobile_paragraph_loc = sel.get_element_position_left("//p[@class='articleText']")
 			mobile_title_loc = sel.get_element_position_left("//a[@href='" + d + "']")
 			    
 		    w += 1
 	        
-	    if ((desktop_height >= tablet_height) and (desktop_height >= mobile_height) and (tablet_height >= mobile_height)):
-		#L.log(BROWSERS[x], test, "PASS, IMAGE RESPONDS TO WINDOW RESIZE", image)
-		print "PASS RESIZE", image
-		
-	    else:
-		print "Resize image fails!", image
-		#L.log(BROWSERS[x], test, "FAIL, IMAGE DOES NOT RESPOND TO WINDOW RESIZE", image)
-		 
-	    if ((desktop_paragraph_loc >= mobile_paragraph_loc) and (tablet_paragraph_loc >= mobile_paragraph_loc)):
-		#L.log(BROWSERS[x], test, "PASS, EXCERPT RESPONDS TO WINDOW RESIZE", "Excerpt for " + d)
-		print "PASS RESIZE", d
-		
-	    else:
-		print "Resize exceprt fails!", d
-		#L.log(BROWSERS[x], test, "FAIL, EXCERPT DOES NOT RESPOND TO WINDOW RESIZE", "Excerpt for " + d)
-		
-	    if ((desktop_title_loc >= mobile_title_loc) and (tablet_title_loc >= mobile_title_loc)):
-		#L.log(BROWSERS[x], test, "PASS, ARTICLE TITLE RESPONDS TO WINDOW RESIZE", "Title for " + d)
-		print "PASS RESIZE", d
-		
-	    else:
-	    	print "Resize article fails!", d
-		#L.log(BROWSERS[x], test, "FAIL, ARTICLE TITLE DOES NOT RESPOND TO WINDOW RESIZE", "Title for " + d)
+	    
 	    
 	    m += 1
             
         sel.get_eval("window.resizeTo(1200, 1000);")
 	        
-    ########################################################################    	    
+    ########################################################################  
+    
+    def headers(self):
+    	    
+    	sel = self.selenium
+    	test = "Test D - Links to News Page"
+    	print test
+    	n = 0
+    	    
+    	h = ("section.module header h3.feedTitle a", "div.readMoreDesktopWrap a p.readMore")
+    	title = 'Articles News Feed'
+    	
+    	for each in h:
+
+	    try:
+	    	sel.click('css=' + h[n])
+    	        sel.wait_for_page_to_load("50000")
+    	        
+    	    except Exception, e:
+    	    	print "FAIL, CANNOT CLICK ON LINK", str(e)
+    	    	self.verificationErrors.append(str(e) + h[n])
+    	    	
+    	    try:
+    	    	t = sel.get_title()
+    	        self.assertEqual(title, t)
+    	        
+    	    except Exception, e:
+    	    	print "FAIL, CANNOT GET TITLE/TITLES DO NOT MATCH", str(e)
+    	    	self.verificationErrors.append(str(e) + title + t)
+    		
+    	    self.back()
+    	    n += 1
+    		
+    ########################################################################
+    
+    def click(self):
+    	    
+    	sel = self.selenium
+    	test = "Test SLDKFJ - Click and Wait for Page to Load"
+    	print test
+    	n = 0
+    	
+    	for each in keys:
+    	
+    	d = keys[n]
+    	
+    	    try:
+    		sel.click("//a[@href='" + d + "']")
+    		
+    	    except Exception, e:
+    	    	print "FAILURE, CANNOT CLICK LINK" + str(e) + d
+    	    	
+    	    self.back()
+    	    
+    ########################################################################
+    
+    def title(self):
+    	    
+    	sel = self.selenium
+    	t = sel.get_title
+    	return t
+    	    
+    ########################################################################
+    	
+    def text(self, title):
+    	    
+    	test = "Test F - Correct Title for Article"
+    	print test
+    	self.title = title
+    	
+    	t = values[0]
+        text = t[1] + " -- The Cut"
+        
+        try:
+            self.assertEqual(text, title)
+            
+	except AssertionError, e:
+	    print str(e), "FAILURE, TEXT/TITLE DON'T MATCH, MANUALLY VERIFY"
+    	    
+    ########################################################################
+    
+    def slideshow(self):
+    	    
+    	driver = self.driver
+    	test = "Test E - Slideshows Have Images Always"
+    	print test
+    	    
+	asdf = values[0]
+    	asdfasdf = asdf[2]
+    	asdfasdfasdf = asdfasdf[1]
+    	
+    	for each in keys:
+    		
+    	    if slideshow is not None:
+    	    	    
+    	    	blah
+		    
+    ########################################################################
+	
+    def headline(self):
+    	  
+    	test = "Test F - Short Headline is Used"
+    	print test
+    	    
+	asdf = values[0]
+    	asdfasdf = asdf[2]
+    	asdfasdfasdf = asdfasdf[1]
+    	
+    	if len(str(asdfasdfadsf)) >= 40:
+    		
+    	    print "FAIL"
+    	    
+    ########################################################################
+    	    
+    def linkmatch(self):
+    	    
+    ########################################################################
+    	    
+    def back(self):
+    	    
+    	sel = self.selenium
+    	sel.go_back()
+    	sel.wait_for_page_to_load("50000")
+    	
+    ########################################################################
      
     def tearDown(self):
 
