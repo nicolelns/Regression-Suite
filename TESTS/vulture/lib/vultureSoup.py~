@@ -1012,13 +1012,23 @@ class Parser():
         
     #########################################################################    
         
-    def universal_nav(self):
+    def utilitynav(self):
     	    
-    	# Utility Navigation - the Sitewide navigation update that happend ~June 2012
-    	    
-    	utility_nav_dict = {'http://nymag.com/':'New York Magazine -- NYC Guide to Restaurants, Fashion, Nightlife, Shopping, Politics, Movies', 'http://www.vulture.com/':'Vulture - Entertainment News - Celebrity News, TV Recaps, Movies, Music, Art, Books, Theater', 'http://newyork.grubstreet.com/':"Grub Street: New York Magazine's Food and Restaurant Blog", 'http://nymag.com/daily/fashion/':'The Cut -- Fashion Week, Models, Street Style, Red Carpet Dresses and Fashion News', 'http://nymag.com/daily/intel/':'Daily Intel -- New York News -- New York Magazine'}
-
-        return utility_nav_dict
+    	links = {'http://nymag.com/':('/html/body/div/div[2]/div/div[2]/div/ul/li/a','http://nymag.com/index.htm','nymag.com', 'New York Magazine -- NYC Guide to Restaurants, Fashion, Nightlife, Shopping, Politics, Movies'), \
+    		 'http://nymag.com/nymag/toc/20120625/':('/html/body/div/div[2]/div/div[2]/div/ul/li[2]/div/ul/li/a', 'http://nymag.com/includes/tableofcontents.htm', 'Table of Contents', 'Table of Contents -- June 25, 2012 Issue of New York Magazine'), \
+    		 'https://ssl.palmcoastd.com/03921/apps/-180323?iKey=I**BMD&':('/html/body/div/div[2]/div/div[2]/div/ul/li[2]/div/ul/li[2]/a', 'http://stg.nymetro.com/redirects/circ_subscribe/utility-bar.html', 'Subscribe Now', 'New York magazine Subscriptions'), \
+    		 'https://secure.palmcoastd.com/pcd/eSv?iMagId=03921&i4Ky=IGH5':('/html/body/div/div[2]/div/div[2]/div/ul/li[2]/div/ul/li[3]/a', 'http://stg.nymetro.com/redirects/circ_gifts/utility-bar.html', 'Give a Gift Subscription', 'https://secure.palmcoastd.com/pcd/eSv?iMagId=03921&i4Ky=IGH5'), \
+    		 'http://nym.shopviapcd.com/cart/Home/c-5037.htm':('/html/body/div/div[2]/div/div[2]/div/ul/li[2]/div/ul/li[4]/a', 'https://secure.palmcoastd.com/pcd/eServCart?iServ=MDM5MjEzODM0Mg==', 'Buy Back Issues', 'New York Magazine Back Issues - Home '), \
+    		 'http://nymag.com/nymag/toc/2012/':('/html/body/div/div[2]/div/div[2]/div/ul/li[2]/div/ul/li[5]/a', 'http://nymag.com/includes/issuearchive.htm', 'Online Issue Archive', '2012 Issue Archive - New York Magazine'), \
+    		 'https://ssl.palmcoastd.com/03921/apps/-179080?iCp=A30F9CF5AE439771A8B9887D7B5FB553A767C8F659C5A5B9469E57DB92005402':('/html/body/div/div[2]/div/div[2]/div/ul/li[2]/div/ul/li[6]/a', 'https://secure.palmcoastd.com/pcd/eServ?iServ=MDM5MjEyNDE2Ng==', 'Customer Service: Contact Us!', 'NEW YORK MAGAZINE - Subscriber Services'),\
+    		 'http://mediakit.nymag.com/':('/html/body/div/div[2]/div/div[2]/div/ul/li[2]/div/ul/li[7]/a', 'http://nymag.com/newyork/mediakit/', 'Media Kit', 'New York Media'), \
+    		 #'http://www.vulture.com/':('/html/body/div/div[2]/div/div[2]/div/ul/li[3]/a', 'http://www.vulture.com', 'Vulture', 'Vulture - Entertainment News - Celebrity News, TV Recaps, Movies, Music, Art, Books, Theater'), \
+    		 'http://newyork.grubstreet.com/':('/html/body/div/div[2]/div/div[2]/div/ul/li[4]/a', 'http://newyork.grubstreet.com/', 'Grub Street', "Grub Street: New York Magazine's Food and Restaurant Blog"), \
+    		 'http://stg.nymetro.com/daily/fashion/':('/html/body/div/div[2]/div/div[2]/div/ul/li[5]/a', 'http://stg.nymetro.com/daily/fashion/', 'The Cut', 'The Cut -- Fashion Week, Models, Street Style, Red Carpet Dresses and Fashion News'), \
+               	 'http://stg.nymetro.com/daily/intel/':('/html/body/div/div[2]/div/div[2]/div/ul/li[6]/a', 'http://stg.nymetro.com/daily/intel/', 'Daily Intel', 'Daily Intel -- New York News -- New York Magazine')} 
+    	
+    	# When live, change stg.nymetro to nymag
+    	return links
 
     #########################################################################
     

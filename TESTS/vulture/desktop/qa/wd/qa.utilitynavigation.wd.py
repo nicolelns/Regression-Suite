@@ -10,7 +10,7 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.remote.command import Command
 from selenium.webdriver.remote.webdriver import WebDriver as RemoteWebDriver
 from selenium.webdriver.remote.webelement import WebElement
-from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver import ActionChains
 import unittest, time, re
 import vultureSoup
 
@@ -86,13 +86,15 @@ class UtilityNav(unittest.TestCase):
     	    
     	driver = self.driver
     	driver.get(BASEURL)
-    		
-    	self.css()
+    	
+	self.css()
+	self.click()
     	self.count()
-    	#self.click()
-    	#self.img()
-    	#self.fb()
-    	#self.tw()
+    	self.img()
+    	#self.fb() 	ERROR:  {"sessionId":"052e80dedee2730578e8c293ae9e726b","status":400,"value":{"message":"Invalid \'id\' parameter"}}
+    	self.tw()
+    	self.login()
+    	self.reg()
     	
         ########################################################################
 	
@@ -151,20 +153,34 @@ class UtilityNav(unittest.TestCase):
 	    url = keys[n]
 	    data = values[n]	# Nth tuple	
 	    xpath = data[0]
-	    u = data[1]
+	    #u = data[1]
 	    text = data[2]
-	    #self.hover()
-	   
+	    self.hover()
+	    
 	    try:
-	    	self.hover()
-	    	driver.find_element_by_xpath(xpath).click()
-	
-	    except Exception, e:
-	    	print "FAIL CLICK, ", str(e)
+	    	print text
+		driver.find_element_by_link_text(text).click()
 	    	
+	    except Exception, e:
+	    	print str(e)
+	    	
+	    	#"""
+	    	print "Trying xpath..."
+	    	
+                try:
+	    	    driver.find_element_by_xpath(xpath).click()
+	    	    
+	        except Exception, e:
+	            print "FAIL CLICK, ", str(e) + xpath
+	            
+	        else:
+	            print "xpath click ok"
+	            driver.back()
+	            
+	        #"""
 	            
 	    else:
-	        driver.back()
+	    	driver.back()
 	        	
 	    #self.url_loc(url) 		
 	    n += 1
@@ -189,9 +205,12 @@ class UtilityNav(unittest.TestCase):
     def login(self):
     	    
     	driver = self.driver
+    	test = "Test G - Login"
+    	print test
     	
     	try:
-    	    driver.find_element_by_link_text("LOGIN").click()
+    	    driver.find_element_by_xpath("//a[@class='login-lightbox']").click()
+    	    time.sleep(2)
     	    
         except Exception, e:
             print "FAIL, CANNOT CLICK LOGIN ", str(e)
@@ -205,9 +224,12 @@ class UtilityNav(unittest.TestCase):
     def reg(self):
     
     	driver = self.driver
+    	test = "Test H - Registration"
+    	print test
     	
     	try:
-    	    driver.find_element_by_link_text("REGISTER").click()
+    	    driver.find_element_by_link_text("Register").click()
+    	    #driver.find_element_by_xpath("//a[@href='https://secure.qa.vulture.com/registration/']").click()
     	    
         except Exception, e:
             print "FAIL, CANNOT CLICK REGISTER ", str(e)
@@ -225,7 +247,8 @@ class UtilityNav(unittest.TestCase):
     	print test
     	
     	try:
-    	    self.failUnless(driver.find_element_by_css_selector(CSS[2]).click())
+    	    self.hover()
+    	    driver.find_element_by_xpath("//img[@src='http://nymag.com/current_issue.jpg']").click()
         
 	except Exception, e:
 	    print "FAIL, CURRENT ISSUE IMG NOT FOUND", str(e)
@@ -249,8 +272,10 @@ class UtilityNav(unittest.TestCase):
     	"""
     	
     	driver = self.driver
+    	test = "Test E - Facebook Like"
     	
     	try:
+    	    driver.switch_to_frame(driver.find_elements_by_tag_name("iframe"[1]))
     	    driver.find_element_by_xpath("//*[@class='liketext']").click()
     	
         except Exception, e:
@@ -277,28 +302,32 @@ class UtilityNav(unittest.TestCase):
     	"""
     	
     	driver = self.driver
+    	test = "Test F - Twitter"
+    	print test
     	
     	try:
     	    driver.find_element_by_xpath("//*[@class='twitter-follow-button']").click()
-    	
+    	    driver.switch_to_window('f1-4')
+    	    
         except Exception, e:
             print "CANNOT CLICK TWITTER", str(e)
             
         else:
-    	    driver.switch_to_window('f1-4')
     	    driver.close()
+    	    driver.switch_to_window('f1-2')
+    	    
     	    
 	########################################################################
 	
     def hover(self):
-    	    
-    	print "HOVER"    
+    	
     	driver = self.driver
+    	
     	mouse = webdriver.ActionChains(driver)
-        element = driver.find_element_by_css_selector(CSS[1].strip('\n'))
-        mouse.move_to_element(element).perform()
-        time.sleep(10)
-
+    	element = driver.find_element_by_xpath("//*[@id='nav-mag']")
+        mouse.move_to_element(element).click_and_hold(element).perform()
+        mouse.release(element)
+           
     	########################################################################
     	
     def count(self):
@@ -310,7 +339,7 @@ class UtilityNav(unittest.TestCase):
     	self.hover()
     	links = len(driver.find_elements_by_css_selector("li.top div#sub_nav_mag ul li a"))
     	
-	if links != 6:
+	if links != 7:
     	    print "FAILURE, MISSING ITEMS IN NAV"
     	    self.verificationErrors.append("MISSING ITEMS IN NAV - " + str(links) + " LINKS")
         
@@ -321,10 +350,12 @@ class UtilityNav(unittest.TestCase):
     	driver = self.driver
     	
     	try:
-    	    driver.find_element_by_css("div.head h5.closelightbox").click()
+    	    driver.find_element_by_css_selector("div.head h5.closelightbox").click()
     	    
         except Exception, e:
             print str(e) + " lightbox fail"
+            
+        driver.refresh()
             
         ########################################################################
     	 

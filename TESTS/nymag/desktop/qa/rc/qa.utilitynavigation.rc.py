@@ -59,6 +59,7 @@ class UtilityNav(unittest.TestCase):
         self.reg()
         self.img()
         self.tw()
+        self.count()
         #self.fb()
     	
         ########################################################################
@@ -123,6 +124,21 @@ class UtilityNav(unittest.TestCase):
 	    
 	########################################################################
 	
+    def count(self):
+    	    
+    	sel = self.selenium
+    	test = "Test H - Count Links"
+    	print test
+    	
+    	self.hover()
+    	t = sel.get_css_count("css=" + CSS[3].strip('\n'))
+    	
+    	if t != 7:
+    	    self.verificationErrors.append("WRONG NUMBER OF LINKS")
+    	    print "FAILURE, WRONG NUMBER OF LINKS"
+    	    
+    	########################################################################
+    	
     def url_loc(self, t):
     	    
     	sel = self.selenium
@@ -281,20 +297,6 @@ class UtilityNav(unittest.TestCase):
         sel.select_window("null")
     	    
     	########################################################################
-        
-    def count(self):
-    	    
-    	sel = self.selenium
-    	test = "Test C - Correct Number of Links in Nav"
-    	print test
-    	    
-    	links = sel.get_css_count("css=" + CSS[4].strip('\n'))
-    	
-	if links != 3:
-    	    print "FAILURE, MISSING ITEMS IN NAV"
-    	    self.verificationErrors.append("MISSING ITEMS IN NAV - " + str(links) + " LINKS")
-            
-        ########################################################################
         
     def hover(self):
     	    

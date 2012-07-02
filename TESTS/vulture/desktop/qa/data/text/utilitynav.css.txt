@@ -7,5 +7,5 @@ html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#utilities.fb_n
 html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#utilities.fb_notconnected div.main ul.global li.last a
 html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#utilities.fb_notconnected div.login-social-wrap div#logged_out_bar.membership ul li a.login-lightbox
 html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#utilities.fb_notconnected div.login-social-wrap div#logged_out_bar.membership ul li.register a.register-lightbox
-table.connect_widget_interactive_area tbody tr td.connect_widget_vertical_center div.connect_button_slider div.connect_button_container a.connect_widget_like_button span.liketext
-table.connect_widget_interactive_area tbody tr td.connect_widget_button_count_excluding table.uiGrid tbody tr td div.connect_widget_button_count_count
+div.connect_button_slider div.connect_button_container a.connect_widget_like_button span.liketext
+div.connect_widget_button_count_count
