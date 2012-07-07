@@ -37,7 +37,7 @@ webdriver.DesiredCapabilities.INTERNETEXPLORER['proxy'] = {
 
 BASEURL = raw_input("Please enter a BaseURL: ")
 BROWSERS = ('chrome', 'ie') 	# Add browsers
-TEST = "NY Mag Utility Navigation Update - STG - NYM"
+TEST = "NY Mag Utility Navigation Update - PROD - NYM"
 
 S = nymagSoup.Parser(BASEURL)
 
@@ -164,8 +164,6 @@ class UtilityNav(unittest.TestCase):
 	    	
 	    except Exception, e:
 	    	print str(e)
-	    	
-	    	"""
 	    	print "Trying xpath..."
 	    	
                 try:
@@ -177,12 +175,8 @@ class UtilityNav(unittest.TestCase):
 	            
 	        else:
 	            print "xpath click ok"
-	            driver.back()
-	            
-	        """
-	            
-	    else:
-	    	driver.back()
+	      
+	    driver.back()
 	        	
 	    #self.url_loc(url) 		
 	    n += 1
@@ -380,7 +374,7 @@ class UtilityNav(unittest.TestCase):
 #########################################################################
 #########################################################################
 
-for x in range(0,1):
+for x in range(0,2):
 
     suite = unittest.TestLoader().loadTestsFromTestCase(UtilityNav)
     unittest.TextTestRunner(verbosity=2).run(suite)

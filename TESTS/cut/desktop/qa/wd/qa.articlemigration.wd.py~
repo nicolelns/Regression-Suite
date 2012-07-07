@@ -1,0 +1,309 @@
+#! /usr/bin/python
+# -*- coding: utf-8 -*-
+
+import os
+import sys
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import Select
+from selenium.common.exceptions import NoSuchElementException
+import unittest, time, re
+#import cutSoup
+
+reload(sys)
+sys.setdefaultencoding("utf-8")
+
+chromedriver = '/Library/Python/2.7/site-packages/chromedriver'
+
+"""
+The below code is for the Internet Explorer remote driver; These tests were developed on a Mac :)
+
+"""
+
+PROXY = "localhost:8080"
+
+webdriver.DesiredCapabilities.INTERNETEXPLORER['proxy'] = {
+    "httpProxy":PROXY,
+    "ftpProxy":PROXY,
+    "sslProxy":PROXY,
+    "noProxy":None,
+    "proxyType":"MANUAL",
+    "class":"org.openqa.selenium.Proxy",
+    "autodetect":False
+}
+
+
+BASEURL = raw_input("Enter a BaseUrl: ")
+BROWSERS = ('chrome', 'firefox', 'ie')
+TEST = "The Cut - Article Migration"
+
+#S = cutSoup.Parser(BASEURL)
+
+CSS = open('../data/text/interview.css.txt', 'r').readlines()
+DATA = S.interview()
+
+keys = DATA.keys()
+values = DATA.values()
+
+x = 0				# Browser counter
+v = 0				# Window size counter (desktop = 0, tablet = 1, mobile = 2)
+
+
+#########################################################################
+#########################################################################
+
+class Article(unittest.TestCase):
+
+    def setUp(self):
+    	    
+        if x == 0:
+            self.driver = webdriver.Chrome(chromedriver)
+            
+        elif x == 1:    
+            self.driver = webdriver.Firefox() 
+            
+        elif x == 2:
+    	    self.driver = webdriver.Remote("http://localhost:4444/wd/hub", webdriver.DesiredCapabilities.INTERNETEXPLORER)
+        
+        #elif x == 3:
+	    #self.driver = webdriver.Remote(desired_capabilities = {}, command_executor = "http://localhost:8080/wd/hub")
+        
+        self.driver.implicitly_wait(10)
+        self.verificationErrors = []
+        print "TESTING " + BASEURL + " in " + BROWSERS[x]
+	
+	########################################################################
+	
+    def test_articles(self):
+        
+	n = 0
+        driver = self.driver
+        driver.get(BASEURL)
+        
+        if v == 0:
+            print "Desktop"
+            
+        elif v == 1:
+            print "Tablet"
+            # Resize window for tablet
+            
+        elif v == 2:
+            print "Mobile"
+            # Resize window for mobile
+        
+    	########################################################################
+    	
+    def partners(self):
+    	    
+    	driver = self.driver
+    	test = "Test A - Partners Module"
+    	print test
+    	
+    	if v == 0:	# Desktop
+    	
+    	    try:
+    	        self.failUnless(driver.find_element_by_xpath("//section[@id='partner-feeds']"))
+    	        
+    	    except AssertionError, e:
+    	    	driver.get_screenshot_as_file('../screenshots/d.' + test + '.' + BASEURL + '.png')
+    	    	print str(e)
+    	    	
+    	elif v == 1:	# Tablet
+    		
+    	    try:
+    	    	self.failIf(driver.find_element_by_xpath("//section[@id='partner-feeds']"))
+    	        
+    	    except AssertionError, e:
+    	    	driver.get_screenshot_as_file('../screenshots/t.' + test + '.' + BASEURL + '.png')
+    	    	print str(e)
+    	    	
+    	else:		# Mobile
+    		
+    	    try:
+    	    	self.failIf(driver.find_element_by_xpath("//section[@id='partner-feeds']"))
+    	        
+    	    except AssertionError, e:
+    	    	driver.get_screenshot_as_file('../screenshots/m.' + test + '.' + BASEURL + '.png')
+    	    	print str(e)
+    	    	
+    	
+    	########################################################################
+    	
+    def ads(self):
+    	    
+    	driver = self.driver
+    	test = "Test B - Ads"
+    	print test
+    	
+    	if v == 0:
+    		
+    	    try:
+    	    	self.failUnless(driver.find_element_by_xpath("//div[@class='leaderboard']")
+    	    	self.failUnless(driver.find_element_by_xpath("//div[@id='secondary-flex']")	
+    	    		
+    	    except AssertionError, e:
+    	    	print "FAIL"
+    	    	
+    	########################################################################
+    	
+    def float_arrows(self):
+    	    
+        driver = self.driver
+        test = "Test C - Floating Nav Arrows"
+        print test
+        
+        if v == 0:
+    		
+    	    try:
+    	    	self.failUnless(driver.find_element_by_xpath("//nav[@class='entryNext rightArticleArrow']"))
+    	    	self.failUnless(driver.find_element_by_xpath("//nav[@class='entryPrev leftArticleArrow']"))	
+    	    		
+    	    except AssertionError, e:
+    	    	print "FAIL"
+    	    	
+    	    	# Get URL
+    	    	
+    	########################################################################
+    	
+    def static_arrows(self):
+    	    
+    	driver = self.driver
+    	test = "Test D - Static Arrows Under Article"
+    	print test
+    	
+    	if v == 0:
+    		
+    	    try:
+    	    	self.failUnless(driver.find_element_by_xpath("//nav[@class='entryNext rightArticleArrow']"))
+    	    	self.failUnless(driver.find_element_by_xpath("//nav[@class='entryPrev leftArticleArrow']"))	
+    	    		
+    	    except AssertionError, e:
+    	    	print "FAIL"
+    	    	
+    	    	# Get URL
+    	
+    	########################################################################
+    	
+    def all_news(self):
+    	    
+    	driver = self.driver
+    	test = "Test E - All News Button"
+    	print test
+    	
+    	if v != 2:
+    		
+    	    try:
+    	    	self.failUnless(driver.find_element_by_xpath("//a[@class='newsLink']")).click()
+    	    	t = driver.title
+    	    	
+    	    except AssertionError, e:
+    	    	print "FAIL"
+    	    	
+    	    else:
+    	    	self.assertEqual(t, "Articles News Feed")
+    	    	
+    	else:
+    	    
+    	    try:
+    	    	self.failIf(driver.find_element_by_xpath("//a[@class='newsLink']")).click()
+    	    	
+    	    except AssertionError, e:
+    	    	print "FAIL"
+    		
+    	########################################################################
+    	
+    def tags(self):
+    	    
+    	driver = self.driver
+    	test = "Test F - Tags"
+    	print test
+    	
+    	re = re.compile('read all posts tagged ' + '.*?')
+    	
+    	try:
+    	    driver.find_elements_by_css_selector('css=a[title="' + re + "']")
+    	    
+        except Exception, e:
+            print "FAIL"
+            
+        ######################################################################## 
+        
+    def byline(self):
+    	    
+    	driver = self.driver
+    	test = "Test G - Byline"
+    	print test
+    	
+    	try:
+    	    self.failUnless(driver.find_elements_by_xpath("//cite/a")).click()
+    	    
+        except AssertionError, e:
+            print "FAIL"
+            
+        ########################################################################
+        
+    def headline(self):
+    	    
+    	driver = self.driver
+    	test = "Test H - Headline"
+    	print test
+    	
+    	try:
+    	    driver.find_element_by_xpath("//title")
+    	    
+        except Exception, e:
+            print "FAIL"
+            
+        # if len(title) <> some condition:
+            # print "not using long headline
+            
+        ########################################################################
+        
+    def pubdate(self):
+    	    
+    	driver = self.driver
+    	test = "Test I - Publish Date"
+    	print test
+    	
+    	try:
+    	    driver.find_element_by_xpath("li[@class='first']")
+    	    
+        except Exception, e:
+            print "FAIL"
+    	
+    	########################################################################
+    	
+    def comments(self):
+    	    
+    	driver = self.driver
+    	test = "Test J - Comments"
+    	print test
+    	
+    	########################################################################
+    	
+    def is_element_present(self, how, what):
+    	    
+        try: 
+            self.driver.find_element(by=how, value=what)
+        
+        except NoSuchElementException, e: 
+            return False
+        
+        return True
+    
+        ########################################################################
+        
+    def tearDown(self):
+        self.driver.quit()
+        self.assertEqual([], self.verificationErrors)
+
+#########################################################################
+#########################################################################
+
+for x in range(0,3):
+
+    suite = unittest.TestLoader().loadTestsFromTestCase(Interview)
+    unittest.TextTestRunner(verbosity=2).run(suite)
+    x += 1
+#L.save()
+

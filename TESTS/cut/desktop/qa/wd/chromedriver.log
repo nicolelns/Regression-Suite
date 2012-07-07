@@ -1,5 +1,5 @@
 [0.000][INFO]:      ChromeDriver 19.0.1068.0 /Library/Python/2.7/site-packages/chromedriver
-[0.980][FINE]:      Initializing session with capabilities {
+[0.983][FINE]:      Initializing session with capabilities {
    "browserName": "chrome",
    "chrome.switches": [  ],
    "chromeOptions": {
@@ -12,11 +12,11 @@
    "version": ""
 }
 
-[0.981][INFO]:      Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --ignore-certificate-errors --homepage=about:blank
-[1.299][INFO]:      Connected to Chrome successfully. Version: 17.0.963.56
-[1.302][FINE]:      Command received (/session/13fa0bb62c4a236f3e9243911c1f818a)
-[1.302][FINE]:      Command finished (/session/13fa0bb62c4a236f3e9243911c1f818a) with response {
-   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a",
+[0.984][INFO]:      Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --ignore-certificate-errors --homepage=about:blank
+[1.292][INFO]:      Connected to Chrome successfully. Version: 17.0.963.56
+[1.295][FINE]:      Command received (/session/219505ea560730272a683279e9e2386d)
+[1.296][FINE]:      Command finished (/session/219505ea560730272a683279e9e2386d) with response {
+   "sessionId": "219505ea560730272a683279e9e2386d",
    "status": 0,
    "value": {
       "acceptSslCerts": false,
@@ -39,235 +39,71 @@
    }
 }
 
-[1.310][FINE]:      Command received (/session/13fa0bb62c4a236f3e9243911c1f818a/timeouts/implicit_wait) with params {
+[1.304][FINE]:      Command received (/session/219505ea560730272a683279e9e2386d/timeouts/implicit_wait) with params {
    "ms": 10000.0,
-   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a"
+   "sessionId": "219505ea560730272a683279e9e2386d"
 }
 
-[1.310][FINER]:     Waiting for all views to stop loading...
-[1.313][FINER]:     Done waiting for all views to stop loading
-[1.313][FINER]:     Waiting for all views to stop loading...
-[1.329][FINER]:     Done waiting for all views to stop loading
-[1.329][FINE]:      Command finished (/session/13fa0bb62c4a236f3e9243911c1f818a/timeouts/implicit_wait) with response {
-   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a",
+[1.304][FINER]:     Waiting for all views to stop loading...
+[1.306][FINER]:     Done waiting for all views to stop loading
+[1.306][FINER]:     Waiting for all views to stop loading...
+[1.357][FINER]:     Done waiting for all views to stop loading
+[1.357][FINE]:      Command finished (/session/219505ea560730272a683279e9e2386d/timeouts/implicit_wait) with response {
+   "sessionId": "219505ea560730272a683279e9e2386d",
    "status": 0,
    "value": {
 
    }
 }
 
-[1.331][FINE]:      Command received (/session/13fa0bb62c4a236f3e9243911c1f818a/url) with params {
-   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a",
-   "url": "http://ec2.qa.nymetro.com/thecut/"
+[1.359][FINE]:      Command received (/session/219505ea560730272a683279e9e2386d/url) with params {
+   "sessionId": "219505ea560730272a683279e9e2386d",
+   "url": "http://ec2.qa.nymetro.com/thecut/2012/06/what-is-natalia-vodianova-wearing-on-her-head.html#"
 }
 
-[1.331][FINER]:     Waiting for all views to stop loading...
-[1.331][FINER]:     Done waiting for all views to stop loading
-[3.318][FINER]:     Waiting for all views to stop loading...
-[3.625][FINER]:     Done waiting for all views to stop loading
-[3.625][FINE]:      Command finished (/session/13fa0bb62c4a236f3e9243911c1f818a/url) with response {
-   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a",
+[1.359][FINER]:     Waiting for all views to stop loading...
+[1.359][FINER]:     Done waiting for all views to stop loading
+[4.299][FINER]:     Waiting for all views to stop loading...
+[4.303][FINER]:     Done waiting for all views to stop loading
+[4.303][FINE]:      Command finished (/session/219505ea560730272a683279e9e2386d/url) with response {
+   "sessionId": "219505ea560730272a683279e9e2386d",
    "status": 0,
    "value": {
 
    }
 }
 
-[3.627][FINE]:      Command received (/session/13fa0bb62c4a236f3e9243911c1f818a/element) with params {
-   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a",
-   "using": "css selector",
-   "value": "html.js body#nymag.homepage div#wrap-wrap div#wrap div#content div.contentSecondary div.par div.p..."
-}
-
-[3.627][FINER]:     Waiting for all views to stop loading...
-[3.627][FINER]:     Done waiting for all views to stop loading
-[3.638][FINER]:     Waiting for all views to stop loading...
-[3.638][FINER]:     Done waiting for all views to stop loading
-[3.638][FINE]:      Command finished (/session/13fa0bb62c4a236f3e9243911c1f818a/element) with response {
-   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a",
+[4.306][FINE]:      Command received (/session/219505ea560730272a683279e9e2386d/window/current/size)
+[4.306][FINER]:     Waiting for all views to stop loading...
+[4.315][FINER]:     Done waiting for all views to stop loading
+[4.328][FINER]:     Waiting for all views to stop loading...
+[4.648][FINER]:     Done waiting for all views to stop loading
+[4.648][FINE]:      Command finished (/session/219505ea560730272a683279e9e2386d/window/current/size) with response {
+   "sessionId": "219505ea560730272a683279e9e2386d",
    "status": 0,
    "value": {
-      "ELEMENT": ":wdc:1340305355031"
+      "height": 1251,
+      "width": 1247
    }
 }
 
-[3.640][FINE]:      Command received (/session/13fa0bb62c4a236f3e9243911c1f818a/element) with params {
-   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a",
-   "using": "css selector",
-   "value": "html.js body#nymag.homepage div#wrap-wrap div#wrap div#content div.contentSecondary div.par div.p..."
+[4.651][FINE]:      Command received (/session/219505ea560730272a683279e9e2386d/window/current/size) with params {
+   "height": 1200,
+   "sessionId": "219505ea560730272a683279e9e2386d",
+   "width": 1200,
+   "windowHandle": "current"
 }
 
-[3.641][FINER]:     Waiting for all views to stop loading...
-[3.641][FINER]:     Done waiting for all views to stop loading
-[3.652][FINER]:     Waiting for all views to stop loading...
-[3.653][FINER]:     Done waiting for all views to stop loading
-[3.653][FINE]:      Command finished (/session/13fa0bb62c4a236f3e9243911c1f818a/element) with response {
-   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a",
-   "status": 0,
+[4.651][FINER]:     Waiting for all views to stop loading...
+[4.651][FINER]:     Done waiting for all views to stop loading
+[4.688][FINER]:     Waiting for all views to stop loading...
+[4.689][FINER]:     Done waiting for all views to stop loading
+[4.689][WARNING]:   Command finished (/session/219505ea560730272a683279e9e2386d/window/current/size) with response {
+   "sessionId": "219505ea560730272a683279e9e2386d",
+   "status": 13,
    "value": {
-      "ELEMENT": ":wdc:1340305355032"
+      "message": "Unknown command. Options: AcceptOrDismissAppModalDialog, ActivateTab, CaptureEntirePage, CloseTab..."
    }
 }
 
-[3.654][FINE]:      Command received (/session/13fa0bb62c4a236f3e9243911c1f818a/element) with params {
-   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a",
-   "using": "css selector",
-   "value": "html.js body#nymag.homepage div#wrap-wrap div#wrap div#content div.contentSecondary div.par div.p..."
-}
-
-[3.654][FINER]:     Waiting for all views to stop loading...
-[3.654][FINER]:     Done waiting for all views to stop loading
-[3.665][FINER]:     Waiting for all views to stop loading...
-[3.666][FINER]:     Done waiting for all views to stop loading
-[3.666][FINE]:      Command finished (/session/13fa0bb62c4a236f3e9243911c1f818a/element) with response {
-   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a",
-   "status": 0,
-   "value": {
-      "ELEMENT": ":wdc:1340305355033"
-   }
-}
-
-[3.667][FINE]:      Command received (/session/13fa0bb62c4a236f3e9243911c1f818a/element) with params {
-   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a",
-   "using": "css selector",
-   "value": "html.js body#nymag.homepage div#wrap-wrap div#wrap div#content div.contentSecondary div.par div.p..."
-}
-
-[3.667][FINER]:     Waiting for all views to stop loading...
-[3.668][FINER]:     Done waiting for all views to stop loading
-[3.678][FINER]:     Waiting for all views to stop loading...
-[3.678][FINER]:     Done waiting for all views to stop loading
-[3.678][FINE]:      Command finished (/session/13fa0bb62c4a236f3e9243911c1f818a/element) with response {
-   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a",
-   "status": 0,
-   "value": {
-      "ELEMENT": ":wdc:1340305355034"
-   }
-}
-
-[3.680][FINE]:      Command received (/session/13fa0bb62c4a236f3e9243911c1f818a/element) with params {
-   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a",
-   "using": "xpath",
-   "value": "//a[@class='contentTextWrap'][@href='http://ec2.qa.nymetro.com/daily/fashion/2012/06/exclusive-qa..."
-}
-
-[3.680][FINER]:     Waiting for all views to stop loading...
-[3.680][FINER]:     Done waiting for all views to stop loading
-[3.725][FINER]:     Waiting for all views to stop loading...
-[3.725][FINER]:     Done waiting for all views to stop loading
-[3.725][FINE]:      Command finished (/session/13fa0bb62c4a236f3e9243911c1f818a/element) with response {
-   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a",
-   "status": 0,
-   "value": {
-      "ELEMENT": ":wdc:1340305355035"
-   }
-}
-
-[3.727][FINE]:      Command received (/session/13fa0bb62c4a236f3e9243911c1f818a/element/:wdc:1340305355035/click) with params {
-   "id": ":wdc:1340305355035",
-   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a"
-}
-
-[3.727][FINER]:     Waiting for all views to stop loading...
-[3.727][FINER]:     Done waiting for all views to stop loading
-[3.800][WARNING]:   Element's descendant would receive the click. Consider clicking the descendant instead. Descendant: <p class="contentHeader">...</p>
-[3.813][FINER]:     Waiting for all views to stop loading...
-[5.808][FINER]:     Done waiting for all views to stop loading
-[5.808][FINE]:      Command finished (/session/13fa0bb62c4a236f3e9243911c1f818a/element/:wdc:1340305355035/click) with response {
-   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[5.810][FINE]:      Command received (/session/13fa0bb62c4a236f3e9243911c1f818a/title)
-[5.810][FINER]:     Waiting for all views to stop loading...
-[5.818][FINER]:     Done waiting for all views to stop loading
-[5.822][FINER]:     Waiting for all views to stop loading...
-[5.822][FINER]:     Done waiting for all views to stop loading
-[5.822][FINE]:      Command finished (/session/13fa0bb62c4a236f3e9243911c1f818a/title) with response {
-   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a",
-   "status": 0,
-   "value": "Exclusive Q&A: Bar Refaeli, Winner of Maxim\u2019s Hot 100 Contest -- The Cut"
-}
-
-[5.825][FINE]:      Command received (/session/13fa0bb62c4a236f3e9243911c1f818a/back) with params {
-   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a"
-}
-
-[5.825][FINER]:     Waiting for all views to stop loading...
-[5.825][FINER]:     Done waiting for all views to stop loading
-[6.760][FINER]:     Waiting for all views to stop loading...
-[7.133][FINER]:     Done waiting for all views to stop loading
-[7.133][FINE]:      Command finished (/session/13fa0bb62c4a236f3e9243911c1f818a/back) with response {
-   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[7.135][FINE]:      Command received (/session/13fa0bb62c4a236f3e9243911c1f818a/element) with params {
-   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a",
-   "using": "xpath",
-   "value": "//img[@src='http://pixel.ec2-qa.nymetro.com/imgs/fashion/daily/06/20/20-bar-refaeli.o.jpg/a_2x-sq..."
-}
-
-[7.135][FINER]:     Waiting for all views to stop loading...
-[7.137][FINER]:     Done waiting for all views to stop loading
-[7.153][FINER]:     Waiting for all views to stop loading...
-[7.153][FINER]:     Done waiting for all views to stop loading
-[7.153][FINE]:      Command finished (/session/13fa0bb62c4a236f3e9243911c1f818a/element) with response {
-   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a",
-   "status": 0,
-   "value": {
-      "ELEMENT": ":wdc:1340305358546"
-   }
-}
-
-[7.155][FINE]:      Command received (/session/13fa0bb62c4a236f3e9243911c1f818a/element/:wdc:1340305358546/click) with params {
-   "id": ":wdc:1340305358546",
-   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a"
-}
-
-[7.155][FINER]:     Waiting for all views to stop loading...
-[7.155][FINER]:     Done waiting for all views to stop loading
-[7.258][FINER]:     Waiting for all views to stop loading...
-[8.764][FINER]:     Done waiting for all views to stop loading
-[8.764][FINE]:      Command finished (/session/13fa0bb62c4a236f3e9243911c1f818a/element/:wdc:1340305358546/click) with response {
-   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[8.766][FINE]:      Command received (/session/13fa0bb62c4a236f3e9243911c1f818a/url)
-[8.766][FINER]:     Waiting for all views to stop loading...
-[8.767][FINER]:     Done waiting for all views to stop loading
-[8.783][FINER]:     Waiting for all views to stop loading...
-[9.097][FINER]:     Done waiting for all views to stop loading
-[9.097][FINE]:      Command finished (/session/13fa0bb62c4a236f3e9243911c1f818a/url) with response {
-   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a",
-   "status": 0,
-   "value": "http://ec2.qa.nymetro.com/thecut/2012/06/exclusive-qa-bar-refaeli-maxims-hot-100.html"
-}
-
-[9.101][FINE]:      Command received (/session/13fa0bb62c4a236f3e9243911c1f818a/back) with params {
-   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a"
-}
-
-[9.101][FINER]:     Waiting for all views to stop loading...
-[9.108][FINER]:     Done waiting for all views to stop loading
-[9.968][FINER]:     Waiting for all views to stop loading...
-[9.969][FINER]:     Done waiting for all views to stop loading
-[9.969][FINE]:      Command finished (/session/13fa0bb62c4a236f3e9243911c1f818a/back) with response {
-   "sessionId": "13fa0bb62c4a236f3e9243911c1f818a",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[9.971][FINE]:      Command received (/session/13fa0bb62c4a236f3e9243911c1f818a)
+[4.691][FINE]:      Command received (/session/219505ea560730272a683279e9e2386d)
