@@ -1,0 +1,58 @@
+#! /usr/bin/python
+# -*- coding: utf-8 -*-
+
+import sys
+import os
+import re
+import pickle
+import string
+import unittest
+import time
+import HTMLTestRunner
+
+reload(sys)
+sys.setdefaultencoding("utf-8")
+
+
+DATA = pickle.load(open('/Users/nsmith/Desktop/BETA/CUT/DATA/PICKLE/seasondict.p', 'rb'))
+
+
+class SeasonMigration(unittest.TestCase):
+	
+    def setUp(self):
+    	    
+    	self.data = DATA.values()[0]
+    
+    """    
+    def test_process(self):
+    	    
+    	self.assertEqual(len(self.show_list), len(self.v[0]))
+    	
+    	
+    def test_show_data(self):
+    	
+    	asset = show['assetCount']
+    	pub = show['creationDate']
+    	try:
+    	    self.assertNotEqual(asset, None)
+    	    self.assertNotEqual(pub, None)
+    	    self.assertNotEqual(pub, '')
+    	    self.assertNotEqual(asset, '')
+    	    self.assertNotEqual(asset, 0)
+    	        
+    	except:
+    	    print show
+    	    print "ERROR"
+    	    pass
+    """	
+    def tearDown(self):
+    	
+    	pass
+    	
+results = open('/Users/nsmith/desktop/SEASONrunwaymig.html', 'wb')
+suite = unittest.TestLoader().loadTestsFromTestCase(SeasonMigration)
+unittest.TextTestRunner(verbosity=2).run(suite)
+runner = HTMLTestRunner.HTMLTestRunner(stream=results, title="TESTING", description='Results for Season Runwaymig')
+runner.run(suite)
+    
+    

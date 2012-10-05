@@ -1,0 +1,443 @@
+#! /usr/bin/python                                                                                                                                                                                  
+# -*- coding: utf-8 -*-
+
+import sys
+import os
+import re
+import httplib
+import pickle
+import urllib
+import urlparse
+import unittest
+import HTMLTestRunner
+import string
+import json
+import time
+import bs4
+from bs4 import BeautifulSoup
+
+reload(sys)
+sys.setdefaultencoding("utf-8")
+
+with open('/Users/nsmith/Desktop/BETA/CUT/DATA/JSON/beauty.master.json', mode='r') as g:
+    DATA = json.load(g)
+
+x = 0
+
+STG = 'http://stg.nymetro.com/thecut/beauty/'
+EC2 = 'http://ec2.qa.nymetro.com/thecut/beauty/'
+PROD = 'http://nymag.com/thecut/beauty/'
+
+
+class MyOpener(urllib.FancyURLopener):
+    version = 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.15) Gecko/20110303 Firefox/3.6.15'
+
+
+class BeautySplash(unittest.TestCase):
+
+    def setUp(self):
+
+        self.BASEURL = BASEURL
+        
+        self.m = open('/Users/nsmith/Desktop/masterbeautyfail.txt', 'a')
+        self.req = MyOpener()
+        self.page = self.req.open(self.BASEURL)
+        self.text = self.page.read()
+        self.page.close()
+        self.soup = BeautifulSoup(self.text)
+        self.spam = self.soup.find_all
+        self.verificationErrors = []
+        
+        ################################################################################
+        
+    def json_organizer(self, _json):
+        
+        self.j = json.loads(_json)
+        
+        self.entry_type = self.j['entryType']
+        self.feature_type = self.j['featureTypes']
+        self.desc = self.j['jcr:description']
+        self.title = self.j['jcr:title']
+        
+	self.i = self.j['primary_image'].split('.jpg')
+        self.img = self.i[0]
+        
+        self.shorthead = self.j['shorterheadline']
+        self.excerpt = self.j['excerpt']
+        
+        try:
+            self.longhead = self.j['longerheadline']
+        except KeyError:
+            self.longhead = None
+            
+        try:
+            self.author = self.j['authors'][0]
+        except KeyError:
+            self.author = None
+            
+        try:
+            self.tags = self.j['cq:tags']
+        except KeyError:
+            self.tags = None
+            
+        try:
+            self.f = self.j['feature_rubric'].split('/')
+            self.feat = self.f[-1]
+            w = self.feat.split('-')
+            wordlist = []
+            caps_wordlist = []
+            for word in w:
+            	l = word.lower()
+            	if len(word) > 0:
+            	    u = word[0].upper() + word[1:]
+                else:
+                    u = word.upper()
+            	wordlist.append(l)
+            	caps_wordlist.append(u)
+            self.feature_rub = ' '.join(wordlist)
+            self.caps_feature_rub = ' '.join(caps_wordlist)
+            	    
+        except KeyError:
+            self.feature_rub = None
+            self.caps_feature_rub = None
+        
+        try:
+            self.primary_tag = self.j['primary_tag']
+        except KeyError:
+            self.primary_tag = None
+            
+        ################################################################################
+        
+    def test_text(self):
+    	    
+    	header = self.soup.find('h3')
+    	self.assertEqual(header.string, "Beauty Newsfeed")
+    	    
+    	################################################################################
+    	
+    def test_lede(self):
+    	    
+    	#Tests the articles in the rotating lede
+    	  
+    	u = 0
+    	for tag in self.spam('li', {'class':'ledeArticle'}):
+    	    
+	    link = tag.find('a')['href']
+	    try:
+	        if DATA[link] is not None:
+	            self.json_organizer(DATA[link])
+	            meta = str(u + 1), ENV, self.shorthead
+	        else:
+	            raise TypeError
+	            
+	    except TypeError:
+	    	print "NO JSON", str(u), str(link)
+	    	pass
+	    	
+	    except KeyError:
+	    	print "KEY ERROR", str(u), str(link)
+	    	pass
+	
+            else:
+	        try:
+	            # Lede Img Tag
+	            lede_img = tag.find('div')['class']
+	            a = self.assertEqual(str(lede_img), 'ledeImage'), "Lede Img Tag in Article", meta
+	            
+	            # Link Associated with Image
+    	            a_link = tag.find('a')['href']
+    	            b_link = tag.find('a')
+    	            a = self.assertEqual(str(a_link), str(link)), "URL in Lede Article", meta
+    	            
+    	            # Data Picture Tag
+    	            data_pic = b_link.find('div')['data-alt']
+    	            data_tag = b_link.find('div')
+    	            a = self.assertEqual(str(data_pic), str(self.shorthead)), "Data Picture Tag in Lede Article", meta  #Data alt = title?
+    	            
+                    # Media Queries
+                    desktop = data_tag.find('div')['data-src']
+    	            a = self.assertEqual(str(desktop), self.img + '.jpg/a_4x-horizontal.jpg'), "Img in Lede Article", meta
+    	            tablet = data_tag.find('div', {'data-src':self.img + '.jpg/a_3x-horizontal.jpg', 'data-media':'(max-width: 600px)'})
+		    a = self.assertNotEqual(str(tablet), None), "Tablet Img in Lede Article", meta
+    	            mobile = data_tag.find('div', {'data-src':self.img + '.jpg/a_4x-horizontal.jpg', 'data-media':'(min-width: 601px)'})
+    	            a = self.assertNotEqual(str(mobile), None), "Desktop Img in Lede Article", meta
+    	            noscript = data_tag.find('noscript').contents
+		    a = self.assertNotEqual(str(noscript), []), "Noscript Tag in Lede Article", meta
+		    #img = data_tag.find('img')['src']
+		    #a = self.assertEqual(str(img), self.img + '.jpg/a_4x-horizontal.jpg'), "New Img Tag in Lede Article", meta
+    	            
+    	            # Header
+    	            header = tag.find('header')['class']
+    	            head = tag.find('header')
+    	            a = self.assertEqual(str(header), 'ledeHeader'), "Header Tag in Lede Article", meta
+    	            
+    	            # Feature Rubric
+    	            rubric = head.find('div', {'class':'ledeFeatureRubric'})
+    	            a = self.assertNotEqual(str(rubric), None), "Feature Rubric Tag in Lede Article", meta
+    	            feature_link = head.find('a', {'class':'ledeFeatureRubricLink', 'href':link})
+    	            a = self.assertNotEqual(str(feature_link), None), "Feature Rubric Link in Lede Article", meta
+    	            
+    	            if self.feature_rub is not None:
+    	            	rubric_txt = str(feature_link.text).lower()
+    	            	a = self.assertEqual(rubric_txt, str(self.feature_rub)), "Feature Rubric Text in Lede Article", meta
+    	             
+    	            # H2
+    	            h2 = head.find('h2')['class']
+    	            a = self.assertEqual(str(h2), 'ledeHeadline'), "Lede Headline H2 Tag in Lede Article", meta
+    	            headline_link = head.find('a', {'class':'ledeHeadlineLink', 'href':link})
+    	            a = self.assertNotEqual(headline_link, None), "Feature Headline Link in Lede Article", meta
+    	            headline_txt = headline_link.text
+    	            a = self.assertEqual(headline_txt, self.shorthead), "Headline Text - Short Headline", meta
+    	            
+    	            # Byline
+    	            if self.author is not None:
+    	                by = head.find('div', {'class':'ledeByline'})
+    	                a = self.assertNotEqual(str(by), None), "Lede Byline Div Tag in Lede Article", meta
+    	                byline_link = by.find('a')['href']
+    	                line = by.find('a')
+    	                a = self.assertEqual(str(byline_link), link), "Lede Byline Link in Lede Article", meta
+    	                byline_auth = line.text
+    	                a = self.assertEqual(str(byline_auth), str(self.author)), "Lede Byline Link in Lede Article", meta
+    	            
+    	            # Excerpt
+    	            exc = tag.find('p')
+    	            a = self.assertEqual(exc, None), "Excerpt in Lede Article", meta
+    	            #a = self.assertEqual(str(exc), str(self.excerpt)), "Excerpt in Lede Article", meta
+		    
+	        except KeyError, e:
+	    	    print str(e) + ' tag attribute not found on page', str(u+1), self.shorthead
+	    	    print 
+	    	    
+	        except AssertionError, e:
+	            print str(e), str(u + 1), self.shorthead
+	    	    self.verificationErrors.append(a)
+	    	    self.m.write(str(a))
+	    	    self.m.write('\n')
+	    	    pass   
+	    
+	    u += 1
+	
+	#self.lede_markers(u)
+	#self.assertEqual(u, 4)
+	
+	################################################################################
+	
+    def test_prev_next(self):
+    	    
+    	#Tests the previous/next arrows
+    	
+    	try:
+    	    self.soup.find('nav', attrs={'class':'next'})
+    	    self.soup.find('nav', attrs={'class':'prev'})
+    	    self.soup.find('a', attrs={'href':'javascript:;', 'class':'ledeNext'})
+    	    self.soup.find('a', attrs={'href':'javascript:;', 'class':'ledePrev'})
+    	    
+        except KeyError, e:
+            metalist = [str(e), ENV, self.shorthead]
+            meta = (" ").join(metalist)
+            self.verificationErrors.append(meta)
+            
+    	################################################################################
+    	
+    def lede_markers(self, u):
+    	    
+    	#Tests for lede markers
+    	
+    	self.u = u
+    	
+    	try:
+	    dot = self.soup.find('ol', {'class':'ledeMarkers'})
+	    dots = self.spam('ol', {'class':'ledeMarkers'})
+    
+        except KeyError, e:
+            metalist = [str(e), ENV, self.shorthead]
+            meta = (" ").join(metalist)
+            self.verificationErrors.append(meta)
+            
+	self.assertEqual(int(self.u), len(dots))
+    	    
+    	################################################################################
+    	    
+    def test_metadata(self):
+    	    
+    	#Metadata test
+    	
+    	self.assertTrue('Beauty Tips and Products: Makeup, Hair, Skincare, Fragrances - TheCut' in self.soup.find('title').string)
+    	
+    	try:
+    	    self.soup.find('meta', {'name':'description', 'content':'Critical and obsessive, our beauty team reports on the latest' +
+    			'beauty trends, reviews new beauty products, and shares tips on how to apply makeup, create hairstyles, take' + 
+    			'care of your skin, and more.'})
+    	    self.soup.find('meta', {'name':'keywords', 'content':'fitness,skincare,nails,fragrance,beauty,makeup,hair'})
+    	    self.soup.find('meta', {'name':'content.hierarchy', 'content':'The Cut:Beauty:Index'})
+    	    self.soup.find('meta', {'name':'content.hierarchy.title', 'content':'The Cut Beauty'})
+    	    self.soup.find('meta', {'name':'content.source', 'content':'Online'})
+    	    self.soup.find('link', {'rel':'canonical', 'href':'http://nymag.com/thecut/beauty/'})
+    	    	    
+    	except KeyError, e:
+    	    self.verificationErrors.append(str(e))
+    	
+        ################################################################################
+
+    def test_lpos(self):
+    	    
+    	#Test for Omniture link positions
+    	
+    	lpos = re.compile('&lpos.*')
+    	self.assertNotEqual(self.spam('a', attrs={'name':lpos}), None)
+    	    
+    	################################################################################    
+      	    
+    def test_entries(self):
+    	    
+    	#Entries
+    	
+    	u = 0
+    	
+    	for tag in self.spam('article', attrs={'class':'feedEntry', 'id':'entry', 'data-publish-datetime':True}):
+    	    
+	    link = tag.find('a')['href']
+	    
+	    try:
+	        if DATA[link] is not None:
+	            self.json_organizer(DATA[link])
+	            meta = str(u + 1), ENV, self.shorthead
+	        else:
+	            raise TypeError
+	            
+	    except TypeError:
+	    	print "NO JSON", str(u), str(link)
+	    	pass
+	    	
+	    except KeyError:
+	    	print "KEY ERROR", str(u), str(link)
+	    	pass
+	
+            else:
+	        try:
+                    # Feature Image Tag	
+                    feat_img = tag.find('div')['class']
+                	
+                    # URL in Article Assoc. with Image	
+                    a_link = tag.find('a')['href']
+                    b_link = tag.find('a')
+                	
+                    # Data Picture Tag
+    	            data_pic = b_link.find('div')['data-picture']
+    	            data_tag = b_link.find('div')
+    	            
+                    # Media Queries
+                    desktop = data_tag.find('div')['data-src']
+    	            data_tag.find('div', {'data-src':str(self.img) + '.jpg/a_1x-square.jpg', 'data-media':'(max-width: 600px)'})
+    	            data_tag.find('div', {'data-src':str(self.img) + '.jpg/a_3x-square.jpg', 'data-media':'(min-width: 601px)'})
+    	            noscript = data_tag.find('noscript').contents
+		    #img = data_tag.find('img')['src']
+                	
+                    # Header
+    	            header = tag.find('header')
+    	            
+    	            # Timestamp
+    	            _timestamp = header.find('li', {'class':'metaTime'}).text
+    	            
+    	            # Feature Rubric
+    	            if self.feature_rub is not None:
+    	            	feature = header.find('li', {'class':self.caps_feature_rub})
+    	        
+	        except KeyError, e:
+	            print str(e), str(u + 1), self.shorthead, "KEYERROR"
+	    	    self.verificationErrors.append(str(e))
+	    	    self.m.write(str(meta) + ' ' + str(e))
+	    	    self.m.write('\n')
+	    	    continue
+	    
+	        finally:
+	        	
+	            try:
+	                # Asserts
+	                self.assertEqual(str(feat_img), 'featureImage')
+	                self.assertEqual(str(a_link), link)
+	                self.assertEqual(str(data_pic), 'true')
+	                self.assertEqual(str(desktop), str(self.img) + '.jpg/a_3x-square.jpg')
+	                self.assertNotEqual(str(noscript), [])
+	                self.assertEqual(feature.text, str(self.caps_feature_rub))
+	                #self.assertEqual(str(img), self.img + '.jpg/a_4x-horizontal.jpg')
+	            
+	            except AssertionError, e:
+	                print str(e), str(u + 1), self.shorthead, "ASSERTIONERROR"
+	                self.verificationErrors.append(str(e))
+	                self.m.write(str(meta) + ' ' + str(e))
+	                self.m.write('\n')
+	                pass
+	    
+	            except AttributeError, e:
+	                print str(e), str(u + 1), self.shorthead, "ATTRIBUTEERROR"
+	                self.verificationErrors.append("FEATURE RUBRIC FAIL " + str(meta))
+	                self.m.write(str(meta) + ' ' + str(e))
+	                self.m.write('\n')
+	                pass
+	    	
+    	    u += 1
+    	#self.assertEqual(u, 10)
+     	
+        ################################################################################
+    	
+    def test_bizdev(self):
+    	    
+    	bizdev = self.spam('script')[0]
+    	    
+    	self.failUnless(re.search('zone: "beauty"', str(bizdev), re.I))
+    	self.failUnless(re.search('takeover: "beauty"', str(bizdev), re.I))
+    	
+    	################################################################################
+    	    
+    def test_loadmore(self):
+
+	self.assertNotEqual(self.soup.find('a', attrs={'id':'loadMoreEntries', 'class':'galleryOpen'}), None)
+	
+        ################################################################################    
+    	 
+    def tearDown(self):
+
+        self.assertEqual([], self.verificationErrors)
+        self.m.close()
+        
+        ################################################################################
+
+"""   
+FUTURE FEATURE:
+
+def fail_writer(test):
+	
+    test = test	
+    t = datetime.time
+    print t
+    f = open('../failures.txt')
+    f.write(t + '\t' + BASEURL + '\n')
+    print test
+
+"""
+
+for x in range(2,3):
+	
+    if x == 0:
+    	BASEURL = STG
+    	ENV = 'stg'	
+    
+    elif x == 1:
+    	BASEURL = EC2
+    	ENV = 'ec2'
+        
+    else:
+    	BASEURL = PROD
+    	ENV = 'prod'
+    
+    filename = BASEURL.split('/')
+    results = open('../../DATA/HTML/SPLASH/' + ENV + '.beautysplash.html', 'wb')
+    print "TESTING " + BASEURL
+    suite = unittest.TestLoader().loadTestsFromTestCase(BeautySplash)
+    unittest.TextTestRunner(verbosity=2).run(suite)
+    runner = HTMLTestRunner.HTMLTestRunner(stream=results, title=filename[-2], description='Specific Results for Beauty Splash Page on ' + ENV)
+    runner.run(suite)
+    
+    x += 1
+    

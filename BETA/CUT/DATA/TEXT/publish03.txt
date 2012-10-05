@@ -1,0 +1,941 @@
+<body class="fashion splash beauty" id="nymag">
+     <div class="opening-credits-wrap" id="opening-credits"></div>
+     <div id="wrap-wrap-wrap">
+        <div class="takeover-player-a"><div class="takeover-player-b"><div class="takeover-player-c" id="takeover-player"></div><a class="takeover-close" href="#"></a></div></div>
+         <div id="wrap-wrap">
+            <div id="wrap">
+                <div class="nymTakeover" id="nymTakeover"></div>
+
+                <!-- Load the SDKs fb/twitter/g+ Asynchronously -->
+                <div id="fb-root"></div>
+                <script>
+                if (Modernizr.mq('only all and (min-device-width: 601px)') || !(Modernizr.mq('(min-width: 0px)'))) {
+                    //----------- facebook sdk
+                    (function(d){
+                        var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+                        if (d.getElementById(id)) {return;}
+                        js = d.createElement('script'); js.id = id; js.async = true;
+                        js.src = "//connect.facebook.net/en_US/all.js";
+                        ref.parentNode.insertBefore(js, ref);
+                    }(document));
+                    //---------- google plus sdk
+                    (function() {
+                        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true; po.defer = "defer";
+                        po.src = 'https://apis.google.com/js/plusone.js';
+                        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+                    })();
+                    //---------- twitter intents widgets.js
+                    window.twttr = (function (d,s,id) {
+                        var t, js, fjs = d.getElementsByTagName(s)[0];
+                        if (d.getElementById(id)) return; js=d.createElement(s); js.id=id; js.async = true;
+                        js.src="//platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
+                        return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
+                    }(document, "script", "twitter-wjs"));
+
+                    NYM.FBisloaded = false; //check if facebook sdk is loaded and connected
+
+                    //---------- init facebook api
+                    window.fbAsyncInit = function() {
+                        FB.init({
+                          appId      : '', // App ID
+                          channelUrl : '/includes/components/mast/utilities/fb_channel.html', // Channel File
+                          status     : true, // check login status
+                          cookie     : true, // enable cookies to allow the server to access the session
+                          xfbml      : true  // parse XFBML
+                        });
+
+                        NYM.FBisloaded = true;
+                    };
+                }
+                </script>
+
+                <div class="leaderBoard leaderBoard-aboveNav">
+                    <div class="nym-ad" data-ad-size="468x60,480x60,480x61" data-html4-viewport="480,727" data-iframe-size="480x60" data-media="only screen and (min-width: 480px) and (max-width: 727px)" data-tilegroup="a" id="leaderboard-tablet-mobile">
+                        <script>NYM.dfp.loadAd({'id':'leaderboard-tablet-mobile','sz':'468x60,480x60,480x61','media':'only screen and (min-width: 480px) and (max-width: 727px)','html4-viewport':'480,727'});</script>
+                    </div>
+                    <div class="nym-ad" data-ad-size="300x50,320x50" data-html4-viewport="320,479" data-iframe-size="320x50" data-media="only screen and (min-width: 320px) and (max-width: 479px)" data-tilegroup="a" id="leaderboard-mobile">
+                        <script>NYM.dfp.loadAd({'id':'leaderboard-mobile','sz':'300x50,320x50','media':'only screen and (min-width: 320px) and (max-width: 479px)','html4-viewport':'728,969'});</script>
+                    </div>
+                </div> <!-- /end .leaderBoard -->
+                
+<p class="ineffable"><a href="#content">Skip to content</a>, or <a href="#search">skip to search</a>.</p>
+
+<div id="mast">
+    <nav class="fb_notconnected" id="utilities">
+        <div class="overflowBackground"></div>
+        <div class="main navUtil">
+            <ul class="global">
+                <li class="home">
+                    <a class="nymagNetwork" href="javascript:;">Our Sites</a>
+                    <a class="nymagLink" href="/">nymag.com</a>
+                    <ul class="childSites">
+                        <li><a href="/daily/intel/">Daily Intel</a></li>
+                        <li><a href="http://www.vulture.com/">Vulture</a></li>
+                        <li><a href="/thecut/">The Cut</a></li>
+                        <li><a href="http://newyork.grubstreet.com/">Grub Street</a></li>
+                    </ul>
+                </li>
+
+                <li class="top the-magazine">
+                    <a class="top" href="/includes/tableofcontents.htm" id="nav-mag">The Magazine</a>
+                    <div id="sub_nav_mag">
+                        <p><a href="/includes/tableofcontents.htm" title="See the current issue of New York"><img alt="" src="http://images.nymag.com/current_issue.jpg"/></a></p>
+                        <ul><li><a href="/includes/tableofcontents.htm">Table of Contents</a></li>
+                            <li><a href="/redirects/circ_subscribe/utility-bar.html">Subscribe Now</a></li>
+                            <li><a href="/redirects/circ_gifts/utility-bar.html">Give a Gift Subscription</a></li>
+                            <li><a href="https://secure.palmcoastd.com/pcd/eServCart?iServ=MDM5MjEzODM0Mg==">Buy Back Issues</a></li>
+                            <li><a href="/includes/issuearchive.htm">Online Issue Archive</a></li>
+                            <li><a href="https://secure.palmcoastd.com/pcd/eServ?iServ=MDM5MjEyNDE2Ng==">Customer Service: Contact Us!</a></li>
+                            <li class="last"><a href="/newyork/mediakit/">Media Kit</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+            </ul><!-- /end .global -->
+        </div><!-- /end .main -->
+
+
+        <div class="login-social-wrap">
+            <div class="navSocial">
+                <ul class="navSocial-list">
+                    <li class="facebook navSocial-list-item">
+                        <div class="fb-like-container">
+                            <!-- &lt;div class="fb-like" data-href="http://www.facebook.com/Cut" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false" data-colorscheme="dark" data-font="arial"&gt;&lt;/div&gt; -->
+                            <fb:like colorscheme="dark" font="arial" href="http://www.facebook.com/Cut" layout="button_count" send="false" show_faces="false" width="100"></fb:like>
+                        </div>
+                    </li>
+                    <li class="twitter navSocial-list-item last">
+                        <a class="twitter-follow-button" data-show-count="false" data-show-screen-name="false" href="https://twitter.com/TheCut"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="membership" id="logged_in_bar" style="display:none;">
+                <ul>
+                    <li class="mynewyork"><a class="top" href="http://my.nymag.com" id="nav-mynewyork"><span id="mynewyork-wrp"><cite id="user_name">UserName</cite> <span class="fbpic"></span></span></a>
+                        <div id="sub_nav_mynewyork"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="membership" id="logged_out_bar" style="display:none;">
+                <ul>
+                    <li>
+                        <a class="login-lightbox" href="/accountcenter/login.cgi">Log In</a>
+                    </li>
+                    <li class="register last">
+                        <a class="register-lightbox" href="/registration/">Register</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav><!-- /end #utilities -->
+</div><!-- /end #mast -->
+
+<nav class="full" id="navigation">
+
+    <div class="overflowBackground"></div>
+
+    <nav class="cutHome">
+        <a class="cutLogo" href="/thecut/">Home</a>
+        <a class="cutHomeLink" href="/thecut/">Home</a>
+    </nav>
+
+    <nav class="cutSections">
+        <div class="sectionButtonTab">
+            <a class="sectionButton" href="javascript:;">Sections</a>
+        </div>
+        <ul class="cutSectionList">
+            <li class="fashions cutSectionItem">
+                <a class="sectionLink" href="/thecut/fashion/">Fashions <b class="navArrow">»</b></a>
+
+                <ul class="subNav arrowBoxTopRight">
+                    <li class="runway cutSectionItem"><a class="sectionLink" href="/thecut/runway/">Runway <b class="navArrow">»</b></a></li>
+                    <li class="streetstyle cutSectionItem"><a class="sectionLink" href="/thecut/street-style/">Street Style <b class="navArrow">»</b></a></li>
+                </ul>
+
+                <a class="subNavDropdown" href="javascript:void(0)">more</a>
+            </li>
+
+            <li class="fame cutSectionItem"><a class="sectionLink" href="/thecut/celebrities/">Fame <b class="navArrow">»</b></a></li>
+            <li class="beauty cutSectionItem"><a class="sectionLink" href="/thecut/beauty/">Beauty <b class="navArrow">»</b></a></li>
+            <li class="goods cutSectionItem"><a class="sectionLink" href="/thecut/shopping/">Goods <b class="navArrow">»</b></a></li>
+            <li class="lovewar cutSectionItem"><a class="sectionLink" href="/thecut/love/">Love<i>&amp;</i>War <b class="navArrow">»</b></a></li>
+            <li class="search cutSectionItem">
+                <!-- SEARCH NOT CONFIGURED FOR THE CUT -->
+                    <div class="sitewideSearch">
+                        <form action="http://nymag.com/search/search.cgi" id="ny-search" method="get">
+                            <fieldset class="txt" id="ny-search-fieldset">
+                                <input name="fd" type="hidden" value="All"/>
+                                <input name="Ns" type="hidden" value="Relevance|0"/>
+                                <input name="search_type" type="hidden" value="sw"/>
+                                <input name="N" type="hidden" value="0"/>
+                                <input class="text" id="txt-ny-search" name="textquery" type="text" value="Search"/>
+                                <button id="btn-ny-search" type="submit">Go</button>
+                            </fieldset><!-- /end .txt -->
+                            <fieldset class="scope" id="search-scope">
+                                <ul>
+                                    <li><label for="sc-all"><input checked="checked" class="radio" id="sc-all" name="scope" onclick="javascript:swapSearchTop('all')" type="radio" value="sc-all"/>NYMag &amp; Vulture</label></li>
+                                    <li><label for="sc-vulture"><input class="radio" id="sc-vulture" name="scope" onclick="javascript:swapSearchTop('vulture')" type="radio" value="sc-vulture"/>Vulture</label></li>
+                                </ul>
+                            </fieldset><!-- /end .scope -->
+                        </form>
+                    </div><!-- /end .sitewideSearch -->
+                <!-- SEARCH NOT CONFIGURED FOR THE CUT -->
+            </li>
+            
+            <li class="cutSectionItem">
+                <div class="feedbackWrap">
+    <a class="feedbackLink" href="http://www.surveygizmo.com/s3/1024147/Share-your-feedback-with-The-Cut" target="_blank">
+        <i class="shortHeadline">Feedback</i>
+        <i class="longerHeadline">Have Feedback? </i>
+        <b class="longerHeadline">Tell us</b> 
+    </a>
+</div>
+            </li>
+            
+        </ul>
+    </nav>
+</nav><!-- /end #nav-primary -->
+                <div class="leaderBoard leaderBoard-belowNav">
+                    <div class="nym-ad" data-ad-size="980x60,980x30,970x90,728x90" data-fuie="true" data-html4-viewport="970" data-iframe-size="970x90" data-media="only screen and (min-width: 970px), only screen and (min-device-width : 768px) and (max-device-width: 1024px) and (orientation: landscape)" data-takeover-defer="true" data-tilegroup="a" id="leaderboard-desktop">
+                        <script>NYM.dfp.loadAd({'id":"leaderboard-desktop','sz':'980x60,980x30,970x90,728x90','media':'only screen and (min-width: 728px) and (max-width: 969px), only screen and (min-device-width : 768px) and (max-device-width: 1024px) and (orientation: portrait)','html4-viewport':'728,969','fuie':true,'takeover-defer':true});</script>
+                    </div> 
+                    <div class="nym-ad" data-ad-size="728x90,728x91" data-html4-viewport="728,969" data-iframe-size="728x90" data-media="only screen and (min-width: 728px) and (max-width: 969px), only screen and (min-device-width : 768px) and (max-device-width: 1024px) and (orientation: portrait)" data-takeover-defer="true" data-tilegroup="a" id="leaderboard-tablet">
+                        <script>NYM.dfp.loadAd({'id':'leaderboard-tablet','sz':'728x90,728x91','media':'only screen and (min-width: 728px) and (max-width: 969px), only screen and (min-device-width : 768px) and (max-device-width: 1024px) and (orientation: portrait)','html4-viewport':'728,969'});</script>
+                    </div>
+                </div> <!-- /end .leaderBoard -->
+                
+
+
+                
+
+
+
+
+    <div class="" id="content">
+
+        <header><h1><span class="kern-minus2">B</span><em>e</em><span class="kern-minus6">a</span><span class="kern-plus5">u</span><span class="kern-plus6">t</span>y</h1></header>
+        <div class="contentPrimary">
+
+        <div class="lede splashlede parbase">
+
+  
+  
+
+  
+  
+
+  
+  
+
+  <!-- The rendering of the whole thing starts here -->
+<div class="ledeWrap">
+
+	<div class="ledeWindow">
+
+		<ul class="ledeArticleContainer">
+
+			
+				
+			
+            
+            
+
+            <li class="ledeArticle">
+
+				<div class="ledeImage">
+
+					<a href="http://nymag.com/thecut/2012/10/plastic-surgery-pimp.html">
+						<div data-alt="The Plastic Surgery Dealer" data-picture="true">
+							<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/02/02-plastic-surgery.o.jpg/a_4x-horizontal.jpg"></div>
+							<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/02/02-plastic-surgery.o.jpg/a_3x-horizontal.jpg"></div>
+							<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/02/02-plastic-surgery.o.jpg/a_4x-horizontal.jpg"></div>
+							<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/02/02-plastic-surgery.o.jpg/a_3x-horizontal.jpg" alt="The Plastic Surgery Dealer"/&gt;</noscript>
+						</div>
+					</a>
+
+				</div>
+
+				<header class="ledeHeader" data-bgcolor="">
+
+					<div class="alphaWrap"></div>
+
+					<div class="ledeFeatureRubric"><a class="ledeFeatureRubricLink" href="http://nymag.com/thecut/2012/10/plastic-surgery-pimp.html">interview</a></div>
+
+					<h2 class="ledeHeadline"><a class="ledeHeadlineLink" href="http://nymag.com/thecut/2012/10/plastic-surgery-pimp.html">The Plastic Surgery Dealer</a></h2>
+
+					
+
+						<div class="ledeByline">by
+
+						<b><a href="http://nymag.com/thecut/2012/10/plastic-surgery-pimp.html">Alyssa Shelasky</a></b>
+
+						</div>
+
+                	
+
+				</header>
+
+			</li><!-- End .ledeArticle -->
+      
+			
+          	
+			
+
+		</ul><!-- End .ledeArticleContainer -->
+
+    </div><!-- End .ledeWindow -->
+
+	<nav class="prev">
+
+		<div class="alphaWrap"></div>
+		<a class="ledePrev" href="javascript:;"></a>
+
+	</nav>
+
+	<nav class="next">
+
+		<div class="alphaWrap"></div>
+		<a class="ledeNext" href="javascript:;"></a>
+
+	</nav>
+
+    <ol class="ledeMarkers">
+		
+      
+			<li></li>
+      
+		
+    </ol>
+
+</div><!-- End .ledeWrap --></div>
+
+    	<div class="parsys parExtras"><div class="htmlComponent section">
+
+
+
+
+    <div class="filters"><h3>Beauty Newsfeed</h3></div>
+
+
+
+
+ </div>
+</div>
+
+
+
+        <section class="feed">
+            <div class="feedList" data-continuous-scroll="false" id="feedList">
+                <div class="page articlepage">
+                   
+
+
+
+
+<article class="feedEntry" data-publish-datetime="1349280000000" id="entry">
+    
+    <div class="featureImage">
+        <a href="http://nymag.com/thecut/2012/10/beauty-qa-whats-the-best-eye-makeup-remover.html">
+        
+        <div data-picture="true">
+ 			<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/03/03-beauty-q-a-almay.o.jpg/a_3x-square.jpg"></div>
+ 			<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/03/03-beauty-q-a-almay.o.jpg/a_1x-square.jpg"></div>
+ 			
+ 			<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/03/03-beauty-q-a-almay.o.jpg/a_3x-square.jpg"></div>
+ 			
+ 			<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/03/03-beauty-q-a-almay.o.jpg/a_3x-horizontal.jpg"&gt;</noscript>
+		</div>
+		
+        </a>
+    </div>
+    
+
+    <header>
+        <ul class="meta">
+            <li class="metaTime">Today at  12:00 PM</li>
+            <li class="Beauty Q&amp;a">Beauty Q&amp;a</li>
+            <!-- &lt;li class="comments"&gt;&lt;b&gt;5&lt;/b&gt;&lt;/li&gt; -->
+        </ul>
+        <h2><a href="http://nymag.com/thecut/2012/10/beauty-qa-whats-the-best-eye-makeup-remover.html">Lunchtime Beauty Q&amp;A: Whatâ€™s the Best Eye-Makeup Remover for Sensitive Eyes?</a></h2>
+        <p class="excerpt">Gentle, non-oily options that actually work.</p>
+
+    </header>
+</article></div>
+
+
+
+<div class="page articlepage">
+                   
+
+
+
+
+<article class="feedEntry" data-publish-datetime="1349209039000" id="entry">
+    
+    <div class="featureImage">
+        <a href="http://nymag.com/thecut/2012/10/dude-beer-is-good-for-your-hair-and-body.html">
+        
+        <div data-picture="true">
+ 			<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/02/02-beer-shampoo-broo-2.o.jpg/a_3x-square.jpg"></div>
+ 			<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/02/02-beer-shampoo-broo-2.o.jpg/a_1x-square.jpg"></div>
+ 			
+ 			<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/02/02-beer-shampoo-broo-2.o.jpg/a_3x-square.jpg"></div>
+ 			
+ 			<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/02/02-beer-shampoo-broo-2.o.jpg/a_3x-horizontal.jpg"&gt;</noscript>
+		</div>
+		
+        </a>
+    </div>
+    
+
+    <header>
+        <ul class="meta">
+            <li class="metaTime">Yesterday at  4:17 PM</li>
+            <li class="Beer Me">Beer Me</li>
+            <!-- &lt;li class="comments"&gt;&lt;b&gt;5&lt;/b&gt;&lt;/li&gt; -->
+        </ul>
+        <h2><a href="http://nymag.com/thecut/2012/10/dude-beer-is-good-for-your-hair-and-body.html">Dude! Beer Is Good for Your Hair and Body</a></h2>
+        <p class="excerpt">When applied externally.</p>
+
+    </header>
+</article></div>
+<div class="page articlepage">
+                   
+
+
+
+
+<article class="feedEntry" data-publish-datetime="1349196502000" id="entry">
+    
+    <div class="featureImage">
+        <a href="http://nymag.com/thecut/2012/10/zoom-shot-silver-eyes-at-chanel.html">
+        
+        <div data-picture="true">
+ 			<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/02/02-chanel-zoom-2.o.jpg/a_3x-square.jpg"></div>
+ 			<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/02/02-chanel-zoom-2.o.jpg/a_1x-square.jpg"></div>
+ 			
+ 			<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/02/02-chanel-zoom-2.o.jpg/a_3x-square.jpg"></div>
+ 			
+ 			<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/02/02-chanel-zoom-2.o.jpg/a_3x-horizontal.jpg"&gt;</noscript>
+		</div>
+		
+        </a>
+    </div>
+    
+
+    <header>
+        <ul class="meta">
+            <li class="metaTime">Yesterday at  12:48 PM</li>
+            <li class="Zoom Shots">Zoom Shots</li>
+            <!-- &lt;li class="comments"&gt;&lt;b&gt;5&lt;/b&gt;&lt;/li&gt; -->
+        </ul>
+        <h2><a href="http://nymag.com/thecut/2012/10/zoom-shot-silver-eyes-at-chanel.html">Zoom Shot: Silver Eyes at Chanel</a></h2>
+        <p class="excerpt">Galactic metallic, this is not.</p>
+
+    </header>
+</article></div>
+<div class="page articlepage">
+                   
+
+
+
+
+<article class="feedEntry" data-publish-datetime="1349186731000" id="entry">
+    
+    <div class="featureImage">
+        <a href="http://nymag.com/thecut/2012/10/plastic-surgery-pimp.html">
+        
+        <div data-picture="true">
+ 			<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/02/02-plastic-surgery.o.jpg/a_3x-square.jpg"></div>
+ 			<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/02/02-plastic-surgery.o.jpg/a_1x-square.jpg"></div>
+ 			
+ 			<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/02/02-plastic-surgery.o.jpg/a_3x-square.jpg"></div>
+ 			
+ 			<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/02/02-plastic-surgery.o.jpg/a_3x-horizontal.jpg"&gt;</noscript>
+		</div>
+		
+        </a>
+    </div>
+    
+
+    <header>
+        <ul class="meta">
+            <li class="metaTime">Yesterday at  10:05 AM</li>
+            <li class="Interview">Interview</li>
+            <!-- &lt;li class="comments"&gt;&lt;b&gt;5&lt;/b&gt;&lt;/li&gt; -->
+        </ul>
+        <h2><a href="http://nymag.com/thecut/2012/10/plastic-surgery-pimp.html">The Plastic Surgery Dealer</a></h2>
+        <p class="excerpt"><span>Beauty consultant Melinda Farina raises eyebrows.</span></p>
+
+    </header>
+</article></div>
+<div class="page articlepage">
+                   
+
+
+
+
+<article class="feedEntry" data-publish-datetime="1349120677000" id="entry">
+    
+    <div class="featureImage">
+        <a href="http://nymag.com/thecut/2012/10/cut-works-out-with-hilary-rhoda.html">
+        
+        <div data-picture="true">
+ 			<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/02/01-hilary-rhoda-soul-cycle.o.jpg/a_3x-square.jpg"></div>
+ 			<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/02/01-hilary-rhoda-soul-cycle.o.jpg/a_1x-square.jpg"></div>
+ 			
+ 			<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/02/01-hilary-rhoda-soul-cycle.o.jpg/a_3x-square.jpg"></div>
+ 			
+ 			<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/02/01-hilary-rhoda-soul-cycle.o.jpg/a_3x-horizontal.jpg"&gt;</noscript>
+		</div>
+		
+        </a>
+    </div>
+    
+
+    <header>
+        <ul class="meta">
+            <li class="metaTime">10/1/12 at 3:44 PM</li>
+            <li class="Working Out">Working Out</li>
+            <!-- &lt;li class="comments"&gt;&lt;b&gt;5&lt;/b&gt;&lt;/li&gt; -->
+        </ul>
+        <h2><a href="http://nymag.com/thecut/2012/10/cut-works-out-with-hilary-rhoda.html">The Cut Works Out With Hilary Rhoda</a></h2>
+        <p class="excerpt">The model shows us her daily gym routine (and it ain't easy).</p>
+
+    </header>
+</article></div>
+
+
+
+
+
+<div class="blogvertorial">
+	<div class="nym-ad" data-ad-size="300x250,535x250" data-defer="true" data-fuie="true" data-html4-viewport="535" data-iframe-size="535x250" data-media="only screen and (min-width: 535px)" data-tilegroup="a" id="blogvertorial-1349295500344">
+		<script>NYM.dfp.loadAd({'id':'blogvertorial-1349295500344','sz':'300x250,535x250','fuie':true,'defer':true});</script>
+	</div> 
+</div> <!-- /end .blogvertorial --><div class="page articlepage">
+                   
+
+
+
+
+<article class="feedEntry" data-publish-datetime="1349114015000" id="entry">
+    
+    <div class="featureImage">
+        <a href="http://nymag.com/thecut/2012/09/three-beauty-things-i-tried-week-two.html">
+        
+        <div data-picture="true">
+ 			<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/01/01-3-things-tried.o.jpg/a_3x-square.jpg"></div>
+ 			<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/01/01-3-things-tried.o.jpg/a_1x-square.jpg"></div>
+ 			
+ 			<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/01/01-3-things-tried.o.jpg/a_3x-square.jpg"></div>
+ 			
+ 			<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/01/01-3-things-tried.o.jpg/a_3x-horizontal.jpg"&gt;</noscript>
+		</div>
+		
+        </a>
+    </div>
+    
+
+    <header>
+        <ul class="meta">
+            <li class="metaTime">10/1/12 at 1:53 PM</li>
+            <li class="Lab Rat">Lab Rat</li>
+            <!-- &lt;li class="comments"&gt;&lt;b&gt;5&lt;/b&gt;&lt;/li&gt; -->
+        </ul>
+        <h2><a href="http://nymag.com/thecut/2012/09/three-beauty-things-i-tried-week-two.html">Three Beauty Things I Tried: Week Two</a></h2>
+        <p class="excerpt">An organic perfume, a sequined manicure, and a new cleansing balm.</p>
+
+    </header>
+</article></div>
+<div class="page articlepage">
+                   
+
+
+
+
+<article class="feedEntry" data-publish-datetime="1349106583000" id="entry">
+    
+    <div class="featureImage">
+        <a href="http://nymag.com/thecut/2012/10/freja-beha-to-replace-erin-wasson-at-maybelline.html">
+        
+        <div data-picture="true">
+ 			<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/01/01-freja-erin.o.jpg/a_3x-square.jpg"></div>
+ 			<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/01/01-freja-erin.o.jpg/a_1x-square.jpg"></div>
+ 			
+ 			<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/01/01-freja-erin.o.jpg/a_3x-square.jpg"></div>
+ 			
+ 			<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/01/01-freja-erin.o.jpg/a_3x-horizontal.jpg"&gt;</noscript>
+		</div>
+		
+        </a>
+    </div>
+    
+
+    <header>
+        <ul class="meta">
+            <li class="metaTime">10/1/12 at 11:49 AM</li>
+            <li class="Ins And Outs">Ins And Outs</li>
+            <!-- &lt;li class="comments"&gt;&lt;b&gt;5&lt;/b&gt;&lt;/li&gt; -->
+        </ul>
+        <h2><a href="http://nymag.com/thecut/2012/10/freja-beha-to-replace-erin-wasson-at-maybelline.html">Freja Beha Erichsen to Replace Erin Wasson at Maybelline?</a></h2>
+        <p class="excerpt">Just <em>maybe</em>.</p>
+
+    </header>
+</article></div>
+<div class="page articlepage">
+                   
+
+
+
+
+<article class="feedEntry" data-publish-datetime="1348871400000" id="entry">
+    
+    <div class="featureImage">
+        <a href="http://nymag.com/thecut/2012/09/best-bet-kjaer-weis-lip-tint.html">
+        
+        <div data-picture="true">
+ 			<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/09/28/28-best-bet-lip-tint.o.jpg/a_600x600.png"></div>
+ 			<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/09/28/28-best-bet-lip-tint.o.jpg/a_1x-square.jpg"></div>
+ 			
+ 			<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/09/28/28-best-bet-lip-tint.o.jpg/a_600x600.png"></div>
+ 			
+ 			<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/09/28/28-best-bet-lip-tint.o.jpg/a_3x-horizontal.jpg"&gt;</noscript>
+		</div>
+		
+        </a>
+    </div>
+    
+
+    <header>
+        <ul class="meta">
+            <li class="metaTime">9/28/12 at 6:30 PM</li>
+            <li class="Best Bet">Best Bet</li>
+            <!-- &lt;li class="comments"&gt;&lt;b&gt;5&lt;/b&gt;&lt;/li&gt; -->
+        </ul>
+        <h2><a href="http://nymag.com/thecut/2012/09/best-bet-kjaer-weis-lip-tint.html">Best Bet: Kjaer Weis Lip Tint </a></h2>
+        <p class="excerpt">Makeup that looks like jewelry.</p>
+
+    </header>
+</article></div>
+<div class="page articlepage">
+                   
+
+
+
+
+<article class="feedEntry" data-publish-datetime="1348863512000" id="entry">
+    
+    <div class="featureImage">
+        <a href="http://nymag.com/thecut/2012/09/alexander-skarsgrds-favorite-smells.html">
+        
+        <div data-picture="true">
+ 			<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/09/28/28-alexander-skarsgard.o.jpg/a_3x-square.jpg"></div>
+ 			<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/09/28/28-alexander-skarsgard.o.jpg/a_1x-square.jpg"></div>
+ 			
+ 			<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/09/28/28-alexander-skarsgard.o.jpg/a_3x-square.jpg"></div>
+ 			
+ 			<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/09/28/28-alexander-skarsgard.o.jpg/a_3x-horizontal.jpg"&gt;</noscript>
+		</div>
+		
+        </a>
+    </div>
+    
+
+    <header>
+        <ul class="meta">
+            <li class="metaTime">9/28/12 at 4:18 PM</li>
+            <li class="Scent Of A Man">Scent Of A Man</li>
+            <!-- &lt;li class="comments"&gt;&lt;b&gt;5&lt;/b&gt;&lt;/li&gt; -->
+        </ul>
+        <h2><a href="http://nymag.com/thecut/2012/09/alexander-skarsgrds-favorite-smells.html">Alexander SkarsgÃ¥rdâ€™s Favorite Smells Are Found Only in Sweden</a></h2>
+        <p class="excerpt">Disappointingly not in the crook of our neck.</p>
+
+    </header>
+</article></div>
+<div class="page articlepage">
+                   
+
+
+
+
+<article class="feedEntry" data-publish-datetime="1348861800000" id="entry">
+    
+    <div class="featureImage">
+        <a href="http://nymag.com/thecut/2012/09/zoom-shot-rainbow-brite-eyes-at-christian-dior.html">
+        
+        <div data-picture="true">
+ 			<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/02/02-dior-zoom.o.jpg/a_3x-square.jpg"></div>
+ 			<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/02/02-dior-zoom.o.jpg/a_1x-square.jpg"></div>
+ 			
+ 			<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/02/02-dior-zoom.o.jpg/a_3x-square.jpg"></div>
+ 			
+ 			<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/02/02-dior-zoom.o.jpg/a_3x-horizontal.jpg"&gt;</noscript>
+		</div>
+		
+        </a>
+    </div>
+    
+
+    <header>
+        <ul class="meta">
+            <li class="metaTime">9/28/12 at 3:50 PM</li>
+            <li class="Things We Saw With Zoom">Things We Saw With Zoom</li>
+            <!-- &lt;li class="comments"&gt;&lt;b&gt;5&lt;/b&gt;&lt;/li&gt; -->
+        </ul>
+        <h2><a href="http://nymag.com/thecut/2012/09/zoom-shot-rainbow-brite-eyes-at-christian-dior.html">Zoom Shot: Rainbow Brite Eyes at Christian Dior</a></h2>
+        <p class="excerpt">The work of a magical makeup fairy.</p>
+
+    </header>
+</article></div>
+
+            </div>
+            <nav class="buttonBegin">
+                <a class="galleryOpen" id="loadMoreEntries">Load More</a>
+            </nav>
+        </section>
+
+        </div><!-- /end .contentPrimary -->
+
+        <div class="contentSecondary">
+            <div class="parsys rightColumn"><div class="parbase ad section">
+  
+
+
+
+<div class="nym-ad" data-ad-size="300x250,300x600,300x1050" data-adlabel="false" data-defer="false" data-fuie="true" data-html4-viewport="601" data-iframe-size="300x600" data-media="only screen and (min-width: 601px)" data-onpageload="false" data-scrollview="false" data-tilegroup="b" id="secondary-flex"><script>NYM.dfp.loadAd({'id':'secondary-flex','sz':'300x250,300x600,300x1050','defer':false,'fuie':true,'onPageLoad':false,'scrollView':false});</script></div></div>
+<div class="htmlComponent section">
+
+
+
+
+    <div class="partner-module" data-loaded="false" id="nym-partner-module"></div>
+
+
+
+
+ </div>
+<div class="parbase ad section">
+  
+
+
+
+<div class="nym-ad" data-ad-size="300x250,300x251" data-adlabel="false" data-defer="false" data-fuie="false" data-html4-viewport="601" data-iframe-size="300x250" data-media="only screen and (min-width: 601px)" data-onpageload="false" data-scrollview="true" id="secondary-scroll"><script>NYM.dfp.loadAd({'id':'secondary-scroll','sz':'300x250,300x251','defer':false,'fuie':false,'onPageLoad':false,'scrollView':true});</script></div></div>
+</div>
+
+        </div> <!-- /end .contentSecondary -->
+    </div><!-- /end #content -->
+                
+
+
+<footer class="pageFooter clearfix">
+
+    <div class="feedbackWrap">
+    <a class="feedbackLink" href="http://www.surveygizmo.com/s3/1024147/Share-your-feedback-with-The-Cut" target="_blank">
+        <i class="shortHeadline">Feedback</i>
+        <i class="longerHeadline">Have Feedback? </i>
+        <b class="longerHeadline">Tell us</b> 
+    </a>
+</div>
+
+    <div class="footerAd">
+        <div class="nym-ad" data-ad-size="970x90,970x91,728x90,728x91" data-fuie="true" data-html4-viewport="970" data-iframe-size="970x90" data-media="only screen and (min-width: 970px), only screen and (min-device-width : 768px) and (max-device-width: 1024px) and (orientation: landscape)" data-scrollview="true" data-tilegroup="z" id="footer-desktop">
+            <script>NYM.dfp.loadAd({'id':'footer-desktop','sz':'970x90,970x91,728x90,728x91','media':'only screen and (min-width: 970px), only screen and (min-device-width : 768px) and (max-device-width: 1024px) and (orientation: landscape)','html4-viewport':'970','fuie':true,'scrollView':true});</script>
+        </div>
+
+        <div class="nym-ad" data-ad-size="728x90,728x91" data-html4-viewport="728,969" data-iframe-size="728x90" data-media="only screen and (min-width: 728px) and (max-width: 969px), only screen and (min-device-width : 768px) and (max-device-width: 1024px) and (orientation: portrait)" data-scrollview="true" data-tilegroup="z" id="footer-tablet-desktop">
+            <script>NYM.dfp.loadAd({'id':'footer-tablet-desktop','sz':'728x90,728x91','media':'only screen and (min-width: 728px) and (max-width: 969px), only screen and (min-device-width : 768px) and (max-device-width: 1024px) and (orientation: portrait)','html4-viewport':'728,969','scrollView':true});</script>
+        </div>
+
+        <div class="nym-ad" data-ad-size="468x60,480x60,480x61" data-html4-viewport="480,727" data-iframe-size="480x60" data-media="only screen and (min-width: 480px) and (max-width: 727px)" data-scrollview="true" data-tilegroup="z" id="footer-tablet-mobile">
+            <script>NYM.dfp.loadAd({'id':'footer-tablet-mobile','sz':'468x60,480x60,480x61','media':'only screen and (min-width: 480px) and (max-width: 727px)','html4-viewport':'480,727','scrollView':true,});</script>
+        </div>
+        <div class="nym-ad" data-ad-size="300x50,300x51,320x50,320x51" data-html4-viewport="320,479" data-iframe-size="320x50" data-media="only screen and (min-width: 320px) and (max-width: 479px)" data-scrollview="true" data-tilegroup="z" id="footer-mobile">
+            <script>NYM.dfp.loadAd({'id':'footer-mobile','sz':'300x50,300x51,320x50,320x51','media':'only screen and (min-width: 320px) and (max-width: 479px)','html4-viewport':'320,479','scrollView':true,});</script>
+        </div>
+    </div>
+
+    <div class="footerWrap clearfix">
+        <div class="theCutLogo">The Cut</div>
+
+        <nav class="clearfix">
+            <ul class="footerNav footerModuleNav">
+                <li class="listItem"><a class="listItemLink" href="/thecut/">Home</a></li>
+                <li class="listItem"><a class="listItemLink" href="/thecut/fashion/">Fashions</a></li>
+                <li class="listItem"><a class="listItemLink" href="/thecut/runway/">Runway</a></li>
+                <li class="listItem"><a class="listItemLink" href="/thecut/street-style/">Street Style</a></li>
+                <li class="listItem footer-fame"><a class="listItemLink" href="/thecut/celebrities/">Fame</a></li>
+                <li class="listItem"><a class="listItemLink" href="/thecut/beauty/">Beauty</a></li>
+                <li class="listItem"><a class="listItemLink" href="/thecut/shopping/">Goods</a></li>
+                <li class="listItem"><a class="listItemLink" href="/thecut/love/">Love &amp; War</a></li>
+            </ul>
+        </nav>
+    </div>
+
+     <div class="footerFormWrap clearfix">
+        <div class="sitewideSearch">
+            <form action="http://nymag.com/search/search.cgi" class="footerForm" id="ny-search-bottom" method="get">
+                <fieldset class="txt" id="ny-search-fieldset-bottom">
+                    <input name="fd" type="hidden" value="All"/>
+                    <input name="Ns" type="hidden" value="Relevance|0"/>
+                    <input name="search_type" type="hidden" value="sw"/>
+                    <input name="N" type="hidden" value="0"/>
+                    <input class="txt-ny-search-bottom" name="textquery" type="text" value="Search"/>
+                    <button id="btn-ny-search" type="submit">Go</button>
+                </fieldset>
+                <fieldset class="scope" id="search-scope-bottom">
+                    <ul>
+                        <li><label for="sc-all"><input checked="checked" class="radio" id="sc-all-bottom" name="scope" onclick="javascript:swapSearchTop('all')" type="radio" value="sc-all"/>NYMag &amp; Vulture</label></li>
+                        <li><label for="sc-vulture"><input class="radio" id="sc-vulture-bottom" name="scope" onclick="javascript:swapSearchTop('vulture')" type="radio" value="sc-vulture"/>Vulture</label></li>
+                    </ul>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+    <nav class="clearfix footerCompanyNavWrap">
+        <ul class="footerNav footerCompanyNav">
+            <li class="listItem"><a class="listItemLink" href="/newyork/jobs/">Jobs</a></li>
+            <li class="listItem"><a class="listItemLink" href="/newyork/privacy/">Privacy</a></li>
+            <li class="listItem"><a class="listItemLink" href="/newyork/terms/">Terms</a></li>
+            <li class="listItem"><a class="listItemLink" href="/newyork/aboutus/">About Us</a></li>
+            <li class="listItem footer-contact-us"><a class="listItemLink" href="/contactus/">Contact Us</a></li>
+            <li class="listItem"><a class="listItemLink" href="/newyork/mediakit/">Media Kit</a></li>
+            <li class="listItem"><a class="listItemLink" href="/newyork/rss/">RSS</a></li>
+            <li class="listItem"><a class="listItemLink" href="/newsletters/#">Newsletters</a></li>
+            <li class="listItem footer-apps"><a class="listItemLink" href="/apps/">Apps</a></li>
+            <li class="listItem"><a class="listItemLink" href="/sitemap/">Sitemap</a></li>
+            <li class="listItem"><a class="listItemLink" href="/newyork/privacy/#ad-choices">Ad choices</a></li>
+            <li class="listItem"><a class="listItemLink" href="http://community.nymag.com/nymag/products/nymag_thecut">Site Feedback</a></li>
+        </ul>
+    </nav>
+
+    <div class="nyMagLogo"><i>New York</i></div>
+    <p class="paragraph desktop">Copyright © <span class="year">2012</span>, New York Media LLC. All Rights Reserved. The Cut® are registered trademarks of New York Media LLC.</p> <!-- for desktop  -->
+    <p class="paragraph mobile">Copyright © <span class="year">2012</span>, New York Media LLC.<br/>All Rights Reserved.</p><!-- for mobile -->
+    <p class="paragraph tablet">Copyright © <span class="year">2012</span>, New York Media LLC. All Rights Reserved.</p><!-- for tablet  -->
+</footer>
+            </div>
+        </div>
+    </div>
+    
+<script src="//cache.nymag.com/scripts/loginRegister.js"></script>
+<script src="//cache.nymag.com/scripts/echo/core/v2.6.14/backplane.js"></script>
+<script>
+if (window.Backplane &amp;&amp; window.NYM.loginReg) {
+    Backplane.init({
+        "serverBaseURL" : "http://api.echoenabled.com/v1",
+        "busName": "nymag.com"
+    });
+    Backplane.expectMessagesWithin(4);
+    NYM.loginReg.initMembership();
+}
+</script>
+<script src="//cache.nymag.com/scripts/thecut/plugins.js"></script>
+<script src="//cache.nymag.com/scripts/thecut/nym.utilities.js"></script>
+<script src="//cache.nymag.com/scripts/thecut/nym.thecut.js"></script>
+<script async="async" src="//cache.nymag.com/scripts/nym/mediaelement/mediaelement.min.js"></script>
+    
+<div id="analytics">
+    <div id="analytics-omniture">
+        <script>
+        (function() {
+            var tk = document.createElement('script');
+            tk.src = '//cache.nymag.com/scripts/analytics.js';
+            tk.type = 'text/javascript';
+            tk.async = 'true';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(tk, s);
+        })();
+        </script>
+        <noscript>
+            &lt;div&gt;&lt;a href="http://www.omniture.com" title="Web Analytics"&gt;&lt;img src="http://nymcom.112.2O7.net/b/ss/nymcom/1/H.14--NS/0" height="1" width="1" alt=""&gt;&lt;/a&gt;&lt;/div&gt;
+        </noscript> 
+    </div>
+    <div id="analytics-buzzfeed">
+        <!--  BuzzFeed code begins -->
+        <div id="BF_WIDGET_1"></div>
+        <script type="text/javascript">
+         (function( ){
+             BF_WIDGET_JS=document.createElement('script'); BF_WIDGET_JS.type="text/javascript";
+             BF_WIDGET_SRC="http://ct.buzzfeed.com/wd/UserWidget?u=nymag.com&amp;to=1&amp;or=vb&amp;wid=1&amp;cb=" + (new Date()).getTime();
+             setTimeout(function() {document.getElementById('BF_WIDGET_1').appendChild(BF_WIDGET_JS);BF_WIDGET_JS.src=BF_WIDGET_SRC},1);
+         })();
+        </script>
+        <!-- / BuzzFeed code ends -->
+    </div>
+    <div id="analytics-nielsen">
+        <!-- START Nielsen Online SiteCensus V6.0 - COPYRIGHT 2010 Nielsen Online --> 
+        <script type="text/javascript"> 
+          (function () {
+            var d = new Image(1, 1);
+            d.onerror = d.onload = function () {
+              d.onerror = d.onload = null;
+            };
+            d.src = ["//secure-us.imrworldwide.com/cgi-bin/m?ci=us-703858h&amp;cg=0&amp;cc=1&amp;si=", escape(window.location.href), "&amp;rp=", escape(document.referrer), "&amp;ts=compact&amp;rnd=", (new Date()).getTime()].join('');
+          })();
+        </script> 
+        <noscript>
+            &lt;div&gt;&lt;img src="//secure-us.imrworldwide.com/cgi-bin/m?ci=us-703858h&amp;cg=0&amp;cc=1&amp;ts=noscript" width="1" height="1" alt=""/&gt;&lt;/div&gt;
+        </noscript>
+        <!-- END Nielsen Online SiteCensus V6.0 --> 
+    </div>
+    <div id="analytics-google">
+        <!-- START Google Analytics -->
+        <script>
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-18163580-2']);
+          _gaq.push(['_setDomainName', 'none']);
+          _gaq.push(['_setAllowLinker', true]);
+          _gaq.push(['_trackPageview']);
+        
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+          function recordOutboundLink(link, category, action) {
+            _gat._getTrackerByName()._trackEvent(category, action);
+            setTimeout('window.parent.location = "' + link.href + '"', 100);
+          }
+        </script>
+        <!-- END Google Analytics -->
+    </div>
+    <div id="analytics-chartbeat">
+        <!-- START Chartbeat -->
+        <script>
+            var _sf_async_config={};
+            /** CONFIGURATION START **/
+            _sf_async_config.uid = 19989;
+            _sf_async_config.domain = 'nymag.com';
+            _sf_async_config.sections = "The Cut &amp; Fashion";
+            _sf_async_config.authors = document.getElementsByName("content.author").length ? nym.trim(document.getElementsByName("content.author")[0].content) : _sf_async_config.authors;
+        
+            /** CONFIGURATION END **/
+            (function(){
+              function loadChartbeat() {
+                window._sf_endpt=(new Date()).getTime();
+                var e = document.createElement('script');
+                e.setAttribute('language', 'javascript');
+                e.setAttribute('type', 'text/javascript');
+                e.setAttribute('src',
+                   (('https:' == document.location.protocol) ? 'https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/' : 'http://static.chartbeat.com/') +
+                   'js/chartbeat.js');
+                document.body.appendChild(e);
+              }
+              var oldonload = window.onload;
+              window.onload = (typeof window.onload != 'function') ?
+                 loadChartbeat : function() { oldonload(); loadChartbeat(); };
+            })();
+        </script>
+        <!-- END Charbeat -->
+    </div>
+    <div id="analytics-optimizely"> 
+        <script>
+            window.optimizely = window.optimizely || []; 
+            window.optimizely.push("sc_activate");
+        </script> 
+    </div>
+</div><!-- end #analytics -->
+
+</body>

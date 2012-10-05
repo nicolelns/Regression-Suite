@@ -1,0 +1,117 @@
+{"result": [
+    {"basic-info": [
+        {"fashion-lists:seasons/spring": "Spring"},
+        {"fashion-lists:labels/versace": "Versace"},
+        {"years:2012": "2012"},
+        {"fashion-lists:collection-type/couture": "Couture"},
+        {"fashion-lists:cities/paris": "Paris"},
+        {"date": ""}
+    ]},
+    {"tag-status": [
+        {
+            "total": 16,
+            "untagged": 1,
+            "tagged": 15
+        },
+        {"tagged": {
+            "/content/dam/fashion/shows/2012/spring/paris/couture/versace/collection-full-length/5.jpg": ["/content/dam/fashion/shows/2012/spring/paris/couture/versace/collection-full-length/5.jpg/jcr:content/items/1-dresses"],
+            "/content/dam/fashion/shows/2012/spring/paris/couture/versace/collection-full-length/4.jpg": [
+                "/content/dam/fashion/shows/2012/spring/paris/couture/versace/collection-full-length/4.jpg/jcr:content/items/1-dresses",
+                "/content/dam/fashion/shows/2012/spring/paris/couture/versace/collection-full-length/4.jpg/jcr:content/items/1-shoes"
+            ],
+            "/content/dam/fashion/shows/2012/spring/paris/couture/versace/collection-full-length/9.jpg": [
+                "/content/dam/fashion/shows/2012/spring/paris/couture/versace/collection-full-length/9.jpg/jcr:content/items/1-jackets",
+                "/content/dam/fashion/shows/2012/spring/paris/couture/versace/collection-full-length/9.jpg/jcr:content/items/1-dresses",
+                "/content/dam/fashion/shows/2012/spring/paris/couture/versace/collection-full-length/9.jpg/jcr:content/items/1-shoes"
+            ],
+            "/content/dam/fashion/shows/2012/spring/paris/couture/versace/collection-full-length/2.jpg": ["/content/dam/fashion/shows/2012/spring/paris/couture/versace/collection-full-length/2.jpg/jcr:content/items/1-dresses"],
+            "/content/dam/fashion/shows/2012/spring/paris/couture/versace/collection-full-length/12.jpg": ["/content/dam/fashion/shows/2012/spring/paris/couture/versace/collection-full-length/12.jpg/jcr:content/items/1-dresses"],
+            "/content/dam/fashion/shows/2012/spring/paris/couture/versace/collection-full-length/13.jpg": [
+                "/content/dam/fashion/shows/2012/spring/paris/couture/versace/collection-full-length/13.jpg/jcr:content/items/1-dresses",
+                "/content/dam/fashion/shows/2012/spring/paris/couture/versace/collection-full-length/13.jpg/jcr:content/items/1-shoes"
+            ],
+            "/content/dam/fashion/shows/2012/spring/paris/couture/versace/collection-full-length/14.jpg": ["/content/dam/fashion/shows/2012/spring/paris/couture/versace/collection-full-length/14.jpg/jcr:content/items/1-dresses"],
+            "/content/dam/fashion/shows/2012/spring/paris/couture/versace/collection-full-length/11.jpg": ["/content/dam/fashion/shows/2012/spring/paris/couture/versace/collection-full-length/11.jpg/jcr:content/items/1-dresses"],
+            "/content/dam/fashion/shows/2012/spring/paris/couture/versace/collection-full-length/15.jpg": ["/content/dam/fashion/shows/2012/spring/paris/couture/versace/collection-full-length/15.jpg/jcr:content/items/1-dresses"],
+            "/content/dam/fashion/shows/2012/spring/paris/couture/versace/collection-full-length/10.jpg": [
+                "/content/dam/fashion/shows/2012/spring/paris/couture/versace/collection-full-length/10.jpg/jcr:content/items/1-dresses",
+                "/content/dam/fashion/shows/2012/spring/paris/couture/versace/collection-full-length/10.jpg/jcr:content/items/1-shoes"
+            ],
+            "/content/dam/fashion/shows/2012/spring/paris/couture/versace/collection-full-length/6.jpg": [
+                "/content/dam/fashion/shows/2012/spring/paris/couture/versace/collection-full-length/6.jpg/jcr:content/items/1-shorts",
+                "/content/dam/fashion/shows/2012/spring/paris/couture/versace/collection-full-length/6.jpg/jcr:content/items/1-jackets",
+                "/content/dam/fashion/shows/2012/spring/paris/couture/versace/collection-full-length/6.jpg/jcr:content/items/1-shoes"
+            ],
+            "/content/dam/fashion/shows/2012/spring/paris/couture/versace/collection-full-length/7.jpg": ["/content/dam/fashion/shows/2012/spring/paris/couture/versace/collection-full-length/7.jpg/jcr:content/items/1-dresses"],
+            "/content/dam/fashion/shows/2012/spring/paris/couture/versace/collection-full-length/3.jpg": ["/content/dam/fashion/shows/2012/spring/paris/couture/versace/collection-full-length/3.jpg/jcr:content/items/1-dresses"],
+            "/content/dam/fashion/shows/2012/spring/paris/couture/versace/collection-full-length/8.jpg": ["/content/dam/fashion/shows/2012/spring/paris/couture/versace/collection-full-length/8.jpg/jcr:content/items/1-jumpsuits"],
+            "/content/dam/fashion/shows/2012/spring/paris/couture/versace/collection-full-length/1.jpg": ["/content/dam/fashion/shows/2012/spring/paris/couture/versace/collection-full-length/1.jpg/jcr:content/items/1-dresses"]
+        }},
+        {"untagged": ["/content/dam/fashion/shows/2012/spring/paris/couture/versace/collection-full-length/16.jpg"]}
+    ]},
+    {"image-sources": {
+        "Magnum": "Magnum",
+        "Patrick McMullan": "Patrick McMullan",
+        "Getty": "Getty",
+        "Corbis": "Corbis",
+        "Staff or Contracted": "Staff or Contracted",
+        "Imaxtree": "Imaxtree",
+        "Polaris": "Polaris",
+        "Courtesy shot": "Courtesy shot",
+        "FilmMagic": "FilmMagic",
+        "AP": "AP",
+        "Firstview": "Firstview"
+    }},
+    {"image-sources-applied": {
+        "collection-full-length": "Imaxtree",
+        "collection-back": "",
+        "collection-detail": "",
+        "beauty": "",
+        "backstage": ""
+    }},
+    {"gallery-title": {
+        "collection-full-length": "",
+        "collection-back": "",
+        "collection-detail": "",
+        "beauty": "",
+        "backstage": "Backstage & Front Row"
+    }},
+    {"meta-description": "View the Versace Spring 2012 Couture collection. See photos and video of the S2012CTR runway show."},
+    {"videos": []},
+    {"page-activation-status": {
+        "delivered": "true",
+        "activated": "true",
+        "pending": "false",
+        "deactivated": "false"
+    }},
+    {"slideshow-activation-status": {
+        "fashion-beauty": "false",
+        "fashion-details": "false",
+        "fashion-runway": "true",
+        "fashion-backstage": "false",
+        "fashion-backs": "false"
+    }},
+    {"page-activation-history": {"2012.09.01 10:24:26": "Page Activation"}},
+    {"offset-coordinates": {
+        "y": "0",
+        "x": "90"
+    }},
+    {"beauty-notes": ""},
+    {"critical-reaction": ""},
+    {"standout-accessories": []},
+    {"trends": []},
+    {"after-party-slideshow": ""},
+    {"show-name": "Versace"},
+    [],
+    {"one-sentence-review": ""},
+    {"palette-rendition-paths": []},
+    {"slideshow-creation-status": {
+        "fashion-beauty": 0,
+        "fashion-details": 0,
+        "fashion-runway": 16,
+        "fashion-backstage": 0,
+        "fashion-backs": 0
+    }},
+    {"display-show-notes": ""},
+    {"backstageTeaser": ""}
+]}

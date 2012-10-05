@@ -1,0 +1,295 @@
+#! /usr/bin/python                                                                                                                                                                                  
+# -*- coding: utf-8 -*-
+
+import sys
+import os
+import re
+import httplib
+import urllib
+import urlparse
+import unittest
+import HTMLTestRunner
+import string
+import time
+from bs4 import BeautifulSoup
+
+reload(sys)
+sys.setdefaultencoding("utf-8")
+
+x = 0
+
+STG = 'http://stg.nymetro.com/thecut/celebrities/'
+EC2 = 'http://ec2.qa.nymetro.com/thecut/celebrities/'
+PROD = 'http://nymag.com/thecut/celebrities/'
+
+
+class MyOpener(urllib.FancyURLopener):
+    version = 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.15) Gecko/20110303 Firefox/3.6.15'
+
+
+class FameSplash(unittest.TestCase):
+
+    def setUp(self):
+
+        self.BASEURL = BASEURL
+        
+        self.req = MyOpener()
+        self.page = self.req.open(self.BASEURL)
+        self.text = self.page.read()
+        self.page.close()
+        self.soup = BeautifulSoup(self.text)
+        self.spam = self.soup.find_all
+        self.verificationErrors = []
+        
+        ################################################################################
+        
+    def test_text(self):
+    	    
+    	    header = self.soup.find('h3', attrs={'class':None})
+    	    
+    	    self.assertNotEqual(header, None)
+    	    self.assertEqual(header.string, "Fame Newsfeed")
+    	    
+    	################################################################################
+    	
+    def test_lede(self):
+    	    
+    	#Tests the articles in the rotating lede
+    	    
+    	u = 0
+    	
+    	for tag in self.spam('li', attrs={'class':'ledeArticle'}):
+    	    
+	    article = tag
+	    
+	    try:
+    	    
+    	        self.assertNotEqual(article.find('div', attrs={'class':'ledeImage'}), None)
+    	        self.assertNotEqual(article.find('a', attrs={'href':True}), None)
+    	        
+    	        self.assertNotEqual(article.find('div', attrs={'data-picture':'true', 'data-alt':True}), None)
+    	        self.assertNotEqual(article.find('div', attrs={'data-src':True}), None)
+    	        self.assertNotEqual(article.find('div', attrs={'data-src':True, 'data-media':'(max-width: 600px)'}), None)
+    	        self.assertNotEqual(article.find('div', attrs={'data-src':True, 'data-media':'(min-width: 601px)'}), None)
+    	        self.assertNotEqual(article.find('noscript').contents, [])
+    	    
+	    	self.assertNotEqual(article.find('header', attrs={'class':'ledeHeader'}), None)
+	    	self.assertNotEqual(article.find('div', attrs={'class':'ledeFeatureRubric'}), None)
+	    	self.assertNotEqual(article.find('a', attrs={'class':'ledeFeatureRubricLink', 'href':True}), None)
+	    	self.assertNotEqual(article.find('h2', attrs={'class':'ledeHeadline'}), None)
+	    	self.assertNotEqual(article.find('a', attrs={'class':'ledeHeadlineLink', 'href':True}), None)
+	    	self.assertNotEqual(article.find('div', attrs={'class':'ledeByline'}), None)
+	    	
+	    	self.assertEqual(article.find('p', attrs='class':'excerpt'}), None)
+	    	
+	    except AssertionError, e:
+	    	print article
+	    	self.verificationErrors.append(str(u) + " Lede Article Failure")
+	    	pass   
+	    
+	    u += 1
+	     
+	self.assertEqual(u, 4)
+	
+	################################################################################
+	
+    def test_prev_next(self):
+    	    
+    	#Tests the previous/next arrows in the lede
+    	    
+    	self.assertNotEqual(self.soup.find('nav', attrs={'class':'next'}), None)
+    	self.assertNotEqual(self.soup.find('nav', attrs={'class':'prev'}), None)
+    	self.assertNotEqual(self.soup.find('a', attrs={'href':'javascript:;', 'class':'ledeNext'}), None)
+    	self.assertNotEqual(self.soup.find('a', attrs={'href':'javascript:;', 'class':'ledePrev'}), None)
+    	
+    	################################################################################
+    	
+    def test_lookbook_prev_next(self):
+    	    
+    	#Tests prev/next in lookbook module
+    	    
+    	self.assertNotEqual(self.soup.find('nav', attrs={'class':'next'}), None)
+    	self.assertNotEqual(self.soup.find('nav', attrs={'class':'prev'}), None)
+    	self.assertNotEqual(self.soup.find('a', attrs={'href':'javascript:;', 'class':'prev prevCarousel'}).contents, [])
+    	self.assertNotEqual(self.soup.find('a', attrs={'href':'javascript:;', 'class':'next nextCarousel'}).contents, [])
+    	
+    	################################################################################
+    	
+    def test_lede_markers(self):
+    	    
+    	#Tests for lede markers
+    	    
+    	self.assertNotEqual(self.soup.find('ol', attrs={'class':'ledeMarkers'}), None)
+    	
+    	################################################################################
+	    
+    def test_metadata(self):
+    	    
+    	#Metadata test
+    	
+    	self.assertEqual(str(self.soup.find('title').string), 'Fame - Celebrity Style News, Look Books, Red Carpet Pictures - TheCut')
+    	self.assertNotEqual(self.soup.find('meta', attrs={'name':'description', 'content':'Follow fashion icons and celebrity trendsetters on the red carpet, at parties, and on the street. Browse hundreds of slideshows of celebrities. Get the latest celebrity news.'}), None)
+    	self.assertNotEqual(self.soup.find('meta', attrs={'name':'keywords', 'content':'red carpet,famous people,fame,celebrity style'}), None)
+    	self.assertNotEqual(self.soup.find('meta', attrs={'name':'content.hierarchy', 'content':'The Cut:Fame:Index'}), None)
+    	self.assertNotEqual(self.soup.find('meta', attrs={'name':'content.hierarchy.title', 'content':'The Cut Fame Index'}), None)
+    	self.assertNotEqual(self.soup.find('meta', attrs={'name':'content.type', 'content':'Index'}), None)
+    	self.assertNotEqual(self.soup.find('meta', attrs={'name':'content.source', 'content':'Online'}), None)
+    	self.assertNotEqual(self.soup.find('link', attrs={'rel':'canonical', 'href':'http://nymag.com/thecut/'}), None)
+    	
+        ################################################################################
+    	
+    def test_lpos(self):
+    	    
+    	#Test for Omniture link positions
+    	
+    	lpos = re.compile('&lpos.*')
+    	self.assertNotEqual(self.spam('a', attrs={'name':lpos}), None)
+    	    
+    	################################################################################    
+    	    
+    def test_entries(self):
+    	    
+    	#Entries
+    	
+    	u = 0
+    	
+    	for tag in self.spam('article', attrs={'class':'feedEntry', 'id':'entry', 'data-publish-datetime':True}):
+    	    
+	    article = tag 
+	    
+            try:    
+                self.assertNotEqual(article.find('div', attrs={'class':'featureImage'}), None)
+                self.assertNotEqual(article.find('a', attrs={'href':True}), None)
+                
+                self.assertNotEqual(article.find('div', attrs={'data-picture':'true'}), None)
+                self.assertNotEqual(article.find('div', attrs={'data-src':True, 'data-media':None}), None)
+                self.assertNotEqual(article.find('div', attrs={'data-src':True, 'data-media':'(max-width: 600px)'}), None)
+                self.assertNotEqual(article.find('div', attrs={'data-src':True, 'data-media':'(min-width: 601px)'}), None)
+                self.assertNotEqual(article.find('noscript').contents, [])
+                
+                self.assertNotEqual(article.find('header'), None)
+		self.assertNotEqual(article.find('li', attrs={'class':'metaTime'}).contents, [])
+                #self.assertNotEqual(article.find('li', attrs={'class':'comments'}), None)
+                self.assertNotEqual(article.find('h2'), None)
+                self.assertNotEqual(article.find('p', attrs={'class':'excerpt'}).contents, [])
+                
+            except AssertionError, e:
+            	print article
+            	self.verificationErrors.append(str(u) + ' Article Entry fail')
+            	pass  
+            	
+    	    u += 1
+    	    
+    	self.assertEqual(u, 10)
+    	
+        ################################################################################
+        
+    def test_lookbook_mag(self):
+    	    
+    	for tag in self.spam('section', attrs={'class':'module lookbookMag'}):
+    		
+            mag = tag
+            
+            self.assertNotEqual(mag.find('a', attrs={'href':True}), None)
+    	    self.assertNotEqual(mag.find('h3', attrs={'class':'hed'}).contents, [])
+    	    self.assertNotEqual(mag.find('p', attrs={'class':'contentText'}).contents, [])
+    	    self.assertNotEqual(mag.find('img', attrs={'class':'image', 'src':True}), None)
+    	    self.assertNotEqual(mag.find('span', attrs={'class':'quoteText'}).contents, [])
+    	
+    	################################################################################
+    	
+    def test_lookbook_module(self):
+    	    
+    	u = 0
+    	
+    	header = self.soup.find('h3', attrs={'class':'hed'})
+    	
+    	self.assertNotEqual(header, None)
+    	self.assertEqual(header.string, "Look Books")
+    	self.assertEqual(str(self.soup.find('h4', attrs={'class':'tout'}).string), "Newly Updated!")
+    	    
+    	for tag in self.spam('li', attrs={'class':'lookbookListitem'}):
+    	    
+	    article = tag
+	    
+	    try:
+    	    
+    	        self.assertNotEqual(article.find('div', attrs={'class':'lookbookImage'}), None)
+    	        self.assertNotEqual(article.find('a', attrs={'class':'lookbookLink','href':True}), None)
+    	        self.assertNotEqual(article.find('div', attrs={'data-picture':'true', 'data-alt':True}), None)
+    	        self.assertNotEqual(article.find('div', attrs={'data-src':True, 'data-media':None}), None)
+                self.assertNotEqual(article.find('div', attrs={'data-src':True, 'data-media':'(-webkit-min-device-pixel-ratio: 1.5)'}), None)
+                self.assertNotEqual(article.find('noscript').contents, [])
+    	    
+    	        self.assertNotEqual(article.find('h3', attrs={'class':'lookbookTitle'}).contents, [])
+	    	
+	    except AssertionError, e:
+	    	print article
+	    	self.verificationErrors.append(str(u) + " LookBook Failure")
+	    	pass
+	    
+	    u += 1
+	    
+	self.assertNotEqual(self.soup.find('a', attrs={'class':'readMoreLink raquo','href':'/tags/look%20book/'}).contents, [])    
+	self.failUnless(u == 8)
+	
+        ################################################################################
+    	
+    def test_loadmore(self):
+
+	self.assertNotEqual(self.soup.find('a', attrs={'id':'loadMoreEntries', 'class':'galleryOpen'}), None)
+	
+       ################################################################################
+    	
+    def test_bizdev(self):
+    	    
+    	bizdev = self.spam('script')[0]
+    	    
+    	self.failUnless(re.search('zone: "fame"', str(bizdev), re.I))
+    	self.failUnless(re.search('takeover: "fame"', str(bizdev), re.I))
+    	
+    	################################################################################
+    	 
+    def tearDown(self):
+
+        self.assertEqual([], self.verificationErrors)
+        
+        ################################################################################
+
+"""   
+FUTURE FEATURE:
+
+def fail_writer(test):
+	
+    test = test	
+    t = datetime.time
+    print t
+    f = open('../failures.txt')
+    f.write(t + '\t' + BASEURL + '\n')
+    print test
+
+"""
+
+for x in range(0,3):
+	
+    if x == 0:
+    	BASEURL = STG
+    	ENV = 'stg'	
+    
+    elif x == 1:
+    	BASEURL = EC2
+    	ENV = 'ec2'
+        
+    else:
+    	BASEURL = PROD
+    	ENV = ''
+    
+    filename = BASEURL.split('/')
+    results = open('../../DATA/HTML/SPLASH/' + filename[-2] + '.' + ENV + '.famesplash.html', 'wb')
+    print "TESTING " + BASEURL
+    suite = unittest.TestLoader().loadTestsFromTestCase(FameSplash)
+    unittest.TextTestRunner(verbosity=2).run(suite)
+    runner = HTMLTestRunner.HTMLTestRunner(stream=results, title=filename[-1], description='Results for Fame Splash Page on ' + ENV)
+    runner.run(suite)
+    
+    x += 1
