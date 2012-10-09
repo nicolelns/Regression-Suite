@@ -110,7 +110,7 @@ class BeautySplash(unittest.TestCase):
 	    dots = soup.find_all('ol', {'class':'ledeMarkers'})
     
         except KeyError, e:
-            results_writer(str(u) + "articles in lede " + str(len(dots)) + " lede article markers", " Beauty lede markers fail.")
+            results_writer("Missing <ol class=ledeMarkers> tag", "Beauty lede markers fail.")
             
 	self.assertEqual(int(self.u), len(dots))
     
@@ -122,7 +122,7 @@ class BeautySplash(unittest.TestCase):
     	    self.assertEqual(soup.find('h3').string, "Beauty Newsfeed")
     	    
         except KeyError, e:
-            results_writer("", "Beauty Newsfeed Text in header does not match 'Beauty Newsfeed'")
+            results_writer("", "Beauty Newsfeed is missing <h3> tag or its contents")
         
         except AssertionError, e:
             results_writer("", "Beauty Newsfeed Text Not on page")
@@ -429,7 +429,7 @@ def page_parser():
     text = page.read()
     page.close()
     
-    return BeautifulSoup(text)
+    return BeautifulSoup(text, fromEncoding = 'utf-8')
 
 def results_writer(info, message):
 	

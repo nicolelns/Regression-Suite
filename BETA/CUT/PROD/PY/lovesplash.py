@@ -429,7 +429,7 @@ def page_parser():
     text = page.read()
     page.close()
     
-    return BeautifulSoup(text)
+    return BeautifulSoup(text, fromEncoding = 'utf-8')
 
 def results_writer(info, message):
 	

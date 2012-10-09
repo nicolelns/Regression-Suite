@@ -33,15 +33,21 @@ class FameSplash(unittest.TestCase):
         self.verificationErrors = []
     
         ################################################################################
-        
-    def unescape(self, s):
-    	    
-         s = s.replace("\u2019", "'")
-         return s    
-    
-        ################################################################################
 
     def json_organizer(self, _json):
+        
+	"""
+        NOTE TO SELF:
+        This needs to be a bunch of tiny functions that are only eval'd at runtime.  
+        This section of code is way too long and has too many try blocks
+        Example: 
+        def test_myFunc(self, data)
+        data = self.json_organizer_imgs(json)
+        where self.json_organizer_imgs() is some function that just returns the 
+        value for the key 'primary-image' inside the article's json object
+        when this data is needed, not beforehand.
+        
+        """
         
         self.j = json.loads(_json)
         
@@ -50,15 +56,17 @@ class FameSplash(unittest.TestCase):
         self.desc = self.j['jcr:description']
         self.title = self.j['jcr:title']
         
-	self.i = self.j['primary_image'].split('.jpg')
-        self.img = self.unescape(str(self.i[0]))
-        
-        self.shorthead = self.unescape(str(self.j['shorterheadline']))
-        print self.shorthead, "SHORT HEADLINE AFTER ESC"
-        self.excerpt = self.unescape(str(self.j['excerpt']))
+        try:
+	    self.i = self.j['primary_image'].split('.jpg')
+            self.img = str(self.i[0])
+        except KeyError:
+            self.img = None
+            
+        self.shorthead = str(self.j['shorterheadline'])
+        self.excerpt = str(self.j['excerpt'])
         
         try:
-            self.longhead = self.unescape(self.j['longerheadline'])
+            self.longhead = self.j['longerheadline']
         except KeyError:
             self.longhead = None
             
@@ -167,11 +175,12 @@ class FameSplash(unittest.TestCase):
 	    	results_writer(link, "No JSON available for this article.")
 	    	pass
 	    	
-	    except KeyError:
+	    except KeyError, e:
 	    	results_writer(link, "Link is missing from dataset.")
 	    	pass
 	
             else:
+            	
             	img_dataset = (('div', {'class':'ledeImage'}),
             	    ('div', {'data-picture':'true', 'data-alt':self.shorthead}),	
             	    ('div', {'data-src':str(self.img) + '.jpg/a_4x-horizontal.jpg'}),
@@ -403,7 +412,7 @@ class FameSplash(unittest.TestCase):
     	    self.failUnless(re.search('takeover: "fame"', str(bizdev), re.I))
     
         except AssertionError, e:
-            results_writer(str(bizdev), "Fame Splash page has a problem with the bizdev script.")
+            results_writer(str(bizdev), "Fame Splash page has a problem with the bizdev script in the header.")
             
     	################################################################################
     	    
@@ -432,7 +441,7 @@ def page_parser():
     text = page.read()
     page.close()
     
-    return BeautifulSoup(text)
+    return BeautifulSoup(text, from_encoding = 'utf-8')
 
 def results_writer(info, message):
 	

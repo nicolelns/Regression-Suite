@@ -83,6 +83,8 @@ class ArticleJson(unittest.TestCase):
     	ll = l[-1]
     	# Re-do this string concatenation.  Don't yo-yo
     	new_url = AUTHOR + CONTENT + l[-3] + '/' + l[-2] + '/' + ll[:-5] + '/jcr:content.json'
+    	print URL, "URL BECOMES"
+    	print new_url, "JSON"
     	return str(new_url)
     	
     	########################################################################
@@ -115,7 +117,7 @@ class Configure():
     	self.usr = usr
     	self.pwd = pwd
     	
-    	# I hate globals, better way to do this?
+    	# Globals are bad, better way to do this?
         global USR 
         USR = self.usr
     	global PWD
