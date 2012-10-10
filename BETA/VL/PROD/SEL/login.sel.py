@@ -5,6 +5,27 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.action_chains import ActionChains
 import unittest, time, re
 
+
+"""
+By:  Nicole Smith
+    
+Purpose:  This test is for Vulture Homepage's Login/Logout functionality for a valid user.
+
+Steps:
+*The user should be able to find and click on the Log In link from the homepage
+*The user should be able to see a lightbox pop up after clicking the link
+*The user should see fields for a username or email address, and for a password
+*The user should be able to click on the text entry fields and enter valid credentials 
+*The user should be able to click the login button from the lightbox
+*The user should be able to close the lightbox after logging in
+*The user should be able to hover over his/her username to activate a dropdown menu
+*The user should be able to find and click a Log Out link to log out
+
+Expected Results: Successful login and logout for a valid user when both the username and
+password fields are entered.
+    
+"""
+
 class Login(unittest.TestCase):
     
         """
