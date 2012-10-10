@@ -61,7 +61,7 @@ class Login(unittest.TestCase):
         login_box.send_keys(self.usr)
         
         """
-        Click the username/email address field and enter password
+        Click the password field and enter password
             
         """
                 
