@@ -5,58 +5,58 @@
          <div id="wrap-wrap">
             <div id="wrap">
                 <div class="nymTakeover" id="nymTakeover"></div>
+                
+<!-- Load the SDKs fb/twitter/g+ Asynchronously -->
+<div id="fb-root"></div>
+<script>
+if (Modernizr.mq('only all and (min-device-width: 601px)') || !(Modernizr.mq('(min-width: 0px)'))) {
+    //----------- facebook sdk
+    (function(d){
+        var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement('script'); js.id = id; js.async = true;
+        js.src = "//connect.facebook.net/en_US/all.js";
+        ref.parentNode.insertBefore(js, ref);
+    }(document));
+    //---------- google plus sdk
+    (function() {
+        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true; po.defer = "defer";
+        po.src = 'https://apis.google.com/js/plusone.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+    })();
+    //---------- twitter intents widgets.js
+    window.twttr = (function (d,s,id) {
+        var t, js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return; js=d.createElement(s); js.id=id; js.async = true;
+        js.src="//platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
+        return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
+    }(document, "script", "twitter-wjs"));
 
-                <!-- Load the SDKs fb/twitter/g+ Asynchronously -->
-                <div id="fb-root"></div>
-                <script>
-                if (Modernizr.mq('only all and (min-device-width: 601px)') || !(Modernizr.mq('(min-width: 0px)'))) {
-                    //----------- facebook sdk
-                    (function(d){
-                        var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
-                        if (d.getElementById(id)) {return;}
-                        js = d.createElement('script'); js.id = id; js.async = true;
-                        js.src = "//connect.facebook.net/en_US/all.js";
-                        ref.parentNode.insertBefore(js, ref);
-                    }(document));
-                    //---------- google plus sdk
-                    (function() {
-                        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true; po.defer = "defer";
-                        po.src = 'https://apis.google.com/js/plusone.js';
-                        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-                    })();
-                    //---------- twitter intents widgets.js
-                    window.twttr = (function (d,s,id) {
-                        var t, js, fjs = d.getElementsByTagName(s)[0];
-                        if (d.getElementById(id)) return; js=d.createElement(s); js.id=id; js.async = true;
-                        js.src="//platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
-                        return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
-                    }(document, "script", "twitter-wjs"));
+    NYM.FBisloaded = false; //check if facebook sdk is loaded and connected
 
-                    NYM.FBisloaded = false; //check if facebook sdk is loaded and connected
+    //---------- init facebook api
+    window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '', // App ID
+          channelUrl : '/includes/components/mast/utilities/fb_channel.html', // Channel File
+          status     : true, // check login status
+          cookie     : true, // enable cookies to allow the server to access the session
+          xfbml      : true  // parse XFBML
+        });
 
-                    //---------- init facebook api
-                    window.fbAsyncInit = function() {
-                        FB.init({
-                          appId      : '', // App ID
-                          channelUrl : '/includes/components/mast/utilities/fb_channel.html', // Channel File
-                          status     : true, // check login status
-                          cookie     : true, // enable cookies to allow the server to access the session
-                          xfbml      : true  // parse XFBML
-                        });
-
-                        NYM.FBisloaded = true;
-                    };
-                }
-                </script>
-
-                <div class="leaderBoard leaderBoard-aboveNav">
-                    <div class="nym-ad" data-ad-size="468x60,480x60,480x61" data-html4-viewport="480,727" data-iframe-size="480x60" data-media="only screen and (min-width: 480px) and (max-width: 727px)" data-tilegroup="a" id="leaderboard-tablet-mobile">
-                        <script>NYM.dfp.loadAd({'id':'leaderboard-tablet-mobile','sz':'468x60,480x60,480x61','media':'only screen and (min-width: 480px) and (max-width: 727px)','html4-viewport':'480,727'});</script>
-                    </div>
-                    <div class="nym-ad" data-ad-size="300x50,320x50" data-html4-viewport="320,479" data-iframe-size="320x50" data-media="only screen and (min-width: 320px) and (max-width: 479px)" data-tilegroup="a" id="leaderboard-mobile">
-                        <script>NYM.dfp.loadAd({'id':'leaderboard-mobile','sz':'300x50,320x50','media':'only screen and (min-width: 320px) and (max-width: 479px)','html4-viewport':'728,969'});</script>
-                    </div>
-                </div> <!-- /end .leaderBoard -->
+        NYM.FBisloaded = true;
+    };
+}
+</script>
+                
+<div class="leaderBoard leaderBoard-aboveNav">
+    <div class="nym-ad" data-ad-size="468x60,480x60,480x61" data-html4-viewport="480,727" data-iframe-size="480x60" data-media="only screen and (min-width: 480px) and (max-width: 727px)" data-tilegroup="a" id="leaderboard-tablet-mobile">
+        <script>NYM.dfp.loadAd({'id':'lleaderboard-tablet-mobile','sz':'468x60,480x60,480x61','media':'only screen and (min-width: 480px) and (max-width: 727px)','html4-viewport':'480,727'});</script>
+    </div>
+    <div class="nym-ad" data-ad-size="300x50,320x50" data-html4-viewport="320,479" data-iframe-size="320x50" data-media="only screen and (min-width: 320px) and (max-width: 479px)" data-tilegroup="a" id="leaderboard-mobile">
+        <script>NYM.dfp.loadAd({'id':'leaderboard-mobile','sz':'300x50,320x50','media':'only screen and (min-width: 320px) and (max-width: 479px)','html4-viewport':'728,969'});</script>
+    </div>
+</div> <!-- /end .leaderBoard -->
                 
 <p class="ineffable"><a href="#content">Skip to content</a>, or <a href="#search">skip to search</a>.</p>
 
@@ -195,14 +195,15 @@
         </ul>
     </nav>
 </nav><!-- /end #nav-primary -->
-                <div class="leaderBoard leaderBoard-belowNav">
-                    <div class="nym-ad" data-ad-size="980x60,980x30,970x90,728x90" data-fuie="true" data-html4-viewport="970" data-iframe-size="970x90" data-media="only screen and (min-width: 970px), only screen and (min-device-width : 768px) and (max-device-width: 1024px) and (orientation: landscape)" data-takeover-defer="true" data-tilegroup="a" id="leaderboard-desktop">
-                        <script>NYM.dfp.loadAd({'id":"leaderboard-desktop','sz':'980x60,980x30,970x90,728x90','media':'only screen and (min-width: 728px) and (max-width: 969px), only screen and (min-device-width : 768px) and (max-device-width: 1024px) and (orientation: portrait)','html4-viewport':'728,969','fuie':true,'takeover-defer':true});</script>
-                    </div> 
-                    <div class="nym-ad" data-ad-size="728x90,728x91" data-html4-viewport="728,969" data-iframe-size="728x90" data-media="only screen and (min-width: 728px) and (max-width: 969px), only screen and (min-device-width : 768px) and (max-device-width: 1024px) and (orientation: portrait)" data-takeover-defer="true" data-tilegroup="a" id="leaderboard-tablet">
-                        <script>NYM.dfp.loadAd({'id':'leaderboard-tablet','sz':'728x90,728x91','media':'only screen and (min-width: 728px) and (max-width: 969px), only screen and (min-device-width : 768px) and (max-device-width: 1024px) and (orientation: portrait)','html4-viewport':'728,969'});</script>
-                    </div>
-                </div> <!-- /end .leaderBoard -->
+                
+<div class="leaderBoard leaderBoard-belowNav">
+    <div class="nym-ad" data-ad-size="980x60,980x30,970x90,728x90" data-fuie="true" data-html4-viewport="970" data-iframe-size="970x90" data-media="only screen and (min-width: 970px), only screen and (min-device-width : 768px) and (max-device-width: 1024px) and (orientation: landscape)" data-takeover-defer="true" data-tilegroup="a" id="leaderboard-desktop">
+        <script>NYM.dfp.loadAd({'id':'leaderboard-desktop','sz':'980x60,980x30,970x90,728x90','media':'only screen and (min-width: 728px) and (max-width: 969px), only screen and (min-device-width : 768px) and (max-device-width: 1024px) and (orientation: portrait)','html4-viewport':'728,969','fuie':true,'takeover-defer':true});</script>
+    </div> 
+    <div class="nym-ad" data-ad-size="728x90,728x91" data-html4-viewport="728,969" data-iframe-size="728x90" data-media="only screen and (min-width: 728px) and (max-width: 969px), only screen and (min-device-width : 768px) and (max-device-width: 1024px) and (orientation: portrait)" data-takeover-defer="true" data-tilegroup="a" id="leaderboard-tablet">
+        <script>NYM.dfp.loadAd({'id':'leaderboard-tablet','sz':'728x90,728x91','media':'only screen and (min-width: 728px) and (max-width: 969px), only screen and (min-device-width : 768px) and (max-device-width: 1024px) and (orientation: portrait)','html4-viewport':'728,969'});</script>
+    </div>
+</div> <!-- /end .leaderBoard -->
                 
 
 
@@ -244,12 +245,12 @@
 
 				<div class="ledeImage">
 
-					<a href="http://nymag.com/thecut/2012/10/plastic-surgery-pimp.html">
-						<div data-alt="The Plastic Surgery Dealer" data-picture="true">
-							<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/02/02-plastic-surgery.o.jpg/a_4x-horizontal.jpg"></div>
-							<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/02/02-plastic-surgery.o.jpg/a_3x-horizontal.jpg"></div>
-							<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/02/02-plastic-surgery.o.jpg/a_4x-horizontal.jpg"></div>
-							<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/02/02-plastic-surgery.o.jpg/a_3x-horizontal.jpg" alt="The Plastic Surgery Dealer"/&gt;</noscript>
+					<a href="http://nymag.com/thecut/2012/10/55-best-beauty-looks-from-fashion-month.html">
+						<div data-alt="The 55 Best Beauty Looks From Fashion Month" data-picture="true">
+							<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/03/03-fashion-week-beauty.o.jpg/a_4x-horizontal.jpg"></div>
+							<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/03/03-fashion-week-beauty.o.jpg/a_3x-horizontal.jpg"></div>
+							<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/03/03-fashion-week-beauty.o.jpg/a_4x-horizontal.jpg"></div>
+							<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/03/03-fashion-week-beauty.o.jpg/a_3x-horizontal.jpg" alt="The 55 Best Beauty Looks From Fashion Month"/&gt;</noscript>
 						</div>
 					</a>
 
@@ -259,15 +260,15 @@
 
 					<div class="alphaWrap"></div>
 
-					<div class="ledeFeatureRubric"><a class="ledeFeatureRubricLink" href="http://nymag.com/thecut/2012/10/plastic-surgery-pimp.html">interview</a></div>
+					<div class="ledeFeatureRubric"><a class="ledeFeatureRubricLink" href="http://nymag.com/thecut/2012/10/55-best-beauty-looks-from-fashion-month.html"></a></div>
 
-					<h2 class="ledeHeadline"><a class="ledeHeadlineLink" href="http://nymag.com/thecut/2012/10/plastic-surgery-pimp.html">The Plastic Surgery Dealer</a></h2>
+					<h2 class="ledeHeadline"><a class="ledeHeadlineLink" href="http://nymag.com/thecut/2012/10/55-best-beauty-looks-from-fashion-month.html">The 55 Best Beauty Looks From Fashion Month</a></h2>
 
 					
 
 						<div class="ledeByline">by
 
-						<b><a href="http://nymag.com/thecut/2012/10/plastic-surgery-pimp.html">Alyssa Shelasky</a></b>
+						<b><a href="http://nymag.com/thecut/2012/10/55-best-beauty-looks-from-fashion-month.html">Christina Han</a></b>
 
 						</div>
 
@@ -332,18 +333,18 @@
 
 
 
-<article class="feedEntry" data-publish-datetime="1349280000000" id="entry">
+<article class="feedEntry" data-publish-datetime="1349807427000" id="entry">
     
     <div class="featureImage">
-        <a href="http://nymag.com/thecut/2012/10/beauty-qa-whats-the-best-eye-makeup-remover.html">
+        <a href="http://nymag.com/thecut/2012/10/britney-spears-has-split-personalities.html">
         
         <div data-picture="true">
- 			<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/03/03-beauty-q-a-almay.o.jpg/a_3x-square.jpg"></div>
- 			<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/03/03-beauty-q-a-almay.o.jpg/a_1x-square.jpg"></div>
+ 			<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/09/09-britney-spears-fantasy.o.jpg/a_3x-square.jpg"></div>
+ 			<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/09/09-britney-spears-fantasy.o.jpg/a_1x-square.jpg"></div>
  			
- 			<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/03/03-beauty-q-a-almay.o.jpg/a_3x-square.jpg"></div>
+ 			<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/09/09-britney-spears-fantasy.o.jpg/a_3x-square.jpg"></div>
  			
- 			<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/03/03-beauty-q-a-almay.o.jpg/a_3x-horizontal.jpg"&gt;</noscript>
+ 			<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/09/09-britney-spears-fantasy.o.jpg/a_3x-horizontal.jpg"&gt;</noscript>
 		</div>
 		
         </a>
@@ -352,50 +353,50 @@
 
     <header>
         <ul class="meta">
-            <li class="metaTime">Today at  12:00 PM</li>
+            <li class="metaTime">Yesterday at  2:30 PM</li>
+            <li class="If U Seek Britney">If U Seek Britney</li>
+            <!-- &lt;li class="comments"&gt;&lt;b&gt;5&lt;/b&gt;&lt;/li&gt; -->
+        </ul>
+        <h2><a href="http://nymag.com/thecut/2012/10/britney-spears-has-split-personalities.html">Britney Spears Has Split Personalities</a></h2>
+        <p class="excerpt">What her new fragrance says about her.</p>
+
+    </header>
+</article></div>
+
+
+
+<div class="page articlepage">
+                   
+
+
+
+
+<article class="feedEntry" data-publish-datetime="1349799632000" id="entry">
+    
+    <div class="featureImage">
+        <a href="http://nymag.com/thecut/2012/10/beauty-qa-what-is-the-best-glitter-eyeliner.html">
+        
+        <div data-picture="true">
+ 			<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/09/09-nars-stila.o.jpg/a_3x-square.jpg"></div>
+ 			<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/09/09-nars-stila.o.jpg/a_1x-square.jpg"></div>
+ 			
+ 			<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/09/09-nars-stila.o.jpg/a_3x-square.jpg"></div>
+ 			
+ 			<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/09/09-nars-stila.o.jpg/a_3x-horizontal.jpg"&gt;</noscript>
+		</div>
+		
+        </a>
+    </div>
+    
+
+    <header>
+        <ul class="meta">
+            <li class="metaTime">Yesterday at  12:20 PM</li>
             <li class="Beauty Q&amp;a">Beauty Q&amp;a</li>
             <!-- &lt;li class="comments"&gt;&lt;b&gt;5&lt;/b&gt;&lt;/li&gt; -->
         </ul>
-        <h2><a href="http://nymag.com/thecut/2012/10/beauty-qa-whats-the-best-eye-makeup-remover.html">Lunchtime Beauty Q&amp;A: Whatâ€™s the Best Eye-Makeup Remover for Sensitive Eyes?</a></h2>
-        <p class="excerpt">Gentle, non-oily options that actually work.</p>
-
-    </header>
-</article></div>
-
-
-
-<div class="page articlepage">
-                   
-
-
-
-
-<article class="feedEntry" data-publish-datetime="1349209039000" id="entry">
-    
-    <div class="featureImage">
-        <a href="http://nymag.com/thecut/2012/10/dude-beer-is-good-for-your-hair-and-body.html">
-        
-        <div data-picture="true">
- 			<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/02/02-beer-shampoo-broo-2.o.jpg/a_3x-square.jpg"></div>
- 			<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/02/02-beer-shampoo-broo-2.o.jpg/a_1x-square.jpg"></div>
- 			
- 			<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/02/02-beer-shampoo-broo-2.o.jpg/a_3x-square.jpg"></div>
- 			
- 			<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/02/02-beer-shampoo-broo-2.o.jpg/a_3x-horizontal.jpg"&gt;</noscript>
-		</div>
-		
-        </a>
-    </div>
-    
-
-    <header>
-        <ul class="meta">
-            <li class="metaTime">Yesterday at  4:17 PM</li>
-            <li class="Beer Me">Beer Me</li>
-            <!-- &lt;li class="comments"&gt;&lt;b&gt;5&lt;/b&gt;&lt;/li&gt; -->
-        </ul>
-        <h2><a href="http://nymag.com/thecut/2012/10/dude-beer-is-good-for-your-hair-and-body.html">Dude! Beer Is Good for Your Hair and Body</a></h2>
-        <p class="excerpt">When applied externally.</p>
+        <h2><a href="http://nymag.com/thecut/2012/10/beauty-qa-what-is-the-best-glitter-eyeliner.html">Lunchtime Beauty Q&amp;A: Can I Wear Glitter Eyeliner Without Looking Cheesy?</a></h2>
+        <p class="excerpt">Too many sparkles can be a bad thing.</p>
 
     </header>
 </article></div>
@@ -405,18 +406,18 @@
 
 
 
-<article class="feedEntry" data-publish-datetime="1349196502000" id="entry">
+<article class="feedEntry" data-publish-datetime="1349735769000" id="entry">
     
     <div class="featureImage">
-        <a href="http://nymag.com/thecut/2012/10/zoom-shot-silver-eyes-at-chanel.html">
+        <a href="http://nymag.com/thecut/2012/10/jemma-kidds-makeup-line-is-out-of-money.html">
         
         <div data-picture="true">
- 			<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/02/02-chanel-zoom-2.o.jpg/a_3x-square.jpg"></div>
- 			<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/02/02-chanel-zoom-2.o.jpg/a_1x-square.jpg"></div>
+ 			<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/08/08-jemma-kidd-134052854.o.jpg/a_3x-square.jpg"></div>
+ 			<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/08/08-jemma-kidd-134052854.o.jpg/a_1x-square.jpg"></div>
  			
- 			<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/02/02-chanel-zoom-2.o.jpg/a_3x-square.jpg"></div>
+ 			<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/08/08-jemma-kidd-134052854.o.jpg/a_3x-square.jpg"></div>
  			
- 			<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/02/02-chanel-zoom-2.o.jpg/a_3x-horizontal.jpg"&gt;</noscript>
+ 			<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/08/08-jemma-kidd-134052854.o.jpg/a_3x-horizontal.jpg"&gt;</noscript>
 		</div>
 		
         </a>
@@ -425,12 +426,12 @@
 
     <header>
         <ul class="meta">
-            <li class="metaTime">Yesterday at  12:48 PM</li>
-            <li class="Zoom Shots">Zoom Shots</li>
+            <li class="metaTime">10/8/12 at 6:36 PM</li>
+            <li class="Bankruptcy">Bankruptcy</li>
             <!-- &lt;li class="comments"&gt;&lt;b&gt;5&lt;/b&gt;&lt;/li&gt; -->
         </ul>
-        <h2><a href="http://nymag.com/thecut/2012/10/zoom-shot-silver-eyes-at-chanel.html">Zoom Shot: Silver Eyes at Chanel</a></h2>
-        <p class="excerpt">Galactic metallic, this is not.</p>
+        <h2><a href="http://nymag.com/thecut/2012/10/jemma-kidds-makeup-line-is-out-of-money.html">Jemma Kiddâ€™s Makeup Line Is Out of Money</a></h2>
+        <p class="excerpt">And £2 million in debt, according to reports.</p>
 
     </header>
 </article></div>
@@ -440,18 +441,18 @@
 
 
 
-<article class="feedEntry" data-publish-datetime="1349186731000" id="entry">
+<article class="feedEntry" data-publish-datetime="1349732948000" id="entry">
     
     <div class="featureImage">
-        <a href="http://nymag.com/thecut/2012/10/plastic-surgery-pimp.html">
+        <a href="http://nymag.com/thecut/2012/10/obamas-face-fits-on-katy-perrys-thumbs.html">
         
         <div data-picture="true">
- 			<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/02/02-plastic-surgery.o.jpg/a_3x-square.jpg"></div>
- 			<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/02/02-plastic-surgery.o.jpg/a_1x-square.jpg"></div>
+ 			<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/08/08-nail-art-668610057.o.jpg/a_3x-square.jpg"></div>
+ 			<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/08/08-nail-art-668610057.o.jpg/a_1x-square.jpg"></div>
  			
- 			<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/02/02-plastic-surgery.o.jpg/a_3x-square.jpg"></div>
+ 			<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/08/08-nail-art-668610057.o.jpg/a_3x-square.jpg"></div>
  			
- 			<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/02/02-plastic-surgery.o.jpg/a_3x-horizontal.jpg"&gt;</noscript>
+ 			<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/08/08-nail-art-668610057.o.jpg/a_3x-horizontal.jpg"&gt;</noscript>
 		</div>
 		
         </a>
@@ -460,47 +461,12 @@
 
     <header>
         <ul class="meta">
-            <li class="metaTime">Yesterday at  10:05 AM</li>
-            <li class="Interview">Interview</li>
+            <li class="metaTime">10/8/12 at 5:49 PM</li>
+            
             <!-- &lt;li class="comments"&gt;&lt;b&gt;5&lt;/b&gt;&lt;/li&gt; -->
         </ul>
-        <h2><a href="http://nymag.com/thecut/2012/10/plastic-surgery-pimp.html">The Plastic Surgery Dealer</a></h2>
-        <p class="excerpt"><span>Beauty consultant Melinda Farina raises eyebrows.</span></p>
-
-    </header>
-</article></div>
-<div class="page articlepage">
-                   
-
-
-
-
-<article class="feedEntry" data-publish-datetime="1349120677000" id="entry">
-    
-    <div class="featureImage">
-        <a href="http://nymag.com/thecut/2012/10/cut-works-out-with-hilary-rhoda.html">
-        
-        <div data-picture="true">
- 			<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/02/01-hilary-rhoda-soul-cycle.o.jpg/a_3x-square.jpg"></div>
- 			<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/02/01-hilary-rhoda-soul-cycle.o.jpg/a_1x-square.jpg"></div>
- 			
- 			<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/02/01-hilary-rhoda-soul-cycle.o.jpg/a_3x-square.jpg"></div>
- 			
- 			<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/02/01-hilary-rhoda-soul-cycle.o.jpg/a_3x-horizontal.jpg"&gt;</noscript>
-		</div>
-		
-        </a>
-    </div>
-    
-
-    <header>
-        <ul class="meta">
-            <li class="metaTime">10/1/12 at 3:44 PM</li>
-            <li class="Working Out">Working Out</li>
-            <!-- &lt;li class="comments"&gt;&lt;b&gt;5&lt;/b&gt;&lt;/li&gt; -->
-        </ul>
-        <h2><a href="http://nymag.com/thecut/2012/10/cut-works-out-with-hilary-rhoda.html">The Cut Works Out With Hilary Rhoda</a></h2>
-        <p class="excerpt">The model shows us her daily gym routine (and it ain't easy).</p>
+        <h2><a href="http://nymag.com/thecut/2012/10/obamas-face-fits-on-katy-perrys-thumbs.html">President Obamaâ€™s Face Fits on Katy Perryâ€™s Thumbs</a></h2>
+        <p class="excerpt">And pinky and index fingers, too.</p>
 
     </header>
 </article></div>
@@ -510,8 +476,8 @@
 
 
 <div class="blogvertorial">
-	<div class="nym-ad" data-ad-size="300x250,535x250" data-defer="true" data-fuie="true" data-html4-viewport="535" data-iframe-size="535x250" data-media="only screen and (min-width: 535px)" data-tilegroup="a" id="blogvertorial-1349295491021">
-		<script>NYM.dfp.loadAd({'id':'blogvertorial-1349295491021','sz':'300x250,535x250','fuie':true,'defer':true});</script>
+	<div class="nym-ad" data-ad-size="300x250,535x250" data-defer="true" data-fuie="true" data-html4-viewport="535" data-iframe-size="535x250" data-media="only screen and (min-width: 535px)" data-tilegroup="a" id="blogvertorial-1349878547238">
+		<script>NYM.dfp.loadAd({'id':'blogvertorial-1349878547238','sz':'300x250,535x250','fuie':true,'defer':true});</script>
 	</div> 
 </div> <!-- /end .blogvertorial --><div class="page articlepage">
                    
@@ -519,18 +485,18 @@
 
 
 
-<article class="feedEntry" data-publish-datetime="1349114015000" id="entry">
+<article class="feedEntry" data-publish-datetime="1349722800000" id="entry">
     
     <div class="featureImage">
-        <a href="http://nymag.com/thecut/2012/09/three-beauty-things-i-tried-week-two.html">
+        <a href="http://nymag.com/thecut/2012/10/three-beauty-things-i-tried-week-three.html">
         
         <div data-picture="true">
- 			<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/01/01-3-things-tried.o.jpg/a_3x-square.jpg"></div>
- 			<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/01/01-3-things-tried.o.jpg/a_1x-square.jpg"></div>
+ 			<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/08/08-3-things-beauty.o.jpg/a_3x-horizontal.jpg"></div>
+ 			<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/08/08-3-things-beauty.o.jpg/a_1x-square.jpg"></div>
  			
- 			<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/01/01-3-things-tried.o.jpg/a_3x-square.jpg"></div>
+ 			<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/08/08-3-things-beauty.o.jpg/a_3x-horizontal.jpg"></div>
  			
- 			<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/01/01-3-things-tried.o.jpg/a_3x-horizontal.jpg"&gt;</noscript>
+ 			<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/08/08-3-things-beauty.o.jpg/a_3x-horizontal.jpg"&gt;</noscript>
 		</div>
 		
         </a>
@@ -539,12 +505,12 @@
 
     <header>
         <ul class="meta">
-            <li class="metaTime">10/1/12 at 1:53 PM</li>
+            <li class="metaTime">10/8/12 at 3:00 PM</li>
             <li class="Lab Rat">Lab Rat</li>
             <!-- &lt;li class="comments"&gt;&lt;b&gt;5&lt;/b&gt;&lt;/li&gt; -->
         </ul>
-        <h2><a href="http://nymag.com/thecut/2012/09/three-beauty-things-i-tried-week-two.html">Three Beauty Things I Tried: Week Two</a></h2>
-        <p class="excerpt">An organic perfume, a sequined manicure, and a new cleansing balm.</p>
+        <h2><a href="http://nymag.com/thecut/2012/10/three-beauty-things-i-tried-week-three.html">Three Beauty Things I Tried: Week Three</a></h2>
+        <p class="excerpt">Leave-in conditioner, a hair brush with microfiber bristles, and cleansing foam.</p>
 
     </header>
 </article></div>
@@ -554,18 +520,18 @@
 
 
 
-<article class="feedEntry" data-publish-datetime="1349106583000" id="entry">
+<article class="feedEntry" data-publish-datetime="1349719887000" id="entry">
     
     <div class="featureImage">
-        <a href="http://nymag.com/thecut/2012/10/freja-beha-to-replace-erin-wasson-at-maybelline.html">
+        <a href="http://nymag.com/thecut/2012/10/kate-middletons-famous-hair-flecked-with-silver.html">
         
         <div data-picture="true">
- 			<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/01/01-freja-erin.o.jpg/a_3x-square.jpg"></div>
- 			<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/01/01-freja-erin.o.jpg/a_1x-square.jpg"></div>
+ 			<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/08/08-kate-middleton-gray-hair-153660170.o.jpg/a_3x-square.jpg"></div>
+ 			<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/08/08-kate-middleton-gray-hair-153660170.o.jpg/a_1x-square.jpg"></div>
  			
- 			<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/01/01-freja-erin.o.jpg/a_3x-square.jpg"></div>
+ 			<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/08/08-kate-middleton-gray-hair-153660170.o.jpg/a_3x-square.jpg"></div>
  			
- 			<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/01/01-freja-erin.o.jpg/a_3x-horizontal.jpg"&gt;</noscript>
+ 			<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/08/08-kate-middleton-gray-hair-153660170.o.jpg/a_3x-horizontal.jpg"&gt;</noscript>
 		</div>
 		
         </a>
@@ -574,12 +540,12 @@
 
     <header>
         <ul class="meta">
-            <li class="metaTime">10/1/12 at 11:49 AM</li>
-            <li class="Ins And Outs">Ins And Outs</li>
+            <li class="metaTime">10/8/12 at 2:11 PM</li>
+            
             <!-- &lt;li class="comments"&gt;&lt;b&gt;5&lt;/b&gt;&lt;/li&gt; -->
         </ul>
-        <h2><a href="http://nymag.com/thecut/2012/10/freja-beha-to-replace-erin-wasson-at-maybelline.html">Freja Beha Erichsen to Replace Erin Wasson at Maybelline?</a></h2>
-        <p class="excerpt">Just <em>maybe</em>.</p>
+        <h2><a href="http://nymag.com/thecut/2012/10/kate-middletons-famous-hair-flecked-with-silver.html">Kate Middletonâ€™s Famous Hair Is Now Flecked With Silver</a></h2>
+        <p class="excerpt">How distinguished! </p>
 
     </header>
 </article></div>
@@ -589,18 +555,18 @@
 
 
 
-<article class="feedEntry" data-publish-datetime="1348871400000" id="entry">
+<article class="feedEntry" data-publish-datetime="1349719163000" id="entry">
     
     <div class="featureImage">
-        <a href="http://nymag.com/thecut/2012/09/best-bet-kjaer-weis-lip-tint.html">
+        <a href="http://nymag.com/thecut/2012/10/brad-pitts-chanel-no-5-where-are-you-going.html">
         
         <div data-picture="true">
- 			<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/09/28/28-best-bet-lip-tint.o.jpg/a_600x600.png"></div>
- 			<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/09/28/28-best-bet-lip-tint.o.jpg/a_1x-square.jpg"></div>
+ 			<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/08/08-chanel-5.o.jpg/a_3x-square.jpg"></div>
+ 			<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/08/08-chanel-5.o.jpg/a_1x-square.jpg"></div>
  			
- 			<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/09/28/28-best-bet-lip-tint.o.jpg/a_600x600.png"></div>
+ 			<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/08/08-chanel-5.o.jpg/a_3x-square.jpg"></div>
  			
- 			<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/09/28/28-best-bet-lip-tint.o.jpg/a_3x-horizontal.jpg"&gt;</noscript>
+ 			<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/08/08-chanel-5.o.jpg/a_3x-horizontal.jpg"&gt;</noscript>
 		</div>
 		
         </a>
@@ -609,12 +575,12 @@
 
     <header>
         <ul class="meta">
-            <li class="metaTime">9/28/12 at 6:30 PM</li>
-            <li class="Best Bet">Best Bet</li>
+            <li class="metaTime">10/8/12 at 1:59 PM</li>
+            <li class="Faces Of Things">Faces Of Things</li>
             <!-- &lt;li class="comments"&gt;&lt;b&gt;5&lt;/b&gt;&lt;/li&gt; -->
         </ul>
-        <h2><a href="http://nymag.com/thecut/2012/09/best-bet-kjaer-weis-lip-tint.html">Best Bet: Kjaer Weis Lip Tint </a></h2>
-        <p class="excerpt">Makeup that looks like jewelry.</p>
+        <h2><a href="http://nymag.com/thecut/2012/10/brad-pitts-chanel-no-5-where-are-you-going.html">Brad Pitt for Chanel No. 5 Wants to Know: Are You Going Somewhere?  </a></h2>
+        <p class="excerpt">The brand posted teasers for his forthcoming campaign.</p>
 
     </header>
 </article></div>
@@ -624,18 +590,18 @@
 
 
 
-<article class="feedEntry" data-publish-datetime="1348863512000" id="entry">
+<article class="feedEntry" data-publish-datetime="1349476200000" id="entry">
     
     <div class="featureImage">
-        <a href="http://nymag.com/thecut/2012/09/alexander-skarsgrds-favorite-smells.html">
+        <a href="http://nymag.com/thecut/2012/10/best-bet-odin-08-seylon-fragrance.html">
         
         <div data-picture="true">
- 			<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/09/28/28-alexander-skarsgard.o.jpg/a_3x-square.jpg"></div>
- 			<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/09/28/28-alexander-skarsgard.o.jpg/a_1x-square.jpg"></div>
+ 			<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/05/05-best-bet-odin.o.jpg/a_600x600.png"></div>
+ 			<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/05/05-best-bet-odin.o.jpg/a_1x-square.jpg"></div>
  			
- 			<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/09/28/28-alexander-skarsgard.o.jpg/a_3x-square.jpg"></div>
+ 			<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/05/05-best-bet-odin.o.jpg/a_600x600.png"></div>
  			
- 			<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/09/28/28-alexander-skarsgard.o.jpg/a_3x-horizontal.jpg"&gt;</noscript>
+ 			<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/05/05-best-bet-odin.o.jpg/a_3x-horizontal.jpg"&gt;</noscript>
 		</div>
 		
         </a>
@@ -644,12 +610,12 @@
 
     <header>
         <ul class="meta">
-            <li class="metaTime">9/28/12 at 4:18 PM</li>
-            <li class="Scent Of A Man">Scent Of A Man</li>
+            <li class="metaTime">10/5/12 at 6:30 PM</li>
+            <li class="Best Bets">Best Bets</li>
             <!-- &lt;li class="comments"&gt;&lt;b&gt;5&lt;/b&gt;&lt;/li&gt; -->
         </ul>
-        <h2><a href="http://nymag.com/thecut/2012/09/alexander-skarsgrds-favorite-smells.html">Alexander SkarsgÃ¥rdâ€™s Favorite Smells Are Found Only in Sweden</a></h2>
-        <p class="excerpt">Disappointingly not in the crook of our neck.</p>
+        <h2><a href="http://nymag.com/thecut/2012/10/best-bet-odin-08-seylon-fragrance.html">Best Bet: Odin 08 Seylon Fragrance</a></h2>
+        <p class="excerpt">A unisex fragrance inspired by sojourns in Sri Lanka.</p>
 
     </header>
 </article></div>
@@ -659,18 +625,18 @@
 
 
 
-<article class="feedEntry" data-publish-datetime="1348861800000" id="entry">
+<article class="feedEntry" data-publish-datetime="1349451000000" id="entry">
     
     <div class="featureImage">
-        <a href="http://nymag.com/thecut/2012/09/zoom-shot-rainbow-brite-eyes-at-christian-dior.html">
+        <a href="http://nymag.com/thecut/2012/10/beauty-qa-why-do-zits-form-in-the-same-spot.html">
         
         <div data-picture="true">
- 			<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/02/02-dior-zoom.o.jpg/a_3x-square.jpg"></div>
- 			<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/02/02-dior-zoom.o.jpg/a_1x-square.jpg"></div>
+ 			<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/04/04-tri-retinol-complex-blemish-age-defense.o.jpg/a_3x-square.jpg"></div>
+ 			<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/04/04-tri-retinol-complex-blemish-age-defense.o.jpg/a_1x-square.jpg"></div>
  			
- 			<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/02/02-dior-zoom.o.jpg/a_3x-square.jpg"></div>
+ 			<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/04/04-tri-retinol-complex-blemish-age-defense.o.jpg/a_3x-square.jpg"></div>
  			
- 			<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/02/02-dior-zoom.o.jpg/a_3x-horizontal.jpg"&gt;</noscript>
+ 			<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/04/04-tri-retinol-complex-blemish-age-defense.o.jpg/a_3x-horizontal.jpg"&gt;</noscript>
 		</div>
 		
         </a>
@@ -679,12 +645,12 @@
 
     <header>
         <ul class="meta">
-            <li class="metaTime">9/28/12 at 3:50 PM</li>
-            <li class="Things We Saw With Zoom">Things We Saw With Zoom</li>
+            <li class="metaTime">10/5/12 at 11:30 AM</li>
+            <li class="Beauty Q&amp;a">Beauty Q&amp;a</li>
             <!-- &lt;li class="comments"&gt;&lt;b&gt;5&lt;/b&gt;&lt;/li&gt; -->
         </ul>
-        <h2><a href="http://nymag.com/thecut/2012/09/zoom-shot-rainbow-brite-eyes-at-christian-dior.html">Zoom Shot: Rainbow Brite Eyes at Christian Dior</a></h2>
-        <p class="excerpt">The work of a magical makeup fairy.</p>
+        <h2><a href="http://nymag.com/thecut/2012/10/beauty-qa-why-do-zits-form-in-the-same-spot.html">Lunchtime Beauty Q&amp;A: Why Do Blemishes Reappear in the Same Spot? </a></h2>
+        <p class="excerpt">A dermatologist breaks it down.</p>
 
     </header>
 </article></div>
