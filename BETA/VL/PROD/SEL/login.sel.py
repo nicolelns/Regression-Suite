@@ -30,7 +30,7 @@ class Login(unittest.TestCase):
         driver.get(self.base_url + "/")
         
         """
-        Make sure login link is loaded and click on it
+        Click on login link
             
         """
         
