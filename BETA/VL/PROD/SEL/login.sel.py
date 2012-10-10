@@ -7,8 +7,9 @@ import unittest, time, re
 
 class Login(unittest.TestCase):
     
-    """
+        """
         Set up Webdriver with Firefox
+            
         """
     
     def setUp(self):
@@ -21,6 +22,7 @@ class Login(unittest.TestCase):
     
         """
         Open vulture.com
+            
         """
     
     def test_login(self):
@@ -29,6 +31,7 @@ class Login(unittest.TestCase):
         
         """
         Make sure login link is loaded and click on it
+            
         """
         
         login_button = driver.find_element_by_css_selector("a.login-lightbox")
@@ -37,6 +40,7 @@ class Login(unittest.TestCase):
         
         """
         Wait for the lightbox to appear before continuing
+            
         """
         
         for i in range(60):
@@ -48,6 +52,7 @@ class Login(unittest.TestCase):
         
         """
         Click the username/email address field and enter username
+            
         """
         
         login_box = driver.find_element_by_id("id_login")        
@@ -57,7 +62,9 @@ class Login(unittest.TestCase):
         
         """
         Click the username/email address field and enter password
+            
         """
+                
         pwd_box = driver.find_element_by_id("id_password")
         pwd_box.click()
         pwd_box.clear()
@@ -65,6 +72,7 @@ class Login(unittest.TestCase):
         
         """
         Click the submit button to log in
+            
         """
         
         submit_btn = driver.find_element_by_id("submit1")
@@ -79,7 +87,7 @@ class Login(unittest.TestCase):
         close_lightbox.click()
         
         """
-        Hover over the username after logging in
+        Hover over the username after logging in to fire the dropdown menu
             
         """
                 
@@ -107,7 +115,17 @@ class Login(unittest.TestCase):
 if __name__ == "__main__":
     suite = unittest.TestLoader().loadTestsFromTestCase(Login)
     unittest.TextTestRunner(verbosity=2).run(suite)
-    #results = open(path[:-4] + '.html', 'wb')
+
+    """
+    Uncomment the below lines if you want to use 
+    HTMLTestRunner to report results.
+    Change the <pathname>.html to a directory
+    in which you want the results saved.
+    This must be a .html file.
+        
+    """
+
+    #results = open('<pathname>.html', 'wb')
     #runner = HTMLTestRunner.HTMLTestRunner(stream=results, title="Vulture Login/Logout", description='Test Results for Vulture Home Page Login/Logout')
     #runner.run(suite)
     
