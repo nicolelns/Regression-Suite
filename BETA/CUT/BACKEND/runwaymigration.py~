@@ -23,10 +23,10 @@ class SeasonUtils():
         self.g = open('../DATA/TEXT/liveshowurls.txt', 'w')
         
         pickle.dump(SEASON, open('/Users/nsmith/Desktop/BETA/CUT/DATA/PICKLE/query.p', 'wb'))
-        
+        print "Got season, about to process data..."
         p = subprocess.Popen('/Users/nsmith/Desktop/BETA/LIB/jsonparserpublish.py', shell=True)
         p.wait()
-        
+        print "Parsed data OK"
         load = open('/Users/nsmith/Desktop/BETA/CUT/DATA/TEXT/s.txt', 'r').read()
         
         pickle.dump(load, open('/Users/nsmith/Desktop/BETA/CUT/DATA/PICKLE/seasondict.p', 'wb'))
@@ -162,7 +162,7 @@ def format_results():
         r += 1
 
     rk = results.keys()
-
+    
     for item in rk:
         g.write(item)
         g.write('\n')
@@ -176,10 +176,10 @@ for season in SEASONLIST:
     r = SeasonUtils()
     f = open('../DATA/TEXT/runwayshowlist.txt', 'r').readlines()
     g = open('../DATA/TEXT/liveshowurls.txt', 'r').readlines()
+    #print "I opened files"
     r.run_season_tests()
     x = 0
-    """
-    UNCOMMENT TO RUN SHOW TESTS - MODIFIED TO TEST SEASON DATA ONLY
+    
     for show in f:
         print x
         url = g[x]
@@ -187,6 +187,6 @@ for season in SEASONLIST:
         s = ShowUtils(strip_show, url)
         s.run_show_tests()
         x += 1
-    """
-#format_results()
+    
+format_results()
 

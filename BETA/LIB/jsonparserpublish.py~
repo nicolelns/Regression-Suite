@@ -19,6 +19,8 @@ from selenium.webdriver.remote.webdriver import WebDriver as RemoteWebDriver
 from selenium.webdriver.remote.webelement import WebElement
 from bs4 import BeautifulSoup
 
+""" This is ready for refactoring. """
+
 reload(sys)
 sys.setdefaultencoding("utf-8")
 
@@ -32,11 +34,15 @@ class MyOpener(urllib.FancyURLopener):
 class JSONParserPublish(unittest.TestCase):
 	
     def setUp(self):
-    
-        self.driver = webdriver.Firefox()
+        
+        try:   
+            print 'about to get wd ff'
+            self.driver = webdriver.Firefox()
+        except Exception, e:
+            print str(e)
         self.driver.implicitly_wait(10)
         self.verificationErrors = []
-        
+        print 'setup done'
     #########################################################################
     
     def test_login(self):
@@ -45,8 +51,10 @@ class JSONParserPublish(unittest.TestCase):
     	# Change the strings from admin/admin to a different username/password to change login credentials
     
         driver = self.driver
+        print driver
+        print "about to get url"
         driver.get(URL)
-        
+        print "Getting " + URL        
         try:
             driver.find_element_by_id("input-username").clear()
             driver.find_element_by_id("input-username").send_keys("nsmith")
@@ -69,8 +77,8 @@ class JSONParserPublish(unittest.TestCase):
     def get_src(self):
     	    
     	driver = self.driver
-    	src = driver.page_source
-        return src
+        print driver.page_source
+    	return driver.page_source
         
         ########################################################################
         
@@ -79,15 +87,13 @@ class JSONParserPublish(unittest.TestCase):
     	self.page = page
         self.soup = BeautifulSoup(self.page)
         
-        json = self.soup('pre')[0].string
-        return json
+        return self.soup('pre')[0].string
     
     def tearDown(self):
     	self.driver.quit()
     	
     #########################################################################
     #########################################################################
-    
+
 suite = unittest.TestLoader().loadTestsFromTestCase(JSONParserPublish)
 unittest.TextTestRunner(verbosity=2).run(suite)
-

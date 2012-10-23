@@ -13,7 +13,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
 from selenium.common.exceptions import NoSuchElementException, ElementNotVisibleException
 from selenium.webdriver.support import wait
-import HTMLTestRunner
+#import HTMLTestRunner
 import urllib2
 
 
@@ -324,11 +324,11 @@ except IndexError:
     y = 1
     print URL
     filename = str(URL.split('/'))
-    results = open('/Users/nsmith/Desktop/runwayresults/' + str(filename[-1]) + '.html', 'wb')
+   # results = open('/Users/nsmith/Desktop/runwayresults/' + str(filename[-1]) + '.html', 'wb')
     suite = unittest.TestLoader().loadTestsFromTestCase(ShowMigration)
     unittest.TextTestRunner(verbosity=2).run(suite)
-    runner = HTMLTestRunner.HTMLTestRunner(stream=results, title="TESTING", description='Results for Show Runwaymig')
-    results.close()
+   # runner = HTMLTestRunner.HTMLTestRunner(stream=results, title="TESTING", description='Results for Show Runwaymig')
+   # results.close()
 
 RESULTS.close()
 TAGGED.close()

@@ -1,1 +1,1 @@
-http://author.nymetro.com/services/fashion/get.fashion.shows.json:year=years:2012.season=fashion-lists:seasons/fall.type=fashion-lists:collection-type/rtw
+http://author.nymetro.com/services/fashion/get.fashion.shows.json:year=years:2013.season=fashion-lists:seasons/spring.type=fashion-lists:collection-type/rtw

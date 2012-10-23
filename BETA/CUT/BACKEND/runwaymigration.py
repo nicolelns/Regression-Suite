@@ -162,7 +162,7 @@ def format_results():
         r += 1
 
     rk = results.keys()
-
+    
     for item in rk:
         g.write(item)
         g.write('\n')
@@ -176,6 +176,7 @@ for season in SEASONLIST:
     r = SeasonUtils()
     f = open('../DATA/TEXT/runwayshowlist.txt', 'r').readlines()
     g = open('../DATA/TEXT/liveshowurls.txt', 'r').readlines()
+    
     r.run_season_tests()
     x = 0
     

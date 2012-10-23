@@ -257,16 +257,16 @@ class ShowMigration(unittest.TestCase):
         return True
     
         ########################################################################
-        
+      
     def test_thumbnails(self):
     	
     	if self.driver is not None:
     	
-    	    driver = self.driver
-    	    driver.get(URL)
-    	    driver.refresh()
+    	    #driver = self.driver
+    	    #driver.get(URL)
+    	    #driver.refresh()
     	    self.response()
-    	 
+    	    """
     	    try:
     	        driver.find_element_by_css_selector('div.error-wrap h2')
     	    
@@ -282,7 +282,7 @@ class ShowMigration(unittest.TestCase):
                     self.results_writer(URL + " has " + str(len(on_prod)) + " images on prod, and " + str(tt['total']) + " images in JSON")
                     self.verificationErrors.append(URL + " has different number of images on prod and in JSON")
     	    
-	    """
+	    
     	    try:
     	    	time.sleep(5)
     	        driver.find_elements_by_xpath("//img[contains(@src,'" + re.compile('http://pixel.nymag.com/images/.*') + "')]")

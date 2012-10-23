@@ -6,54 +6,74 @@ import os
 import re
 import string
 import urllib
+import urllib2
 import unittest
 import time
 import json
 import pickle
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import Select
-from selenium.common.exceptions import NoSuchElementException
-from selenium.webdriver.remote.command import Command
-from selenium.webdriver.remote.webdriver import WebDriver as RemoteWebDriver
-from selenium.webdriver.remote.webelement import WebElement
-from bs4 import BeautifulSoup
+import socket
+#from bs4 import BeautifulSoup
 
-""" This is ready for refactoring. """
 
 reload(sys)
 sys.setdefaultencoding("utf-8")
 
-URL = 'http://author.nymetro.com/'
+
+#URL = 'http://author.nymetro.com/'
 QUERY = pickle.load(open('/Users/nsmith/Desktop/BETA/CUT/DATA/PICKLE/query.p', 'rb'))
 
+
 class MyOpener(urllib.FancyURLopener):
+	
+    # Used with the old login version, ignore for now
+    
     version = 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.15) Gecko/20110303 Firefox/3.6.15'
+    
+    #########################################################################
+    #########################################################################
     
 
 class JSONParserPublish(unittest.TestCase):
 	
     def setUp(self):
-    
-        self.driver = webdriver.Firefox()
-        self.driver.implicitly_wait(10)
-        self.verificationErrors = []
+        
+        timeout = 10
+        socket.setdefaulttimeout(timeout)
+        
+        # Set up authorization in header and open page
+        # request.add_header()'s second arg is the usr/pwd in base64
+        
+        request = urllib2.Request(QUERY)
+        request.add_header("Authorization", "Basic bnNtaXRoOkd1YW53dWs1")   
+        self.result = urllib2.urlopen(request)
         
     #########################################################################
     
     def test_login(self):
+    	
+    	# Open a file and write the JSON data (result) to the file
+    	
+        d = open('/Users/nsmith/Desktop/BETA/CUT/DATA/TEXT/s.txt', 'w')
+        d.write(self.result.read())
+        d.close()
+        
+    #########################################################################    
+    @unittest.skip("Old Login via Selenium Webdriver - DEPRECATED")
+    def test_old_login(self):
            
     	# Log in to CQ:
-    	# Change the strings from admin/admin to a different username/password to change login credentials
+    	# Change the empty strings in send_keys() to a username/password 
+    	# to configure login credentials until a config file is set up
     
         driver = self.driver
-        driver.get(URL)
         
+        driver.get(URL)
+               
         try:
             driver.find_element_by_id("input-username").clear()
-            driver.find_element_by_id("input-username").send_keys("nsmith")
+            driver.find_element_by_id("input-username").send_keys("")
             driver.find_element_by_id("input-password").clear()
-            driver.find_element_by_id("input-password").send_keys("Guanwuk5")
+            driver.find_element_by_id("input-password").send_keys("")
             driver.find_element_by_id("input-submit").click()
             
         except AssertionError, e:
@@ -70,26 +90,33 @@ class JSONParserPublish(unittest.TestCase):
         
     def get_src(self):
     	    
-    	driver = self.driver
-    	src = driver.page_source
-        return src
+    	# Old functionality, used in the Webdriver login version
+    	    
+    	return self.driver.page_source
         
         ########################################################################
         
     def scrape(self, page):
     	 
+    	# Old functionality, used in the Webdriver login version 
+    	 
     	self.page = page
         self.soup = BeautifulSoup(self.page)
-        
-        json = self.soup('pre')[0].string
-        return json
+        return self.soup('pre')[0].string
+    
+        ########################################################################
     
     def tearDown(self):
-    	self.driver.quit()
+    	    
+    	# Uncomment below to use this code with the old Webdriver backed login
+    	
+    	#self.driver.quit()
+    	pass
     	
     #########################################################################
     #########################################################################
     
-suite = unittest.TestLoader().loadTestsFromTestCase(JSONParserPublish)
-unittest.TextTestRunner(verbosity=2).run(suite)
+if __name__ == '__main__':
 
+    suite = unittest.TestLoader().loadTestsFromTestCase(JSONParserPublish)
+    unittest.TextTestRunner(verbosity=2).run(suite)

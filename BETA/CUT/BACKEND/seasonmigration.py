@@ -9,7 +9,7 @@ import string
 import unittest
 import json
 import time
-import HTMLTestRunner
+#import HTMLTestRunner
 
 reload(sys)
 sys.setdefaultencoding("utf-8")
@@ -82,10 +82,10 @@ class SeasonMigration(unittest.TestCase):
     	self.assertEqual(self.verificationErrors, [])
     	self.f.close()
     	
-results = open('/Users/nsmith/desktop/SEASONrunwaymig.html', 'wb')
+#results = open('/Users/nsmith/desktop/SEASONrunwaymig.html', 'wb')
 suite = unittest.TestLoader().loadTestsFromTestCase(SeasonMigration)
 unittest.TextTestRunner(verbosity=2).run(suite)
-runner = HTMLTestRunner.HTMLTestRunner(stream=results, title="TESTING", description='Results for Season Runwaymig')
-runner.run(suite)
+#runner = HTMLTestRunner.HTMLTestRunner(stream=results, title="TESTING", description='Results for Season Runwaymig')
+#runner.run(suite)
     
     
