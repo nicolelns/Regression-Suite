@@ -154,7 +154,6 @@ if __name__ =='__main__':
     
     for url in URLS:
         soup = page_parser(url)
-        
         results_writer(url, " ") 
         suite = unittest.TestLoader().loadTestsFromTestCase(ArticleImage)
         unittest.TextTestRunner(verbosity=2).run(suite)

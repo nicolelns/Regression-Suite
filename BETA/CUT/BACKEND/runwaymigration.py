@@ -9,11 +9,10 @@ import pickle
 import subprocess
 import string
 import time
+import jsonparser
 
 SLUG = 'http://author.nymetro.com/services/fashion/get.fashion.show.data.json:'
 SEASONLIST = open('/Users/nsmith/Desktop/BETA/CUT/DATA/TEXT/seasonmigrationlist.txt', 'r').readlines()
-#SEASON = str(sys.argv[1])
-#print SEASON, " is being tested"
 
 class SeasonUtils():
 	
@@ -22,16 +21,17 @@ class SeasonUtils():
         self.f = open('../DATA/TEXT/runwayshowlist.txt', 'w')
         self.g = open('../DATA/TEXT/liveshowurls.txt', 'w')
         
-        pickle.dump(SEASON, open('/Users/nsmith/Desktop/BETA/CUT/DATA/PICKLE/query.p', 'wb'))
+        J = jsonparser.JSONParser(season)
+        #pickle.dump(SEASON, open('/Users/nsmith/Desktop/BETA/CUT/DATA/PICKLE/query.p', 'wb'))
         
-        p = subprocess.Popen('/Users/nsmith/Desktop/BETA/LIB/jsonparserpublish.py', shell=True)
-        p.wait()
+        #p = subprocess.Popen('/Users/nsmith/Desktop/BETA/LIB/jsonparserpublish.py', shell=True)
+        #p.wait()
         
-        load = open('/Users/nsmith/Desktop/BETA/CUT/DATA/TEXT/s.txt', 'r').read()
+        #load = open('/Users/nsmith/Desktop/BETA/CUT/DATA/TEXT/s.txt', 'r').read()
+        #load = J.get_data()
+        pickle.dump(J.get_data(), open('/Users/nsmith/Desktop/BETA/CUT/DATA/PICKLE/seasondict.p', 'wb'))
         
-        pickle.dump(load, open('/Users/nsmith/Desktop/BETA/CUT/DATA/PICKLE/seasondict.p', 'wb'))
-        
-        self.data = json.loads(load).values()
+        self.data = json.loads(J.get_data()).values()
         
         for show in self.data[0]:
 	    self.make_show_query(show)
@@ -71,9 +71,10 @@ class SeasonUtils():
         
     def show_url_string(self, string):
     	    
-    	self.s = string
-    	new_str = str(self.s).split('/')
-        return new_str[-1]
+    	#self.s = string
+    	return str(string).split('/')[-1]
+    	#new_str = str(self.s).split('/')
+        #return new_str[-1]
     
     def show_urlmaker(self, ls):
     	    
@@ -145,6 +146,7 @@ def format_results():
 	
     f = open('/Users/nsmith/Desktop/RUNWAYMIGRATION/dupedunpublishedshows.txt', 'r').readlines()
     g = open('/Users/nsmith/Desktop/RUNWAYMIGRATION/unpublishedshows.txt', 'w')
+    
     r = 0
     results = {}
     for line in f:
@@ -161,9 +163,9 @@ def format_results():
 
         r += 1
 
-    rk = results.keys()
+    #rk = results.keys()
     
-    for item in rk:
+    for item in results.keys():
         g.write(item)
         g.write('\n')
     g.close()
@@ -183,8 +185,7 @@ for season in SEASONLIST:
     for show in f:
         print x
         url = g[x]
-        strip_show = show.strip('\n')
-        s = ShowUtils(strip_show, url)
+        s = ShowUtils(show.strip('\n'), url)
         s.run_show_tests()
         x += 1
     
