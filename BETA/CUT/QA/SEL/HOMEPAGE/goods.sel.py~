@@ -1,0 +1,56 @@
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import Select
+from selenium.common.exceptions import NoSuchElementException
+import unittest, time, re
+
+class HomePageGoods(unittest.TestCase):
+    def setUp(self):
+        self.driver = webdriver.Firefox()
+        self.driver.implicitly_wait(30)
+        self.base_url = "http://nymag.com/thecut/"
+        self.verificationErrors = []
+    
+    def test_homepage_goods(self):
+        driver = self.driver
+        driver.get(self.base_url)
+        
+        # Fail the test if the Goods section isn't on the home page - via CSS
+        self.failUnless(driver.find_element_by_css_selector(goods_promo_section))
+ 
+        # Find the large goods promo image via CSS
+        # Assert that there are exactly 9 goods article thumbnails in the module - via CSS
+
+        driver.find_element_by_css_selector(goods_promo_big_img)
+        self.assertEqual(len(driver.find_elements_by_css_selector(goods_promo_thumb)), 9)
+
+    def test_homepage_goods_link(self):
+        driver = self.driver
+        driver.get(self.base_url) 
+ 
+        # Find the read more link for the Goods section via CSS and click on it
+        # Assert that the URL you land on after clicking is the /shopping/ page
+                         
+        driver.find_element_by_css_selector(goods_read_more).click()
+        self.assertEqual(driver.current_url, self.base_url + "shopping/")
+
+    def is_element_present(self, how, what):
+        try: self.driver.find_element(by=how, value=what)
+        except NoSuchElementException, e: return False
+        return True
+    
+    def tearDown(self):
+        self.driver.quit()
+        self.assertEqual([], self.verificationErrors)
+
+if __name__ == "__main__":
+
+    # Quick and dirty variable assignment for CSS selectors
+    
+    goods_promo_section = 'section[class*="goodsWrap"]'
+    goods_promo_big_img = "div.homepage_goods_promo a div img.image"
+    goods_promo_thumb = "a.boxThumbnail img.image"
+    goods_read_more = "p.readMore a.readMoreLink"
+
+    suite = unittest.TestLoader().loadTestsFromTestCase(HomePageGoods)
+    unittest.TextTestRunner(verbosity=2).run(suite)  
