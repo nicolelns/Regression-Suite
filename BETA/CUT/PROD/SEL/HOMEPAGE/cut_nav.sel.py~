@@ -1,0 +1,74 @@
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import Select
+from selenium.common.exceptions import NoSuchElementException
+import unittest, time, re, sys
+import cutSelectors
+
+
+class HomePageCutNav(unittest.TestCase):
+    def setUp(self):
+        self.driver = webdriver.Firefox()
+        self.driver.implicitly_wait(30)
+        self.base_url = sys.argv[1]
+        self.verificationErrors = []
+    
+    def test_nav_links(self):
+        driver = self.driver
+        driver.get(self.base_url)
+
+        # Loops through each entry in data:  data[0] is a CSS selector; data[1] is the pathname
+        # 'links' is a tuple of tuples with each cut nav link and its css selector: ex '/thecut/fame/
+        # Need to finish use case with dropdown - hover and click
+        # Cut Logo not implemented yet
+        # Search will be its own test
+
+        for data in links:
+            try:
+                # Find each link and click on it - via CSS selectors in data
+                # Assert that the URL you're on after clicking is the correct one; go back and repeat
+                
+                # if runway or street-style, hover before clicking
+                
+                #if data[1] == "runway/" or data[1] == "street-style/":
+                    #self.hover(mouseover_menu)
+
+                driver.find_element_by_css_selector(data[0]).click()
+                time.sleep(1)
+                self.assertEqual(driver.current_url, self.base_url + data[1])
+                driver.back()
+
+            except AssertionError, e:
+                self.verificationErrors.append(data[1] + " is broken")
+    
+    def is_element_present(self, how, what):
+        try: self.driver.find_element(by=how, value=what)
+        except NoSuchElementException, e: return False
+        return True
+    
+    def hover(self, locator):
+        self.locator = locator
+        driver = self.driver
+        
+        element = driver.find_element_by_css_selector(self.locator)
+        hover = ActionChains(driver).move_to_element(element)
+        hover.perform()
+
+    def tearDown(self):
+        self.driver.quit()
+        self.assertEqual([], self.verificationErrors)
+
+if __name__ == "__main__":
+
+    # links[0] is a CSS selector for a given link in the nav
+    # links[1] is the URL clicking on the CSS selector should return
+    # Need if statement for hovering over runway and streetstyle links
+
+    HomePage = cutSelectors.HomePage()
+    Selectors = HomePage.cut_nav()
+    	    
+    links = Selectors[0]
+    mouseover_menu = Selectors[1]
+    
+    suite = unittest.TestLoader().loadTestsFromTestCase(HomePageCutNav)
+    unittest.TextTestRunner(verbosity=2).run(suite)

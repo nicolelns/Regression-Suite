@@ -1,0 +1,8 @@
+http://ec2.qa.nymetro.com/thecut/fashion/shows/2013/spring/paris/rtw/a-la-disposition.html
+http://ec2.qa.nymetro.com/thecut/fashion/shows/2013/spring/new-york/rtw/milly.html
+http://ec2.qa.nymetro.com/thecut/fashion/shows/2013/spring/london/rtw/osman-yousefzada.html
+http://ec2.qa.nymetro.com/thecut/fashion/shows/2013/spring/new-york/rtw/rachel-comey.html
+http://ec2.qa.nymetro.com/thecut/fashion/shows/2013/spring/paris/rtw/rag-bone.html
+http://ec2.qa.nymetro.com/thecut/fashion/shows/2013/spring/paris/rtw/three-as-four.html
+http://ec2.qa.nymetro.com/thecut/fashion/shows/2013/spring/paris/rtw/vanessa-bruno.html
+http://ec2.qa.nymetro.com/thecut/fashion/shows/2013/spring/rio-de-janeiro/rtw/zoe-jordan.html

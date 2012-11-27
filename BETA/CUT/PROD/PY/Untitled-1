@@ -1,0 +1,59 @@
+{ "authors" : [ "Alex Rees" ],
+  "commentstatus" : "Enabled",
+  "cq:lastModified" : "Tue Sep 11 2012 00:10:11 GMT-0400",
+  "cq:lastModifiedBy" : "akennedy",
+  "cq:lastReplicated" : "Tue Sep 11 2012 00:10:50 GMT-0400",
+  "cq:lastReplicatedBy" : "admin",
+  "cq:lastReplicationAction" : "Activate",
+  "cq:tags" : [ "nymag:r/ra-rm/rachel-zoe",
+      "nymag:b/ba-bm/beauty",
+      "nymag:s/sa-sm/slash-jobs",
+      "nymag:c/cn-cz/collaboration-station",
+      "nymag:b/ba-bm/blowouts",
+      "nymag:b/bn-bz/brand-expansions"
+    ],
+  "cq:template" : "/apps/nymag/templates/basicblogpostpage",
+  "created_by" : "entry creator form, v1.0",
+  "cross_post" : [ "The Cut" ],
+  "entryType" : "Standard",
+  "entry_layout" : "Standard Thumbnail",
+  "excerpt" : "She's opening a hair salon.",
+  "featureTypes" : [ "News" ],
+  "feature_rubric" : "nymag:b/ba-bm/blowouts",
+  "hidePublished" : "show",
+  "index_layout" : "Standard Thumbnail",
+  "jcr:baseVersion" : "4abd20d1-bb90-4896-925b-b0c0e1465d98",
+  "jcr:created" : "Mon Sep 10 2012 23:22:14 GMT-0400",
+  "jcr:createdBy" : "ccowles",
+  "jcr:description" : "Rachel Zoe Will Provide the ‘Ultimate Blowout’",
+  "jcr:isCheckedOut" : true,
+  "jcr:mixinTypes" : [ "mix:versionable" ],
+  "jcr:predecessors" : [ "4abd20d1-bb90-4896-925b-b0c0e1465d98" ],
+  "jcr:primaryType" : "cq:PageContent",
+  "jcr:title" : "Rachel Zoe Will Soon Provide the ‘Ultimate Blowout’",
+  "jcr:uuid" : "5aed4c72-dbf3-4d4e-b674-54db47516ec2",
+  "jcr:versionHistory" : "1802c055-4996-44b1-890e-66ed13a0c8fe",
+  "longerheadline" : "Rachel Zoe Will Soon Provide the ‘Ultimate Blowout’",
+  "primary_image" : "http://pixel.nymag.com/imgs/fashion/daily/2012/09/10/10-rachel-zoe.o.jpg/a_146x97.jpg",
+  "primary_tag" : [ "nymag:r/ra-rm/rachel-zoe",
+      "brand expansions"
+    ],
+  "published" : "Tue Sep 11 2012 00:10:20 GMT-0400",
+  "shorterheadline" : "Rachel Zoe Will Provide the ‘Ultimate Blowout’",
+  "sling:resourceType" : "/apps/thecut/components/page/articlepage",
+  "source_blog" : "The Cut",
+  "subchannelCategory" : "Beauty",
+  "topstorystatus" : "Normal"
+}
+
+
+
+
+"""   
+                    f = self.assertNotEqual(tag.find('header'), None), "Header Tag in Feed Article", str(u + 1), ENV, self.shorthead
+                    f = self.assertNotEqual(tag.find('li', attrs={'class':'metaTime'}).contents, []), "Timestamp in Feed Article", str(u + 1), ENV, self.shorthead
+                    if self.feature_rub is not None:
+                        f = self.assertNotEqual(tag.find('li', attrs={'class':self.feature_rub}), None), "Feature Rubric", str(u + 1), ENV, self.shorthead
+                    f = self.assertNotEqual(tag.find('h2'), None), "H2 Tag in Feed Article", str(u + 1), ENV, self.shorthead
+                    f = self.assertNotEqual(tag.find('p', attrs={'class':'excerpt'}).contents, []), "Excerpt in Feed Article", str(u + 1), ENV, self.shorthead
+                """
