@@ -1,0 +1,402 @@
+NY MAG QA LOG FOR 14-05-2012-09:34:36
+Test: Global Navigation (Music, Movies, TV, etc) - Desktop - Vulture Home Page	URL: http://www.vulture.com
+__________________________________________________________________________
+__________________________________________________________________________
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Presence of Elements via CSS	Browser: chrome
+__________________________________________________________________________
+PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#navGlobal div.primary ul.navPrimary li#navGlobalMovies.top a
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Presence of Elements via CSS	Browser: chrome
+__________________________________________________________________________
+PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#navGlobal div.primary ul.navPrimary li#navGlobalTv.top a
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Presence of Elements via CSS	Browser: chrome
+__________________________________________________________________________
+PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#navGlobal div.primary ul.navPrimary li#navGlobalMusic.top a
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Presence of Elements via CSS	Browser: chrome
+__________________________________________________________________________
+PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#navGlobal div.primary ul.navPrimary li#navGlobalEtc.top a#etcBtn
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Presence of Elements via CSS	Browser: chrome
+__________________________________________________________________________
+PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast h1#vultureLogo.brand a
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Presence of Elements via CSS	Browser: chrome
+__________________________________________________________________________
+PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast h1#vultureLogo.brand span.tagline
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Do the Links Open the Right Pages?	Browser: chrome
+__________________________________________________________________________
+PASS, PAGE OPENS
+http://www.vulture.com/movies/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Do the Links Open the Right Pages?	Browser: chrome
+__________________________________________________________________________
+PASS, NO 404/500 ERROR
+http://www.vulture.com/movies/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Do the Links Open the Right Pages?	Browser: chrome
+__________________________________________________________________________
+PASS, PAGE OPENS
+http://www.vulture.com/tv/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Do the Links Open the Right Pages?	Browser: chrome
+__________________________________________________________________________
+PASS, NO 404/500 ERROR
+http://www.vulture.com/tv/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Do the Links Open the Right Pages?	Browser: chrome
+__________________________________________________________________________
+PASS, PAGE OPENS
+http://www.vulture.com/music/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Do the Links Open the Right Pages?	Browser: chrome
+__________________________________________________________________________
+PASS, NO 404/500 ERROR
+http://www.vulture.com/music/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Do the Links Open the Right Pages?	Browser: chrome
+__________________________________________________________________________
+PASS, PAGE OPENS
+http://www.vulture.com/tv/mad-men
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Do the Links Open the Right Pages?	Browser: chrome
+__________________________________________________________________________
+PASS, NO 404/500 ERROR
+http://www.vulture.com/tv/mad-men
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Do the Links Open the Right Pages?	Browser: chrome
+__________________________________________________________________________
+PASS, PAGE OPENS
+http://www.vulture.com/news/the-avengers/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Do the Links Open the Right Pages?	Browser: chrome
+__________________________________________________________________________
+PASS, NO 404/500 ERROR
+http://www.vulture.com/news/the-avengers/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Do the Links Open the Right Pages?	Browser: chrome
+__________________________________________________________________________
+PASS, PAGE OPENS
+http://www.vulture.com/tv/game-of-thrones/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Do the Links Open the Right Pages?	Browser: chrome
+__________________________________________________________________________
+PASS, NO 404/500 ERROR
+http://www.vulture.com/tv/game-of-thrones/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Do the Links Open the Right Pages?	Browser: chrome
+__________________________________________________________________________
+PASS, PAGE OPENS
+http://www.vulture.com/news/vulture%27s-summer-movie-preview/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Do the Links Open the Right Pages?	Browser: chrome
+__________________________________________________________________________
+PASS, NO 404/500 ERROR
+http://www.vulture.com/news/vulture%27s-summer-movie-preview/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Do the Links Open the Right Pages?	Browser: chrome
+__________________________________________________________________________
+PASS, PAGE OPENS
+http://www.vulture.com/news/upfronts-2012/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Do the Links Open the Right Pages?	Browser: chrome
+__________________________________________________________________________
+PASS, NO 404/500 ERROR
+http://www.vulture.com/news/upfronts-2012/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Presence of Elements via CSS	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#navGlobal div.primary ul.navPrimary li#navGlobalMovies.top a
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Presence of Elements via CSS	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#navGlobal div.primary ul.navPrimary li#navGlobalTv.top a
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Presence of Elements via CSS	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#navGlobal div.primary ul.navPrimary li#navGlobalMusic.top a
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Presence of Elements via CSS	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#navGlobal div.primary ul.navPrimary li#navGlobalEtc.top a#etcBtn
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Presence of Elements via CSS	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast h1#vultureLogo.brand a
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Presence of Elements via CSS	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast h1#vultureLogo.brand span.tagline
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Do the Links Open the Right Pages?	Browser: firefox
+__________________________________________________________________________
+PASS, PAGE OPENS
+http://www.vulture.com/movies/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Do the Links Open the Right Pages?	Browser: firefox
+__________________________________________________________________________
+PASS, NO 404/500 ERROR
+http://www.vulture.com/movies/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Do the Links Open the Right Pages?	Browser: firefox
+__________________________________________________________________________
+PASS, PAGE OPENS
+http://www.vulture.com/tv/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Do the Links Open the Right Pages?	Browser: firefox
+__________________________________________________________________________
+PASS, NO 404/500 ERROR
+http://www.vulture.com/tv/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Do the Links Open the Right Pages?	Browser: firefox
+__________________________________________________________________________
+PASS, PAGE OPENS
+http://www.vulture.com/music/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Do the Links Open the Right Pages?	Browser: firefox
+__________________________________________________________________________
+PASS, NO 404/500 ERROR
+http://www.vulture.com/music/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Do the Links Open the Right Pages?	Browser: firefox
+__________________________________________________________________________
+PASS, PAGE OPENS
+http://www.vulture.com/tv/mad-men
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Do the Links Open the Right Pages?	Browser: firefox
+__________________________________________________________________________
+PASS, NO 404/500 ERROR
+http://www.vulture.com/tv/mad-men
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Do the Links Open the Right Pages?	Browser: firefox
+__________________________________________________________________________
+PASS, PAGE OPENS
+http://www.vulture.com/news/the-avengers/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Do the Links Open the Right Pages?	Browser: firefox
+__________________________________________________________________________
+PASS, NO 404/500 ERROR
+http://www.vulture.com/news/the-avengers/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Do the Links Open the Right Pages?	Browser: firefox
+__________________________________________________________________________
+PASS, PAGE OPENS
+http://www.vulture.com/tv/game-of-thrones/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Do the Links Open the Right Pages?	Browser: firefox
+__________________________________________________________________________
+PASS, NO 404/500 ERROR
+http://www.vulture.com/tv/game-of-thrones/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Do the Links Open the Right Pages?	Browser: firefox
+__________________________________________________________________________
+PASS, PAGE OPENS
+http://www.vulture.com/news/vulture%27s-summer-movie-preview/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Do the Links Open the Right Pages?	Browser: firefox
+__________________________________________________________________________
+PASS, NO 404/500 ERROR
+http://www.vulture.com/news/vulture%27s-summer-movie-preview/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Do the Links Open the Right Pages?	Browser: firefox
+__________________________________________________________________________
+PASS, PAGE OPENS
+http://www.vulture.com/news/upfronts-2012/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Do the Links Open the Right Pages?	Browser: firefox
+__________________________________________________________________________
+PASS, NO 404/500 ERROR
+http://www.vulture.com/news/upfronts-2012/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Presence of Elements via CSS	Browser: safari
+__________________________________________________________________________
+PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#navGlobal div.primary ul.navPrimary li#navGlobalMovies.top a
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Presence of Elements via CSS	Browser: safari
+__________________________________________________________________________
+PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#navGlobal div.primary ul.navPrimary li#navGlobalTv.top a
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Presence of Elements via CSS	Browser: safari
+__________________________________________________________________________
+PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#navGlobal div.primary ul.navPrimary li#navGlobalMusic.top a
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Presence of Elements via CSS	Browser: safari
+__________________________________________________________________________
+PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#navGlobal div.primary ul.navPrimary li#navGlobalEtc.top a#etcBtn
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Presence of Elements via CSS	Browser: safari
+__________________________________________________________________________
+PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast h1#vultureLogo.brand a
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Presence of Elements via CSS	Browser: safari
+__________________________________________________________________________
+PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast h1#vultureLogo.brand span.tagline
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Do the Links Open the Right Pages?	Browser: safari
+__________________________________________________________________________
+PASS, PAGE OPENS
+http://www.vulture.com/movies/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Do the Links Open the Right Pages?	Browser: safari
+__________________________________________________________________________
+PASS, NO 404/500 ERROR
+http://www.vulture.com/movies/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Do the Links Open the Right Pages?	Browser: safari
+__________________________________________________________________________
+PASS, PAGE OPENS
+http://www.vulture.com/tv/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Do the Links Open the Right Pages?	Browser: safari
+__________________________________________________________________________
+PASS, NO 404/500 ERROR
+http://www.vulture.com/tv/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Do the Links Open the Right Pages?	Browser: safari
+__________________________________________________________________________
+PASS, PAGE OPENS
+http://www.vulture.com/music/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Do the Links Open the Right Pages?	Browser: safari
+__________________________________________________________________________
+PASS, NO 404/500 ERROR
+http://www.vulture.com/music/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Do the Links Open the Right Pages?	Browser: safari
+__________________________________________________________________________
+PASS, PAGE OPENS
+http://www.vulture.com/tv/mad-men
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Do the Links Open the Right Pages?	Browser: safari
+__________________________________________________________________________
+PASS, NO 404/500 ERROR
+http://www.vulture.com/tv/mad-men
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Do the Links Open the Right Pages?	Browser: safari
+__________________________________________________________________________
+PASS, PAGE OPENS
+http://www.vulture.com/news/the-avengers/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Do the Links Open the Right Pages?	Browser: safari
+__________________________________________________________________________
+PASS, NO 404/500 ERROR
+http://www.vulture.com/news/the-avengers/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Do the Links Open the Right Pages?	Browser: safari
+__________________________________________________________________________
+PASS, PAGE OPENS
+http://www.vulture.com/tv/game-of-thrones/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Do the Links Open the Right Pages?	Browser: safari
+__________________________________________________________________________
+PASS, NO 404/500 ERROR
+http://www.vulture.com/tv/game-of-thrones/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Do the Links Open the Right Pages?	Browser: safari
+__________________________________________________________________________
+PASS, PAGE OPENS
+http://www.vulture.com/news/vulture%27s-summer-movie-preview/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Do the Links Open the Right Pages?	Browser: safari
+__________________________________________________________________________
+PASS, NO 404/500 ERROR
+http://www.vulture.com/news/vulture%27s-summer-movie-preview/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Do the Links Open the Right Pages?	Browser: safari
+__________________________________________________________________________
+PASS, PAGE OPENS
+http://www.vulture.com/news/upfronts-2012/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Do the Links Open the Right Pages?	Browser: safari
+__________________________________________________________________________
+PASS, NO 404/500 ERROR
+http://www.vulture.com/news/upfronts-2012/
+__________________________________________________________________________
+__________________________________________________________________________

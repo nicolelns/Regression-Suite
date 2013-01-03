@@ -1,0 +1,1956 @@
+[0.020][INFO]:      ChromeDriver 19.0.1068.0 /Library/Python/2.7/site-packages/chromedriver
+[0.987][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "chrome.switches": [  ],
+   "chromeOptions": {
+      "args": [  ],
+      "binary": "",
+      "extensions": [  ]
+   },
+   "javascriptEnabled": true,
+   "platform": "ANY",
+   "version": ""
+}
+
+[0.988][INFO]:      Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --ignore-certificate-errors --homepage=about:blank
+[1.784][INFO]:      Connected to Chrome successfully. Version: 17.0.963.56
+[1.811][FINE]:      Command received (/session/2504645640decfc8dce5e7d4db95ce47)
+[1.811][FINE]:      Command finished (/session/2504645640decfc8dce5e7d4db95ce47) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "19.0.1068.0",
+      "chrome.nativeEvents": false,
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "mac",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "17.0.963.56",
+      "webStorageEnabled": false
+   }
+}
+
+[1.846][FINE]:      Command received (/session/2504645640decfc8dce5e7d4db95ce47/timeouts/implicit_wait) with params {
+   "ms": 10000.0,
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47"
+}
+
+[1.846][FINER]:     Waiting for all views to stop loading...
+[1.846][FINER]:     Done waiting for all views to stop loading
+[1.846][FINER]:     Waiting for all views to stop loading...
+[1.846][FINER]:     Done waiting for all views to stop loading
+[1.846][FINE]:      Command finished (/session/2504645640decfc8dce5e7d4db95ce47/timeouts/implicit_wait) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[1.848][FINE]:      Command received (/session/2504645640decfc8dce5e7d4db95ce47/url) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "url": "http://stg.nymetro.com/daily/fashion/"
+}
+
+[1.848][FINER]:     Waiting for all views to stop loading...
+[1.849][FINER]:     Done waiting for all views to stop loading
+[31.789][FINER]:    Waiting for all views to stop loading...
+[31.792][FINER]:    Done waiting for all views to stop loading
+[31.792][FINE]:     Command finished (/session/2504645640decfc8dce5e7d4db95ce47/url) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[31.794][FINE]:     Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[31.794][FINER]:    Waiting for all views to stop loading...
+[31.794][FINER]:    Done waiting for all views to stop loading
+[41.830][FINER]:    Waiting for all views to stop loading...
+[41.830][FINER]:    Done waiting for all views to stop loading
+[41.830][WARNING]:  Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[41.833][FINE]:     Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[41.833][FINER]:    Waiting for all views to stop loading...
+[41.833][FINER]:    Done waiting for all views to stop loading
+[51.852][FINER]:    Waiting for all views to stop loading...
+[51.853][FINER]:    Done waiting for all views to stop loading
+[51.853][WARNING]:  Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[51.854][FINE]:     Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[51.854][FINER]:    Waiting for all views to stop loading...
+[51.855][FINER]:    Done waiting for all views to stop loading
+[61.902][FINER]:    Waiting for all views to stop loading...
+[61.903][FINER]:    Done waiting for all views to stop loading
+[61.903][WARNING]:  Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[61.905][FINE]:     Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[61.905][FINER]:    Waiting for all views to stop loading...
+[61.906][FINER]:    Done waiting for all views to stop loading
+[71.929][FINER]:    Waiting for all views to stop loading...
+[71.929][FINER]:    Done waiting for all views to stop loading
+[71.929][WARNING]:  Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[71.931][FINE]:     Command received (/session/2504645640decfc8dce5e7d4db95ce47/url) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "url": "http://stg.nymetro.com/beauty/"
+}
+
+[71.931][FINER]:    Waiting for all views to stop loading...
+[71.931][FINER]:    Done waiting for all views to stop loading
+[73.358][FINER]:    Waiting for all views to stop loading...
+[73.359][FINER]:    Done waiting for all views to stop loading
+[73.359][FINE]:     Command finished (/session/2504645640decfc8dce5e7d4db95ce47/url) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[73.360][FINE]:     Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[73.360][FINER]:    Waiting for all views to stop loading...
+[73.361][FINER]:    Done waiting for all views to stop loading
+[83.366][FINER]:    Waiting for all views to stop loading...
+[83.366][FINER]:    Done waiting for all views to stop loading
+[83.366][WARNING]:  Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[83.368][FINE]:     Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[83.368][FINER]:    Waiting for all views to stop loading...
+[83.368][FINER]:    Done waiting for all views to stop loading
+[93.377][FINER]:    Waiting for all views to stop loading...
+[93.377][FINER]:    Done waiting for all views to stop loading
+[93.377][WARNING]:  Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[93.379][FINE]:     Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[93.379][FINER]:    Waiting for all views to stop loading...
+[93.380][FINER]:    Done waiting for all views to stop loading
+[103.386][FINER]:   Waiting for all views to stop loading...
+[103.386][FINER]:   Done waiting for all views to stop loading
+[103.386][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[103.409][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[103.409][FINER]:   Waiting for all views to stop loading...
+[103.410][FINER]:   Done waiting for all views to stop loading
+[113.429][FINER]:   Waiting for all views to stop loading...
+[113.429][FINER]:   Done waiting for all views to stop loading
+[113.429][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[113.430][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/url) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "url": "http://stg.nymetro.com/shopping/"
+}
+
+[113.430][FINER]:   Waiting for all views to stop loading...
+[113.431][FINER]:   Done waiting for all views to stop loading
+[116.444][FINER]:   Waiting for all views to stop loading...
+[116.446][FINER]:   Done waiting for all views to stop loading
+[116.446][FINE]:    Command finished (/session/2504645640decfc8dce5e7d4db95ce47/url) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[116.448][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[116.448][FINER]:   Waiting for all views to stop loading...
+[116.448][FINER]:   Done waiting for all views to stop loading
+[126.458][FINER]:   Waiting for all views to stop loading...
+[126.458][FINER]:   Done waiting for all views to stop loading
+[126.458][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[126.460][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[126.460][FINER]:   Waiting for all views to stop loading...
+[126.460][FINER]:   Done waiting for all views to stop loading
+[136.478][FINER]:   Waiting for all views to stop loading...
+[136.478][FINER]:   Done waiting for all views to stop loading
+[136.478][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[136.480][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[136.480][FINER]:   Waiting for all views to stop loading...
+[136.480][FINER]:   Done waiting for all views to stop loading
+[146.503][FINER]:   Waiting for all views to stop loading...
+[146.504][FINER]:   Done waiting for all views to stop loading
+[146.504][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[146.505][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[146.506][FINER]:   Waiting for all views to stop loading...
+[146.506][FINER]:   Done waiting for all views to stop loading
+[156.522][FINER]:   Waiting for all views to stop loading...
+[156.523][FINER]:   Done waiting for all views to stop loading
+[156.523][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[156.525][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/url) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "url": "http://stg.nymetro.com/fashion/"
+}
+
+[156.525][FINER]:   Waiting for all views to stop loading...
+[156.525][FINER]:   Done waiting for all views to stop loading
+[158.065][FINER]:   Waiting for all views to stop loading...
+[158.065][FINER]:   Done waiting for all views to stop loading
+[158.065][FINE]:    Command finished (/session/2504645640decfc8dce5e7d4db95ce47/url) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[158.068][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[158.068][FINER]:   Waiting for all views to stop loading...
+[158.071][FINER]:   Done waiting for all views to stop loading
+[168.100][FINER]:   Waiting for all views to stop loading...
+[168.100][FINER]:   Done waiting for all views to stop loading
+[168.100][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[168.102][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[168.102][FINER]:   Waiting for all views to stop loading...
+[168.102][FINER]:   Done waiting for all views to stop loading
+[178.110][FINER]:   Waiting for all views to stop loading...
+[178.110][FINER]:   Done waiting for all views to stop loading
+[178.111][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[178.112][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[178.112][FINER]:   Waiting for all views to stop loading...
+[178.112][FINER]:   Done waiting for all views to stop loading
+[188.119][FINER]:   Waiting for all views to stop loading...
+[188.119][FINER]:   Done waiting for all views to stop loading
+[188.119][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[188.137][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[188.137][FINER]:   Waiting for all views to stop loading...
+[188.138][FINER]:   Done waiting for all views to stop loading
+[198.143][FINER]:   Waiting for all views to stop loading...
+[198.143][FINER]:   Done waiting for all views to stop loading
+[198.143][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[198.144][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/url) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "url": "http://stg.nymetro.com/restaurants/"
+}
+
+[198.144][FINER]:   Waiting for all views to stop loading...
+[198.145][FINER]:   Done waiting for all views to stop loading
+[205.190][FINER]:   Waiting for all views to stop loading...
+[205.192][FINER]:   Done waiting for all views to stop loading
+[205.192][FINE]:    Command finished (/session/2504645640decfc8dce5e7d4db95ce47/url) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[205.194][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[205.194][FINER]:   Waiting for all views to stop loading...
+[205.194][FINER]:   Done waiting for all views to stop loading
+[215.221][FINER]:   Waiting for all views to stop loading...
+[215.221][FINER]:   Done waiting for all views to stop loading
+[215.221][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[215.223][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[215.223][FINER]:   Waiting for all views to stop loading...
+[215.224][FINER]:   Done waiting for all views to stop loading
+[225.255][FINER]:   Waiting for all views to stop loading...
+[225.255][FINER]:   Done waiting for all views to stop loading
+[225.255][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[225.257][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[225.257][FINER]:   Waiting for all views to stop loading...
+[225.257][FINER]:   Done waiting for all views to stop loading
+[235.288][FINER]:   Waiting for all views to stop loading...
+[235.288][FINER]:   Done waiting for all views to stop loading
+[235.288][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[235.290][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[235.290][FINER]:   Waiting for all views to stop loading...
+[235.290][FINER]:   Done waiting for all views to stop loading
+[245.317][FINER]:   Waiting for all views to stop loading...
+[245.317][FINER]:   Done waiting for all views to stop loading
+[245.317][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[245.318][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/url) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "url": "http://stg.nymetro.com/bestofny/"
+}
+
+[245.318][FINER]:   Waiting for all views to stop loading...
+[245.319][FINER]:   Done waiting for all views to stop loading
+[246.515][FINER]:   Waiting for all views to stop loading...
+[246.516][FINER]:   Done waiting for all views to stop loading
+[246.516][FINE]:    Command finished (/session/2504645640decfc8dce5e7d4db95ce47/url) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[246.518][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[246.518][FINER]:   Waiting for all views to stop loading...
+[246.519][FINER]:   Done waiting for all views to stop loading
+[256.549][FINER]:   Waiting for all views to stop loading...
+[256.549][FINER]:   Done waiting for all views to stop loading
+[256.549][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[256.550][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[256.550][FINER]:   Waiting for all views to stop loading...
+[256.551][FINER]:   Done waiting for all views to stop loading
+[266.572][FINER]:   Waiting for all views to stop loading...
+[266.572][FINER]:   Done waiting for all views to stop loading
+[266.572][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[266.574][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[266.574][FINER]:   Waiting for all views to stop loading...
+[266.574][FINER]:   Done waiting for all views to stop loading
+[276.609][FINER]:   Waiting for all views to stop loading...
+[276.609][FINER]:   Done waiting for all views to stop loading
+[276.609][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[276.611][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[276.611][FINER]:   Waiting for all views to stop loading...
+[276.611][FINER]:   Done waiting for all views to stop loading
+[286.614][FINER]:   Waiting for all views to stop loading...
+[286.615][FINER]:   Done waiting for all views to stop loading
+[286.615][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[286.616][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/url) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "url": "http://stg.nymetro.com/weddings/"
+}
+
+[286.616][FINER]:   Waiting for all views to stop loading...
+[286.616][FINER]:   Done waiting for all views to stop loading
+[288.333][FINER]:   Waiting for all views to stop loading...
+[288.335][FINER]:   Done waiting for all views to stop loading
+[288.336][FINE]:    Command finished (/session/2504645640decfc8dce5e7d4db95ce47/url) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[288.337][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[288.337][FINER]:   Waiting for all views to stop loading...
+[288.337][FINER]:   Done waiting for all views to stop loading
+[298.382][FINER]:   Waiting for all views to stop loading...
+[298.382][FINER]:   Done waiting for all views to stop loading
+[298.382][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[298.383][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[298.383][FINER]:   Waiting for all views to stop loading...
+[298.384][FINER]:   Done waiting for all views to stop loading
+[308.433][FINER]:   Waiting for all views to stop loading...
+[308.433][FINER]:   Done waiting for all views to stop loading
+[308.433][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[308.435][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[308.435][FINER]:   Waiting for all views to stop loading...
+[308.435][FINER]:   Done waiting for all views to stop loading
+[318.472][FINER]:   Waiting for all views to stop loading...
+[318.473][FINER]:   Done waiting for all views to stop loading
+[318.473][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[318.474][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[318.474][FINER]:   Waiting for all views to stop loading...
+[318.474][FINER]:   Done waiting for all views to stop loading
+[328.505][FINER]:   Waiting for all views to stop loading...
+[328.506][FINER]:   Done waiting for all views to stop loading
+[328.506][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[328.507][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/url) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "url": "http://stg.nymetro.com/travel/"
+}
+
+[328.507][FINER]:   Waiting for all views to stop loading...
+[328.508][FINER]:   Done waiting for all views to stop loading
+[329.506][FINER]:   Waiting for all views to stop loading...
+[329.506][FINER]:   Done waiting for all views to stop loading
+[329.506][FINE]:    Command finished (/session/2504645640decfc8dce5e7d4db95ce47/url) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[329.508][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[329.508][FINER]:   Waiting for all views to stop loading...
+[329.509][FINER]:   Done waiting for all views to stop loading
+[339.558][FINER]:   Waiting for all views to stop loading...
+[339.558][FINER]:   Done waiting for all views to stop loading
+[339.558][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[339.560][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[339.560][FINER]:   Waiting for all views to stop loading...
+[339.560][FINER]:   Done waiting for all views to stop loading
+[349.613][FINER]:   Waiting for all views to stop loading...
+[349.613][FINER]:   Done waiting for all views to stop loading
+[349.613][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[349.615][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[349.615][FINER]:   Waiting for all views to stop loading...
+[349.615][FINER]:   Done waiting for all views to stop loading
+[359.658][FINER]:   Waiting for all views to stop loading...
+[359.658][FINER]:   Done waiting for all views to stop loading
+[359.658][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[359.659][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[359.659][FINER]:   Waiting for all views to stop loading...
+[359.660][FINER]:   Done waiting for all views to stop loading
+[369.697][FINER]:   Waiting for all views to stop loading...
+[369.697][FINER]:   Done waiting for all views to stop loading
+[369.697][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[369.699][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/url) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "url": "http://stg.nymetro.com/daily/intel/"
+}
+
+[369.699][FINER]:   Waiting for all views to stop loading...
+[369.699][FINER]:   Done waiting for all views to stop loading
+[417.023][FINER]:   Waiting for all views to stop loading...
+[417.024][FINER]:   Done waiting for all views to stop loading
+[417.024][FINE]:    Command finished (/session/2504645640decfc8dce5e7d4db95ce47/url) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[417.025][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[417.025][FINER]:   Waiting for all views to stop loading...
+[417.026][FINER]:   Done waiting for all views to stop loading
+[427.076][FINER]:   Waiting for all views to stop loading...
+[427.076][FINER]:   Done waiting for all views to stop loading
+[427.076][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[427.078][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[427.078][FINER]:   Waiting for all views to stop loading...
+[427.078][FINER]:   Done waiting for all views to stop loading
+[437.097][FINER]:   Waiting for all views to stop loading...
+[437.097][FINER]:   Done waiting for all views to stop loading
+[437.097][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[437.099][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[437.099][FINER]:   Waiting for all views to stop loading...
+[437.100][FINER]:   Done waiting for all views to stop loading
+[447.105][FINER]:   Waiting for all views to stop loading...
+[447.106][FINER]:   Done waiting for all views to stop loading
+[447.106][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[447.107][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[447.107][FINER]:   Waiting for all views to stop loading...
+[447.107][FINER]:   Done waiting for all views to stop loading
+[457.131][FINER]:   Waiting for all views to stop loading...
+[457.131][FINER]:   Done waiting for all views to stop loading
+[457.131][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[457.133][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/url) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "url": "http://stg.nymetro.com/marketplace/"
+}
+
+[457.133][FINER]:   Waiting for all views to stop loading...
+[457.133][FINER]:   Done waiting for all views to stop loading
+[458.147][FINER]:   Waiting for all views to stop loading...
+[458.148][FINER]:   Done waiting for all views to stop loading
+[458.148][FINE]:    Command finished (/session/2504645640decfc8dce5e7d4db95ce47/url) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[458.150][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[458.150][FINER]:   Waiting for all views to stop loading...
+[458.151][FINER]:   Done waiting for all views to stop loading
+[468.190][FINER]:   Waiting for all views to stop loading...
+[468.190][FINER]:   Done waiting for all views to stop loading
+[468.190][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[468.191][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[468.192][FINER]:   Waiting for all views to stop loading...
+[468.192][FINER]:   Done waiting for all views to stop loading
+[478.214][FINER]:   Waiting for all views to stop loading...
+[478.214][FINER]:   Done waiting for all views to stop loading
+[478.214][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[478.216][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[478.216][FINER]:   Waiting for all views to stop loading...
+[478.216][FINER]:   Done waiting for all views to stop loading
+[488.262][FINER]:   Waiting for all views to stop loading...
+[488.262][FINER]:   Done waiting for all views to stop loading
+[488.262][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[488.264][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[488.264][FINER]:   Waiting for all views to stop loading...
+[488.264][FINER]:   Done waiting for all views to stop loading
+[498.305][FINER]:   Waiting for all views to stop loading...
+[498.305][FINER]:   Done waiting for all views to stop loading
+[498.305][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[498.307][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/url) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "url": "http://stg.nymetro.com/homedesign/"
+}
+
+[498.307][FINER]:   Waiting for all views to stop loading...
+[498.307][FINER]:   Done waiting for all views to stop loading
+[499.256][FINER]:   Waiting for all views to stop loading...
+[499.256][FINER]:   Done waiting for all views to stop loading
+[499.256][FINE]:    Command finished (/session/2504645640decfc8dce5e7d4db95ce47/url) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[499.258][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[499.258][FINER]:   Waiting for all views to stop loading...
+[499.259][FINER]:   Done waiting for all views to stop loading
+[509.296][FINER]:   Waiting for all views to stop loading...
+[509.297][FINER]:   Done waiting for all views to stop loading
+[509.297][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[509.298][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[509.298][FINER]:   Waiting for all views to stop loading...
+[509.299][FINER]:   Done waiting for all views to stop loading
+[519.351][FINER]:   Waiting for all views to stop loading...
+[519.351][FINER]:   Done waiting for all views to stop loading
+[519.351][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[519.352][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[519.352][FINER]:   Waiting for all views to stop loading...
+[519.353][FINER]:   Done waiting for all views to stop loading
+[529.357][FINER]:   Waiting for all views to stop loading...
+[529.357][FINER]:   Done waiting for all views to stop loading
+[529.357][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[529.359][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[529.359][FINER]:   Waiting for all views to stop loading...
+[529.359][FINER]:   Done waiting for all views to stop loading
+[539.398][FINER]:   Waiting for all views to stop loading...
+[539.398][FINER]:   Done waiting for all views to stop loading
+[539.398][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[539.400][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/url) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "url": "http://stg.nymetro.com/nightlife/"
+}
+
+[539.400][FINER]:   Waiting for all views to stop loading...
+[539.400][FINER]:   Done waiting for all views to stop loading
+[540.291][FINER]:   Waiting for all views to stop loading...
+[540.293][FINER]:   Done waiting for all views to stop loading
+[540.293][FINE]:    Command finished (/session/2504645640decfc8dce5e7d4db95ce47/url) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[540.297][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[540.298][FINER]:   Waiting for all views to stop loading...
+[540.298][FINER]:   Done waiting for all views to stop loading
+[550.332][FINER]:   Waiting for all views to stop loading...
+[550.332][FINER]:   Done waiting for all views to stop loading
+[550.332][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[550.334][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[550.334][FINER]:   Waiting for all views to stop loading...
+[550.334][FINER]:   Done waiting for all views to stop loading
+[560.378][FINER]:   Waiting for all views to stop loading...
+[560.378][FINER]:   Done waiting for all views to stop loading
+[560.379][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[560.380][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[560.380][FINER]:   Waiting for all views to stop loading...
+[560.380][FINER]:   Done waiting for all views to stop loading
+[570.421][FINER]:   Waiting for all views to stop loading...
+[570.421][FINER]:   Done waiting for all views to stop loading
+[570.421][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[570.423][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[570.423][FINER]:   Waiting for all views to stop loading...
+[570.423][FINER]:   Done waiting for all views to stop loading
+[580.451][FINER]:   Waiting for all views to stop loading...
+[580.451][FINER]:   Done waiting for all views to stop loading
+[580.451][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[580.453][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/url) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "url": "http://stg.nymetro.com/visitorsguide/"
+}
+
+[580.453][FINER]:   Waiting for all views to stop loading...
+[580.453][FINER]:   Done waiting for all views to stop loading
+[582.455][FINER]:   Waiting for all views to stop loading...
+[582.458][FINER]:   Done waiting for all views to stop loading
+[582.458][FINE]:    Command finished (/session/2504645640decfc8dce5e7d4db95ce47/url) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[582.460][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[582.460][FINER]:   Waiting for all views to stop loading...
+[582.460][FINER]:   Done waiting for all views to stop loading
+[592.481][FINER]:   Waiting for all views to stop loading...
+[592.481][FINER]:   Done waiting for all views to stop loading
+[592.481][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[592.483][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[592.483][FINER]:   Waiting for all views to stop loading...
+[592.483][FINER]:   Done waiting for all views to stop loading
+[602.491][FINER]:   Waiting for all views to stop loading...
+[602.492][FINER]:   Done waiting for all views to stop loading
+[602.492][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[602.493][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[602.493][FINER]:   Waiting for all views to stop loading...
+[602.494][FINER]:   Done waiting for all views to stop loading
+[612.540][FINER]:   Waiting for all views to stop loading...
+[612.540][FINER]:   Done waiting for all views to stop loading
+[612.540][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[612.542][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[612.542][FINER]:   Waiting for all views to stop loading...
+[612.542][FINER]:   Done waiting for all views to stop loading
+[622.579][FINER]:   Waiting for all views to stop loading...
+[622.579][FINER]:   Done waiting for all views to stop loading
+[622.579][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[622.581][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/url) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "url": "http://stg.nymetro.com/fashion/fashionshows/"
+}
+
+[622.581][FINER]:   Waiting for all views to stop loading...
+[622.581][FINER]:   Done waiting for all views to stop loading
+[623.612][FINER]:   Waiting for all views to stop loading...
+[623.615][FINER]:   Done waiting for all views to stop loading
+[623.615][FINE]:    Command finished (/session/2504645640decfc8dce5e7d4db95ce47/url) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[623.616][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[623.616][FINER]:   Waiting for all views to stop loading...
+[623.617][FINER]:   Done waiting for all views to stop loading
+[633.635][FINER]:   Waiting for all views to stop loading...
+[633.635][FINER]:   Done waiting for all views to stop loading
+[633.635][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[633.637][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[633.637][FINER]:   Waiting for all views to stop loading...
+[633.637][FINER]:   Done waiting for all views to stop loading
+[643.689][FINER]:   Waiting for all views to stop loading...
+[643.690][FINER]:   Done waiting for all views to stop loading
+[643.690][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[643.691][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[643.691][FINER]:   Waiting for all views to stop loading...
+[643.692][FINER]:   Done waiting for all views to stop loading
+[653.730][FINER]:   Waiting for all views to stop loading...
+[653.731][FINER]:   Done waiting for all views to stop loading
+[653.731][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[653.732][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[653.732][FINER]:   Waiting for all views to stop loading...
+[653.733][FINER]:   Done waiting for all views to stop loading
+[663.780][FINER]:   Waiting for all views to stop loading...
+[663.780][FINER]:   Done waiting for all views to stop loading
+[663.780][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[663.782][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/url) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "url": "http://stg.nymetro.com/agenda/"
+}
+
+[663.782][FINER]:   Waiting for all views to stop loading...
+[663.782][FINER]:   Done waiting for all views to stop loading
+[664.768][FINER]:   Waiting for all views to stop loading...
+[664.768][FINER]:   Done waiting for all views to stop loading
+[664.768][FINE]:    Command finished (/session/2504645640decfc8dce5e7d4db95ce47/url) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[664.770][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[664.770][FINER]:   Waiting for all views to stop loading...
+[664.770][FINER]:   Done waiting for all views to stop loading
+[674.797][FINER]:   Waiting for all views to stop loading...
+[674.798][FINER]:   Done waiting for all views to stop loading
+[674.798][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[674.799][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[674.799][FINER]:   Waiting for all views to stop loading...
+[674.800][FINER]:   Done waiting for all views to stop loading
+[684.832][FINER]:   Waiting for all views to stop loading...
+[684.832][FINER]:   Done waiting for all views to stop loading
+[684.832][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[684.834][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[684.834][FINER]:   Waiting for all views to stop loading...
+[684.834][FINER]:   Done waiting for all views to stop loading
+[694.853][FINER]:   Waiting for all views to stop loading...
+[694.853][FINER]:   Done waiting for all views to stop loading
+[694.853][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[694.855][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[694.855][FINER]:   Waiting for all views to stop loading...
+[694.855][FINER]:   Done waiting for all views to stop loading
+[704.885][FINER]:   Waiting for all views to stop loading...
+[704.885][FINER]:   Done waiting for all views to stop loading
+[704.885][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[704.887][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/url) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "url": "http://stg.nymetro.com/daily/sports/"
+}
+
+[704.887][FINER]:   Waiting for all views to stop loading...
+[704.887][FINER]:   Done waiting for all views to stop loading
+[709.846][FINER]:   Waiting for all views to stop loading...
+[709.847][FINER]:   Done waiting for all views to stop loading
+[709.847][FINE]:    Command finished (/session/2504645640decfc8dce5e7d4db95ce47/url) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[709.848][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[709.848][FINER]:   Waiting for all views to stop loading...
+[709.849][FINER]:   Done waiting for all views to stop loading
+[719.886][FINER]:   Waiting for all views to stop loading...
+[719.886][FINER]:   Done waiting for all views to stop loading
+[719.886][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[719.888][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[719.888][FINER]:   Waiting for all views to stop loading...
+[719.888][FINER]:   Done waiting for all views to stop loading
+[729.908][FINER]:   Waiting for all views to stop loading...
+[729.909][FINER]:   Done waiting for all views to stop loading
+[729.909][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[729.911][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[729.911][FINER]:   Waiting for all views to stop loading...
+[729.911][FINER]:   Done waiting for all views to stop loading
+[739.923][FINER]:   Waiting for all views to stop loading...
+[739.923][FINER]:   Done waiting for all views to stop loading
+[739.923][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[739.925][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[739.925][FINER]:   Waiting for all views to stop loading...
+[739.925][FINER]:   Done waiting for all views to stop loading
+[749.942][FINER]:   Waiting for all views to stop loading...
+[749.942][FINER]:   Done waiting for all views to stop loading
+[749.942][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[749.944][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/url) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "url": "http://stg.nymetro.com/arts/"
+}
+
+[749.944][FINER]:   Waiting for all views to stop loading...
+[749.945][FINER]:   Done waiting for all views to stop loading
+[752.353][FINER]:   Waiting for all views to stop loading...
+[752.354][FINER]:   Done waiting for all views to stop loading
+[752.354][FINE]:    Command finished (/session/2504645640decfc8dce5e7d4db95ce47/url) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[752.356][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[752.356][FINER]:   Waiting for all views to stop loading...
+[752.356][FINER]:   Done waiting for all views to stop loading
+[762.383][FINER]:   Waiting for all views to stop loading...
+[762.384][FINER]:   Done waiting for all views to stop loading
+[762.384][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[762.386][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[762.386][FINER]:   Waiting for all views to stop loading...
+[762.386][FINER]:   Done waiting for all views to stop loading
+[772.416][FINER]:   Waiting for all views to stop loading...
+[772.416][FINER]:   Done waiting for all views to stop loading
+[772.416][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[772.418][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[772.418][FINER]:   Waiting for all views to stop loading...
+[772.418][FINER]:   Done waiting for all views to stop loading
+[782.444][FINER]:   Waiting for all views to stop loading...
+[782.444][FINER]:   Done waiting for all views to stop loading
+[782.444][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[782.446][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[782.446][FINER]:   Waiting for all views to stop loading...
+[782.446][FINER]:   Done waiting for all views to stop loading
+[792.496][FINER]:   Waiting for all views to stop loading...
+[792.496][FINER]:   Done waiting for all views to stop loading
+[792.496][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[792.498][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/url) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "url": "http://stg.nymetro.com/realestate/"
+}
+
+[792.498][FINER]:   Waiting for all views to stop loading...
+[792.498][FINER]:   Done waiting for all views to stop loading
+[793.828][FINER]:   Waiting for all views to stop loading...
+[793.828][FINER]:   Done waiting for all views to stop loading
+[793.828][FINE]:    Command finished (/session/2504645640decfc8dce5e7d4db95ce47/url) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[793.830][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[793.830][FINER]:   Waiting for all views to stop loading...
+[793.830][FINER]:   Done waiting for all views to stop loading
+[803.873][FINER]:   Waiting for all views to stop loading...
+[803.873][FINER]:   Done waiting for all views to stop loading
+[803.873][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[803.875][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[803.875][FINER]:   Waiting for all views to stop loading...
+[803.875][FINER]:   Done waiting for all views to stop loading
+[813.908][FINER]:   Waiting for all views to stop loading...
+[813.909][FINER]:   Done waiting for all views to stop loading
+[813.909][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[813.910][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[813.910][FINER]:   Waiting for all views to stop loading...
+[813.910][FINER]:   Done waiting for all views to stop loading
+[823.961][FINER]:   Waiting for all views to stop loading...
+[823.961][FINER]:   Done waiting for all views to stop loading
+[823.961][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[823.963][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[823.963][FINER]:   Waiting for all views to stop loading...
+[823.963][FINER]:   Done waiting for all views to stop loading
+[834.002][FINER]:   Waiting for all views to stop loading...
+[834.002][FINER]:   Done waiting for all views to stop loading
+[834.002][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[834.004][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/url) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "url": "http://stg.nymetro.com/news/"
+}
+
+[834.004][FINER]:   Waiting for all views to stop loading...
+[834.004][FINER]:   Done waiting for all views to stop loading
+[836.854][FINER]:   Waiting for all views to stop loading...
+[838.405][FINER]:   Done waiting for all views to stop loading
+[838.405][FINE]:    Command finished (/session/2504645640decfc8dce5e7d4db95ce47/url) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[838.407][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[838.407][FINER]:   Waiting for all views to stop loading...
+[838.408][FINER]:   Done waiting for all views to stop loading
+[848.431][FINER]:   Waiting for all views to stop loading...
+[848.432][FINER]:   Done waiting for all views to stop loading
+[848.432][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[848.433][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[848.433][FINER]:   Waiting for all views to stop loading...
+[848.434][FINER]:   Done waiting for all views to stop loading
+[858.465][FINER]:   Waiting for all views to stop loading...
+[858.466][FINER]:   Done waiting for all views to stop loading
+[858.466][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[858.467][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[858.467][FINER]:   Waiting for all views to stop loading...
+[858.467][FINER]:   Done waiting for all views to stop loading
+[868.516][FINER]:   Waiting for all views to stop loading...
+[868.516][FINER]:   Done waiting for all views to stop loading
+[868.516][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[868.517][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[868.517][FINER]:   Waiting for all views to stop loading...
+[868.518][FINER]:   Done waiting for all views to stop loading
+[878.557][FINER]:   Waiting for all views to stop loading...
+[878.558][FINER]:   Done waiting for all views to stop loading
+[878.558][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[878.560][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/url) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "url": "http://stg.nymetro.com/bestdoctors/"
+}
+
+[878.560][FINER]:   Waiting for all views to stop loading...
+[878.560][FINER]:   Done waiting for all views to stop loading
+[879.332][FINER]:   Waiting for all views to stop loading...
+[879.334][FINER]:   Done waiting for all views to stop loading
+[879.334][FINE]:    Command finished (/session/2504645640decfc8dce5e7d4db95ce47/url) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[879.336][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[879.336][FINER]:   Waiting for all views to stop loading...
+[879.337][FINER]:   Done waiting for all views to stop loading
+[889.372][FINER]:   Waiting for all views to stop loading...
+[889.372][FINER]:   Done waiting for all views to stop loading
+[889.372][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[889.374][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[889.374][FINER]:   Waiting for all views to stop loading...
+[889.374][FINER]:   Done waiting for all views to stop loading
+[899.423][FINER]:   Waiting for all views to stop loading...
+[899.423][FINER]:   Done waiting for all views to stop loading
+[899.423][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[899.425][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[899.425][FINER]:   Waiting for all views to stop loading...
+[899.425][FINER]:   Done waiting for all views to stop loading
+[909.454][FINER]:   Waiting for all views to stop loading...
+[909.454][FINER]:   Done waiting for all views to stop loading
+[909.455][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[909.456][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[909.456][FINER]:   Waiting for all views to stop loading...
+[909.456][FINER]:   Done waiting for all views to stop loading
+[919.496][FINER]:   Waiting for all views to stop loading...
+[919.496][FINER]:   Done waiting for all views to stop loading
+[919.496][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[919.498][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/url) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "url": "http://www.nymag.com"
+}
+
+[919.498][FINER]:   Waiting for all views to stop loading...
+[919.498][FINER]:   Done waiting for all views to stop loading
+[921.616][FINER]:   Waiting for all views to stop loading...
+[921.619][FINER]:   Done waiting for all views to stop loading
+[921.619][FINE]:    Command finished (/session/2504645640decfc8dce5e7d4db95ce47/url) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[921.621][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[921.621][FINER]:   Waiting for all views to stop loading...
+[921.621][FINER]:   Done waiting for all views to stop loading
+[931.638][FINER]:   Waiting for all views to stop loading...
+[931.638][FINER]:   Done waiting for all views to stop loading
+[931.638][WARNING]: Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[931.640][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[931.640][FINER]:   Waiting for all views to stop loading...
+[931.640][FINER]:   Done waiting for all views to stop loading
+[931.650][FINER]:   Waiting for all views to stop loading...
+[931.650][FINER]:   Done waiting for all views to stop loading
+[931.650][FINE]:    Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1337350230548"
+   }
+}
+
+[931.652][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[931.652][FINER]:   Waiting for all views to stop loading...
+[931.652][FINER]:   Done waiting for all views to stop loading
+[931.661][FINER]:   Waiting for all views to stop loading...
+[931.661][FINER]:   Done waiting for all views to stop loading
+[931.661][FINE]:    Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1337350230549"
+   }
+}
+
+[931.662][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element) with params {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "using": "css selector",
+   "value": "html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav d..."
+}
+
+[931.662][FINER]:   Waiting for all views to stop loading...
+[931.663][FINER]:   Done waiting for all views to stop loading
+[931.672][FINER]:   Waiting for all views to stop loading...
+[931.672][FINER]:   Done waiting for all views to stop loading
+[931.672][FINE]:    Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1337350230548"
+   }
+}
+
+[931.674][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/element/:wdc:1337350230548/click) with params {
+   "id": ":wdc:1337350230548",
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47"
+}
+
+[931.674][FINER]:   Waiting for all views to stop loading...
+[931.674][FINER]:   Done waiting for all views to stop loading
+[931.721][FINER]:   Waiting for all views to stop loading...
+[933.740][FINER]:   Done waiting for all views to stop loading
+[933.740][FINE]:    Command finished (/session/2504645640decfc8dce5e7d4db95ce47/element/:wdc:1337350230548/click) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[933.742][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47/title)
+[933.742][FINER]:   Waiting for all views to stop loading...
+[933.743][FINER]:   Done waiting for all views to stop loading
+[933.750][FINER]:   Waiting for all views to stop loading...
+[933.750][FINER]:   Done waiting for all views to stop loading
+[933.751][FINE]:    Command finished (/session/2504645640decfc8dce5e7d4db95ce47/title) with response {
+   "sessionId": "2504645640decfc8dce5e7d4db95ce47",
+   "status": 0,
+   "value": "New York Magazine -- NYC Guide to Restaurants, Fashion, Nightlife, Shopping, Politics, Movies"
+}
+
+[933.753][FINE]:    Command received (/session/2504645640decfc8dce5e7d4db95ce47)

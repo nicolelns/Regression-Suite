@@ -1,0 +1,11 @@
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parbase section#content-head.first div#article-container
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parbase section#content-head.first div#article-container article.active a.image img
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parbase section#content-head.first div#rotator-controls
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parbase section#content-head.first div#rotator-controls ul li#ctrl0
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parbase section#content-head.first div#rotator-controls ul li#ctrl1
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parbase section#content-head.first div#rotator-controls ul li#ctrl2
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parbase section#content-head.first div#rotator-controls ul li#ctrl3
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parbase section#content-head.first div#rotator-controls ul li#ctrl4
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parbase section#content-head.first div#rotator-controls ul li#ctrl5
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parbase section#content-head.first div#article-container article.active h3 span a
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parbase section#content-head.first div#article-container article.active h3 a.headline

@@ -1,0 +1,4 @@
+html.js body#nymag.daily div#wrap-wrap div#wrap div#content.content-short div#content-wrap-1.content-wrap div.content-primary article#entry-116096.entry div.par div.relatedstories2 div.related-story-wrap div.related-story
+html.js body#nymag.daily div#wrap-wrap div#wrap div#content.content-short div#content-wrap-1.content-wrap div.content-primary article#entry-116096.entry div.par div.relatedstories2 div.related-story-wrap div.related-story a
+html.js body#nymag.daily div#wrap-wrap div#wrap div#content.content-short div#content-wrap-1.content-wrap div.content-primary article#entry-116096.entry div.par div.relatedstories2 div.related-story-wrap div.related-story h6
+html.js body#nymag.daily div#wrap-wrap div#wrap div#content.content-short div#content-wrap-1.content-wrap div.content-primary article#entry-116096.entry div.par div.relatedstories2 div.related-story-wrap div.related-story div.image a img

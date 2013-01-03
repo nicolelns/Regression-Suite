@@ -1,0 +1,9 @@
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.articles-5
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.articles-5 header h2 a
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.articles-5 header p
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.articles-5 div.content div.row article div.image a img
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.articles-5 div.content div.row article
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.articles-5 div.content div.row article header h3 a
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.articles-5 div.content div.row article.last div.image a span.empty-silo
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.articles-5 div.content div.row article.last
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.articles-5 div.content div.row article.last div.more a

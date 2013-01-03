@@ -1,0 +1,3 @@
+div.ad-728x90.adContainer
+div.ad-300_flex.adContainer
+div.ad-300x250.adContainer

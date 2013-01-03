@@ -1,0 +1,34 @@
+http://nymag.com/thecut/fashion/shows/2013/spring/new-york/menswear/31-phillip-lim.html
+ HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/trias.html
+ Is a Dummy Show
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/sophia-kokosalaki.html
+ Is a Dummy Show
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/elie-saab.html
+ Is a Dummy Show
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/miu-miu.html
+ Is a Dummy Show
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/agnes-b.html
+ Is a Dummy Show
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/talbot-runhof.html
+ Is a Dummy Show
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/collette-dinnigan.html
+ Is a Dummy Show
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/louis-vuitton.html
+ Is a Dummy Show
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/kanye-west.html
+ Is a Dummy Show
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/azzaro.html
+ Is a Dummy Show
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/neil-barrett.html
+ Is a Dummy Show
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/vionnet.html
+ Is a Dummy Show
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/manish-arora.html
+ Is a Dummy Show
+http://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/piazza-sempione.html
+ Is a Dummy Show
+http://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/twenty8twelve.html
+ Is a Dummy Show
+http://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/jasper-conran.html
+ HTTP Error 404: Not Found

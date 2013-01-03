@@ -197,10 +197,10 @@ if (Modernizr.mq('only all and (min-device-width: 601px)') || !(Modernizr.mq('(m
 </nav><!-- /end #nav-primary -->
                 
 <div class="leaderBoard leaderBoard-belowNav">
-    <div class="nym-ad" data-ad-size="980x60,980x30,970x90,728x90" data-fuie="true" data-html4-viewport="970" data-iframe-size="970x90" data-media="only screen and (min-width: 970px), only screen and (min-device-width : 768px) and (max-device-width: 1024px) and (orientation: landscape)" data-takeover-defer="true" data-tilegroup="a" id="leaderboard-desktop">
-        <script>NYM.dfp.loadAd({'id':'leaderboard-desktop','sz':'980x60,980x30,970x90,728x90','media':'only screen and (min-width: 728px) and (max-width: 969px), only screen and (min-device-width : 768px) and (max-device-width: 1024px) and (orientation: portrait)','html4-viewport':'728,969','fuie':true,'takeover-defer':true});</script>
+    <div class="nym-ad" data-ad-size="980x60,980x40,970x90,728x90" data-fuie="true" data-html4-viewport="970" data-iframe-size="970x90" data-media="only screen and (min-width: 970px), only screen and (min-device-width : 768px) and (max-device-width: 1024px) and (orientation: landscape)" data-tilegroup="a" id="leaderboard-desktop">
+        <script>NYM.dfp.loadAd({'id':'leaderboard-desktop','sz':'980x60,980x40,970x90,728x90','media':'only screen and (min-width: 728px) and (max-width: 969px), only screen and (min-device-width : 768px) and (max-device-width: 1024px) and (orientation: portrait)','html4-viewport':'728,969','fuie':true});</script>
     </div> 
-    <div class="nym-ad" data-ad-size="728x90,728x91" data-html4-viewport="728,969" data-iframe-size="728x90" data-media="only screen and (min-width: 728px) and (max-width: 969px), only screen and (min-device-width : 768px) and (max-device-width: 1024px) and (orientation: portrait)" data-takeover-defer="true" data-tilegroup="a" id="leaderboard-tablet">
+    <div class="nym-ad" data-ad-size="728x90,728x91" data-html4-viewport="728,969" data-iframe-size="728x90" data-media="only screen and (min-width: 728px) and (max-width: 969px), only screen and (min-device-width : 768px) and (max-device-width: 1024px) and (orientation: portrait)" data-tilegroup="a" id="leaderboard-tablet">
         <script>NYM.dfp.loadAd({'id':'leaderboard-tablet','sz':'728x90,728x91','media':'only screen and (min-width: 728px) and (max-width: 969px), only screen and (min-device-width : 768px) and (max-device-width: 1024px) and (orientation: portrait)','html4-viewport':'728,969'});</script>
     </div>
 </div> <!-- /end .leaderBoard -->
@@ -245,12 +245,12 @@ if (Modernizr.mq('only all and (min-device-width: 601px)') || !(Modernizr.mq('(m
 
 				<div class="ledeImage">
 
-					<a href="http://nymag.com/thecut/2012/10/fifteen-bad-beauty-habits-we-really-need-to-quit.html">
-						<div data-alt="Fifteen Bad Beauty Habits You Need to Quit" data-picture="true">
-							<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/11/11-woman-mirror-beauty-42-30947834.o.jpg/a_4x-horizontal.jpg"></div>
-							<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/11/11-woman-mirror-beauty-42-30947834.o.jpg/a_3x-horizontal.jpg"></div>
-							<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/11/11-woman-mirror-beauty-42-30947834.o.jpg/a_4x-horizontal.jpg"></div>
-							<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/11/11-woman-mirror-beauty-42-30947834.o.jpg/a_3x-horizontal.jpg" alt="Fifteen Bad Beauty Habits You Need to Quit"/&gt;</noscript>
+					<a href="http://nymag.com/thecut/2012/11/beauty-qa-will-acupuncture-improve-my-skin.html">
+						<div data-alt="Beauty Q&amp;A: Will Acupuncture Improve My Skin?" data-picture="true">
+							<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/11/13/13-facial-accupuncture-42-17473386.o.jpg/a_4x-horizontal.jpg"></div>
+							<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/11/13/13-facial-accupuncture-42-17473386.o.jpg/a_3x-horizontal.jpg"></div>
+							<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/11/13/13-facial-accupuncture-42-17473386.o.jpg/a_4x-horizontal.jpg"></div>
+							<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/11/13/13-facial-accupuncture-42-17473386.o.jpg/a_3x-horizontal.jpg" alt="Beauty Q&amp;A: Will Acupuncture Improve My Skin?"/&gt;</noscript>
 						</div>
 					</a>
 
@@ -260,15 +260,15 @@ if (Modernizr.mq('only all and (min-device-width: 601px)') || !(Modernizr.mq('(m
 
 					<div class="alphaWrap"></div>
 
-					<div class="ledeFeatureRubric"><a class="ledeFeatureRubricLink" href="http://nymag.com/thecut/2012/10/fifteen-bad-beauty-habits-we-really-need-to-quit.html">beauty</a></div>
+					<div class="ledeFeatureRubric"><a class="ledeFeatureRubricLink" href="http://nymag.com/thecut/2012/11/beauty-qa-will-acupuncture-improve-my-skin.html">lunchtime beauty q&amp;a</a></div>
 
-					<h2 class="ledeHeadline"><a class="ledeHeadlineLink" href="http://nymag.com/thecut/2012/10/fifteen-bad-beauty-habits-we-really-need-to-quit.html">Fifteen Bad Beauty Habits You Need to Quit</a></h2>
+					<h2 class="ledeHeadline"><a class="ledeHeadlineLink" href="http://nymag.com/thecut/2012/11/beauty-qa-will-acupuncture-improve-my-skin.html">Beauty Q&amp;A: Will Acupuncture Improve My Skin?</a></h2>
 
 					
 
 						<div class="ledeByline">by
 
-						<b><a href="http://nymag.com/thecut/2012/10/fifteen-bad-beauty-habits-we-really-need-to-quit.html">Christina Han</a></b>
+						<b><a href="http://nymag.com/thecut/2012/11/beauty-qa-will-acupuncture-improve-my-skin.html">Gina Way</a></b>
 
 						</div>
 
@@ -333,18 +333,18 @@ if (Modernizr.mq('only all and (min-device-width: 601px)') || !(Modernizr.mq('(m
 
 
 
-<article class="feedEntry" data-publish-datetime="1350081000000" id="entry">
+<article class="feedEntry" data-publish-datetime="1352739069000" id="entry">
     
     <div class="featureImage">
-        <a href="http://nymag.com/thecut/2012/10/best-bet-shiseido-lacquer-rouge.html">
+        <a href="http://nymag.com/thecut/2012/11/lab-rat-non-slippery-bar-soap-that-softens-skin.html">
         
         <div data-picture="true">
- 			<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/12/12-best-bet-shiseido.o.jpg/a_600x600.png"></div>
- 			<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/12/12-best-bet-shiseido.o.jpg/a_1x-square.jpg"></div>
+ 			<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/11/12/12-3-things-beauty.o.jpg/a_3x-square.jpg"></div>
+ 			<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/11/12/12-3-things-beauty.o.jpg/a_1x-square.jpg"></div>
  			
- 			<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/12/12-best-bet-shiseido.o.jpg/a_600x600.png"></div>
+ 			<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/11/12/12-3-things-beauty.o.jpg/a_3x-square.jpg"></div>
  			
- 			<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/12/12-best-bet-shiseido.o.jpg/a_3x-horizontal.jpg"&gt;</noscript>
+ 			<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/11/12/12-3-things-beauty.o.jpg/a_3x-horizontal.jpg"&gt;</noscript>
 		</div>
 		
         </a>
@@ -353,50 +353,74 @@ if (Modernizr.mq('only all and (min-device-width: 601px)') || !(Modernizr.mq('(m
 
     <header>
         <ul class="meta">
-            <li class="metaTime">10/12/12 at 6:30 PM</li>
+            <li class="metaTime">Yesterday at  11:51 AM</li>
+            <li class="3 Things I Tried">3 Things I Tried</li>
+            <!-- &lt;li class="comments"&gt;&lt;b&gt;5&lt;/b&gt;&lt;/li&gt; -->
+        </ul>
+        <h2><a href="http://nymag.com/thecut/2012/11/lab-rat-non-slippery-bar-soap-that-softens-skin.html">Lab Rat: Non-Slippery Bar Soap That Softens Skin</a></h2>
+        <p class="excerpt">Plus, new powder you can use every morning to perk up your skin. </p>
+
+    </header>
+</article></div>
+
+
+
+<div class="page contentpage basicblogpostpage">
+                   
+
+
+
+
+<article class="feedEntry" data-publish-datetime="1352698892000" id="entry">
+    
+    <div class="featureImage">
+        <a href="http://nymag.com/daily/intel/2012/11/man-with-romney-tattoo-on-face-is-disappointed.html"><img alt="" src="http://pixel.nymag.com/imgs/daily/intel/2012/11/11/12-romney-tattoo.o.jpg/a_610x408.jpg"/></a>
+    </div>
+    
+                                    
+    <header>
+        <ul class="meta">
+            <li class="metaTime">Yesterday at  12:41 AM</li>
+            <li class="Stuck In The Mittle">Stuck In The Mittle</li>           
+            <li class="comments"><b>5</b></li>
+        </ul>
+        <h2><a href="http://nymag.com/daily/intel/2012/11/man-with-romney-tattoo-on-face-is-disappointed.html">Man With Romney Tattoo on His Face Is â€˜Disappointed,â€™ Tries to Look on the Bright Side</a></h2>
+        <p class="excerpt">Not a Ryan-Rubio presidential ticket.</p>
+        
+    </header>
+</article></div>
+<div class="page articlepage">
+                   
+
+
+
+
+<article class="feedEntry" data-publish-datetime="1352513545000" id="entry">
+    
+    <div class="featureImage">
+        <a href="http://nymag.com/thecut/2012/11/best-bet-sjal-travel-kit.html">
+        
+        <div data-picture="true">
+ 			<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/11/09/09-sjal-holiday-travel-kit.o.jpeg/a_3x-square.jpg"></div>
+ 			<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/11/09/09-sjal-holiday-travel-kit.o.jpeg/a_1x-square.jpg"></div>
+ 			
+ 			<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/11/09/09-sjal-holiday-travel-kit.o.jpeg/a_3x-square.jpg"></div>
+ 			
+ 			<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/11/09/09-sjal-holiday-travel-kit.o.jpeg/a_3x-horizontal.jpg"&gt;</noscript>
+		</div>
+		
+        </a>
+    </div>
+    
+
+    <header>
+        <ul class="meta">
+            <li class="metaTime">11/9/12 at 9:12 PM</li>
             <li class="Best Bet">Best Bet</li>
             <!-- &lt;li class="comments"&gt;&lt;b&gt;5&lt;/b&gt;&lt;/li&gt; -->
         </ul>
-        <h2><a href="http://nymag.com/thecut/2012/10/best-bet-shiseido-lacquer-rouge.html">Best Bet: Shiseido Lacquer Rouge</a></h2>
-        <p class="excerpt">An electric-pink lip color for Breast Cancer Awareness month.</p>
-
-    </header>
-</article></div>
-
-
-
-<div class="page articlepage">
-                   
-
-
-
-
-<article class="feedEntry" data-publish-datetime="1350056873000" id="entry">
-    
-    <div class="featureImage">
-        <a href="http://nymag.com/thecut/2012/10/beauty-qa-which-luminizer-works-on-dark-skin.html">
-        
-        <div data-picture="true">
- 			<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/12/12-living-luminizer.o.jpg/a_3x-square.jpg"></div>
- 			<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/12/12-living-luminizer.o.jpg/a_1x-square.jpg"></div>
- 			
- 			<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/12/12-living-luminizer.o.jpg/a_3x-square.jpg"></div>
- 			
- 			<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/12/12-living-luminizer.o.jpg/a_3x-horizontal.jpg"&gt;</noscript>
-		</div>
-		
-        </a>
-    </div>
-    
-
-    <header>
-        <ul class="meta">
-            <li class="metaTime">10/12/12 at 11:47 AM</li>
-            <li class="Beauty Q&amp;a">Beauty Q&amp;a</li>
-            <!-- &lt;li class="comments"&gt;&lt;b&gt;5&lt;/b&gt;&lt;/li&gt; -->
-        </ul>
-        <h2><a href="http://nymag.com/thecut/2012/10/beauty-qa-which-luminizer-works-on-dark-skin.html">Lunchtime Beauty Q&amp;A: Which Luminizer Works Best on Darker Skin Tones?</a></h2>
-        <p class="excerpt">How to avoid that figure-skater look.</p>
+        <h2><a href="http://nymag.com/thecut/2012/11/best-bet-sjal-travel-kit.html">Best Bet: Sjal Travel Kit </a></h2>
+        <p class="excerpt">These tiny bottles are worth it.</p>
 
     </header>
 </article></div>
@@ -406,18 +430,18 @@ if (Modernizr.mq('only all and (min-device-width: 601px)') || !(Modernizr.mq('(m
 
 
 
-<article class="feedEntry" data-publish-datetime="1350047652000" id="entry">
+<article class="feedEntry" data-publish-datetime="1352486107000" id="entry">
     
     <div class="featureImage">
-        <a href="http://nymag.com/thecut/2012/10/lohan-wore-sequins-to-endorse-romney.html">
+        <a href="http://nymag.com/thecut/2012/11/qa-whats-the-safest-nail-polish-to-use.html">
         
         <div data-picture="true">
- 			<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/12/12-lindsay-lohan-153969534.o.jpg/a_3x-square.jpg"></div>
- 			<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/12/12-lindsay-lohan-153969534.o.jpg/a_1x-square.jpg"></div>
+ 			<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/11/09/09-manicure.o.jpg/a_3x-square.jpg"></div>
+ 			<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/11/09/09-manicure.o.jpg/a_1x-square.jpg"></div>
  			
- 			<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/12/12-lindsay-lohan-153969534.o.jpg/a_3x-square.jpg"></div>
+ 			<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/11/09/09-manicure.o.jpg/a_3x-square.jpg"></div>
  			
- 			<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/12/12-lindsay-lohan-153969534.o.jpg/a_3x-horizontal.jpg"&gt;</noscript>
+ 			<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/11/09/09-manicure.o.jpg/a_3x-horizontal.jpg"&gt;</noscript>
 		</div>
 		
         </a>
@@ -426,82 +450,12 @@ if (Modernizr.mq('only all and (min-device-width: 601px)') || !(Modernizr.mq('(m
 
     <header>
         <ul class="meta">
-            <li class="metaTime">10/12/12 at 9:14 AM</li>
-            <li class="Look Of The Day">Look Of The Day</li>
+            <li class="metaTime">11/9/12 at 1:35 PM</li>
+            <li class="Lunchtime Beauty Q&amp;a">Lunchtime Beauty Q&amp;a</li>
             <!-- &lt;li class="comments"&gt;&lt;b&gt;5&lt;/b&gt;&lt;/li&gt; -->
         </ul>
-        <h2><a href="http://nymag.com/thecut/2012/10/lohan-wore-sequins-to-endorse-romney.html">Lohan Debuts Newly Red Hair in a Sequined Dress</a></h2>
-        <p class="excerpt">Returns to her roots at end of tumultuous week.</p>
-
-    </header>
-</article></div>
-<div class="page articlepage">
-                   
-
-
-
-
-<article class="feedEntry" data-publish-datetime="1349982548000" id="entry">
-    
-    <div class="featureImage">
-        <a href="http://nymag.com/thecut/2012/10/zoom-shot-jessica-chastains-perfect-skin.html">
-        
-        <div data-picture="true">
- 			<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/11/11-jessica-chastain-spl446105_001.o.jpg/a_3x-square.jpg"></div>
- 			<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/11/11-jessica-chastain-spl446105_001.o.jpg/a_1x-square.jpg"></div>
- 			
- 			<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/11/11-jessica-chastain-spl446105_001.o.jpg/a_3x-square.jpg"></div>
- 			
- 			<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/11/11-jessica-chastain-spl446105_001.o.jpg/a_3x-horizontal.jpg"&gt;</noscript>
-		</div>
-		
-        </a>
-    </div>
-    
-
-    <header>
-        <ul class="meta">
-            <li class="metaTime">10/11/12 at 3:09 PM</li>
-            <li class="Zoom Shots">Zoom Shots</li>
-            <!-- &lt;li class="comments"&gt;&lt;b&gt;5&lt;/b&gt;&lt;/li&gt; -->
-        </ul>
-        <h2><a href="http://nymag.com/thecut/2012/10/zoom-shot-jessica-chastains-perfect-skin.html">Zoom Shot: Jessica Chastainâ€™s Perfect Skin</a></h2>
-        <p class="excerpt">Radiant after a hard night's work.</p>
-
-    </header>
-</article></div>
-<div class="page articlepage">
-                   
-
-
-
-
-<article class="feedEntry" data-publish-datetime="1349978430000" id="entry">
-    
-    <div class="featureImage">
-        <a href="http://nymag.com/thecut/2012/10/fifteen-bad-beauty-habits-we-really-need-to-quit.html">
-        
-        <div data-picture="true">
- 			<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/11/11-woman-mirror-beauty-42-30947834.o.jpg/a_3x-square.jpg"></div>
- 			<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/11/11-woman-mirror-beauty-42-30947834.o.jpg/a_1x-square.jpg"></div>
- 			
- 			<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/11/11-woman-mirror-beauty-42-30947834.o.jpg/a_3x-square.jpg"></div>
- 			
- 			<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/11/11-woman-mirror-beauty-42-30947834.o.jpg/a_3x-horizontal.jpg"&gt;</noscript>
-		</div>
-		
-        </a>
-    </div>
-    
-
-    <header>
-        <ul class="meta">
-            <li class="metaTime">10/11/12 at 2:00 PM</li>
-            <li class="Beauty">Beauty</li>
-            <!-- &lt;li class="comments"&gt;&lt;b&gt;5&lt;/b&gt;&lt;/li&gt; -->
-        </ul>
-        <h2><a href="http://nymag.com/thecut/2012/10/fifteen-bad-beauty-habits-we-really-need-to-quit.html">Fifteen Bad Beauty Habits You Need to Quit</a></h2>
-        <p class="excerpt">Popping. Picking. Obsessing. Just to name a few.</p>
+        <h2><a href="http://nymag.com/thecut/2012/11/qa-whats-the-safest-nail-polish-to-use.html">Lunchtime Beauty Q&amp;A: Whatâ€™s the Safest Nail Polish to Use?</a></h2>
+        <p class="excerpt">No need for dangerous chemicals on your cuticles.</p>
 
     </header>
 </article></div>
@@ -511,8 +465,8 @@ if (Modernizr.mq('only all and (min-device-width: 601px)') || !(Modernizr.mq('(m
 
 
 <div class="blogvertorial">
-	<div class="nym-ad" data-ad-size="300x250,535x250" data-defer="true" data-fuie="true" data-html4-viewport="535" data-iframe-size="535x250" data-media="only screen and (min-width: 535px)" data-tilegroup="a" id="blogvertorial-1350262326657">
-		<script>NYM.dfp.loadAd({'id':'blogvertorial-1350262326657','sz':'300x250,535x250','fuie':true,'defer':true});</script>
+	<div class="nym-ad" data-ad-size="300x250,535x250" data-defer="true" data-fuie="true" data-html4-viewport="535" data-iframe-size="535x250" data-media="only screen and (min-width: 320px)" data-tilegroup="a" id="blogvertorial-1352843599242">
+		<script>NYM.dfp.loadAd({'id':'blogvertorial-1352843599242','sz':'300x250,535x250','fuie':true,'defer':true});</script>
 	</div> 
 </div> <!-- /end .blogvertorial --><div class="page articlepage">
                    
@@ -520,18 +474,18 @@ if (Modernizr.mq('only all and (min-device-width: 601px)') || !(Modernizr.mq('(m
 
 
 
-<article class="feedEntry" data-publish-datetime="1349968706000" id="entry">
+<article class="feedEntry" data-publish-datetime="1352485640000" id="entry">
     
     <div class="featureImage">
-        <a href="http://nymag.com/thecut/2012/10/jennifer-aniston-finally-monetizes-her-hair.html">
+        <a href="http://nymag.com/thecut/2012/11/gwyneth-paltrow-the-writer-who-doesnt-write.html">
         
         <div data-picture="true">
- 			<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/11/11-jennifer-aniston-42-32419927.o.jpg/a_3x-square.jpg"></div>
- 			<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/11/11-jennifer-aniston-42-32419927.o.jpg/a_1x-square.jpg"></div>
+ 			<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/11/09/09-gwyneth-paltrow.o.jpg/a_3x-square.jpg"></div>
+ 			<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/11/09/09-gwyneth-paltrow.o.jpg/a_1x-square.jpg"></div>
  			
- 			<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/11/11-jennifer-aniston-42-32419927.o.jpg/a_3x-square.jpg"></div>
+ 			<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/11/09/09-gwyneth-paltrow.o.jpg/a_3x-square.jpg"></div>
  			
- 			<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/11/11-jennifer-aniston-42-32419927.o.jpg/a_3x-horizontal.jpg"&gt;</noscript>
+ 			<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/11/09/09-gwyneth-paltrow.o.jpg/a_3x-horizontal.jpg"&gt;</noscript>
 		</div>
 		
         </a>
@@ -540,12 +494,12 @@ if (Modernizr.mq('only all and (min-device-width: 601px)') || !(Modernizr.mq('(m
 
     <header>
         <ul class="meta">
-            <li class="metaTime">10/11/12 at 11:18 AM</li>
+            <li class="metaTime">11/9/12 at 1:27 PM</li>
             <li class="Faces Of Things">Faces Of Things</li>
             <!-- &lt;li class="comments"&gt;&lt;b&gt;5&lt;/b&gt;&lt;/li&gt; -->
         </ul>
-        <h2><a href="http://nymag.com/thecut/2012/10/jennifer-aniston-finally-monetizes-her-hair.html">Jennifer Aniston Finally Monetizes Her Hair</a></h2>
-        <p class="excerpt">Add "shampoo magnate" to her résumé.</p>
+        <h2><a href="http://nymag.com/thecut/2012/11/gwyneth-paltrow-the-writer-who-doesnt-write.html">Gwyneth Paltrow: The â€˜Writerâ€™ Who Doesnâ€™t Write</a></h2>
+        <p class="excerpt">In a new Max Factor ad.</p>
 
     </header>
 </article></div>
@@ -555,18 +509,18 @@ if (Modernizr.mq('only all and (min-device-width: 601px)') || !(Modernizr.mq('(m
 
 
 
-<article class="feedEntry" data-publish-datetime="1349888400000" id="entry">
+<article class="feedEntry" data-publish-datetime="1352475597000" id="entry">
     
     <div class="featureImage">
-        <a href="http://nymag.com/thecut/2012/10/before-breakfastafter-dark-chelsea-leyland.html">
+        <a href="http://nymag.com/thecut/2012/11/amanda-bynes-nail-salon-on-election-night.html">
         
         <div data-picture="true">
- 			<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/10/10-chelsea-leyland-beauty.o.jpg/a_3x-square.jpg"></div>
- 			<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/10/10-chelsea-leyland-beauty.o.jpg/a_1x-square.jpg"></div>
+ 			<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/11/09/09-amanda-bynes-mugshot.o.jpg/a_2x-square.jpg"></div>
+ 			<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/11/09/09-amanda-bynes-mugshot.o.jpg/a_1x-square.jpg"></div>
  			
- 			<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/10/10-chelsea-leyland-beauty.o.jpg/a_3x-square.jpg"></div>
+ 			<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/11/09/09-amanda-bynes-mugshot.o.jpg/a_2x-square.jpg"></div>
  			
- 			<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/10/10-chelsea-leyland-beauty.o.jpg/a_3x-horizontal.jpg"&gt;</noscript>
+ 			<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/11/09/09-amanda-bynes-mugshot.o.jpg/a_2x-square.jpg"&gt;</noscript>
 		</div>
 		
         </a>
@@ -575,12 +529,12 @@ if (Modernizr.mq('only all and (min-device-width: 601px)') || !(Modernizr.mq('(m
 
     <header>
         <ul class="meta">
-            <li class="metaTime">10/10/12 at 1:00 PM</li>
-            <li class="Before And After">Before And After</li>
+            <li class="metaTime">11/9/12 at 10:39 AM</li>
+            <li class="In A Bynes">In A Bynes</li>
             <!-- &lt;li class="comments"&gt;&lt;b&gt;5&lt;/b&gt;&lt;/li&gt; -->
         </ul>
-        <h2><a href="http://nymag.com/thecut/2012/10/before-breakfastafter-dark-chelsea-leyland.html">Before Breakfast/After Dark: Chelsea Leyland</a></h2>
-        <p class="excerpt">The British D.J. shares her natural, low-maintenance beauty routine.</p>
+        <h2><a href="http://nymag.com/thecut/2012/11/amanda-bynes-nail-salon-on-election-night.html">Bynesâ€™s Alleged Election-Night Look: â€˜I Will Knife Youâ€™</a></h2>
+        <p class="excerpt">As described by a source at a nail salon.</p>
 
     </header>
 </article></div>
@@ -590,18 +544,18 @@ if (Modernizr.mq('only all and (min-device-width: 601px)') || !(Modernizr.mq('(m
 
 
 
-<article class="feedEntry" data-publish-datetime="1349874000000" id="entry">
+<article class="feedEntry" data-publish-datetime="1352468408000" id="entry">
     
     <div class="featureImage">
-        <a href="http://nymag.com/thecut/2012/10/55-best-beauty-looks-from-fashion-month.html">
+        <a href="http://nymag.com/thecut/2012/11/machine-that-gives-you-rich-girl-skin.html">
         
         <div data-picture="true">
- 			<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/03/03-fashion-week-beauty.o.jpg/a_3x-square.jpg"></div>
- 			<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/03/03-fashion-week-beauty.o.jpg/a_1x-square.jpg"></div>
+ 			<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/11/09/dedicated1.o.jpg/a_3x-square.jpg"></div>
+ 			<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/11/09/dedicated1.o.jpg/a_1x-square.jpg"></div>
  			
- 			<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/03/03-fashion-week-beauty.o.jpg/a_3x-square.jpg"></div>
+ 			<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/11/09/dedicated1.o.jpg/a_3x-square.jpg"></div>
  			
- 			<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/03/03-fashion-week-beauty.o.jpg/a_3x-horizontal.jpg"&gt;</noscript>
+ 			<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/11/09/dedicated1.o.jpg/a_3x-horizontal.jpg"&gt;</noscript>
 		</div>
 		
         </a>
@@ -610,12 +564,12 @@ if (Modernizr.mq('only all and (min-device-width: 601px)') || !(Modernizr.mq('(m
 
     <header>
         <ul class="meta">
-            <li class="metaTime">10/10/12 at 9:00 AM</li>
-            
+            <li class="metaTime">11/9/12 at 8:40 AM</li>
+            <li class="The Dedicated">The Dedicated</li>
             <!-- &lt;li class="comments"&gt;&lt;b&gt;5&lt;/b&gt;&lt;/li&gt; -->
         </ul>
-        <h2><a href="http://nymag.com/thecut/2012/10/55-best-beauty-looks-from-fashion-month.html">The 55 Best Beauty Looks From Fashion Month</a></h2>
-        <p class="excerpt">Plus tips and product suggestions in case you want to try these looks <s>for Halloween</s> at home.</p>
+        <h2><a href="http://nymag.com/thecut/2012/11/machine-that-gives-you-rich-girl-skin.html">The Machine That Gives You â€˜Rich-Girl Skinâ€™</a></h2>
+        <p class="excerpt">Pay your way to a new face without surgery or injections.</p>
 
     </header>
 </article></div>
@@ -625,18 +579,18 @@ if (Modernizr.mq('only all and (min-device-width: 601px)') || !(Modernizr.mq('(m
 
 
 
-<article class="feedEntry" data-publish-datetime="1349807427000" id="entry">
+<article class="feedEntry" data-publish-datetime="1352418993000" id="entry">
     
     <div class="featureImage">
-        <a href="http://nymag.com/thecut/2012/10/britney-spears-has-split-personalities.html">
+        <a href="http://nymag.com/thecut/2012/11/tale-of-five-mustaches-movember-week-one.html">
         
         <div data-picture="true">
- 			<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/09/09-britney-spears-fantasy.o.jpg/a_3x-square.jpg"></div>
- 			<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/09/09-britney-spears-fantasy.o.jpg/a_1x-square.jpg"></div>
+ 			<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/11/08/08-Jeff-1.o.jpg/a_3x-horizontal.jpg"></div>
+ 			<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/11/08/08-Jeff-1.o.jpg/a_1x-square.jpg"></div>
  			
- 			<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/09/09-britney-spears-fantasy.o.jpg/a_3x-square.jpg"></div>
+ 			<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/11/08/08-Jeff-1.o.jpg/a_3x-horizontal.jpg"></div>
  			
- 			<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/09/09-britney-spears-fantasy.o.jpg/a_3x-horizontal.jpg"&gt;</noscript>
+ 			<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/11/08/08-Jeff-1.o.jpg/a_3x-horizontal.jpg"&gt;</noscript>
 		</div>
 		
         </a>
@@ -645,12 +599,12 @@ if (Modernizr.mq('only all and (min-device-width: 601px)') || !(Modernizr.mq('(m
 
     <header>
         <ul class="meta">
-            <li class="metaTime">10/9/12 at 2:30 PM</li>
-            <li class="If U Seek Britney">If U Seek Britney</li>
+            <li class="metaTime">11/8/12 at 6:56 PM</li>
+            <li class="Hairy Situations">Hairy Situations</li>
             <!-- &lt;li class="comments"&gt;&lt;b&gt;5&lt;/b&gt;&lt;/li&gt; -->
         </ul>
-        <h2><a href="http://nymag.com/thecut/2012/10/britney-spears-has-split-personalities.html">Britney Spears Has Split Personalities</a></h2>
-        <p class="excerpt">What her new fragrance says about her.</p>
+        <h2><a href="http://nymag.com/thecut/2012/11/tale-of-five-mustaches-movember-week-one.html">A Tale of Five Mustaches: Movember, Week One</a></h2>
+        <p class="excerpt">Tracking the progress of Movember participants.</p>
 
     </header>
 </article></div>
@@ -660,18 +614,18 @@ if (Modernizr.mq('only all and (min-device-width: 601px)') || !(Modernizr.mq('(m
 
 
 
-<article class="feedEntry" data-publish-datetime="1349799632000" id="entry">
+<article class="feedEntry" data-publish-datetime="1352405690000" id="entry">
     
     <div class="featureImage">
-        <a href="http://nymag.com/thecut/2012/10/beauty-qa-what-is-the-best-glitter-eyeliner.html">
+        <a href="http://nymag.com/thecut/2012/11/zoom-shot-keira-knightleys-red-lips.html">
         
         <div data-picture="true">
- 			<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/09/09-nars-stila.o.jpg/a_3x-square.jpg"></div>
- 			<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/09/09-nars-stila.o.jpg/a_1x-square.jpg"></div>
+ 			<div data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/11/08/07-kiera-knightly-face.o.jpg/a_3x-square.jpg"></div>
+ 			<div data-media="(max-width: 600px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/11/08/07-kiera-knightly-face.o.jpg/a_1x-square.jpg"></div>
  			
- 			<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/09/09-nars-stila.o.jpg/a_3x-square.jpg"></div>
+ 			<div data-media="(min-width: 601px)" data-src="http://pixel.nymag.com/imgs/fashion/daily/2012/11/08/07-kiera-knightly-face.o.jpg/a_3x-square.jpg"></div>
  			
- 			<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/10/09/09-nars-stila.o.jpg/a_3x-horizontal.jpg"&gt;</noscript>
+ 			<noscript>&lt;img src="http://pixel.nymag.com/imgs/fashion/daily/2012/11/08/07-kiera-knightly-face.o.jpg/a_3x-horizontal.jpg"&gt;</noscript>
 		</div>
 		
         </a>
@@ -680,12 +634,12 @@ if (Modernizr.mq('only all and (min-device-width: 601px)') || !(Modernizr.mq('(m
 
     <header>
         <ul class="meta">
-            <li class="metaTime">10/9/12 at 12:20 PM</li>
-            <li class="Beauty Q&amp;a">Beauty Q&amp;a</li>
+            <li class="metaTime">11/8/12 at 3:14 PM</li>
+            <li class="Zoom Shots">Zoom Shots</li>
             <!-- &lt;li class="comments"&gt;&lt;b&gt;5&lt;/b&gt;&lt;/li&gt; -->
         </ul>
-        <h2><a href="http://nymag.com/thecut/2012/10/beauty-qa-what-is-the-best-glitter-eyeliner.html">Lunchtime Beauty Q&amp;A: Can I Wear Glitter Eyeliner Without Looking Cheesy?</a></h2>
-        <p class="excerpt">Too many sparkles can be a bad thing.</p>
+        <h2><a href="http://nymag.com/thecut/2012/11/zoom-shot-keira-knightleys-red-lips.html">Zoom Shot: Keira Knightleyâ€™s Red Lips</a></h2>
+        <p class="excerpt">Two different colors on one pout.</p>
 
     </header>
 </article></div>

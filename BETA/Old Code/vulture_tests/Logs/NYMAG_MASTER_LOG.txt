@@ -1,0 +1,663 @@
+NY MAG QA LOG FOR 06-04-2012-12:15:32
+__________________________________________________________________________
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: chrome
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.features-group
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: chrome
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.features-group div.col section.first header h2 a
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: chrome
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.features-group div.col section.first ul li.entry a
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: chrome
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.features-group div.col section.vertical-art header h2 a
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: chrome
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.features-group div.col section.vertical-art header h2 a
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: chrome
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.features-group div.col section.vertical-theater header h2 a
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: chrome
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.features-group div.col section.vertical-theater ul li.entry a
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: chrome
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.features-group div.col section.vertical-books header h2 a
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: chrome
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.features-group div.col section.vertical-books header h2 a
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: chrome
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Page loads
+http://www.vulture.com/tv/
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: chrome
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Page loads
+http://www.vulture.com/movies/
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: chrome
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Page loads
+http://www.vulture.com/music/
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: chrome
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Page loads
+http://www.vulture.com/art/
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: chrome
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Page loads
+http://www.vulture.com/theater/
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: chrome
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Page loads
+http://www.vulture.com/books/
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: chrome
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Page loads
+http://www.vulture.com/2012/04/saturday-night-live-sketch-predictor-sofia-vergara.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: chrome
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Page loads
+http://www.vulture.com/2012/04/defense-of-fat-betty-draper.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: chrome
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Page loads
+http://www.vulture.com/2012/04/25-weirdest-wackiest-shows-foxs-25-years.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: chrome
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Page loads
+http://www.vulture.com/2012/04/jason-biggs-american-pie-essay.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: chrome
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Page loads
+http://www.vulture.com/2012/04/movie-review-titanic-3d.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: chrome
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Page loads
+http://www.vulture.com/2012/04/liam-neeson-olivia-wilde-third-person-paul-haggis.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: chrome
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Page loads
+http://www.vulture.com/2012/04/first-good-music-album-track-mercy-has-arrived.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: chrome
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Page loads
+http://www.vulture.com/2012/04/what-if-mary-j-blige-rewrote-family-affair-for-a-mcdonalds-ad.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: chrome
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Page loads
+http://www.vulture.com/2012/04/defense-of-my-heart-will-go-on.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: chrome
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Page loads
+http://nymag.com/daily/intel/2012/04/anti-obama-paintings-selling-for-300000.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: chrome
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Page loads
+http://www.vulture.com/2012/04/jerry-saltz-on-morley-safer-60-minutes-art-world.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: chrome
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Page loads
+http://www.vulture.com/2012/03/deborah-solomon-on-hilton-kramer-1928-2012.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: chrome
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Page loads
+http://www.vulture.com/2012/04/stephen-king-john-mellencamp-ghost-brothers-of-darkland-county.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: chrome
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Page loads
+http://www.vulture.com/2012/04/theater-review-throwing-up-my-hands-at-evita.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: chrome
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Page loads
+http://www.vulture.com/2012/04/injured-stuntman-starts-spider-man-turn-off-the-darks-latest-legal-battle.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: chrome
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Page loads
+http://www.vulture.com/2012/04/fifty-shades-of-grey-the-thinking-womans-guide.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: chrome
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Page loads
+http://www.vulture.com/2012/04/what-happened-to-the-coming-out-memoir.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: chrome
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Page loads
+http://www.vulture.com/2012/04/carrie-brownstein-memoir-portlandia-sleater-kinney.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.features-group
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.features-group div.col section.first header h2 a
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.features-group div.col section.first ul li.entry a
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.features-group div.col section.vertical-art header h2 a
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.features-group div.col section.vertical-art header h2 a
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.features-group div.col section.vertical-theater header h2 a
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.features-group div.col section.vertical-theater ul li.entry a
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.features-group div.col section.vertical-books header h2 a
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.features-group div.col section.vertical-books header h2 a
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, page opens and title has been acquired
+http://www.vulture.com/tv/
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Correct page loads
+http://www.vulture.com/tv/
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, page opens and title has been acquired
+http://www.vulture.com/movies/
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Correct page loads
+http://www.vulture.com/movies/
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, page opens and title has been acquired
+http://www.vulture.com/music/
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Correct page loads
+http://www.vulture.com/music/
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, page opens and title has been acquired
+http://www.vulture.com/art/
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Correct page loads
+http://www.vulture.com/art/
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, page opens and title has been acquired
+http://www.vulture.com/theater/
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Correct page loads
+http://www.vulture.com/theater/
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, page opens and title has been acquired
+http://www.vulture.com/books/
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Correct page loads
+http://www.vulture.com/books/
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, page opens and title has been acquired
+http://www.vulture.com/2012/04/saturday-night-live-sketch-predictor-sofia-vergara.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Correct page loads
+http://www.vulture.com/2012/04/saturday-night-live-sketch-predictor-sofia-vergara.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, page opens and title has been acquired
+http://www.vulture.com/2012/04/defense-of-fat-betty-draper.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Correct page loads
+http://www.vulture.com/2012/04/defense-of-fat-betty-draper.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, page opens and title has been acquired
+http://www.vulture.com/2012/04/25-weirdest-wackiest-shows-foxs-25-years.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Correct page loads
+http://www.vulture.com/2012/04/25-weirdest-wackiest-shows-foxs-25-years.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, page opens and title has been acquired
+http://www.vulture.com/2012/04/jason-biggs-american-pie-essay.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, page opens and title has been acquired
+http://www.vulture.com/2012/04/movie-review-titanic-3d.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Correct page loads
+http://www.vulture.com/2012/04/movie-review-titanic-3d.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, page opens and title has been acquired
+http://www.vulture.com/2012/04/liam-neeson-olivia-wilde-third-person-paul-haggis.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Correct page loads
+http://www.vulture.com/2012/04/liam-neeson-olivia-wilde-third-person-paul-haggis.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, page opens and title has been acquired
+http://www.vulture.com/2012/04/first-good-music-album-track-mercy-has-arrived.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, page opens and title has been acquired
+http://www.vulture.com/2012/04/what-if-mary-j-blige-rewrote-family-affair-for-a-mcdonalds-ad.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Correct page loads
+http://www.vulture.com/2012/04/what-if-mary-j-blige-rewrote-family-affair-for-a-mcdonalds-ad.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, page opens and title has been acquired
+http://www.vulture.com/2012/04/defense-of-my-heart-will-go-on.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Correct page loads
+http://www.vulture.com/2012/04/defense-of-my-heart-will-go-on.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, page opens and title has been acquired
+http://nymag.com/daily/intel/2012/04/anti-obama-paintings-selling-for-300000.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, page opens and title has been acquired
+http://www.vulture.com/2012/04/jerry-saltz-on-morley-safer-60-minutes-art-world.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Correct page loads
+http://www.vulture.com/2012/04/jerry-saltz-on-morley-safer-60-minutes-art-world.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, page opens and title has been acquired
+http://www.vulture.com/2012/03/deborah-solomon-on-hilton-kramer-1928-2012.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, page opens and title has been acquired
+http://www.vulture.com/2012/04/stephen-king-john-mellencamp-ghost-brothers-of-darkland-county.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Correct page loads
+http://www.vulture.com/2012/04/stephen-king-john-mellencamp-ghost-brothers-of-darkland-county.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, page opens and title has been acquired
+http://www.vulture.com/2012/04/theater-review-throwing-up-my-hands-at-evita.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Correct page loads
+http://www.vulture.com/2012/04/theater-review-throwing-up-my-hands-at-evita.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, page opens and title has been acquired
+http://www.vulture.com/2012/04/injured-stuntman-starts-spider-man-turn-off-the-darks-latest-legal-battle.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Correct page loads
+http://www.vulture.com/2012/04/injured-stuntman-starts-spider-man-turn-off-the-darks-latest-legal-battle.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, page opens and title has been acquired
+http://www.vulture.com/2012/04/fifty-shades-of-grey-the-thinking-womans-guide.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Correct page loads
+http://www.vulture.com/2012/04/fifty-shades-of-grey-the-thinking-womans-guide.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, page opens and title has been acquired
+http://www.vulture.com/2012/04/what-happened-to-the-coming-out-memoir.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Correct page loads
+http://www.vulture.com/2012/04/what-happened-to-the-coming-out-memoir.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, page opens and title has been acquired
+http://www.vulture.com/2012/04/carrie-brownstein-memoir-portlandia-sleater-kinney.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Correct page loads
+http://www.vulture.com/2012/04/carrie-brownstein-memoir-portlandia-sleater-kinney.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Page loads
+http://www.vulture.com/tv/
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Page loads
+http://www.vulture.com/movies/
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Page loads
+http://www.vulture.com/music/
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Page loads
+http://www.vulture.com/art/
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Page loads
+http://www.vulture.com/theater/
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Page loads
+http://www.vulture.com/books/
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Page loads
+http://www.vulture.com/2012/04/saturday-night-live-sketch-predictor-sofia-vergara.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Page loads
+http://www.vulture.com/2012/04/defense-of-fat-betty-draper.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Page loads
+http://www.vulture.com/2012/04/25-weirdest-wackiest-shows-foxs-25-years.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Page loads
+http://www.vulture.com/2012/04/jason-biggs-american-pie-essay.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Page loads
+http://www.vulture.com/2012/04/movie-review-titanic-3d.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Page loads
+http://www.vulture.com/2012/04/liam-neeson-olivia-wilde-third-person-paul-haggis.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Page loads
+http://www.vulture.com/2012/04/first-good-music-album-track-mercy-has-arrived.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Page loads
+http://www.vulture.com/2012/04/what-if-mary-j-blige-rewrote-family-affair-for-a-mcdonalds-ad.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Page loads
+http://www.vulture.com/2012/04/defense-of-my-heart-will-go-on.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Page loads
+http://nymag.com/daily/intel/2012/04/anti-obama-paintings-selling-for-300000.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Page loads
+http://www.vulture.com/2012/04/jerry-saltz-on-morley-safer-60-minutes-art-world.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Page loads
+http://www.vulture.com/2012/03/deborah-solomon-on-hilton-kramer-1928-2012.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Page loads
+http://www.vulture.com/2012/04/stephen-king-john-mellencamp-ghost-brothers-of-darkland-county.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Page loads
+http://www.vulture.com/2012/04/theater-review-throwing-up-my-hands-at-evita.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Page loads
+http://www.vulture.com/2012/04/injured-stuntman-starts-spider-man-turn-off-the-darks-latest-legal-battle.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Page loads
+http://www.vulture.com/2012/04/fifty-shades-of-grey-the-thinking-womans-guide.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Page loads
+http://www.vulture.com/2012/04/what-happened-to-the-coming-out-memoir.html
+__________________________________________________________________________
+Time: 06-04-2012-12:15:32	Browser: firefox
+Test: TV, Music, Movies, Art, Theater, Books Module		URL: http://www.vulture.com
+__________________________________________________________________________
+TV, Music, Movies, Art, Theater, Books Module	PASS, Page loads
+http://www.vulture.com/2012/04/carrie-brownstein-memoir-portlandia-sleater-kinney.html
+__________________________________________________________________________

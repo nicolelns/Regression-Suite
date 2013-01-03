@@ -1,0 +1,10 @@
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section#feature-pics.feature-pics article.pic-entry
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section#feature-pics.feature-pics h2 a
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section#feature-pics.feature-pics nav.prevNext ul li.prev
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section#feature-pics.feature-pics nav.prevNext ul li.next
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section#feature-pics.feature-pics article.pic-entry header nav.rubric a
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section#feature-pics.feature-pics article.pic-entry header h3 a
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section#feature-pics.feature-pics article.pic-entry header cite a
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section#feature-pics.feature-pics article.pic-entry header cite i
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section#feature-pics.feature-pics article.pic-entry div.more a
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section#feature-pics.feature-pics article.pic-entry div.image div.holder a img

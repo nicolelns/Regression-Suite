@@ -1,0 +1,6 @@
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-secondary div.parsys div.htmlComponent section.masthead
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-secondary div.parsys div.htmlComponent section.masthead header h3
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-secondary div.parsys div.htmlComponent section.masthead div.content
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-secondary div.parsys div.htmlComponent section.masthead div.content dl dt.first
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-secondary div.parsys div.htmlComponent section.masthead div.content dl dd a
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-secondary div.parsys div.htmlComponent section.masthead div.content dl dt

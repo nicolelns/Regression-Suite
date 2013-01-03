@@ -1,0 +1,1 @@
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top

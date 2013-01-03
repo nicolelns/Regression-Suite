@@ -1,0 +1,36 @@
+http://nymag.com/thecut/fashion/shows/2012/fall/paris/rtw/barbara-bui.html
+ has 0 or -1 assets!
+http://nymag.com/thecut/fashion/shows/2012/fall/paris/rtw/barbara-bui.html
+ HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/fall/milan/rtw/bally.html
+ HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/fall/milan/rtw/lorenzo-riva.html
+ HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/fall/milan/rtw/barbieri-ridet.html
+ HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/fall/milan/rtw/basharatyan-v.html
+ HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/fall/milan/rtw/versus.html
+ HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/fall/milan/rtw/roccobarocco.html
+ HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/fall/milan/rtw/aquilano-e-rimondi.html
+ HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/fall/milan/rtw/trussardi.html
+ HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/fall/milan/rtw/versace.html
+ HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/fall/milan/rtw/marco-de-vincenzo.html
+ HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/fall/milan/rtw/just-cavalli.html
+ HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/fall/milan/rtw/jo-no-fui.html
+ HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/fall/milan/rtw/prada.html
+ HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/fall/milan/rtw/fendi.html
+ HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/fall/milan/rtw/max-mara.html
+ HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/fall/milan/rtw/francesco-scognamiglio.html
+ HTTP Error 500: Internal Server Error

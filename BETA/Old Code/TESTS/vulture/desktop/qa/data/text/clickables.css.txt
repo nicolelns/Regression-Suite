@@ -1,0 +1,6 @@
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div#top-features.features-group div.col-a section#feature-clickables.first
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div#top-features.features-group div.col-a section#feature-clickables.first header h2 a
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div#top-features.features-group div.col-a section#feature-clickables.first div#clickables-promo a img
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div#top-features.features-group div.col-a section#feature-clickables.first div#clickables-wrap article.clickable
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div#top-features.features-group div.col-a section#feature-clickables.first div#clickables-wrap article.clickable a.permalink
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div#top-features.features-group div.col-a section#feature-clickables.first div.more a

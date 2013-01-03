@@ -1,0 +1,65 @@
+NY MAG QA LOG FOR 15-05-2012-09:20:28
+Test: NY Mag Navigation Update - Desktop - NY Mag	URL: http://www.nymag.com/
+__________________________________________________________________________
+__________________________________________________________________________
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: chrome
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://nymag.com/shopping/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: chrome
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: chrome
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: chrome
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: chrome
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://www.nymag.com/
+EXCEPTION: Message: u'The element could not be found' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: chrome
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://nymag.com/travel/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: chrome
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: chrome
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: chrome
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________

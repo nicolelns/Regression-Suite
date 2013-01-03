@@ -1,0 +1,43 @@
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.feature-reviews
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.feature-reviews div#tab-reviews-tv.content article.entry
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.feature-reviews header h2
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.feature-reviews div#tab-reviews-tv.content article.entry header div.rubric a
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.feature-reviews div#tab-reviews-tv.content article.entry header h3 a.permalink
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.feature-reviews div#tab-reviews-tv.content article.entry p
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.feature-reviews div#tab-reviews-tv.content article.entry cite i
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.feature-reviews div#tab-reviews-tv.content article.entry cite a
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.feature-reviews ul.tabs li.tab-reviews-tv a
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.feature-reviews div#tab-reviews-tv.content article.entry div.image a span.image-frame
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.feature-reviews div#tab-reviews-movies.content article.entry
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.feature-reviews ul.tabs li.tab-reviews-movies a
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.feature-reviews div#tab-reviews-movies.content article.entry div.image a span.image-frame
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.feature-reviews div#tab-reviews-movies.content article.entry header div.rubric a
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.feature-reviews div#tab-reviews-movies.content article.entry header h3 a.permalink
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.feature-reviews div#tab-reviews-movies.content article.entry p
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.feature-reviews div#tab-reviews-movies.content article.entry cite i
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.feature-reviews div#tab-reviews-movies.content article.entry cite a
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.feature-reviews ul.tabs li.tab-reviews-music
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.feature-reviews div#tab-reviews-music.content article.entry
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.feature-reviews div#tab-reviews-music.content article.entry header div.rubric a
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.feature-reviews div#tab-reviews-music.content article.entry header h3 a.permalink
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.feature-reviews div#tab-reviews-music.content article.entry p
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.feature-reviews div#tab-reviews-music.content article.entry cite i
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.feature-reviews div#tab-reviews-music.content article.entry cite a
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.feature-reviews div#tab-reviews-music.content article.entry div.image a span.image-frame
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.feature-reviews div#tab-reviews-theater.content article.entry
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.feature-reviews ul.tabs li.tab-reviews-theater a
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.feature-reviews div#tab-reviews-theater.content article.entry header div.rubric a
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.feature-reviews div#tab-reviews-theater.content article.entry div.image a span.image-frame
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.feature-reviews div#tab-reviews-theater.content article.entry header h3 a.permalink
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.feature-reviews div#tab-reviews-theater.content article.entry p
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.feature-reviews div#tab-reviews-theater.content article.entry cite i
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.feature-reviews div#tab-reviews-theater.content article.entry cite a
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.feature-reviews div#tab-reviews-books.content article.entry
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.feature-reviews ul.tabs li.tab-reviews-books a
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.feature-reviews div#tab-reviews-books.content article.entry header div.rubric a
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.feature-reviews div#tab-reviews-books.content article.entry header h3 a.permalink
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.feature-reviews div#tab-reviews-books.content article.entry p
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.feature-reviews div#tab-reviews-books.content article.entry cite i
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.feature-reviews div#tab-reviews-books.content article.entry cite a
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.feature-reviews div#tab-reviews-books.content article.entry div.image a span.image-frame
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section.feature-reviews div#tab-reviews-books.content article.entry div.more a

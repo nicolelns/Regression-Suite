@@ -19,131 +19,113 @@ class MyOpener(urllib.FancyURLopener):
     version = 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.15) Gecko/20110303 Firefox/3.6.15'
     
 
-class PublishSrc():
+class PublishTest():
 	
-    def __init__(self, pub_url):
+    def __init__(self, pub_url, PUB):
     	    
-    	self.pub = pub_url    
-    	self.req = MyOpener()
-    	self.page = self.req.open(self.pub)
-    	self.text = self.page.read()
-        self.page.close()
-        self.soup = BeautifulSoup(self.text)
-        self.spam = self.soup.find_all
-        self.link_list = []
-        
-        self.get_src()
-        
+    	self.pub_url = pub_url
+    	self.PUB = PUB
+    	self.html = []
+    	self.make_publish_urls()
+    	
         ########################################################################
         
-    def get_src(self):
+    def make_publish_urls(self):
     	    
-        tag = self.soup('body')
-    	string = str(tag[0])
-    	publist.append(string)
+        self.publist = [self.pub_url[:15] + str(n) + self.pub_url[16:] for n in range(1,int(self.PUB) + 1)]
+    
+        ########################################################################
+    
+    def get_src(self):
     	
-    	#self.get_a(tag)
-    	     
+    	for url in self.publist:
+    	    self.req = MyOpener()
+    	    self.page = self.req.open(url)
+    	    self.text = self.page.read()
+            self.page.close()
+            self.soup = BeautifulSoup(self.text)
+            self.spam = self.soup.find_all
+            tag = self.soup('body')
+    	    string = str(tag[0])
+    	    self.html.append(string) 
+    	return self.html
+    	
         ########################################################################
    
-    def make_files(self):
-    	    
-        p = 1
-        for each in publist:
-            
-            g = open('/Users/nsmith/Desktop/BETA/CUT/DATA/TEXT/publish0' + str(p) + '.txt', 'w')
-            g.write(each)
-            g.write('\n')
-            g.close
-            p += 1
-     
-        #self.make_article_files()
-        
-	########################################################################
-        
     def instance_test(self):
-    	
-    	#Don't repeat yourself - refactor into loops later
     	
     	time = datetime.datetime.now()
         t = time.strftime("%Y/%m/%d-%H:%M:%S")
     	
-        _1 = open('/Users/nsmith/Desktop/BETA/CUT/DATA/TEXT/publish01.txt', 'r').readlines()
-        _2 = open('/Users/nsmith/Desktop/BETA/CUT/DATA/TEXT/publish02.txt', 'r').readlines()
-        _3 = open('/Users/nsmith/Desktop/BETA/CUT/DATA/TEXT/publish03.txt', 'r').readlines()
-        _4 = open('/Users/nsmith/Desktop/BETA/CUT/DATA/TEXT/publish04.txt', 'r').readlines()
-        _5 = open('/Users/nsmith/Desktop/BETA/CUT/DATA/TEXT/publish05.txt', 'r').readlines()
-        _6 = open('/Users/nsmith/Desktop/BETA/CUT/DATA/TEXT/publish06.txt', 'r').readlines()
-        
-        html = (_1, _2, _3, _4, _5, _6)
-        p = 1
-        
-        for each in html:
-        
-            result1 = list(difflib.unified_diff(html[p-1], _1, lineterm=''))
-            result2 = list(difflib.unified_diff(html[p-1], _2, lineterm=''))
-            result3 = list(difflib.unified_diff(html[p-1], _3, lineterm=''))
-            result4 = list(difflib.unified_diff(html[p-1], _4, lineterm=''))
-            result5 = list(difflib.unified_diff(html[p-1], _5, lineterm=''))
-            result6 = list(difflib.unified_diff(html[p-1], _6, lineterm=''))
-            
-            if result1 != []:
-                self.results_writer('\n'.join(result1), "PUBLISH 0" + str(p) + " vs. PUBLISH01", t)
-            if result2 != []:
-            	self.results_writer('\n'.join(result2), "PUBLISH 0" + str(p) + " vs. PUBLISH02", t)
-            if result3 != []:
-	        self.results_writer('\n'.join(result3), "PUBLISH 0" + str(p) + " vs. PUBLISH03", t)
-            if result4 != []:    
-                self.results_writer('\n'.join(result4), "PUBLISH 0" + str(p) + " vs. PUBLISH04", t)
-            if result5 != []:
-                self.results_writer('\n'.join(result5), "PUBLISH 0" + str(p) + " vs. PUBLISH05", t)
-            if result6 != []:
-                self.results_writer('\n'.join(result6), "PUBLISH 0" + str(p) + " vs. PUBLISH06", t)  
+    	data = self.get_src()
+    	
+        for n in range(0,len(data) - 1):
+            result = list(difflib.unified_diff(data[0], data[n + 1], lineterm=''))
+            if result != []:
+            	print '\n'.join(result), "NEW RESULT"
+                self.results_writer('\n'.join(result), "PUBLISH 0" + str(int(self.PUB) - len(data)) + " vs. PUBLISH0" + str(n + 1), t)
+            n += 1    
+            self.publist.pop(0)
                 
-            p += 1
-            
-    ########################################################################
+        ########################################################################
     
     def results_writer(self, data, string, time):
     	
     	e = open('/Users/nsmith/Desktop/publishresults.txt', 'a')
     	
-    	self.l = str(data)
+    	self.d = str(data)
     	self.s = string
     	self.t = time
     	
     	e.write(self.s + '\t' + self.t)
     	e.write('\n')
     	e.write('_________________________________________')
-        e.write(self.l)
+        e.write(self.d)
         e.write('\n')
         e.close()
         
     ########################################################################
     
-f = open('/Users/nsmith/Desktop/BETA/CUT/DATA/TEXT/publishurls.txt', 'r').readlines()
-
-for url in f:
+def main(url, PUB):
 	
-    print str(url) + " is being tested!"	
-    publist = []
-    for n in range(1,7):
-    	
-    	u = url.strip('\n')
-    	pub_inst = u[:15] + str(n) + u[16:]
-    	print pub_inst
-        P = PublishSrc(pub_inst)
-        n += 1
-        
+    """
+    Open the publishurls.txt file and for each url in the file, create a version of
+    the url for each publisher.  Example:  http://publish01.nymetro.com:4502/content/<slug>
+    would become publish02.nymetro... etc.  Pass these urls to the PublishSrc class
+    to open and parse each page.
+    
+    """
+	
+    print url + " is being tested!"	
     time = datetime.datetime.now()
     t = time.strftime("%Y/%m/%d-%H:%M:%S")
     
-    P.make_files()
-    P.results_writer("", str(pub_inst.split(':')[-1]), t)    
+    P = PublishTest(url, PUB)    
+    P.results_writer("STARTING PUBLISH TEST", str(url.split(':')[-1]), t)    
     P.instance_test()
-    print str(url) + " is done."
-
-e.close()    
+    
+    
+if __name__ == '__main__':
+    
+    flag = 1
+    while flag == 1:
+    	    
+    	PUB = raw_input('How many publishers are there? (Enter a digit from 1-99 and hit Return):')
+    	
+        try:
+            type(PUB) is int
+            	
+        except ValueError:
+    	    print "That was not valid input, try again"
+    	    
+        else:
+    	    flag = 0
+    	    
+        f = open('/Users/nsmith/Desktop/BETA/CUT/DATA/TEXT/publishurls.txt', 'r').readlines()
+    
+        for url in f:
+    	    main(url, PUB)
+    
     
     
     

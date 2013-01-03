@@ -1,0 +1,8 @@
+//html/body/div/div/div[2]/div[2]/div/div[3]/section/header/h3/a
+//html/body/div/div/div[2]/div[2]/div/div[3]/section/article/header/h4/a
+//html/body/div/div/div[2]/div[2]/div/div[3]/section/article[2]/header/h4/a
+//html/body/div/div/div[2]/div[2]/div/div[3]/section/article/footer/a/span/span/a/strong
+//html/body/div/div/div[2]/div[2]/div/div[3]/section/article[2]/footer/a/span/span/a/strong
+//html/body/div/div/div[2]/div[2]/div/div[3]/section/article/footer/small/a
+//html/body/div/div/div[2]/div[2]/div/div[3]/section/article[2]/footer/small/a
+//html/body/div/div/div[2]/div[2]/div/div[3]/section/div/a

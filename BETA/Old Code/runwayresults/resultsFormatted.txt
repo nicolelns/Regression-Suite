@@ -1,0 +1,441 @@
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/badgley-mischka.html HTTP Error 500: Internal Server Errorhttp://nymag.com/thecut/fashion/shows/2012/fall/new-york/rtw/rubin-chapelle.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/chado-ralph-rucci.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/couture/alexandre-vauthier.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/nicole-farhi.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/burberry.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/cushnie-et-ochs.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/haider-ackermann.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/couture/julien-fournie.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/kanye-west.html Is a Dummy Show
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/karen-walker.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/balenciaga.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/jason-wu.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/couture/christian-dior.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/vionnet.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/fall/paris/couture/alexandre-vauthier.html has 27 images on prod, and 26 images in JSON
+http://nymag.com/thecut/fashion/shows/2012/fall/new-york/rtw/bcbg-max-azria.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/tory-burch.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/bally.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/mulberry.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/couture/jean-paul-gaultier.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/marios-schwab.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/new-york/rtw/buckler.html is not published - Returns 404 on Prod!
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/n21.html has 0 or -1 assets!
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/jenni-kayne.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/nahm.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/elie-tahari.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/costume-national.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/luisa-beccaria.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/fall/new-york/rtw/sophie-theallet.html has 26 images on prod, and 25 images in JSON
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/calvin-klein.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/twenty8twelve.html Is a Dummy Show
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/louis-vuitton.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/loewe.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/fendi.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/fall/new-york/rtw/araks.html has 22 images on prod, and 32 images in JSON
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/elie-tahari.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/neil-barrett.html Is a Dummy Show
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/moschino.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/roksanda-ilincic.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/vena-cava.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/costume-national.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/rebecca-minkoff.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/nicole-miller.html is not published - Returns 404 on Prod!
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/couture/stephane-rolland.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/holly-fulton.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/barbara-tfank.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/fall/new-york/rtw/diesel-black-gold.html has 0 or -1 assets!
+http://nymag.com/thecut/fashion/shows/2012/spring/new-york/rtw/dennis-basso.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/new-york/rtw/simon-spurr.html has 0 or -1 assets!
+http://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/sportmax.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/jean-charles-de-castelbajac.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/missoni.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/todd-lynn.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/francesco-scognamiglio.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/fall/new-york/rtw/todd-snyder.html has 0 or -1 assets!
+http://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/ashish.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/couture/maxime-simoens.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/erdem.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/fall/paris/rtw/anthony-vaccarello.html has 33 images on prod, and 20 images in JSONhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/lela-rose.html has 0 or -1 assets!
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/trias.html Is a Dummy Showhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/stella-mccartney.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/issa.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/nahm.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/mark-james.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/balmain.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/sass-bide.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/fall/milan/rtw/maurizio-pecoraro.html has 42 images on prod, and 39 images in JSON
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/bcbg-max-azria.html HTTP Error 500: Internal Server Errorhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/john-galliano.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/krizia.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/new-york/rtw/gant.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/caroline-charles.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/blumarine.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/isabel-marant.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/fall/milan/rtw/maurizio-pecoraro.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/vivienne-tam.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/fall/london/rtw/marios-schwab.html has 40 images on prod, and 24 images in JSON
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/marios-schwab.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/escada.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2013/spring/paris/menswear/wooyoungmi.html has 39 images on prod, and 29 images in JSON
+http://nymag.com/thecut/fashion/shows/2012/spring/new-york/rtw/banana-republic.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/m-patmos.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/jonathan-saunders.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/spring/paris/menswear/smalto.html has 22 images on prod, and 37 images in JSON
+http://nymag.com/thecut/fashion/shows/2012/fall/new-york/rtw/bcbg-max-azria.html HTTP Error 500: Internal Server Errorhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/tory-burch.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/louise-gray.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/giles-deacon.html has 0 or -1 assets!
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/azzaro.html Is a Dummy Showhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/sacai.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/matthew-williamson.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/belstaff.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/anthony-vaccarello.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/aganovich.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/fall/milan/rtw/blumarine.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2013/spring/paris/menswear/junya-watanabe.html has 48 images on prod, and 30 images in JSONhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/nicolas-andreas-taralis.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/fall/paris/rtw/barbara-bui.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/just-cavalli.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/new-york/rtw/hyden-yoo.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/akris.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/roland-mouret.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/peter-pilotto.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/couture/bouchra-jarrar.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/oscar-de-la-renta.html has 57 images on prod, and 30 images in JSONhttp://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/salvatore-ferragamo.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/new-york/rtw/katie-gallagher.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/couture/armani-prive.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/emilio-pucci.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/bally.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/thom-browne.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/helmut-lang.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/mara-hoffman.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/leonard.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/meadham-kirchhoff.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/carlos-miele.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/the-row.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/lanvin.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/house-of-holland.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/new-york/rtw/factory-by-erik-hart.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/reem-acra.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/st-john.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/roberto-cavalli.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/blugirl.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/acne.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/diesel.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/spring/new-york/rtw/giulietta.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/ermanno-scervino.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/pringle-of-scotland.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/10-crosby-derek-lam.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/31-phillip-lim.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/couture/jean-paul-gaultier.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/nina-ricci.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/thierry-mugler.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/proenza-schouler.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/reed-krakoff.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/yeohlee.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/elena-miro.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/herve-leger.html HTTP Error 500: Internal Server Errorhttp://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/topshop.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/stella-mccartney.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/dkny.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/new-york/rtw/zang-toi.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/calvin-klein.html HTTP Error 500: Internal Server Errorhttp://nymag.com/thecut/fashion/shows/2012/fall/new-york/rtw/araks.html has 22 images on prod, and 32 images in JSON
+http://nymag.com/thecut/fashion/shows/2012/fall/new-york/rtw/gilded-age.html has 0 or -1 assets!http://nymag.com/thecut/fashion/shows/2012/spring/new-york/rtw/wayne.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/m-patmos.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/new-york/rtw/twinkle-by-wenlan.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/just-cavalli.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/emilio-de-la-morena.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/lela-rose.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/sonia-rykiel.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/belstaff.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/fall/paris/rtw/barbara-bui.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/limi-feu.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/altuzarra.html HTTP Error 500: Internal Server Errorhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/roland-mouret.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/lanvin.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/christian-dior.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/vionnet.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/new-york/rtw/venexiana.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/gareth-pugh.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/fall/paris/couture/alexandre-vauthier.html has 27 images on prod, and 26 images in JSON
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/barbara-bui.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/neil-barrett.html Is a Dummy Show
+http://nymag.com/thecut/fashion/shows/2012/spring/new-york/rtw/pink-tartan.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/ann-demeulemeester.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/carolina-herrera.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/collette-dinnigan.html Is a Dummy Show
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/commuun.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/antonio-marras.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/emanuel-ungaro.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/new-york/rtw/rochambeau.html has 0 or -1 assets!
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/temperley-london.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/vpl.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/fall/paris/rtw/roland-mouret.html has 36 images on prod, and 37 images in JSON
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/alexander-wang.html HTTP Error 500: Internal Server Errorhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/richard-chai-love.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/carven.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/barbara-tfank.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/kenzo.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/vionnet.html Is a Dummy Show
+http://nymag.com/thecut/fashion/shows/2012/fall/new-york/rtw/diesel-black-gold.html has 0 or -1 assets!
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/yohji-yamamoto.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/acne.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/elizabeth-and-james.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/valentino.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/julien-david.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/jonathan-saunders.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2013/spring/paris/menswear/smalto.html has 22 images on prod, and 37 images in JSON
+http://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/parah.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/marni.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/pringle-of-scotland.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/missoni.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/fall/paris/rtw/duro-olowu.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/talbot-runhof.html Is a Dummy Showhttp://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/gianfranco-ferre.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/new-york/rtw/milly.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/erdem.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/new-york/rtw/alexandre-plokhov.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/alexander-mcqueen.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/spring/new-york/rtw/t-by-alexander-wang.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/couture/valentino.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/manish-arora.html Is a Dummy Showhttp://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/iceberg.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/alc.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/ports-1961.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/naeem-khan.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/fall/new-york/rtw/duro-olowu.html has 0 or -1 assets!
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/sachin-babi.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/couture/versace.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/new-york/rtw/chadwick-bell.html is not published - Returns 404 on Prod!
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/collette-dinnigan.html Is a Dummy Showhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/rochas.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/couture/iris-van-herpen.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/fall/new-york/rtw/n-hoolywood.html has 0 or -1 assets!
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/chloe.html HTTP Error 500: Internal Server Errorhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/carven.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/roksanda-ilincic.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/vena-cava.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/couture/maxime-simoens.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/couture/armani-prive.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/fall/new-york/rtw/alexandre-plokhov.html has 0 or -1 assets!http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/missoni.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/spring/new-york/rtw/romona-keveza.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/new-york/rtw/perry-ellis.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/couture/valentino.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/badgley-mischka.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/fall/new-york/rtw/rubin-chapelle.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/etro.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/yigal-azrouel.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/rachel-roy.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/honor.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/erdem.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/felder-felder.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/new-york/rtw/degen.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/michael-van-der-ham.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/francesco-scognamiglio.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/new-york/rtw/yeohlee.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/fall/paris/rtw/balenciaga.html has 0 or -1 assets!
+http://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/kinder-aggugini.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/roberto-cavalli.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/aquascutum.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/elizabeth-and-james.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/orla-kiely.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/erin-by-erin-fetherston.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/celine.html HTTP Error 500: Internal Server Errorhttp://nymag.com/thecut/fashion/shows/2012/fall/new-york/rtw/billy-reid.html has 0 or -1 assets!
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/thom-browne.html HTTP Error 500: Internal Server Errorhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/helmut-lang.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/les-copains.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/matthew-williamson.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/chado-ralph-rucci.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/couture/alexandre-vauthier.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/nonoo.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/douglas-hannant-pink.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/alice-by-temperley.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/prada.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/st-john.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/roberto-cavalli.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/fendi.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/prabal-gurung.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/cushnie-et-ochs.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/moschino-cheap-chic.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/prada.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/new-york/rtw/simon-spurr.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/couture/giambattista-valli.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/couture/versace.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/mary-katrantzou.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/af-vandevorst.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/fall/new-york/rtw/suno.html has 33 images on prod, and 19 images in JSON
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/cedric-charlier.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/anna-sui.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/fall/milan/rtw/blumarine.html HTTP Error 500: Internal Server Errorhttp://nymag.com/thecut/fashion/shows/2012/fall/paris/rtw/balenciaga.html has 0 or -1 assets!
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/organic-by-john-patrick.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/richard-nicoll.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/couture/givenchy.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/j-mendel.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/sophia-kokosalaki.html Is a Dummy Showhttp://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/vivienne-westwood-red-label.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/max-mara.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/giles-deacon.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/fall/new-york/rtw/gilded-age.html has 0 or -1 assets!
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/dsquared2.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/couture/alexis-mabille.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/frankie-morello.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/miu-miu.html Is a Dummy Show
+http://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/jonathan-saunders.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/richard-nicoll.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/new-york/rtw/chadwick-bell.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/lanvin.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/factory-by-erik-hart.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/givenchy.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/alice-olivia.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/mara-hoffman.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/tse.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/preen.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/new-york/rtw/nomia.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/paco-rabanne.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/collette-dinnigan.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/elie-saab.html Is a Dummy Showhttp://nymag.com/thecut/fashion/shows/2012/spring/new-york/rtw/isaac-mizrahi.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/fashion-east.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/philosophy-di-alberta-ferretti.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/temperley-london.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/john-richmond.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/osman-yousefzada.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/daks.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/chloe.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/j-mendel.html HTTP Error 500: Internal Server Errorhttp://nymag.com/thecut/fashion/shows/2012/spring/new-york/rtw/angel-sanchez.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/sonia-rykiel.html HTTP Error 500: Internal Server Errorhttp://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/trussardi.html is not published - Returns 404 on Prod!
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/azzaro.html Is a Dummy Show
+http://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/genny.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/aigner.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/kelly-wearstler.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/temperley-london.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/carven.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/rebecca-minkoff.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/cynthia-rowley.html HTTP Error 500: Internal Server Errorhttp://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/byblos.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/nicole-miller.html is not published - Returns 404 on Prod!
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/giambattista-valli.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/couture/bouchra-jarrar.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/roland-mouret.html HTTP Error 500: Internal Server Errorhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/costume-national.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/peter-som.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/zero-maria-cornejo.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/thakoon.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/moschino-cheap-chic.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/aminaka-wilmont.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/alexis-mabille.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/giulietta.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/cynthia-rowley.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/fall/new-york/rtw/juan-carlos-obando.html has 22 images on prod, and 23 images in JSON
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/nina-ricci.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/nonoo.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/douglas-hannant-pink.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/dsquared2.html HTTP Error 500: Internal Server Errorhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/diane-von-furstenberg.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/fendi.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2013/spring/new-york/menswear/31-phillip-lim.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/viktor-rolf.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/fall/new-york/rtw/n-hoolywood.html has 0 or -1 assets!http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/jen-kao.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/couture/iris-van-herpen.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/gabriele-colangelo.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/jena-theo.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/carolina-herrera.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2013/spring/new-york/menswear/31-phillip-lim.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/antonio-berardi.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/emporio-armani.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/mark-fast.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/jil-sander.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/viktor-rolf.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/naeem-khan.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/fall/new-york/rtw/duro-olowu.html has 0 or -1 assets!
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/giles-deacon.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/couture/maurizio-galante.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/sonia-rykiel.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/paul-smith.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/nina-ricci.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/n21.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/louis-vuitton.html Is a Dummy Showhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/barbara-bui.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/sharon-wauchob.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/new-york/rtw/frank-tell.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/tibi.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/vpl.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/fall/paris/rtw/roland-mouret.html has 36 images on prod, and 37 images in JSON
+http://nymag.com/thecut/fashion/shows/2012/fall/paris/rtw/barbara-bui.html has 0 or -1 assets!http://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/tata-naka.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/vanessa-bruno.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/marni.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/giles-deacon.html has 0 or -1 assets!
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/house-of-holland.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/issey-miyake.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/mark-james.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/miu-miu.html Is a Dummy Showhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/alice-olivia.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/giambattista-valli.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/cnc-costume-national.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/fall/paris/rtw/anthony-vaccarello.html has 33 images on prod, and 20 images in JSON
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/lela-rose.html has 0 or -1 assets!
+http://nymag.com/thecut/fashion/shows/2012/fall/paris/rtw/barbara-bui.html has 0 or -1 assets!
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/ports-1961.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/dsquared2.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/couture/givenchy.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/dolce-gabbana.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/rochas.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/couture/stephane-rolland.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/the-row.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/fall/milan/rtw/jil-sander.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2013/spring/paris/menswear/junya-watanabe.html has 48 images on prod, and 30 images in JSON
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/t-by-alexander-wang.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/martin-grant.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/jean-pierre-braganza.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/honor.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/veronique-leroy.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/jason-wu.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/couture/christian-dior.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/monique-lhuillier.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/fall/new-york/rtw/alexandre-plokhov.html has 0 or -1 assets!
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/couture/on-aura-tout-vu.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/balenciaga.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/louis-vuitton.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/giorgio-armani.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/new-york/rtw/rochambeau.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/suno.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/nicole-miller.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/lutz.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/thimister.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/kanye-west.html Is a Dummy Show
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/karen-walker.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/just-cavalli.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/chanel.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/band-of-outsiders.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/felipe-oliveira-baptista.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/n21.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/moschino-cheap-chic.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/vionnet.html Is a Dummy Show
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/proenza-schouler.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/moschino.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/trussardi.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/christian-blanken.html is not published - Returns 404 on Prod!
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/erin-by-erin-fetherston.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/reem-acra.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/agnes-b.html Is a Dummy Show
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/vivienne-tam.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/fall/london/rtw/marios-schwab.html has 40 images on prod, and 24 images in JSON
+http://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/peter-jensen.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/comme-des-garcons.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/prabal-gurung.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/hakaan.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/pedro-lourenco.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/acne.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/kelly-wearstler.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/dg.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/ohne-titel.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/christopher-raeburn.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/chloe.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/new-york/rtw/hanii-y.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/paul-joe.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/peter-som.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/andrew-gn.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/new-york/rtw/b-michael.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/damir-doma.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/marc-by-marc-jacobs.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/roksanda-ilincic.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/john-rocha.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/margaret-howell.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/couture/julien-fournie.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/peter-pilotto.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/new-york/rtw/farah-angsana.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/marc-by-marc-jacobs.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/giulietta.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/factory-by-erik-hart.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/escada.html HTTP Error 500: Internal Server Errorhttp://nymag.com/thecut/fashion/shows/2013/spring/paris/menswear/wooyoungmi.html has 39 images on prod, and 29 images in JSON
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/giles-deacon.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/couture/maurizio-galante.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/matthew-williamson.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/hussein-chalayan.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/jen-kao.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/10-crosby-derek-lam.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/fall/new-york/rtw/sophie-theallet.html has 26 images on prod, and 25 images in JSON
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/n21.html has 0 or -1 assets!
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/jenni-kayne.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/antonio-marras.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/gaspard-yurkievich.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/new-york/rtw/araks.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/fall/new-york/rtw/dean-quinn.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/sophia-kokosalaki.html Is a Dummy Show
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/dkny.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/ohne-titel.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/maison-martin-margiela.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/alice-by-temperley.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/maria-grachvogel.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/couture/chanel.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/alexander-wang.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/richard-chai-love.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/pringle-of-scotland.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/roberto-musso.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/31-phillip-lim.html HTTP Error 500: Internal Server Errorhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/francesco-scognamiglio.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/fall/london/rtw/temperley-london.html has 37 images on prod, and 21 images in JSON
+http://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/versus.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/jaeger-london.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/louis-vuitton.html Is a Dummy Show
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/rochas.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/emilio-pucci.html HTTP Error 500: Internal Server Errorhttp://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/house-of-holland.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/fall/paris/rtw/balenciaga.html has 44 images on prod, and 0 images in JSON
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/tse.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/new-york/rtw/eva-minge.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/band-of-outsiders.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/fall/milan/rtw/maurizio-pecoraro.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/tess-giberson.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/alberta-ferretti.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/fall/new-york/rtw/erickson-beamon.html has 21 images on prod, and 32 images in JSON
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/tsumori-chisato.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/alc.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/jill-stuart.html has 16 images on prod, and 25 images in JSONhttp://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/clements-ribeiro.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/lela-rose.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/t-by-alexander-wang.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/jasper-conran.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/ppq.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/new-york/rtw/b-michael.html has 0 or -1 assets!
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/yves-saint-laurent.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/fall/milan/rtw/simonetta-ravizza.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/tess-giberson.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/alberta-ferretti.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/rick-owens.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/rachel-roy.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/altuzarra.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/spring/new-york/rtw/bibhu-mohapatra.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/n21.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/new-york/rtw/a-detacher.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/rag-bone.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/pedro-lourenco.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/christian-dior.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/bottega-veneta.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/alexander-mcqueen.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/bora-aksu.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/balenciaga.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/diesel.html HTTP Error 500: Internal Server Errorhttp://nymag.com/thecut/fashion/shows/2012/fall/new-york/rtw/juan-carlos-obando.html has 22 images on prod, and 23 images in JSON
+http://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/marco-de-vincenzo.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/jw-anderson.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/dries-van-noten.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/barbara-bui.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/anne-valerie-hash.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/antonio-marras.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/couture/elie-saab.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/laura-biagiotti.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/gucci.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/richard-nicoll.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/yigal-azrouel.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/rag-bone.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/couture/on-aura-tout-vu.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/moschino.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/prada.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/christian-blanken.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/michael-kors.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/marni.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/junya-watanabe.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/new-york/rtw/kaelen.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/couture/christophe-josse.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/fall/new-york/rtw/kelly-wearstler.html Is a Dummy Show
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/pedro-lourenco.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/couture/alexis-mabille.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/new-york/rtw/venexiana.html has 0 or -1 assets!http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/giambattista-valli.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/elie-saab.html Is a Dummy Show
+http://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/piazza-sempione.html Is a Dummy Showhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/z-spoke-by-zac-posen.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/fall/paris/rtw/duro-olowu.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/vivienne-westwood.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/massimo-rebecchi.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/peter-pilotto.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/cedric-charlier.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/anna-sui.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/yeohlee.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/fall/new-york/rtw/erickson-beamon.html has 21 images on prod, and 32 images in JSONhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/guy-laroche.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/diane-von-furstenberg.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/rache-lzoe.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/preen.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/versace.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/alexander-mcqueen.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/celine.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/fall/new-york/rtw/todd-snyder.html has 0 or -1 assets!http://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/emilio-pucci.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/chris-benz.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/new-york/rtw/tribune-standard.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/fall/new-york/rtw/billy-reid.html has 0 or -1 assets!
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/philosophy-di-alberta-ferretti.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/viktor-rolf.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/agnes-b.html Is a Dummy Show
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/thakoon-addition.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/rebecca-minkoff.html has 0 or -1 assets!
+http://nymag.com/thecut/fashion/shows/2012/fall/paris/rtw/balenciaga.html has 44 images on prod, and 0 images in JSONhttp://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/aquilano-e-rimondi.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/marios-schwab.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/rache-lzoe.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/albino.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/new-york/rtw/argentine-designers.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/fall/milan/rtw/maurizio-pecoraro.html has 42 images on prod, and 39 images in JSONhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/thakoon.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/fall/milan/rtw/simonetta-ravizza.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/stella-mccartney.html HTTP Error 500: Internal Server Errorhttp://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/david-koma.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/trias.html Is a Dummy Show
+http://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/christopher-kane.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/new-york/rtw/bespoken.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/suno.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/nicole-miller.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/amanda-wakeley.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/monique-lhuillier.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/ann-sofie-back.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/corrie-nielsen.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/thakoon-addition.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/rebecca-minkoff.html has 0 or -1 assets!
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/organic-by-john-patrick.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/fashion-fringe.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/chris-benz.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/new-york/rtw/rolando-santana.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/couture/chanel.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/rue-du-mail.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/collette-dinnigan.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/julien-macdonald.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/danielle-scutt.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/new-york/rtw/perry-ellis.html has 0 or -1 assets!http://nymag.com/thecut/fashion/shows/2012/fall/london/rtw/temperley-london.html has 37 images on prod, and 21 images in JSON
+http://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/piazza-sempione.html Is a Dummy Show
+http://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/david-koma.html is not published - Returns 404 on Prod!http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/reed-krakoff.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/z-spoke-by-zac-posen.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/herve-leger.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/celine.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/new-york/rtw/improvd.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/couture/elie-saab.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/hermes.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/manish-arora.html Is a Dummy Show
+http://nymag.com/thecut/fashion/shows/2012/spring/london/rtw/basso-brooke.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/milan/rtw/alberta-ferretti.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/tibi.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/new-york/rtw/buckler.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/talbot-runhof.html Is a Dummy Show
+http://nymag.com/thecut/fashion/shows/2012/fall/milan/rtw/jil-sander.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/couture/christophe-josse.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/fall/new-york/rtw/dean-quinn.html HTTP Error 500: Internal Server Errorhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/cacharel.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/spring/paris/rtw/jean-paul-gaultier.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/new-york/rtw/jil-sander-navy.html HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/fall/new-york/rtw/kelly-wearstler.html Is a Dummy Show
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/bcbg-max-azria.html HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/zero-maria-cornejo.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/fall/new-york/rtw/suno.html has 33 images on prod, and 19 images in JSON
+http://nymag.com/thecut/fashion/shows/2013/resort/new-york/resort/sachin-babi.html HTTP Error 404: Not Foundhttp://nymag.com/thecut/fashion/shows/2012/spring/paris/couture/giambattista-valli.html HTTP Error 404: Not Found

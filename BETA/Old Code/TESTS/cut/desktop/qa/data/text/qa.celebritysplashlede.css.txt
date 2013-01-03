@@ -1,0 +1,8 @@
+html.js body#nymag.splash div#wrap-wrap div#wrap div#content div.contentPrimary div.lede div.ledeWrap div.ledeWindow
+html.js body#nymag.splash div#wrap-wrap div#wrap div#content div.contentPrimary div.lede div.ledeWrap div.ledeWindow article.ledeArticle header.ledeHeader h2.ledeHeadline a
+html.js body#nymag.splash div#wrap-wrap div#wrap div#content div.contentPrimary div.lede div.ledeWrap div.ledeWindow article.ledeArticle div.ledeImage a picture img
+html.js body#nymag.splash div#wrap-wrap div#wrap div#content div.contentPrimary div.lede div.ledeWrap div.ledeWindow article.ledeArticle header.ledeHeader span.ledeByline b a
+html.js body#nymag.splash div#wrap-wrap div#wrap div#content div.contentPrimary div.lede div.ledeWrap div.ledeWindow nav.next a
+html.js body#nymag.splash div#wrap-wrap div#wrap div#content div.contentPrimary div.lede div.ledeWrap div.ledeWindow nav.prev a
+html.js body#nymag.splash div#wrap-wrap div#wrap div#content div.contentPrimary div.lede div.ledeWrap ol.ledeMarkers li.active a
+html.js body#nymag.splash div#wrap-wrap div#wrap div#content div.contentPrimary div.lede div.ledeWrap ol.ledeMarkers li a

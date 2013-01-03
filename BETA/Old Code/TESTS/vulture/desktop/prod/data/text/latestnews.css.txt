@@ -1,0 +1,3 @@
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content section.latest-news
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content section.latest-news header h2
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content section.latest-news ul li a.permalink

@@ -1,0 +1,2085 @@
+NY MAG QA LOG FOR 11-05-2012-13:55:18
+Test: NY Mag Navigation Update - STG - NY Mag	URL: http://stg.nymetro.com/
+__________________________________________________________________________
+__________________________________________________________________________
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: chrome
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/daily/fashion/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: chrome
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: chrome
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: chrome
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: chrome
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'The element could not be found' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: chrome
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/beauty/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: chrome
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: chrome
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: chrome
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: chrome
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'The element could not be found' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: chrome
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/shopping/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: chrome
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: chrome
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: chrome
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: chrome
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'The element could not be found' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: chrome
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/fashion/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: chrome
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: chrome
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: chrome
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: chrome
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'The element could not be found' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: chrome
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/restaurants/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: chrome
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: chrome
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: chrome
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: chrome
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'The element could not be found' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: chrome
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/bestofny/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: chrome
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: chrome
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: chrome
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: chrome
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'The element could not be found' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: chrome
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/weddings/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: chrome
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: chrome
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: chrome
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: chrome
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'The element could not be found' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: chrome
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/travel/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: chrome
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: chrome
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: chrome
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: chrome
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'The element could not be found' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: chrome
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/daily/intel/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: chrome
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: chrome
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: chrome
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: chrome
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'The element could not be found' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: chrome
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/marketplace/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: chrome
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: chrome
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: chrome
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: chrome
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'The element could not be found' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: chrome
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/homedesign/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: chrome
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: chrome
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: chrome
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: chrome
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'The element could not be found' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: chrome
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/nightlife/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: chrome
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: chrome
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: chrome
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: chrome
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'The element could not be found' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: chrome
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/visitorsguide/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: chrome
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: chrome
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: chrome
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: chrome
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'The element could not be found' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: chrome
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/fashion/fashionshows/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: chrome
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: chrome
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: chrome
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: chrome
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'The element could not be found' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: chrome
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/agenda/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: chrome
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: chrome
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: chrome
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: chrome
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'The element could not be found' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: chrome
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/daily/sports/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: chrome
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: chrome
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: chrome
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: chrome
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'The element could not be found' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: chrome
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/arts/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: chrome
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: chrome
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: chrome
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: chrome
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'The element could not be found' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: chrome
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/realestate/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: chrome
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: chrome
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: chrome
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: chrome
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'The element could not be found' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: chrome
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/news/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: chrome
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: chrome
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: chrome
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: chrome
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'The element could not be found' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: chrome
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/bestdoctors/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: chrome
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: chrome
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: chrome
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: chrome
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'The element could not be found' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: chrome
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://www.nymag.com
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: chrome
+__________________________________________________________________________
+FAIL, ELEMENT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+EXCEPTION: True is not False
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: chrome
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: chrome
+__________________________________________________________________________
+PASS, ELEMENT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: chrome
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'The element could not be found' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: firefox
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/daily/fashion/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: firefox
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'Unable to locate element: {"method":"css selector","selector":"html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top\\n"}' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: firefox
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/beauty/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: firefox
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'Unable to locate element: {"method":"css selector","selector":"html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top\\n"}' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: firefox
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/shopping/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: firefox
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'Unable to locate element: {"method":"css selector","selector":"html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top\\n"}' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: firefox
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/fashion/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: firefox
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'Unable to locate element: {"method":"css selector","selector":"html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top\\n"}' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: firefox
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/restaurants/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: firefox
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'Unable to locate element: {"method":"css selector","selector":"html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top\\n"}' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: firefox
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/bestofny/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: firefox
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'Unable to locate element: {"method":"css selector","selector":"html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top\\n"}' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: firefox
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/weddings/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: firefox
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'Unable to locate element: {"method":"css selector","selector":"html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top\\n"}' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: firefox
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/travel/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: firefox
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'Unable to locate element: {"method":"css selector","selector":"html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top\\n"}' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: firefox
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/daily/intel/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: firefox
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'Unable to locate element: {"method":"css selector","selector":"html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top\\n"}' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: firefox
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/marketplace/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: firefox
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'Unable to locate element: {"method":"css selector","selector":"html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top\\n"}' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: firefox
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/homedesign/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: firefox
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'Unable to locate element: {"method":"css selector","selector":"html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top\\n"}' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: firefox
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/nightlife/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: firefox
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'Unable to locate element: {"method":"css selector","selector":"html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top\\n"}' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: firefox
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/visitorsguide/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: firefox
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'Unable to locate element: {"method":"css selector","selector":"html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top\\n"}' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: firefox
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/fashion/fashionshows/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: firefox
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'Unable to locate element: {"method":"css selector","selector":"html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top\\n"}' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: firefox
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/agenda/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: firefox
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'Unable to locate element: {"method":"css selector","selector":"html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top\\n"}' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: firefox
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/daily/sports/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: firefox
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'Unable to locate element: {"method":"css selector","selector":"html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top\\n"}' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: firefox
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/arts/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: firefox
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'Unable to locate element: {"method":"css selector","selector":"html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top\\n"}' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: firefox
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/realestate/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: firefox
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'Unable to locate element: {"method":"css selector","selector":"html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top\\n"}' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: firefox
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/news/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: firefox
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'Unable to locate element: {"method":"css selector","selector":"html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top\\n"}' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: firefox
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/bestdoctors/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: firefox
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'Unable to locate element: {"method":"css selector","selector":"html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top\\n"}' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: firefox
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://www.nymag.com
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+EXCEPTION: True is not False
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: firefox
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'Unable to locate element: {"method":"css selector","selector":"html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top\\n"}' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: firefox
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/daily/fashion/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: firefox
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'Unable to locate element: {"method":"css selector","selector":"html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top\\n"}' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: firefox
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/beauty/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: firefox
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'Unable to locate element: {"method":"css selector","selector":"html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top\\n"}' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: firefox
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/shopping/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: firefox
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'Unable to locate element: {"method":"css selector","selector":"html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top\\n"}' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: firefox
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/fashion/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: firefox
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'Unable to locate element: {"method":"css selector","selector":"html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top\\n"}' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: firefox
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/restaurants/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: firefox
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'Unable to locate element: {"method":"css selector","selector":"html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top\\n"}' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: firefox
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/bestofny/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: firefox
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'Unable to locate element: {"method":"css selector","selector":"html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top\\n"}' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: firefox
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/weddings/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: firefox
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'Unable to locate element: {"method":"css selector","selector":"html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top\\n"}' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: firefox
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/travel/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: firefox
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'Unable to locate element: {"method":"css selector","selector":"html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top\\n"}' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: firefox
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/daily/intel/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: firefox
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'Unable to locate element: {"method":"css selector","selector":"html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top\\n"}' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: firefox
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/marketplace/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: firefox
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'Unable to locate element: {"method":"css selector","selector":"html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top\\n"}' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: firefox
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/homedesign/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: firefox
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'Unable to locate element: {"method":"css selector","selector":"html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top\\n"}' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: firefox
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/nightlife/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: firefox
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'Unable to locate element: {"method":"css selector","selector":"html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top\\n"}' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: firefox
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/visitorsguide/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: firefox
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'Unable to locate element: {"method":"css selector","selector":"html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top\\n"}' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: firefox
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/fashion/fashionshows/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: firefox
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'Unable to locate element: {"method":"css selector","selector":"html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top\\n"}' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: firefox
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/agenda/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: firefox
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'Unable to locate element: {"method":"css selector","selector":"html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top\\n"}' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: firefox
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/daily/sports/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: firefox
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'Unable to locate element: {"method":"css selector","selector":"html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top\\n"}' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: firefox
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/arts/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: firefox
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'Unable to locate element: {"method":"css selector","selector":"html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top\\n"}' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: firefox
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/realestate/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: firefox
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'Unable to locate element: {"method":"css selector","selector":"html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top\\n"}' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: firefox
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/news/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: firefox
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'Unable to locate element: {"method":"css selector","selector":"html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top\\n"}' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: firefox
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://stg.nymetro.com/bestdoctors/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: firefox
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'Unable to locate element: {"method":"css selector","selector":"html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top\\n"}' 
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: firefox
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://www.nymag.com
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+EXCEPTION: True is not False
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+FAIL, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+EXCEPTION: False is not True
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: firefox
+__________________________________________________________________________
+FAIL, CANNOT GET TITLE
+http://stg.nymetro.com/
+EXCEPTION: Message: u'Unable to locate element: {"method":"css selector","selector":"html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top\\n"}' 
+__________________________________________________________________________
+__________________________________________________________________________

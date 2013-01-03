@@ -1,0 +1,14 @@
+(lp0
+Vhttp://nymag.com
+p1
+aVhttp://www.vulture.com
+p2
+aVhttp://nymag.com/daily/intel/
+p3
+aVhttp://nymag.com/daily/fashion/
+p4
+aVhttp://newyork.grubstreet.com
+p5
+aVhttp://nymag.com/daily/sports/
+p6
+a.

@@ -1,0 +1,17 @@
+html.js body section#partner-feeds.partner-feeds
+html.js body section#partner-feeds.partner-feeds header h3
+html.js body section#partner-feeds.partner-feeds div.row div#wonderwall.content
+html.js body section#partner-feeds.partner-feeds div.row div#wonderwall.content header h5 a img
+html.js body section#partner-feeds.partner-feeds div.row div#wonderwall.content ul li a
+html.js body section#partner-feeds.partner-feeds div.row div#thehollywoodreporter.content
+html.js body section#partner-feeds.partner-feeds div.row div#thehollywoodreporter.content header h5 a img
+html.js body section#partner-feeds.partner-feeds div.row div#thehollywoodreporter.content ul li a
+html.js body section#partner-feeds.partner-feeds div.row div#huffposttv.content
+html.js body section#partner-feeds.partner-feeds div.row div#huffposttv.content header h5 a img
+html.js body section#partner-feeds.partner-feeds div.row div#huffposttv.content ul li a
+html.js body section#partner-feeds.partner-feeds div.row div#celebuzz.content
+html.js body section#partner-feeds.partner-feeds div.row div#celebuzz.content header h5 a img
+html.js body section#partner-feeds.partner-feeds div.row div#celebuzz.content ul li a
+html.js body section#partner-feeds.partner-feeds div.row div#moviefone.content
+html.js body section#partner-feeds.partner-feeds div.row div#moviefone.content header h5 a img
+html.js body section#partner-feeds.partner-feeds div.row div#moviefone.content ul li a

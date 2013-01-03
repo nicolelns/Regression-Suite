@@ -1,0 +1,323 @@
+11:56:34.825 INFO [11] org.openqa.selenium.remote.server.DriverServlet - Executing: [new session: {platform=WINDOWS, javascriptEnabled=true, browserName=internet explorer, proxy={noProxy=null, httpProxy=loca..., version=}] at URL: /session)
+11:56:34.947 WARN [11] org.openqa.selenium.remote.server.DriverServlet - Exception thrown
+java.util.concurrent.ExecutionException: org.openqa.selenium.WebDriverException: java.lang.reflect.InvocationTargetException
+Build info: version: '2.20.0', revision: '16008', time: '2012-02-27 19:03:04'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.6.8', java.version: '1.6.0_31'
+Driver info: driver.version: unknown
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:222)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:83)
+	at org.openqa.selenium.remote.server.DefaultSession.execute(DefaultSession.java:139)
+	at org.openqa.selenium.remote.server.DefaultSession.<init>(DefaultSession.java:108)
+	at org.openqa.selenium.remote.server.DefaultSession.createSession(DefaultSession.java:86)
+	at org.openqa.selenium.remote.server.DefaultDriverSessions.newSession(DefaultDriverSessions.java:87)
+	at org.openqa.selenium.remote.server.handler.NewSession.handle(NewSession.java:62)
+	at org.openqa.selenium.remote.server.rest.ResultConfig.handle(ResultConfig.java:196)
+	at org.openqa.selenium.remote.server.DriverServlet.handleRequest(DriverServlet.java:580)
+	at org.openqa.selenium.remote.server.DriverServlet.doPost(DriverServlet.java:531)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.openqa.selenium.remote.server.DriverServlet.service(DriverServlet.java:503)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.openqa.jetty.jetty.servlet.ServletHolder.handle(ServletHolder.java:428)
+	at org.openqa.jetty.jetty.servlet.ServletHandler.dispatch(ServletHandler.java:677)
+	at org.openqa.jetty.jetty.servlet.ServletHandler.handle(ServletHandler.java:568)
+	at org.openqa.jetty.http.HttpContext.handle(HttpContext.java:1530)
+	at org.openqa.jetty.http.HttpContext.handle(HttpContext.java:1482)
+	at org.openqa.jetty.http.HttpServer.service(HttpServer.java:909)
+	at org.openqa.jetty.http.HttpConnection.service(HttpConnection.java:820)
+	at org.openqa.jetty.http.HttpConnection.handleNext(HttpConnection.java:986)
+	at org.openqa.jetty.http.HttpConnection.handle(HttpConnection.java:837)
+	at org.openqa.jetty.http.SocketListener.handleConnection(SocketListener.java:243)
+	at org.openqa.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at org.openqa.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+Caused by: org.openqa.selenium.WebDriverException: java.lang.reflect.InvocationTargetException
+Build info: version: '2.20.0', revision: '16008', time: '2012-02-27 19:03:04'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.6.8', java.version: '1.6.0_31'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.server.DefaultDriverFactory.callConstructor(DefaultDriverFactory.java:73)
+	at org.openqa.selenium.remote.server.DefaultDriverFactory.newInstance(DefaultDriverFactory.java:57)
+	at org.openqa.selenium.remote.server.DefaultSession$BrowserCreator.call(DefaultSession.java:177)
+	at org.openqa.selenium.remote.server.DefaultSession$BrowserCreator.call(DefaultSession.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:680)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.server.DefaultDriverFactory.callConstructor(DefaultDriverFactory.java:63)
+	... 8 more
+Caused by: com.opera.core.systems.runner.OperaRunnerException: Invalid file path: null
+	at com.opera.core.systems.runner.OperaRunnerSettings.setBinary(OperaRunnerSettings.java:86)
+	at com.opera.core.systems.OperaDriver.<init>(OperaDriver.java:295)
+	... 13 more
+11:56:34.952 WARN [11] org.openqa.selenium.remote.server.DriverServlet - Exception: Invalid file path: null
+11:56:34.997 INFO [11] org.openqa.selenium.remote.server.DriverServlet - Executing: [new session: {platform=WINDOWS, javascriptEnabled=true, browserName=internet explorer, proxy={noProxy=null, httpProxy=loca..., version=}] at URL: /session)
+11:56:35.000 WARN [11] org.openqa.selenium.remote.server.DriverServlet - Exception thrown
+java.util.concurrent.ExecutionException: org.openqa.selenium.WebDriverException: java.lang.reflect.InvocationTargetException
+Build info: version: '2.20.0', revision: '16008', time: '2012-02-27 19:03:04'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.6.8', java.version: '1.6.0_31'
+Driver info: driver.version: unknown
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:222)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:83)
+	at org.openqa.selenium.remote.server.DefaultSession.execute(DefaultSession.java:139)
+	at org.openqa.selenium.remote.server.DefaultSession.<init>(DefaultSession.java:108)
+	at org.openqa.selenium.remote.server.DefaultSession.createSession(DefaultSession.java:86)
+	at org.openqa.selenium.remote.server.DefaultDriverSessions.newSession(DefaultDriverSessions.java:87)
+	at org.openqa.selenium.remote.server.handler.NewSession.handle(NewSession.java:62)
+	at org.openqa.selenium.remote.server.rest.ResultConfig.handle(ResultConfig.java:196)
+	at org.openqa.selenium.remote.server.DriverServlet.handleRequest(DriverServlet.java:580)
+	at org.openqa.selenium.remote.server.DriverServlet.doPost(DriverServlet.java:531)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.openqa.selenium.remote.server.DriverServlet.service(DriverServlet.java:503)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.openqa.jetty.jetty.servlet.ServletHolder.handle(ServletHolder.java:428)
+	at org.openqa.jetty.jetty.servlet.ServletHandler.dispatch(ServletHandler.java:677)
+	at org.openqa.jetty.jetty.servlet.ServletHandler.handle(ServletHandler.java:568)
+	at org.openqa.jetty.http.HttpContext.handle(HttpContext.java:1530)
+	at org.openqa.jetty.http.HttpContext.handle(HttpContext.java:1482)
+	at org.openqa.jetty.http.HttpServer.service(HttpServer.java:909)
+	at org.openqa.jetty.http.HttpConnection.service(HttpConnection.java:820)
+	at org.openqa.jetty.http.HttpConnection.handleNext(HttpConnection.java:986)
+	at org.openqa.jetty.http.HttpConnection.handle(HttpConnection.java:837)
+	at org.openqa.jetty.http.SocketListener.handleConnection(SocketListener.java:243)
+	at org.openqa.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at org.openqa.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+Caused by: org.openqa.selenium.WebDriverException: java.lang.reflect.InvocationTargetException
+Build info: version: '2.20.0', revision: '16008', time: '2012-02-27 19:03:04'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.6.8', java.version: '1.6.0_31'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.server.DefaultDriverFactory.callConstructor(DefaultDriverFactory.java:73)
+	at org.openqa.selenium.remote.server.DefaultDriverFactory.newInstance(DefaultDriverFactory.java:57)
+	at org.openqa.selenium.remote.server.DefaultSession$BrowserCreator.call(DefaultSession.java:177)
+	at org.openqa.selenium.remote.server.DefaultSession$BrowserCreator.call(DefaultSession.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:680)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.server.DefaultDriverFactory.callConstructor(DefaultDriverFactory.java:63)
+	... 8 more
+Caused by: com.opera.core.systems.runner.OperaRunnerException: Invalid file path: null
+	at com.opera.core.systems.runner.OperaRunnerSettings.setBinary(OperaRunnerSettings.java:86)
+	at com.opera.core.systems.OperaDriver.<init>(OperaDriver.java:295)
+	... 13 more
+11:56:35.003 WARN [11] org.openqa.selenium.remote.server.DriverServlet - Exception: Invalid file path: null
+11:56:35.556 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: getNewBrowserSession[*safari, http://qa.nymetro.com/daily/intel/2012/04/test-for-eve-vl-191.html, ] on session null
+11:56:35.558 INFO [11] org.openqa.selenium.server.BrowserSessionFactory - creating new remote session
+11:56:35.634 INFO [11] org.openqa.selenium.server.BrowserSessionFactory - Allocated session fd348cabaf8d48ae95f297b853db148e for http://qa.nymetro.com/daily/intel/2012/04/test-for-eve-vl-191.html, launching...
+11:56:35.634 INFO [11] org.openqa.selenium.server.ProxyHandler - Creating 16 fake SSL servers for browser side logging
+11:56:39.645 WARN [11] org.openqa.selenium.net.Urls - It looks like your baseUrl (http://qa.nymetro.com/daily/intel/2012/04/test-for-eve-vl-191.html) is pointing to a file, not a directory (it doesn't end with a /).  We're going to have to strip off the last part of the pathname.
+11:56:39.677 INFO [11] org.openqa.selenium.server.browserlaunchers.SafariCustomProfileLauncher - Launching Safari to visit 'file:/var/folders/pn/pnGYh9PmGy8wIsRQfJWn6pQod9E/-Tmp-/customProfileDirfd348cabaf8d48ae95f297b853db148e/core/RemoteRunner.html?sessionId=fd348cabaf8d48ae95f297b853db148e&multiWindow=true&baseUrl=http%3A%2F%2Fqa.nymetro.com%2Fdaily%2Fintel%2F2012%2F04%2Ftest-for-eve-vl-191.html&debugMode=true&driverUrl=http://localhost:4444/selenium-server/driver/' via '/var/folders/pn/pnGYh9PmGy8wIsRQfJWn6pQod9E/-Tmp-/customProfileDirfd348cabaf8d48ae95f297b853db148e/redirect_to_go_to_selenium.htm'...
+11:56:42.274 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK,fd348cabaf8d48ae95f297b853db148e on session fd348cabaf8d48ae95f297b853db148e
+11:56:42.277 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: open[http://qa.nymetro.com/daily/intel/2012/04/test-for-eve-vl-191.html, True] on session fd348cabaf8d48ae95f297b853db148e
+11:56:47.921 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session fd348cabaf8d48ae95f297b853db148e
+11:56:47.924 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: waitForPageToLoad[50000, ] on session fd348cabaf8d48ae95f297b853db148e
+11:56:47.936 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session fd348cabaf8d48ae95f297b853db148e
+11:56:47.939 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: isElementPresent[css=html.js body#nymag.daily div#wrap-wrap div#wrap div#content.content-short div#content-wrap-1.content-wrap div.content-primary article#entry-116096.entry div.par div.relatedstories2 div.related-story-wrap div.related-story, ] on session fd348cabaf8d48ae95f297b853db148e
+11:56:47.948 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK,true on session fd348cabaf8d48ae95f297b853db148e
+11:56:47.951 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: isElementPresent[css=html.js body#nymag.daily div#wrap-wrap div#wrap div#content.content-short div#content-wrap-1.content-wrap div.content-primary article#entry-116096.entry div.par div.relatedstories2 div.related-story-wrap div.related-story a, ] on session fd348cabaf8d48ae95f297b853db148e
+11:56:47.959 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK,true on session fd348cabaf8d48ae95f297b853db148e
+11:56:47.962 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: isElementPresent[css=html.js body#nymag.daily div#wrap-wrap div#wrap div#content.content-short div#content-wrap-1.content-wrap div.content-primary article#entry-116096.entry div.par div.relatedstories2 div.related-story-wrap div.related-story h6, ] on session fd348cabaf8d48ae95f297b853db148e
+11:56:47.970 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK,true on session fd348cabaf8d48ae95f297b853db148e
+11:56:47.972 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: isElementPresent[css=html.js body#nymag.daily div#wrap-wrap div#wrap div#content.content-short div#content-wrap-1.content-wrap div.content-primary article#entry-116096.entry div.par div.relatedstories2 div.related-story-wrap div.related-story div.image a img, ] on session fd348cabaf8d48ae95f297b853db148e
+11:56:47.981 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK,true on session fd348cabaf8d48ae95f297b853db148e
+11:56:47.985 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: testComplete[, ] on session fd348cabaf8d48ae95f297b853db148e
+11:56:47.986 INFO [11] org.openqa.selenium.server.browserlaunchers.SafariCustomProfileLauncher - Killing Safari...
+11:56:48.037 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session fd348cabaf8d48ae95f297b853db148e
+11:56:48.040 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: getNewBrowserSession[*safari, http://qa.nymetro.com/daily/intel/2012/04/test-for-eve-vl-191.html, ] on session null
+11:56:48.040 INFO [11] org.openqa.selenium.server.BrowserSessionFactory - creating new remote session
+11:56:48.041 INFO [11] org.openqa.selenium.server.BrowserSessionFactory - Allocated session b03d507de5e14552ac524d8266ec0ca9 for http://qa.nymetro.com/daily/intel/2012/04/test-for-eve-vl-191.html, launching...
+11:56:48.041 WARN [11] org.openqa.selenium.net.Urls - It looks like your baseUrl (http://qa.nymetro.com/daily/intel/2012/04/test-for-eve-vl-191.html) is pointing to a file, not a directory (it doesn't end with a /).  We're going to have to strip off the last part of the pathname.
+11:56:48.076 INFO [11] org.openqa.selenium.server.browserlaunchers.SafariCustomProfileLauncher - Launching Safari to visit 'file:/var/folders/pn/pnGYh9PmGy8wIsRQfJWn6pQod9E/-Tmp-/customProfileDirb03d507de5e14552ac524d8266ec0ca9/core/RemoteRunner.html?sessionId=b03d507de5e14552ac524d8266ec0ca9&multiWindow=true&baseUrl=http%3A%2F%2Fqa.nymetro.com%2Fdaily%2Fintel%2F2012%2F04%2Ftest-for-eve-vl-191.html&debugMode=true&driverUrl=http://localhost:4444/selenium-server/driver/' via '/var/folders/pn/pnGYh9PmGy8wIsRQfJWn6pQod9E/-Tmp-/customProfileDirb03d507de5e14552ac524d8266ec0ca9/redirect_to_go_to_selenium.htm'...
+11:56:50.011 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK,b03d507de5e14552ac524d8266ec0ca9 on session b03d507de5e14552ac524d8266ec0ca9
+11:56:50.015 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: open[http://qa.nymetro.com/daily/intel/2012/04/test-for-eve-vl-191.html, True] on session b03d507de5e14552ac524d8266ec0ca9
+11:56:52.654 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session b03d507de5e14552ac524d8266ec0ca9
+11:56:52.657 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: waitForPageToLoad[50000, ] on session b03d507de5e14552ac524d8266ec0ca9
+11:56:52.670 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session b03d507de5e14552ac524d8266ec0ca9
+11:56:52.675 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: click[//a[@href='http://qa.nymetro.com/daily/intel/2011/11/governor-sam-brownback-staff-freaked-out.html'], ] on session b03d507de5e14552ac524d8266ec0ca9
+11:56:52.696 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session b03d507de5e14552ac524d8266ec0ca9
+11:56:52.699 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: waitForPageToLoad[50000, ] on session b03d507de5e14552ac524d8266ec0ca9
+11:57:39.843 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session b03d507de5e14552ac524d8266ec0ca9
+11:57:39.845 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: goBack[, ] on session b03d507de5e14552ac524d8266ec0ca9
+11:57:39.857 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session b03d507de5e14552ac524d8266ec0ca9
+11:57:39.860 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: waitForPageToLoad[50000, ] on session b03d507de5e14552ac524d8266ec0ca9
+11:57:42.309 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session b03d507de5e14552ac524d8266ec0ca9
+11:57:42.311 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: click[//img[@src='Governor Sam Brownback Staff Freaked Out '], ] on session b03d507de5e14552ac524d8266ec0ca9
+11:57:42.323 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: ERROR: Element //img[@src='Governor Sam Brownback Staff Freaked Out '] not found on session b03d507de5e14552ac524d8266ec0ca9
+11:57:42.326 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: click[//a[@href='http://qa.nymetro.com/daily/intel/2011/11/taking-mitt-romney-out-of-context.html'], ] on session b03d507de5e14552ac524d8266ec0ca9
+11:57:42.390 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session b03d507de5e14552ac524d8266ec0ca9
+11:57:42.392 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: waitForPageToLoad[50000, ] on session b03d507de5e14552ac524d8266ec0ca9
+11:57:47.686 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session b03d507de5e14552ac524d8266ec0ca9
+11:57:47.689 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: goBack[, ] on session b03d507de5e14552ac524d8266ec0ca9
+11:57:47.701 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session b03d507de5e14552ac524d8266ec0ca9
+11:57:47.704 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: waitForPageToLoad[50000, ] on session b03d507de5e14552ac524d8266ec0ca9
+11:57:50.252 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session b03d507de5e14552ac524d8266ec0ca9
+11:57:50.254 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: click[//img[@src='Mitt Romney: ‘There Is Nothing Unique About the United States’'], ] on session b03d507de5e14552ac524d8266ec0ca9
+11:57:50.268 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: ERROR: Element //img[@src='Mitt Romney: ‘There Is Nothing Unique About the United States’'] not found on session b03d507de5e14552ac524d8266ec0ca9
+11:57:50.275 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: testComplete[, ] on session b03d507de5e14552ac524d8266ec0ca9
+11:57:50.276 INFO [11] org.openqa.selenium.server.browserlaunchers.SafariCustomProfileLauncher - Killing Safari...
+11:57:50.326 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session b03d507de5e14552ac524d8266ec0ca9
+11:57:50.333 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: getNewBrowserSession[*safari, http://qa.nymetro.com/daily/intel/2012/04/test-for-eve-vl-191.html, ] on session null
+11:57:50.353 INFO [11] org.openqa.selenium.server.BrowserSessionFactory - creating new remote session
+11:57:50.364 INFO [11] org.openqa.selenium.server.BrowserSessionFactory - Allocated session 7d2f96b41fa645919130eee796c68f96 for http://qa.nymetro.com/daily/intel/2012/04/test-for-eve-vl-191.html, launching...
+11:57:50.364 WARN [11] org.openqa.selenium.net.Urls - It looks like your baseUrl (http://qa.nymetro.com/daily/intel/2012/04/test-for-eve-vl-191.html) is pointing to a file, not a directory (it doesn't end with a /).  We're going to have to strip off the last part of the pathname.
+11:57:50.793 INFO [11] org.openqa.selenium.server.browserlaunchers.SafariCustomProfileLauncher - Launching Safari to visit 'file:/var/folders/pn/pnGYh9PmGy8wIsRQfJWn6pQod9E/-Tmp-/customProfileDir7d2f96b41fa645919130eee796c68f96/core/RemoteRunner.html?sessionId=7d2f96b41fa645919130eee796c68f96&multiWindow=true&baseUrl=http%3A%2F%2Fqa.nymetro.com%2Fdaily%2Fintel%2F2012%2F04%2Ftest-for-eve-vl-191.html&debugMode=true&driverUrl=http://localhost:4444/selenium-server/driver/' via '/var/folders/pn/pnGYh9PmGy8wIsRQfJWn6pQod9E/-Tmp-/customProfileDir7d2f96b41fa645919130eee796c68f96/redirect_to_go_to_selenium.htm'...
+11:57:52.871 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK,7d2f96b41fa645919130eee796c68f96 on session 7d2f96b41fa645919130eee796c68f96
+11:57:52.874 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: open[http://qa.nymetro.com/daily/intel/2012/04/test-for-eve-vl-191.html, True] on session 7d2f96b41fa645919130eee796c68f96
+11:57:57.725 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session 7d2f96b41fa645919130eee796c68f96
+11:57:57.728 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: waitForPageToLoad[50000, ] on session 7d2f96b41fa645919130eee796c68f96
+11:57:57.738 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session 7d2f96b41fa645919130eee796c68f96
+11:57:57.741 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: isElementPresent[css=html.js body#nymag.daily div#wrap-wrap div#wrap div#content.content-short div#content-wrap-1.content-wrap div.content-primary article#entry-116096.entry div.par div.relatedstories2 div.related-story-wrap div.related-story, ] on session 7d2f96b41fa645919130eee796c68f96
+11:57:57.747 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK,true on session 7d2f96b41fa645919130eee796c68f96
+11:57:57.760 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: isElementPresent[css=html.js body#nymag.daily div#wrap-wrap div#wrap div#content.content-short div#content-wrap-1.content-wrap div.content-primary article#entry-116096.entry div.par div.relatedstories2 div.related-story-wrap div.related-story a, ] on session 7d2f96b41fa645919130eee796c68f96
+11:57:57.767 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK,true on session 7d2f96b41fa645919130eee796c68f96
+11:57:57.770 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: isElementPresent[css=html.js body#nymag.daily div#wrap-wrap div#wrap div#content.content-short div#content-wrap-1.content-wrap div.content-primary article#entry-116096.entry div.par div.relatedstories2 div.related-story-wrap div.related-story h6, ] on session 7d2f96b41fa645919130eee796c68f96
+11:57:57.776 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK,true on session 7d2f96b41fa645919130eee796c68f96
+11:57:57.779 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: isElementPresent[css=html.js body#nymag.daily div#wrap-wrap div#wrap div#content.content-short div#content-wrap-1.content-wrap div.content-primary article#entry-116096.entry div.par div.relatedstories2 div.related-story-wrap div.related-story div.image a img, ] on session 7d2f96b41fa645919130eee796c68f96
+11:57:57.784 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK,true on session 7d2f96b41fa645919130eee796c68f96
+11:57:57.787 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: testComplete[, ] on session 7d2f96b41fa645919130eee796c68f96
+11:57:57.787 INFO [11] org.openqa.selenium.server.browserlaunchers.SafariCustomProfileLauncher - Killing Safari...
+11:57:57.838 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session 7d2f96b41fa645919130eee796c68f96
+11:57:57.840 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: getNewBrowserSession[*safari, http://qa.nymetro.com/daily/intel/2012/04/test-for-eve-vl-191.html, ] on session null
+11:57:57.840 INFO [11] org.openqa.selenium.server.BrowserSessionFactory - creating new remote session
+11:57:57.842 INFO [11] org.openqa.selenium.server.BrowserSessionFactory - Allocated session a9488d7073f744fbb2aef9e07b5cff2d for http://qa.nymetro.com/daily/intel/2012/04/test-for-eve-vl-191.html, launching...
+11:57:57.842 WARN [11] org.openqa.selenium.net.Urls - It looks like your baseUrl (http://qa.nymetro.com/daily/intel/2012/04/test-for-eve-vl-191.html) is pointing to a file, not a directory (it doesn't end with a /).  We're going to have to strip off the last part of the pathname.
+11:57:57.876 INFO [11] org.openqa.selenium.server.browserlaunchers.SafariCustomProfileLauncher - Launching Safari to visit 'file:/var/folders/pn/pnGYh9PmGy8wIsRQfJWn6pQod9E/-Tmp-/customProfileDira9488d7073f744fbb2aef9e07b5cff2d/core/RemoteRunner.html?sessionId=a9488d7073f744fbb2aef9e07b5cff2d&multiWindow=true&baseUrl=http%3A%2F%2Fqa.nymetro.com%2Fdaily%2Fintel%2F2012%2F04%2Ftest-for-eve-vl-191.html&debugMode=true&driverUrl=http://localhost:4444/selenium-server/driver/' via '/var/folders/pn/pnGYh9PmGy8wIsRQfJWn6pQod9E/-Tmp-/customProfileDira9488d7073f744fbb2aef9e07b5cff2d/redirect_to_go_to_selenium.htm'...
+11:57:59.800 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK,a9488d7073f744fbb2aef9e07b5cff2d on session a9488d7073f744fbb2aef9e07b5cff2d
+11:57:59.803 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: open[http://qa.nymetro.com/daily/intel/2012/04/test-for-eve-vl-191.html, True] on session a9488d7073f744fbb2aef9e07b5cff2d
+11:58:02.426 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session a9488d7073f744fbb2aef9e07b5cff2d
+11:58:02.429 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: waitForPageToLoad[50000, ] on session a9488d7073f744fbb2aef9e07b5cff2d
+11:58:02.438 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session a9488d7073f744fbb2aef9e07b5cff2d
+11:58:02.441 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: click[//a[@href='http://qa.nymetro.com/daily/intel/2011/11/governor-sam-brownback-staff-freaked-out.html'], ] on session a9488d7073f744fbb2aef9e07b5cff2d
+11:58:02.459 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session a9488d7073f744fbb2aef9e07b5cff2d
+11:58:02.462 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: waitForPageToLoad[50000, ] on session a9488d7073f744fbb2aef9e07b5cff2d
+11:58:10.719 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session a9488d7073f744fbb2aef9e07b5cff2d
+11:58:10.721 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: goBack[, ] on session a9488d7073f744fbb2aef9e07b5cff2d
+11:58:10.734 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session a9488d7073f744fbb2aef9e07b5cff2d
+11:58:10.736 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: waitForPageToLoad[50000, ] on session a9488d7073f744fbb2aef9e07b5cff2d
+11:58:12.638 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session a9488d7073f744fbb2aef9e07b5cff2d
+11:58:12.640 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: click[//img[@src='Governor Sam Brownback Staff Freaked Out '], ] on session a9488d7073f744fbb2aef9e07b5cff2d
+11:58:12.650 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: ERROR: Element //img[@src='Governor Sam Brownback Staff Freaked Out '] not found on session a9488d7073f744fbb2aef9e07b5cff2d
+11:58:12.652 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: click[//a[@href='http://qa.nymetro.com/daily/intel/2011/11/taking-mitt-romney-out-of-context.html'], ] on session a9488d7073f744fbb2aef9e07b5cff2d
+11:58:12.767 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session a9488d7073f744fbb2aef9e07b5cff2d
+11:58:12.769 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: waitForPageToLoad[50000, ] on session a9488d7073f744fbb2aef9e07b5cff2d
+11:58:16.725 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session a9488d7073f744fbb2aef9e07b5cff2d
+11:58:16.727 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: goBack[, ] on session a9488d7073f744fbb2aef9e07b5cff2d
+11:58:16.739 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session a9488d7073f744fbb2aef9e07b5cff2d
+11:58:16.742 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: waitForPageToLoad[50000, ] on session a9488d7073f744fbb2aef9e07b5cff2d
+11:58:19.171 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session a9488d7073f744fbb2aef9e07b5cff2d
+11:58:19.173 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: click[//img[@src='Mitt Romney: ‘There Is Nothing Unique About the United States’'], ] on session a9488d7073f744fbb2aef9e07b5cff2d
+11:58:19.185 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: ERROR: Element //img[@src='Mitt Romney: ‘There Is Nothing Unique About the United States’'] not found on session a9488d7073f744fbb2aef9e07b5cff2d
+11:58:19.190 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: testComplete[, ] on session a9488d7073f744fbb2aef9e07b5cff2d
+11:58:19.191 INFO [11] org.openqa.selenium.server.browserlaunchers.SafariCustomProfileLauncher - Killing Safari...
+11:58:19.242 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session a9488d7073f744fbb2aef9e07b5cff2d
+11:58:19.244 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: getNewBrowserSession[*safari, http://qa.nymetro.com/daily/intel/2012/04/test-for-eve-vl-191.html, ] on session null
+11:58:19.245 INFO [11] org.openqa.selenium.server.BrowserSessionFactory - creating new remote session
+11:58:19.260 INFO [11] org.openqa.selenium.server.BrowserSessionFactory - Allocated session cef73810a7fa444296bca37fda7bd318 for http://qa.nymetro.com/daily/intel/2012/04/test-for-eve-vl-191.html, launching...
+11:58:19.260 WARN [11] org.openqa.selenium.net.Urls - It looks like your baseUrl (http://qa.nymetro.com/daily/intel/2012/04/test-for-eve-vl-191.html) is pointing to a file, not a directory (it doesn't end with a /).  We're going to have to strip off the last part of the pathname.
+11:58:19.296 INFO [11] org.openqa.selenium.server.browserlaunchers.SafariCustomProfileLauncher - Launching Safari to visit 'file:/var/folders/pn/pnGYh9PmGy8wIsRQfJWn6pQod9E/-Tmp-/customProfileDircef73810a7fa444296bca37fda7bd318/core/RemoteRunner.html?sessionId=cef73810a7fa444296bca37fda7bd318&multiWindow=true&baseUrl=http%3A%2F%2Fqa.nymetro.com%2Fdaily%2Fintel%2F2012%2F04%2Ftest-for-eve-vl-191.html&debugMode=true&driverUrl=http://localhost:4444/selenium-server/driver/' via '/var/folders/pn/pnGYh9PmGy8wIsRQfJWn6pQod9E/-Tmp-/customProfileDircef73810a7fa444296bca37fda7bd318/redirect_to_go_to_selenium.htm'...
+11:58:21.266 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK,cef73810a7fa444296bca37fda7bd318 on session cef73810a7fa444296bca37fda7bd318
+11:58:21.269 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: open[http://qa.nymetro.com/daily/intel/2012/04/test-for-eve-vl-191.html, True] on session cef73810a7fa444296bca37fda7bd318
+11:58:25.763 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session cef73810a7fa444296bca37fda7bd318
+11:58:25.766 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: waitForPageToLoad[50000, ] on session cef73810a7fa444296bca37fda7bd318
+11:58:25.776 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session cef73810a7fa444296bca37fda7bd318
+11:58:25.779 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: isElementPresent[css=html.js body#nymag.daily div#wrap-wrap div#wrap div#content.content-short div#content-wrap-1.content-wrap div.content-primary article#entry-116096.entry div.par div.relatedstories2 div.related-story-wrap div.related-story, ] on session cef73810a7fa444296bca37fda7bd318
+11:58:25.787 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK,true on session cef73810a7fa444296bca37fda7bd318
+11:58:25.791 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: isElementPresent[css=html.js body#nymag.daily div#wrap-wrap div#wrap div#content.content-short div#content-wrap-1.content-wrap div.content-primary article#entry-116096.entry div.par div.relatedstories2 div.related-story-wrap div.related-story a, ] on session cef73810a7fa444296bca37fda7bd318
+11:58:25.798 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK,true on session cef73810a7fa444296bca37fda7bd318
+11:58:25.811 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: isElementPresent[css=html.js body#nymag.daily div#wrap-wrap div#wrap div#content.content-short div#content-wrap-1.content-wrap div.content-primary article#entry-116096.entry div.par div.relatedstories2 div.related-story-wrap div.related-story h6, ] on session cef73810a7fa444296bca37fda7bd318
+11:58:25.818 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK,true on session cef73810a7fa444296bca37fda7bd318
+11:58:25.820 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: isElementPresent[css=html.js body#nymag.daily div#wrap-wrap div#wrap div#content.content-short div#content-wrap-1.content-wrap div.content-primary article#entry-116096.entry div.par div.relatedstories2 div.related-story-wrap div.related-story div.image a img, ] on session cef73810a7fa444296bca37fda7bd318
+11:58:25.826 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK,true on session cef73810a7fa444296bca37fda7bd318
+11:58:25.830 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: testComplete[, ] on session cef73810a7fa444296bca37fda7bd318
+11:58:25.830 INFO [11] org.openqa.selenium.server.browserlaunchers.SafariCustomProfileLauncher - Killing Safari...
+11:58:25.881 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session cef73810a7fa444296bca37fda7bd318
+11:58:25.883 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: getNewBrowserSession[*safari, http://qa.nymetro.com/daily/intel/2012/04/test-for-eve-vl-191.html, ] on session null
+11:58:25.883 INFO [11] org.openqa.selenium.server.BrowserSessionFactory - creating new remote session
+11:58:25.903 INFO [11] org.openqa.selenium.server.BrowserSessionFactory - Allocated session f495cdc6fe64410ebf2a9736d9c160c9 for http://qa.nymetro.com/daily/intel/2012/04/test-for-eve-vl-191.html, launching...
+11:58:25.903 WARN [11] org.openqa.selenium.net.Urls - It looks like your baseUrl (http://qa.nymetro.com/daily/intel/2012/04/test-for-eve-vl-191.html) is pointing to a file, not a directory (it doesn't end with a /).  We're going to have to strip off the last part of the pathname.
+11:58:25.939 INFO [11] org.openqa.selenium.server.browserlaunchers.SafariCustomProfileLauncher - Launching Safari to visit 'file:/var/folders/pn/pnGYh9PmGy8wIsRQfJWn6pQod9E/-Tmp-/customProfileDirf495cdc6fe64410ebf2a9736d9c160c9/core/RemoteRunner.html?sessionId=f495cdc6fe64410ebf2a9736d9c160c9&multiWindow=true&baseUrl=http%3A%2F%2Fqa.nymetro.com%2Fdaily%2Fintel%2F2012%2F04%2Ftest-for-eve-vl-191.html&debugMode=true&driverUrl=http://localhost:4444/selenium-server/driver/' via '/var/folders/pn/pnGYh9PmGy8wIsRQfJWn6pQod9E/-Tmp-/customProfileDirf495cdc6fe64410ebf2a9736d9c160c9/redirect_to_go_to_selenium.htm'...
+11:58:27.879 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK,f495cdc6fe64410ebf2a9736d9c160c9 on session f495cdc6fe64410ebf2a9736d9c160c9
+11:58:27.882 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: open[http://qa.nymetro.com/daily/intel/2012/04/test-for-eve-vl-191.html, True] on session f495cdc6fe64410ebf2a9736d9c160c9
+11:58:30.582 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session f495cdc6fe64410ebf2a9736d9c160c9
+11:58:30.584 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: waitForPageToLoad[50000, ] on session f495cdc6fe64410ebf2a9736d9c160c9
+11:58:30.593 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session f495cdc6fe64410ebf2a9736d9c160c9
+11:58:30.596 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: click[//a[@href='http://qa.nymetro.com/daily/intel/2011/11/governor-sam-brownback-staff-freaked-out.html'], ] on session f495cdc6fe64410ebf2a9736d9c160c9
+11:58:30.613 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session f495cdc6fe64410ebf2a9736d9c160c9
+11:58:30.616 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: waitForPageToLoad[50000, ] on session f495cdc6fe64410ebf2a9736d9c160c9
+11:58:33.362 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session f495cdc6fe64410ebf2a9736d9c160c9
+11:58:33.364 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: goBack[, ] on session f495cdc6fe64410ebf2a9736d9c160c9
+11:58:33.376 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session f495cdc6fe64410ebf2a9736d9c160c9
+11:58:33.378 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: waitForPageToLoad[50000, ] on session f495cdc6fe64410ebf2a9736d9c160c9
+11:58:35.592 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session f495cdc6fe64410ebf2a9736d9c160c9
+11:58:35.594 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: click[//img[@src='Governor Sam Brownback Staff Freaked Out '], ] on session f495cdc6fe64410ebf2a9736d9c160c9
+11:58:35.606 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: ERROR: Element //img[@src='Governor Sam Brownback Staff Freaked Out '] not found on session f495cdc6fe64410ebf2a9736d9c160c9
+11:58:35.608 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: click[//a[@href='http://qa.nymetro.com/daily/intel/2011/11/taking-mitt-romney-out-of-context.html'], ] on session f495cdc6fe64410ebf2a9736d9c160c9
+11:58:35.624 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session f495cdc6fe64410ebf2a9736d9c160c9
+11:58:35.626 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: waitForPageToLoad[50000, ] on session f495cdc6fe64410ebf2a9736d9c160c9
+11:58:37.779 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session f495cdc6fe64410ebf2a9736d9c160c9
+11:58:37.781 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: goBack[, ] on session f495cdc6fe64410ebf2a9736d9c160c9
+11:58:37.793 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session f495cdc6fe64410ebf2a9736d9c160c9
+11:58:37.797 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: waitForPageToLoad[50000, ] on session f495cdc6fe64410ebf2a9736d9c160c9
+11:58:39.716 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session f495cdc6fe64410ebf2a9736d9c160c9
+11:58:39.718 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: click[//img[@src='Mitt Romney: ‘There Is Nothing Unique About the United States’'], ] on session f495cdc6fe64410ebf2a9736d9c160c9
+11:58:39.727 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: ERROR: Element //img[@src='Mitt Romney: ‘There Is Nothing Unique About the United States’'] not found on session f495cdc6fe64410ebf2a9736d9c160c9
+11:58:39.875 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: testComplete[, ] on session f495cdc6fe64410ebf2a9736d9c160c9
+11:58:39.875 INFO [11] org.openqa.selenium.server.browserlaunchers.SafariCustomProfileLauncher - Killing Safari...
+11:58:39.926 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session f495cdc6fe64410ebf2a9736d9c160c9
+11:58:39.929 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: getNewBrowserSession[*safari, http://qa.nymetro.com/daily/intel/2012/04/test-for-eve-vl-191.html, ] on session null
+11:58:39.929 INFO [11] org.openqa.selenium.server.BrowserSessionFactory - creating new remote session
+11:58:39.930 INFO [11] org.openqa.selenium.server.BrowserSessionFactory - Allocated session 8491e536aa904af191b39b85c8532044 for http://qa.nymetro.com/daily/intel/2012/04/test-for-eve-vl-191.html, launching...
+11:58:39.930 WARN [11] org.openqa.selenium.net.Urls - It looks like your baseUrl (http://qa.nymetro.com/daily/intel/2012/04/test-for-eve-vl-191.html) is pointing to a file, not a directory (it doesn't end with a /).  We're going to have to strip off the last part of the pathname.
+11:58:39.964 INFO [11] org.openqa.selenium.server.browserlaunchers.SafariCustomProfileLauncher - Launching Safari to visit 'file:/var/folders/pn/pnGYh9PmGy8wIsRQfJWn6pQod9E/-Tmp-/customProfileDir8491e536aa904af191b39b85c8532044/core/RemoteRunner.html?sessionId=8491e536aa904af191b39b85c8532044&multiWindow=true&baseUrl=http%3A%2F%2Fqa.nymetro.com%2Fdaily%2Fintel%2F2012%2F04%2Ftest-for-eve-vl-191.html&debugMode=true&driverUrl=http://localhost:4444/selenium-server/driver/' via '/var/folders/pn/pnGYh9PmGy8wIsRQfJWn6pQod9E/-Tmp-/customProfileDir8491e536aa904af191b39b85c8532044/redirect_to_go_to_selenium.htm'...
+11:58:42.022 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK,8491e536aa904af191b39b85c8532044 on session 8491e536aa904af191b39b85c8532044
+11:58:42.024 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: open[http://qa.nymetro.com/daily/intel/2012/04/test-for-eve-vl-191.html, True] on session 8491e536aa904af191b39b85c8532044
+11:58:44.829 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session 8491e536aa904af191b39b85c8532044
+11:58:44.831 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: waitForPageToLoad[50000, ] on session 8491e536aa904af191b39b85c8532044
+11:58:44.840 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session 8491e536aa904af191b39b85c8532044
+11:58:44.843 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: isElementPresent[css=html.js body#nymag.daily div#wrap-wrap div#wrap div#content.content-short div#content-wrap-1.content-wrap div.content-primary article#entry-116096.entry div.par div.relatedstories2 div.related-story-wrap div.related-story, ] on session 8491e536aa904af191b39b85c8532044
+11:58:44.851 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK,true on session 8491e536aa904af191b39b85c8532044
+11:58:44.855 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: isElementPresent[css=html.js body#nymag.daily div#wrap-wrap div#wrap div#content.content-short div#content-wrap-1.content-wrap div.content-primary article#entry-116096.entry div.par div.relatedstories2 div.related-story-wrap div.related-story a, ] on session 8491e536aa904af191b39b85c8532044
+11:58:44.863 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK,true on session 8491e536aa904af191b39b85c8532044
+11:58:44.870 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: isElementPresent[css=html.js body#nymag.daily div#wrap-wrap div#wrap div#content.content-short div#content-wrap-1.content-wrap div.content-primary article#entry-116096.entry div.par div.relatedstories2 div.related-story-wrap div.related-story h6, ] on session 8491e536aa904af191b39b85c8532044
+11:58:44.877 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK,true on session 8491e536aa904af191b39b85c8532044
+11:58:44.880 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: isElementPresent[css=html.js body#nymag.daily div#wrap-wrap div#wrap div#content.content-short div#content-wrap-1.content-wrap div.content-primary article#entry-116096.entry div.par div.relatedstories2 div.related-story-wrap div.related-story div.image a img, ] on session 8491e536aa904af191b39b85c8532044
+11:58:44.886 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK,true on session 8491e536aa904af191b39b85c8532044
+11:58:44.889 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: testComplete[, ] on session 8491e536aa904af191b39b85c8532044
+11:58:44.889 INFO [11] org.openqa.selenium.server.browserlaunchers.SafariCustomProfileLauncher - Killing Safari...
+11:58:44.940 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session 8491e536aa904af191b39b85c8532044
+11:58:44.943 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: getNewBrowserSession[*safari, http://qa.nymetro.com/daily/intel/2012/04/test-for-eve-vl-191.html, ] on session null
+11:58:44.943 INFO [11] org.openqa.selenium.server.BrowserSessionFactory - creating new remote session
+11:58:44.944 INFO [11] org.openqa.selenium.server.BrowserSessionFactory - Allocated session c79ffa57bbc4443fa3b268cde0bab2e6 for http://qa.nymetro.com/daily/intel/2012/04/test-for-eve-vl-191.html, launching...
+11:58:44.944 WARN [11] org.openqa.selenium.net.Urls - It looks like your baseUrl (http://qa.nymetro.com/daily/intel/2012/04/test-for-eve-vl-191.html) is pointing to a file, not a directory (it doesn't end with a /).  We're going to have to strip off the last part of the pathname.
+11:58:44.979 INFO [11] org.openqa.selenium.server.browserlaunchers.SafariCustomProfileLauncher - Launching Safari to visit 'file:/var/folders/pn/pnGYh9PmGy8wIsRQfJWn6pQod9E/-Tmp-/customProfileDirc79ffa57bbc4443fa3b268cde0bab2e6/core/RemoteRunner.html?sessionId=c79ffa57bbc4443fa3b268cde0bab2e6&multiWindow=true&baseUrl=http%3A%2F%2Fqa.nymetro.com%2Fdaily%2Fintel%2F2012%2F04%2Ftest-for-eve-vl-191.html&debugMode=true&driverUrl=http://localhost:4444/selenium-server/driver/' via '/var/folders/pn/pnGYh9PmGy8wIsRQfJWn6pQod9E/-Tmp-/customProfileDirc79ffa57bbc4443fa3b268cde0bab2e6/redirect_to_go_to_selenium.htm'...
+11:58:46.891 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK,c79ffa57bbc4443fa3b268cde0bab2e6 on session c79ffa57bbc4443fa3b268cde0bab2e6
+11:58:46.893 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: open[http://qa.nymetro.com/daily/intel/2012/04/test-for-eve-vl-191.html, True] on session c79ffa57bbc4443fa3b268cde0bab2e6
+11:58:49.660 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session c79ffa57bbc4443fa3b268cde0bab2e6
+11:58:49.662 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: waitForPageToLoad[50000, ] on session c79ffa57bbc4443fa3b268cde0bab2e6
+11:58:49.671 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session c79ffa57bbc4443fa3b268cde0bab2e6
+11:58:49.674 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: click[//a[@href='http://qa.nymetro.com/daily/intel/2011/11/governor-sam-brownback-staff-freaked-out.html'], ] on session c79ffa57bbc4443fa3b268cde0bab2e6
+11:58:49.712 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session c79ffa57bbc4443fa3b268cde0bab2e6
+11:58:49.714 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: waitForPageToLoad[50000, ] on session c79ffa57bbc4443fa3b268cde0bab2e6
+11:58:52.794 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session c79ffa57bbc4443fa3b268cde0bab2e6
+11:58:52.797 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: goBack[, ] on session c79ffa57bbc4443fa3b268cde0bab2e6
+11:58:52.815 INFO [11] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session c79ffa57bbc4443fa3b268cde0bab2e6
+11:58:52.819 INFO [12] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: waitForPageToLoad[50000, ] on session c79ffa57bbc4443fa3b268cde0bab2e6
+11:58:54.768 INFO [12] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session c79ffa57bbc4443fa3b268cde0bab2e6
+11:58:54.770 INFO [12] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: click[//img[@src='Governor Sam Brownback Staff Freaked Out '], ] on session c79ffa57bbc4443fa3b268cde0bab2e6
+11:58:54.779 INFO [12] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: ERROR: Element //img[@src='Governor Sam Brownback Staff Freaked Out '] not found on session c79ffa57bbc4443fa3b268cde0bab2e6
+11:58:54.781 INFO [12] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: click[//a[@href='http://qa.nymetro.com/daily/intel/2011/11/taking-mitt-romney-out-of-context.html'], ] on session c79ffa57bbc4443fa3b268cde0bab2e6
+11:58:54.798 INFO [12] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session c79ffa57bbc4443fa3b268cde0bab2e6
+11:58:54.800 INFO [12] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: waitForPageToLoad[50000, ] on session c79ffa57bbc4443fa3b268cde0bab2e6
+11:58:57.929 INFO [12] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session c79ffa57bbc4443fa3b268cde0bab2e6
+11:58:57.931 INFO [12] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: goBack[, ] on session c79ffa57bbc4443fa3b268cde0bab2e6
+11:58:57.943 INFO [12] org.openqa.selenium.server.SeleniumDriverResourceHandler - Got result: OK on session c79ffa57bbc4443fa3b268cde0bab2e6
+11:58:57.945 INFO [12] org.openqa.selenium.server.SeleniumDriverResourceHandler - Command request: waitForPageToLoad[50000, ] on session c79ffa57bbc4443fa3b268cde0bab2e6

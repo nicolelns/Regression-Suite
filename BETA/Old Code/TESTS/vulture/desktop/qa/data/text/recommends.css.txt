@@ -1,0 +1,18 @@
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section#feature-recommends.feature-recommends
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section#feature-recommends.feature-recommends header h2 a
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section#feature-recommends.feature-recommends header p
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section#feature-recommends.feature-recommends div.content
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section#feature-recommends.feature-recommends div.content article header div.header-spacer
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section#feature-recommends.feature-recommends div.content article header div.header-spacer nav.rubric a
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section#feature-recommends.feature-recommends div.content article header div.header-spacer cite a
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section#feature-recommends.feature-recommends div.content article header div.image a img
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section#feature-recommends.feature-recommends div.content article header h3 a.permalink
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section#feature-recommends.feature-recommends div.content article p
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section#feature-recommends.feature-recommends div.content article div.more a
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section#feature-recommends.feature-recommends div.content article.last header div.header-spacer nav.rubric a
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section#feature-recommends.feature-recommends div.content article.last header div.header-spacer
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section#feature-recommends.feature-recommends div.content article.last header div.header-spacer cite a
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section#feature-recommends.feature-recommends div.content article.last header div.image a img
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section#feature-recommends.feature-recommends div.content article.last header h3 a.permalink
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section#feature-recommends.feature-recommends div.content article.last p
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section#feature-recommends.feature-recommends div.content article.last div.more a

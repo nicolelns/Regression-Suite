@@ -1,0 +1,5 @@
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast div.sitewideSearch form#ny-search
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast div.sitewideSearch form#ny-search fieldset#ny-search-fieldset.txt input#txt-ny-search.text
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast div.sitewideSearch form#ny-search fieldset#search-scope.scope ul li label input#sc-all.radio
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast div.sitewideSearch form#ny-search fieldset#search-scope.scope ul li label input#sc-vulture.radio
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast div.sitewideSearch form#ny-search fieldset#ny-search-fieldset.txt button#btn-ny-search

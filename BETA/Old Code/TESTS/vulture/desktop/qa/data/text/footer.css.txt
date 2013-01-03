@@ -1,0 +1,11 @@
+html.js body#nymag.vulture div#wrap-wrap div#wrap footer#footer section.vulture-promo
+html.js body#nymag.vulture div#wrap-wrap div#wrap footer#footer section.vulture-promo header h4 a
+html.js body#nymag.vulture div#wrap-wrap div#wrap footer#footer section.vulture-promo ul li a
+html.js body#nymag.vulture div#wrap-wrap div#wrap footer#footer section.vulture-promo ul li.last a
+html.js body#nymag.vulture div#wrap-wrap div#wrap footer#footer section.network-promo div.content
+html.js body#nymag.vulture div#wrap-wrap div#wrap footer#footer section.network-promo div.content div.also-wrap h5
+html.js body#nymag.vulture div#wrap-wrap div#wrap footer#footer section.network-promo div.content div.also-wrap div.item h6 a.nym-head
+html.js body#nymag.vulture div#wrap-wrap div#wrap footer#footer section.network-promo div.content div.also-wrap div.item p
+html.js body#nymag.vulture div#wrap-wrap div#wrap footer#footer section.network-promo div.content div.also-wrap div.item span.links a
+html.js body#nymag.vulture div#wrap-wrap div#wrap footer#footer section.network-promo div.content div.also-wrap div.item h6 a.gs-head
+html.js body#nymag.vulture div#wrap-wrap div#wrap footer#footer section.network-promo div.content div.also-wrap div.item h6 a.mp-head

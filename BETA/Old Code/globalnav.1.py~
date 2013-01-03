@@ -1,0 +1,9 @@
+import pickle
+import vultureSoup
+
+S = vultureSoup.Parser()
+S.globalnav()
+S.mainnav()
+
+if 'name' == '__main__':
+    main()

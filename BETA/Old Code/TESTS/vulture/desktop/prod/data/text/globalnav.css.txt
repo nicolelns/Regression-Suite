@@ -1,0 +1,6 @@
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#navGlobal div.primary ul.navPrimary li#navGlobalMovies.top a
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#navGlobal div.primary ul.navPrimary li#navGlobalTv.top a
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#navGlobal div.primary ul.navPrimary li#navGlobalMusic.top a
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#navGlobal div.primary ul.navPrimary li#navGlobalEtc.top a#etcBtn
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast h1#vultureLogo.brand a
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast h1#vultureLogo.brand span.tagline

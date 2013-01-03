@@ -1,0 +1,9 @@
+html.js body#nymag.splash div#wrap-wrap div#wrap nav#utilities.fb_notconnected div#logged_out_bar.membership ul li.first a.login-lightbox
+html.js body#nymag.splash div#wrap-wrap div#wrap nav#utilities.fb_notconnected div#popup-lightbox.jqmID1 div#login-litebx.litebx-content div.lightbox-utilities
+html.js body#nymag.splash div#wrap-wrap div#wrap nav#utilities.fb_notconnected div#popup-lightbox.jqmID1 div#login-litebx.litebx-content div.content div.form-wrp div.form-wrp-left form#reg-login-form ul li#membername-wrp.input-txt div.input-wrp input#id_login
+html.js body#nymag.splash div#wrap-wrap div#wrap nav#utilities.fb_notconnected div#popup-lightbox.jqmID1 div#login-litebx.litebx-content div.content div.form-wrp div.form-wrp-left form#reg-login-form ul li#email_address-wrp.input-txt div.input-wrp input#id_password
+html.js body#nymag.splash div#wrap-wrap div#wrap nav#utilities.fb_notconnected div#popup-lightbox.jqmID1 div#login-litebx.litebx-content div.content div.form-wrp div.form-wrp-left form#reg-login-form ul li#remember-wrp label input#id_remember
+html.js body#nymag.splash div#wrap-wrap div#wrap nav#utilities.fb_notconnected div#popup-lightbox.jqmID1 div#login-litebx.litebx-content div.content div.form-wrp div.form-wrp-left form#reg-login-form ul li.submit-btn div.input-wrp input#submit1.submit
+html.js body#nymag.splash div#wrap-wrap div#wrap nav#utilities.fb_notconnected div#popup-lightbox.jqmID1 div#login-litebx.litebx-content div.content div.form-wrp div.form-wrp-left form#reg-login-form ul li#remember-wrp a.forgot
+html.js body#nymag.splash div#wrap-wrap div#wrap nav#utilities.fb_notconnected div#popup-lightbox.jqmID1 div#login-litebx.litebx-content div.content div.form-wrp div.form-wrp-left a.more
+html.js body#nymag.splash div#wrap-wrap div#wrap nav#utilities.fb_notconnected div#popup-lightbox.jqmID1 div#login-litebx.litebx-content div.head h5.closelightbox

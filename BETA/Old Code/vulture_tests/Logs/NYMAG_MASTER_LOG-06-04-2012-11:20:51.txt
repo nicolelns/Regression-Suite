@@ -1,0 +1,246 @@
+NY MAG QA LOG FOR 06-04-2012-11:20:51
+Test: Pics Module - Desktop - Vulture Home Page	URL: http://www.vulture.com
+__________________________________________________________________________
+__________________________________________________________________________
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Presence	Browser: chrome
+__________________________________________________________________________
+PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section#feature-pics.feature-pics article.pic-entry
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Presence	Browser: chrome
+__________________________________________________________________________
+PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section#feature-pics.feature-pics h2 a
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Presence	Browser: chrome
+__________________________________________________________________________
+PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section#feature-pics.feature-pics nav.prevNext ul li.prev
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Presence	Browser: chrome
+__________________________________________________________________________
+PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section#feature-pics.feature-pics nav.prevNext ul li.next
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Presence	Browser: chrome
+__________________________________________________________________________
+PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section#feature-pics.feature-pics article.pic-entry header nav.rubric a
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Presence	Browser: chrome
+__________________________________________________________________________
+PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section#feature-pics.feature-pics article.pic-entry header h3 a
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Presence	Browser: chrome
+__________________________________________________________________________
+PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section#feature-pics.feature-pics article.pic-entry header cite a
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Presence	Browser: chrome
+__________________________________________________________________________
+PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section#feature-pics.feature-pics article.pic-entry header cite i
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Presence	Browser: chrome
+__________________________________________________________________________
+PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section#feature-pics.feature-pics article.pic-entry div.more a
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Presence	Browser: chrome
+__________________________________________________________________________
+PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.parbase section#feature-pics.feature-pics article.pic-entry div.image div.holder a img
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Content	Browser: chrome
+__________________________________________________________________________
+PASS, GOT LINK TEXT
+http://www.vulture.com/2012/04/25-weirdest-wackiest-shows-foxs-25-years.html
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Content	Browser: chrome
+__________________________________________________________________________
+PASS, PAGE OPENS/GOT TITLE
+http://www.vulture.com/2012/04/25-weirdest-wackiest-shows-foxs-25-years.html
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Content	Browser: chrome
+__________________________________________________________________________
+PASS, TEXT/TITLE MATCH
+http://www.vulture.com/2012/04/25-weirdest-wackiest-shows-foxs-25-years.html
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Content	Browser: chrome
+__________________________________________________________________________
+PASS, GOT LINK TEXT
+http://www.vulture.com/news/vulture-lists/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Content	Browser: chrome
+__________________________________________________________________________
+PASS, PAGE OPENS/GOT TITLE
+http://www.vulture.com/news/vulture-lists/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Content	Browser: chrome
+__________________________________________________________________________
+PASS, TEXT/TITLE MATCH
+http://www.vulture.com/news/vulture-lists/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Content	Browser: chrome
+__________________________________________________________________________
+PASS, GOT LINK TEXT
+http://www.vulture.com/2012/04/25-weirdest-wackiest-shows-foxs-25-years.html
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Content	Browser: chrome
+__________________________________________________________________________
+PASS, PAGE OPENS/GOT TITLE
+http://www.vulture.com/2012/04/25-weirdest-wackiest-shows-foxs-25-years.html
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Content	Browser: chrome
+__________________________________________________________________________
+PASS, TEXT/TITLE MATCH
+http://www.vulture.com/2012/04/25-weirdest-wackiest-shows-foxs-25-years.html
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Content	Browser: chrome
+__________________________________________________________________________
+PASS, GOT LINK TEXT
+http://nymag.com/author/Josef Adalian
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Content	Browser: chrome
+__________________________________________________________________________
+PASS, PAGE OPENS/GOT TITLE
+http://nymag.com/author/Josef Adalian
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Content	Browser: chrome
+__________________________________________________________________________
+PASS, TEXT/TITLE MATCH
+http://nymag.com/author/Josef Adalian
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Content	Browser: chrome
+__________________________________________________________________________
+PASS, PAGE OPENS/GOT TITLE
+http://www.vulture.com/news/slideshow/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Content	Browser: chrome
+__________________________________________________________________________
+FAIL, MISSING/EXTRA PICS
+6 articles found
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Content	Browser: chrome
+__________________________________________________________________________
+PASS, GOT LINK TEXT
+http://www.vulture.com/2012/04/smash-debra-messing-costume.html
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Content	Browser: chrome
+__________________________________________________________________________
+PASS, PAGE OPENS/GOT TITLE
+http://www.vulture.com/2012/04/smash-debra-messing-costume.html
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Content	Browser: chrome
+__________________________________________________________________________
+PASS, TEXT/TITLE MATCH
+http://www.vulture.com/2012/04/smash-debra-messing-costume.html
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Functionality	Browser: chrome
+__________________________________________________________________________
+PASS, PAGE LOADS
+http://www.vulture.com/2012/04/25-weirdest-wackiest-shows-foxs-25-years.html
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Functionality	Browser: chrome
+__________________________________________________________________________
+PASS, IMAGE LOADS
+http://pixel.nymag.com/imgs/daily/vulture/2012/04/05/05_foxcraziestshows.o.jpg/a_300x235.jpg
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Functionality	Browser: chrome
+__________________________________________________________________________
+PASS, PAGE LOADS
+http://www.vulture.com/2012/04/25-weirdest-wackiest-shows-foxs-25-years.html
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Functionality	Browser: chrome
+__________________________________________________________________________
+PASS, PAGE LOADS
+http://www.vulture.com/news/vulture-lists/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Functionality	Browser: chrome
+__________________________________________________________________________
+PASS, PAGE LOADS
+http://www.vulture.com/2012/04/25-weirdest-wackiest-shows-foxs-25-years.html
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Functionality	Browser: chrome
+__________________________________________________________________________
+PASS, PAGE LOADS
+http://nymag.com/author/Josef Adalian
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Functionality	Browser: chrome
+__________________________________________________________________________
+PASS, PAGE LOADS
+http://www.vulture.com/news/slideshow/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Functionality	Browser: chrome
+__________________________________________________________________________
+PASS, PAGE LOADS
+http://www.vulture.com/2012/04/smash-debra-messing-costume.html
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Functionality	Browser: chrome
+__________________________________________________________________________
+PASS, IMAGE LOADS
+http://pixel.nymag.com/imgs/daily/vulture/2012/03/30/30_smash-messing-33.o.jpg/a_300x235.jpg
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Functionality	Browser: chrome
+__________________________________________________________________________
+PASS, PAGE LOADS
+http://www.vulture.com/2012/04/smash-debra-messing-costume.html
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Functionality	Browser: chrome
+__________________________________________________________________________
+PASS, PAGE LOADS
+http://www.vulture.com/news/don't-steal-this-look/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Functionality	Browser: chrome
+__________________________________________________________________________
+PASS, PAGE LOADS
+http://www.vulture.com/2012/04/smash-debra-messing-costume.html
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Functionality	Browser: chrome
+__________________________________________________________________________
+PASS, PAGE LOADS
+http://nymag.com/author/Margaret Lyons
+__________________________________________________________________________
+__________________________________________________________________________

@@ -1,0 +1,8 @@
+http://nymag.com/thecut/fashion/shows/2012/fall/paris/rtw/barbara-bui.html
+ has 0 or -1 assets!
+http://nymag.com/thecut/fashion/shows/2012/fall/paris/rtw/barbara-bui.html
+ HTTP Error 404: Not Found
+http://nymag.com/thecut/fashion/shows/2012/fall/milan/rtw/roberto-cavalli.html
+ HTTP Error 500: Internal Server Error
+http://nymag.com/thecut/fashion/shows/2012/fall/milan/rtw/versus.html
+ HTTP Error 500: Internal Server Error

@@ -1,0 +1,18 @@
+nymag.dcads.write_dc_ad({
+            "sz": "300x250"
+             , "printWrap": false
+             , "wrapHead": true
+             , "hidden": false
+
+nymag.dcads.write_dc_ad({
+            "sz": "728x90"
+             , "printWrap": false
+             , "wrapHead": true
+             , "hidden": false
+
+
+nymag.dcads.write_dc_ad({
+            "sz": "300x600"`
+             , "printWrap": false
+             , "wrapHead": true
+             , "hidden": false

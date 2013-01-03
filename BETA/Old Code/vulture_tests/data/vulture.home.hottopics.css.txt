@@ -1,0 +1,9 @@
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast h1#vultureLogo.brand a
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast h1#vultureLogo.brand span.tagline
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#navGlobal div.secondary div.hottopics_nav dl.hotTopics dd.first a
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#navGlobal div.secondary div.hottopics_nav dl.hotTopics dd.first a img
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#navGlobal div.secondary div.hottopics_nav dl.hotTopics dd a
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#utilities.fb_notconnected div.main ul li.first a
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#utilities.fb_notconnected div.main ul li a
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#utilities.fb_notconnected div.main ul li.last a

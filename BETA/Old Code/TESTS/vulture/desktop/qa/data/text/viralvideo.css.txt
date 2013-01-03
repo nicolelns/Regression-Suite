@@ -1,0 +1,9 @@
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.vulturevideos
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.vulturevideos section#feature-video.feature-video div.carousel
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.vulturevideos section#feature-video.feature-video header h2 a
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.vulturevideos section#feature-video.feature-video header nav.prevNext ul li.prev
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.vulturevideos section#feature-video.feature-video header nav.prevNext ul li.next
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.vulturevideos section#feature-video.feature-video div.carousel ul li article.entry
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.vulturevideos section#feature-video.feature-video div.carousel ul li article.entry div.image a img
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.vulturevideos section#feature-video.feature-video div.carousel ul li article.entry header h3 a.permalink
+html.js body#nymag.vulture div#wrap-wrap div#wrap div#content div#content-primary div#features-wrap div.parsys div.vulturevideos section#feature-video.feature-video div.more a

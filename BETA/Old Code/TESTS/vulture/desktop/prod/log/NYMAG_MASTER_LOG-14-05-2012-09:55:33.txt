@@ -1,0 +1,54 @@
+NY MAG QA LOG FOR 14-05-2012-09:55:33
+Test: Hot Topics Module - Desktop - Vulture Home Page	URL: http://www.vulture.com
+__________________________________________________________________________
+__________________________________________________________________________
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Presence of Elements via CSS	Browser: chrome
+__________________________________________________________________________
+PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#navGlobal div.secondary div.hottopics_nav dl.hotTopics dt
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Presence of Elements via CSS	Browser: chrome
+__________________________________________________________________________
+PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#navGlobal div.secondary div.hottopics_nav dl.hotTopics dd.first a img
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Presence of Elements via CSS	Browser: chrome
+__________________________________________________________________________
+PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#navGlobal div.secondary div.hottopics_nav dl.hotTopics dd.first a
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Presence of Elements via CSS	Browser: chrome
+__________________________________________________________________________
+PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#navGlobal div.secondary div.hottopics_nav dl.hotTopics dd a
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Presence of Elements via CSS	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#navGlobal div.secondary div.hottopics_nav dl.hotTopics dt
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Presence of Elements via CSS	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#navGlobal div.secondary div.hottopics_nav dl.hotTopics dd.first a img
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Presence of Elements via CSS	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#navGlobal div.secondary div.hottopics_nav dl.hotTopics dd.first a
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Presence of Elements via CSS	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT FOUND
+html.js body#nymag.vulture div#wrap-wrap div#wrap header#mast nav#navGlobal div.secondary div.hottopics_nav dl.hotTopics dd a
+__________________________________________________________________________
+__________________________________________________________________________

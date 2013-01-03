@@ -1,0 +1,66 @@
+NY MAG QA LOG FOR 10-05-2012-11:56:53
+Test: NY Mag Navigation Update - Desktop - NY Mag	URL: http://dev.nymag.biz/
+__________________________________________________________________________
+__________________________________________________________________________
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: chrome
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://dev.nymag.biz/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: chrome
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: chrome
+__________________________________________________________________________
+PASS, ELEMENT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: chrome
+__________________________________________________________________________
+PASS, ELEMENT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: chrome
+__________________________________________________________________________
+PASS, PAGE LOAD OK
+New York Magazine -- NYC Guide to Restaurants, Fashion, Nightlife, Shopping, Politics, Movies
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test A - Open Pages	Browser: firefox
+__________________________________________________________________________
+PASS, OPENED PAGE
+http://dev.nymag.biz/
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test B - Incorrect CSS Elements (not on page)	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT NOT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#ny-sitemap.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-home.top a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test C - Test for Correct CSS	Browser: firefox
+__________________________________________________________________________
+PASS, ELEMENT FOUND
+html.no-js body#www-newyorkmag-com.sect-home div#wrap-wrap div#wrap div#navigation.full div#nav div#nav-primary ul.nav li#nav-agenda a.top
+__________________________________________________________________________
+__________________________________________________________________________
+Test: Test D - Click Home and Page Load	Browser: firefox
+__________________________________________________________________________
+PASS, PAGE LOAD OK
+New York Magazine -- NYC Guide to Restaurants, Fashion, Nightlife, Shopping, Politics, Movies
+__________________________________________________________________________
+__________________________________________________________________________

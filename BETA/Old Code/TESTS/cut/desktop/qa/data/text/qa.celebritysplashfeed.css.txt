@@ -1,0 +1,6 @@
+html.js body#nymag.splash div#wrap-wrap div#wrap div#content div.contentPrimary section.feed div.feedList div.page article#entry.feedEntry div.featureImage a img
+html.js body#nymag.splash div#wrap-wrap div#wrap div#content div.contentPrimary section.feed div.feedList div.page article#entry.feedEntry header ul.meta li.metaTime
+html.js body#nymag.splash div#wrap-wrap div#wrap div#content div.contentPrimary section.feed div.feedList div.page article#entry.feedEntry header ul.meta li.comments
+html.js body#nymag.splash div#wrap-wrap div#wrap div#content div.contentPrimary section.feed div.feedList div.page article#entry.feedEntry header h2 a
+html.js body#nymag.splash div#wrap-wrap div#wrap div#content div.contentPrimary section.feed div.feedList div.page article#entry.feedEntry header p.excerpt
+html.js body#nymag.splash div#wrap-wrap div#wrap div#content div.contentPrimary section.feed nav.buttonBegin a.galleryOpen

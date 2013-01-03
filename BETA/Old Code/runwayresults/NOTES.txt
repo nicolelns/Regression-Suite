@@ -1,0 +1,34 @@
+
+
+0 + 431 + 143 + 97 + 22 + 1 + 19 + 425 
+
+SATURDAY PUB
+FALL 2012 MENSWEAR:  0
+http://author.nymetro.com/services/fashion/get.fashion.shows.json:year=years:2012.season=fashion-lists:seasons/fall.type=fashion-lists:collection-type/menswear
+
+ON PROD!!!!!!!!!
+FALL 2012 RTW: 431
+http://author.nymetro.com/services/fashion/get.fashion.shows.json:year=years:2012.season=fashion-lists:seasons/fall.type=fashion-lists:collection-type/rtw
+
+ON PROD!!!!! FIXED SATURDAY
+RESORT 2013 RESORT:  143
+http://author.nymetro.com/services/fashion/get.fashion.shows.json:year=years:2013.season=fashion-lists:seasons/resort.type=fashion-lists:collection-type/resort
+
+ON PROD!!!!
+SPRING 2013 MENSWEAR: 97
+http://author.nymetro.com/services/fashion/get.fashion.shows.json:year=years:2013.season=fashion-lists:seasons/spring.type=fashion-lists:collection-type/menswear
+
+ON PROD!!!!!
+FALL 2012 COUTURE: 22
+http://author.nymetro.com/services/fashion/get.fashion.shows.json:year=years:2012.season=fashion-lists:seasons/fall.type=fashion-lists:collection-type/couture
+
+DUMMY
+FALL 2013 COUTURE: 1
+http://author.nymetro.com/services/fashion/get.fashion.shows.json:year=years:2013.season=fashion-lists:seasons/fall.type=fashion-lists:collection-type/couture
+
+SPRING 2012 COUTURE: 19
+http://author.nymetro.com/services/fashion/get.fashion.shows.json:year=years:2012.season=fashion-lists:seasons/spring.type=fashion-lists:collection-type/couture
+
+FRIDAY/SATURDAY PUB
+SPRING 2012 RTW: 425
+http://author.nymetro.com/services/fashion/get.fashion.shows.json:year=years:2012.season=fashion-lists:seasons/spring.type=fashion-lists:collection-type/rtw
